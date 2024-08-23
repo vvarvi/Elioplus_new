@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EmptyMaster.master.cs" Inherits="WdS.ElioPlus.EmptyMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title id="PgTitle" runat="server"></title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- Meta -->
+    <meta content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Elioplus Team" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="copyright" content="Elioplus" />
+    <meta name="googlebot" content="noodp" />
+    <meta name="language" content="English" />
+    <meta name="reply-to" content="info@elioplus.com" />
+    <meta name="web_author" content="Elioplus Team" />
+    <meta name="distribution" content="global" />
+    <link rel="shortcut icon" href="https://elioplus.com/favicon.ico" type="image/x-icon" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css' />
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="/assets_main/plugins/bootstrap/css/bootstrap.min.css" />
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="/assets_main/plugins/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="/assets_main/plugins/flexslider/flexslider.css" />
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="/assets_main/css/styles.css" />
+    <link rel="stylesheet" href="/assets_main/pages/css/pricing.css" />
+    <link rel="stylesheet" href="/assets_main/global/plugins/simple-line-icons/simple-line-icons.css" />
+    <link href="assets_main/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38815992-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-38815992-1');
+    </script>
+
+    <script type="text/javascript">
+        (function () {
+            window.ldfdr = window.ldfdr || {};
+            (function (d, s, ss, fs) {
+                fs = d.getElementsByTagName(s)[0]; function ce(src) {
+                    var cs = d.createElement(s); cs.src = src; setTimeout(function () {
+                        fs.parentNode.insertBefore(cs, fs)
+                    }, 1);
+                } ce(ss);
+            })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_JMvZ8g15dYM42pOd.js');
+        })();
+    </script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script type="text/javascript">
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#252e39"
+                    },
+                    "button": {
+                        "background": "#14a7d0"
+                    }
+                },
+                "theme": "classic",
+                "position": "bottom-left",
+                "content": {
+                    "href": "https://elioplus.com/privacy"
+                }
+            })
+        });
+    </script>
+
+    <!-- Snitcher analytics code -->
+    <script type="text/javascript">
+        !function (s, n, i, t, c, h) {
+            s.SnitchObject = i; s[i] || (s[i] = function () {
+                (s[i].q = s[i].q || []).push(arguments)
+            }); s[i].l = +new Date; c = n.createElement(t);
+            h = n.getElementsByTagName(t)[0]; c.src = '//snid.snitcher.com/8415152.js';
+            h.parentNode.insertBefore(c, h)
+        }(window, document, 'snid', 'script');
+
+        snid('verify', '8415152');
+    </script>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+
+        <telerik:RadScriptManager ID="masterRadScriptManager" runat="server">
+        </telerik:RadScriptManager>
+
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+
+    <!--<script type="text/javascript" src="/assets_main/plugins/jquery-1.11.2.min.js"></script>
+        <script src="js/carousel-slider/jquery-1.12.0.min.js"></script>-->
+    <script type="text/javascript" src="/assets_main/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/FitVids/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="/assets_main/js/main.js"></script>
+    <script type="text/javascript" src="/assets_main/js/contact.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="//code.jivosite.com/widget/JxFDikw3YQ" async="async"></script>
+
+    <script type="text/javascript">
+        var _cio = _cio || [];
+        (function () {
+            var a, b, c; a = function (f) {
+                return function () {
+                    _cio.push([f].
+                        concat(Array.prototype.slice.call(arguments, 0)))
+                }
+            }; b = ["load", "identify",
+                "sidentify", "track", "page"]; for (c = 0; c < b.length; c++) { _cio[b[c]] = a(b[c]) };
+            var t = document.createElement('script'),
+                s = document.getElementsByTagName('script')[0];
+            t.async = true;
+            t.id = 'cio-tracker';
+            t.setAttribute('data-site-id', '6a9fdd90e157913206a4');
+            t.src = 'https://assets.customer.io/assets_main/track.js';
+            s.parentNode.insertBefore(t, s);
+        })();
+    </script>
+</body>
+</html>

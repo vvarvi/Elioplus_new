@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /bin/
+Disallow: /Objects/
+Sitemap: https://elioplus.com/sitemap.xml

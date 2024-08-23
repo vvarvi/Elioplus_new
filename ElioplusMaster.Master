@@ -1,0 +1,464 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ElioplusMaster.master.cs" Inherits="WdS.ElioPlus.ElioplusMaster" %>
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <title id="PgTitle" runat="server"></title>
+    
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Elioplus Team" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="copyright" content="Elioplus" />
+    <meta name="googlebot" content="noodp" />
+    <meta name="language" content="English" />
+    <meta name="reply-to" content="info@elioplus.com" />
+    <meta name="web_author" content="Elioplus Team" />
+    <meta name="distribution" content="global" />
+    <link rel="shortcut icon" href="https://elioplus.com/favicon.ico" type="image/x-icon" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css' />
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="/assets_main/plugins/bootstrap/css/bootstrap.min.css" />
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="/assets_main/plugins/flexslider/flexslider.css" />
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="/assets_main/css/styles.css" />
+    <link rel="stylesheet" href="/assets_main/global/css/components.css" />
+    <link href="/assets_main/pages/css/pricing.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "bsk1jnpb6f");
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38815992-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-38815992-1');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9T5RMZ5YC5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9T5RMZ5YC5');
+    </script>
+
+    <script>
+        (function () {
+            window.ldfdr = window.ldfdr || {};
+            (function (d, s, ss, fs) {
+                fs = d.getElementsByTagName(s)[0]; function ce(src) {
+                    var cs = d.createElement(s); cs.src = src; setTimeout(function () {
+                        fs.parentNode.insertBefore(cs, fs)
+                    }, 1);
+                } ce(ss);
+            })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_JMvZ8g15dYM42pOd.js');
+        })();
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#252e39"
+                    },
+                    "button": {
+                        "background": "#14a7d0"
+                    }
+                },
+                "theme": "classic",
+                "position": "bottom-left",
+                "content": {
+                    "href": "https://elioplus.com/privacy"
+                }
+            })
+        });
+    </script>
+
+</head>
+<body class="home-page">
+    <form id="masterForm" runat="server">
+        <telerik:RadScriptManager ID="masterRadScriptManager" runat="server">
+        </telerik:RadScriptManager>
+        <telerik:RadAjaxManager ID="masterRadAjaxManager" runat="server" RestoreOriginalRenderDelegate="false">
+        </telerik:RadAjaxManager>
+
+        <!-- ****** HEADER ****** -->
+        <div id="header" runat="server" class="header navbar-fixed-top">
+            <div class="container">
+                <div class="logo" style="float: left;">
+                    <a id="aLogo" runat="server">
+                        <asp:Image ID="ImgLogo" runat="server" ImageUrl="/assets_main/images/logo-elioplus.png" />
+                    </a>
+                </div>
+                <!--//logo-->
+                <div class="main-nav navbar-right" role="navigation">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="sr-only"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!--//nav-toggle-->
+                    </div>
+                    <!--//navbar-header-->
+                    <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li id="liMainMenuHome" runat="server" class="nav-item">
+                                <a id="aMainMenuHome" runat="server">
+                                    <i class="fa fa-home"></i>
+                                    <asp:Label ID="LblHome" runat="server" />
+                                </a>
+                            </li>
+                            <li id="liMainMenuProducts" runat="server" class="nav-item">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">
+                                    <i class="fa fa-info" style="margin-right: 4px;"></i>
+                                    <asp:Label ID="LblProducts" runat="server" />
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a id="aMainMenuPartnerRecruitment" runat="server">
+                                        <asp:Label ID="LblPartnerRecruitment" runat="server" /></a></li>
+                                    <li><a id="aMainMenuPRM" runat="server">
+                                        <asp:Label ID="LblPRM" runat="server" /></a></li>
+                                    <li><a id="aMainMenuVendorManagement" runat="server">
+                                        <asp:Label ID="LblVendorManagement" runat="server" /></a></li>
+                                    <li><a id="aMainMenuMAMarketplace" runat="server">
+                                        <asp:Label ID="LblMAMarketplace" runat="server" /></a></li>
+                                </ul>
+                            </li>
+                            <li id="liMainMenuMore" runat="server" class="nav-item dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#"><i class="fa fa-plus" style="margin-right: 4px;"></i>
+                                    <asp:Label ID="LblMore" runat="server" /><i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a id="aMainMenuPricing" runat="server">
+                                        <asp:Label ID="LblPricing" runat="server" /></a></li>
+                                    <li><a id="aMainMenuSearch" runat="server">
+                                        <asp:Label ID="LblSearch" runat="server" /></a></li>
+                                    <li><a id="aMainMenuSearchAll" visible="false" runat="server">
+                                        <asp:Label ID="LblSearchAll" runat="server" /></a></li>
+                                    <li><a id="aMainMenuCaseStudies" runat="server">
+                                        <asp:Label ID="LblCaseStudies" runat="server" /></a></li>
+                                    <%--<li><a id="aMainMenuContact" runat="server"><asp:Label ID="LblContact" runat="server" /></a></li>--%>
+                                    <%--<li><a id="aMainMenuAbout" runat="server"><asp:Label ID="LblAbout" runat="server" /></a></li>--%>
+                                    <li><a id="aMainMenuBlog" runat="server">
+                                        <asp:Label ID="LblBlog" runat="server" /></a></li>
+                                </ul>
+                            </li>
+                            <!--//dropdown-->
+                            <li id="liMainMenuUserImage" style="margin-right: -5px;" runat="server" visible="false" class="nav-item dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">
+                                    <i id="iUserNotFull" runat="server" visible="false" class="fa fa-user-plus" style="color: Red; padding-right: 5px; font-size: 15px;"></i>
+                                    <i id="iUserFull" runat="server" visible="false" class="fa fa-user" style="padding-right: 5px; font-size: 15px;"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a id="aMainMenuAlert" runat="server">
+                                        <asp:Label ID="LblMainMenuAlert" runat="server" /></a></li>
+                                </ul>
+                            </li>
+                            <li id="liMainMenuUser" style="margin-left: -5px;" runat="server" class="nav-item dropdown" visible="false">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">
+                                    <asp:Label ID="LblUser" runat="server" /><i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li id="liMainMenuProfile" runat="server" visible="false"><a id="aMainMenuUserProfile" runat="server">
+                                        <asp:Label ID="LblUserProfile" runat="server" /></a></li>
+                                    <li><a id="aMainMenuUserDashboard" runat="server">
+                                        <asp:Label ID="LblUserDashboard" runat="server" /></a></li>
+                                    <li id="liMainMenuRegister" runat="server" visible="false"><a id="aMainMenuUserRegister" runat="server">
+                                        <asp:Label ID="LblUserRegister" runat="server" /></a></li>
+                                    <li id="liMainMenuAdmin" runat="server" visible="false"><a id="aMainMenuAdmin" runat="server">
+                                        <asp:Label ID="LblMainMenuAdmin" runat="server" /></a></li>
+                                    <li><a id="aMainMenuUserLogout" runat="server">
+                                        <asp:Label ID="LblUserLogout" runat="server" /></a></li>
+                                </ul>
+                            </li>
+                            <li id="liMainMenuStatus" runat="server" visible="false" class="nav-item">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">
+                                    <i id="iMainMenuUserLeads" runat="server" visible="false" class="fa fa-user" style="font-size: 15px; color: Green;"><span id="spanUserLeads" runat="server" class="badge bg-danger"></span></i>
+                                    <i id="iMainMenuUserNoLeads" runat="server" visible="false" class="fa fa-user" style="font-size: 15px;"><span id="spanUserNoLeads" runat="server" class="badge bg-danger"></span></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a id="aMainMenuUserLeads" runat="server">
+                                        <asp:Label ID="LblMainMenuUserLeads" runat="server" /></a></li>
+                                </ul>
+                            </li>
+                            <li id="liMainMenuNotifications" runat="server" visible="false" class="nav-item">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">
+                                    <i id="iMainMenuNotifications" runat="server" visible="false" class="fa fa-bell" style="font-size: 15px; color: Green;"><span id="spanUserNotifications" runat="server" class="badge bg-danger"></span></i>
+                                    <i id="iMainMenuNoNotifications" runat="server" visible="false" class="fa fa-bell" style="font-size: 15px;"><span id="spanUserNoNotifications" runat="server" class="badge bg-danger"></span></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a id="aMainMenuNotifications" role="button" runat="server">
+                                        <asp:Label ID="LblMainMenuNotifications" runat="server" /></a></li>
+                                </ul>
+                            </li>
+                            <li id="liMainMenuMessages" runat="server" visible="false" class="nav-item">
+                                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">
+                                    <i id="iMainMenuMessages" runat="server" visible="false" class="fa fa-envelope" style="font-size: 15px; color: Green;"><span id="spanUserMessages" runat="server" class="badge bg-danger"></span></i>
+                                    <i id="iMainMenuNoMessages" runat="server" visible="false" class="fa fa-envelope" style="font-size: 15px;"><span id="spanUserNoMessages" runat="server" class="badge bg-danger"></span></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a id="aMainMenuMessages" runat="server">
+                                        <asp:Label ID="LblMainMenuMessages" runat="server" /></a></li>
+                                </ul>
+                            </li>
+                            <li id="liMainMenuLogin" runat="server" visible="false" class="nav-item"><a id="aMainMenuLogin" runat="server"><i class="fa fa-sign-in" style="margin-right: 4px;"></i>
+                                <asp:Label ID="LblLogin" runat="server" /></a></li>
+                            <li id="liMainMenuSignUp" runat="server" visible="false" class="nav-item nav-item-cta last">
+                                <a id="aMainMenuSignUp" runat="server" class="btn btn-cta btn-cta-secondary">
+                                    <asp:Label ID="LblSignUp" runat="server" /></a>
+                            </li>
+                        </ul>
+                        <!--//nav-->
+                        <div style="float: right; padding: 10px;" class="hidden">
+                            <%--<asp:ImageButton ID="ImgBtnGr" OnClick="ImgBtnGr_OnClick" ImageUrl="~/images/flags/GR.png" runat="server" />
+                                <asp:ImageButton ID="ImgBtnEn" OnClick="ImgBtnEn_OnClick" ImageUrl="~/images/flags/EN.png" runat="server" />
+                                <asp:ImageButton ID="ImgBtnDe" OnClick="ImgBtnDe_OnClick" ImageUrl="~/images/flags/DE.png" runat="server" />
+                                <asp:ImageButton ID="ImgBtnFr" OnClick="ImgBtnFr_OnClick" ImageUrl="~/images/flags/FR.png" runat="server" />                                
+                                <asp:ImageButton ID="ImgBtnIt" OnClick="ImgBtnIt_OnClick" ImageUrl="~/images/flags/IT.png" runat="server" /> --%>
+                        </div>
+                    </div>
+                    <!--//navabr-collapse-->
+                </div>
+                <!--//main-nav-->
+            </div>
+            <!--//container-->
+        </div>
+        <!-- ****** END HEADER ****** -->
+        <div>
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+
+        </div>
+        <!-- ****** FOOTER ****** -->
+        <div id="footer" runat="server" class="footer">
+            <div class="footer-content" style="line-height: 1.5;">
+                <div class="container">
+                    <div class="row">
+                        <!--//foooter-col-->
+                        <div class="footer-col links col-md-2 col-sm-4 col-xs-12">
+                            <div class="footer-col-inner">
+                                <h3 class="title">
+                                    <asp:Label ID="LblFooterCompany" runat="server" /></h3>
+                                <ul class="list-unstyled">
+                                    <li><a id="aFooterHome" runat="server">
+                                        <asp:Label ID="LblFooterHome" runat="server" /></a></li>
+                                    <li><a id="aFooterCaseStudies" runat="server">
+                                        <asp:Label ID="LblFooterCaseStudies" runat="server" /></a></li>
+                                    <li><a id="aFooterSearch" runat="server">
+                                        <asp:Label ID="LblFooterSearch" runat="server" /></a></li>
+                                    <li><a id="aFooterPricing" runat="server">
+                                        <asp:Label ID="LblFooterPricing" runat="server" /></a></li>
+                                    <li><a id="aFooterResources" runat="server">
+                                        <asp:Label ID="LblResources" runat="server" /></a></li>
+                                    <li><a id="aFooterBlog" runat="server">
+                                        <asp:Label ID="LblFooterBlog" runat="server" /></a></li>
+                                    <li><a id="aFooterContact" runat="server">
+                                        <asp:Label ID="LblFooterContact" runat="server" /></a></li>
+                                </ul>
+                            </div>
+                            <!--//footer-col-inner-->
+                        </div>
+                        <!--//foooter-col-->
+                        <div class="footer-col links col-md-3 col-sm-4 col-xs-12">
+                            <div class="footer-col-inner">
+                                <h3 class="title">
+                                    <asp:Label ID="LblFooterProducts" runat="server" /></h3>
+                                <ul class="list-unstyled">
+                                    <li><a id="aFooterPartnerRecruitment" runat="server">
+                                        <asp:Label ID="LblFooterPartnerRecruitment" runat="server" /></a></li>
+                                    <li><a id="aFooterPRM" runat="server">
+                                        <asp:Label ID="LblFooterPRM" runat="server" /></a></li>
+                                    <li><a id="aFooterVendorManagement" runat="server">
+                                        <asp:Label ID="LblFooterVendorManagement" runat="server" /></a></li>
+                                    <li><a id="aIntentSignals" runat="server">
+                                        <asp:Label ID="LblIntentSignals" runat="server" /></a></li>
+                                    <li><a id="aReferralSoftware" runat="server">
+                                        <asp:Label ID="LblReferralSoftware" runat="server" /></a></li>
+                                    <li><a id="aFooterMAMarketplace" runat="server">
+                                        <asp:Label ID="LblFooterMAMarketplace" runat="server" /></a></li>
+                                </ul>
+                            </div>
+                            <a href='https://www.capterra.com/reviews/171144/Elioplus-PRM?utm_source=vendor&utm_medium=badge&utm_campaign=capterra_reviews_badge' target="_blank">
+                                <img border='0' alt='capterra' src='https://assets.capterra.com/badge/f38d02ff11e12cb08589a7f773afe00a.png?v=2118573&p=171144' />
+                            </a>
+                            <br />
+                            <br />
+                            <br />
+                            <div id="divUserBackLink" runat="server" visible="false">
+                                <a id="aUserBackLink" runat="server" visible="false">
+                                    <img border='0' src='https://elioplus.com/assets_main/global/img/badges/elioplus_badge.png' />
+                                </a>
+                                <br />
+                                <br />
+                                <br />
+                            </div>
+                            <div class="footer-col-inner">
+                                <h3 class="title">
+                                    <asp:Label ID="Label1" Text="Compare Elioplus PRM" runat="server" /></h3>
+                                <ul class="list-unstyled">
+                                    <li><a id="aImpartner" runat="server">
+                                        <asp:Label ID="Label2" Text="vs Impartner" runat="server" /></a></li>
+                                    <li><a id="aPartnerStack" runat="server">
+                                        <asp:Label ID="Label3" Text="vs PartnerStack" runat="server" /></a></li>
+                                    <li><a id="aAllbound" runat="server">
+                                        <asp:Label ID="Label4" Text="vs Allbound" runat="server" /></a></li>
+                                    <li><a id="aZiftSolutions" runat="server">
+                                        <asp:Label ID="Label5" Text="vs Zift Solutions" runat="server" /></a></li>
+                                    <li><a id="aSalesforcePRM" runat="server">
+                                        <asp:Label ID="Label6" Text="vs Salesforce PRM" runat="server" /></a></li>
+                                    <li><a id="aMagentrix" runat="server">
+                                        <asp:Label ID="Label7" Text="vs Mindmatrix" runat="server" /></a></li>
+                                    <li><a id="aMyprm" runat="server">
+                                        <asp:Label ID="Label8" Text="vs myprm" runat="server" /></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-col links col-md-3 col-sm-4 col-xs-12">
+                            <div class="footer-col-inner">
+                                <h3 class="title">
+                                    <asp:Label ID="LblFooterBrowseCompanies" runat="server" /></h3>
+                                <ul class="list-unstyled">
+                                    <li><a id="aFooterSearchVendors" runat="server">
+                                        <asp:Label ID="LblFooterSearchVendors" runat="server" /></a></li>
+                                    <li><a id="aFooterSearchChannelPartners" runat="server">
+                                        <asp:Label ID="LblFooterSearchChannelPartners" runat="server" /></a></li>
+                                    <li><a id="aFooterSearchChannelPartnerships" runat="server">
+                                        <asp:Label ID="LblFooterSearchChannelPartnerships" runat="server" /></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-col links col-md-4 col-sm-4 col-xs-12 sm-break">
+                            <div class="footer-col-inner">
+                                <h3 class="title">
+                                    <asp:Label ID="LblFooterContactInfo" runat="server" /></h3>
+                                <ul class="list-unstyled">
+                                    <li><a id="aFooterAbout" runat="server">
+                                        <asp:Label ID="LblFooterAbout" runat="server" /></a></li>
+                                    <li>
+                                        <asp:Literal ID="LtrInfoEmailText" runat="server" /><a id="aFooterInfoEmail" runat="server"><asp:Literal ID="LtrInfoEmail" runat="server" /></a></li>
+                                    <li>
+                                        <asp:Label ID="LblUsOfficeTitle" Style="padding-bottom: 2px; display: inline-block; font-weight: bold;" Text="US office" runat="server" /><br />
+                                        <asp:Literal ID="LtrAddressUS" runat="server" />
+                                    </li>
+                                    <li>
+                                        <asp:Label ID="LblGROfficeTitle" Style="padding-bottom: 2px; display: inline-block; font-weight: bold;" Text="Europe office" runat="server" /><br />
+                                        <asp:Literal ID="LtrAddressGR" runat="server" />
+                                    </li>
+                                    <li>
+                                        <asp:Literal ID="LtrTelGR" runat="server" /></li>
+                                </ul>
+                            </div>
+                            <div style="margin-top: 20px;"></div>
+                            <div class="footer-col connect col-md-12 col-sm-12 col-xs-12">
+                                <div class="footer-col-inner">
+                                    <ul class="social list-inline" style="overflow: inherit;">
+                                        <li><a id="aFooterFacebook" runat="server"><span style="display: none;">Elio Plus Facebook</span><i class="fa fa-facebook"></i></a></li>
+                                        <li><a id="aFooterTwitter" runat="server"><span style="display: none;">Elio Plus Twitter</span><i class="fa fa-twitter"></i></a></li>
+                                        <li class="row-end"><a id="aFooterLinkedin" runat="server"><span style="display: none;">Elio Plus Linkedin</span><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div style="margin-top: 30px;"></div>
+                            <div class="footer-col connect col-md-12 col-sm-12 col-xs-12" style="width: 330px; margin-top: 50px;">
+                                <div class="footer-col-inner">
+                                    <ul class="social list-inline" style="overflow: inherit;">
+                                        <li>
+                                            <a id="aFooterTerms" runat="server">
+                                                <asp:Label ID="LblFooterTerms" runat="server" /></a> |                                          
+                                                <a id="aFooterPrivacy" runat="server">
+                                                    <asp:Label ID="LblFooterPrivacy" runat="server" /></a> |                                             
+                                            <br />
+                                            <a id="aFooterMyData" runat="server">
+                                                <asp:Label ID="LblFooterMyData" runat="server" /></a> |                                            
+                                            <a id="aFooterFaq" runat="server">
+                                                <asp:Label ID="LblFooterFaq" runat="server" /></a>
+                                            <asp:Label ID="Label12" Text=" | " runat="server" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--//foooter-col-->
+                        <div class="clearfix">
+                        </div>
+                    </div>
+                    <!--//row-->
+                </div>
+                <!--//footer-content-->
+                <div class="bottom-bar">
+                    <div class="container">
+                        <div class="copyright" style="display: none;">
+                            <asp:Literal ID="LtrCopyright" runat="server" />
+                            <a id="aFooterCopyright" runat="server">
+                                <asp:Literal ID="LtrElioplusTeam" runat="server" /></a>
+                        </div>
+                    </div>
+                    <!--//container-->
+                </div>
+                <!--//bottom-bar-->
+            </div>
+        </div>
+        <!-- ****** END FOOTER ****** -->
+    </form>
+
+    <link rel="stylesheet" href="<%= Page.ResolveUrl("css/search/style.css") %>">
+    <link rel="stylesheet" href="<%= Page.ResolveUrl("css/search/responsive.css") %>">
+
+    <script type="text/javascript" src="/assets_main/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/FitVids/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="/assets_main/js/main.js"></script>
+    <script type="text/javascript" src="/assets_main/js/contact.js"></script>
+    <script type="text/javascript" src="/assets_main/plugins/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="//code.jivosite.com/widget/JxFDikw3YQ" async="async"></script>
+
+    <script type="text/javascript">
+
+</script>
+
+    <script type="text/javascript">
+
+</script>
+
+    <link href="<%= Page.ResolveUrl("/assets_main/global/plugins/font-awesome/css/font-awesome.min.css") %>" rel="stylesheet" />
+</body>
+</html>
