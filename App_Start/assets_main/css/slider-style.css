@@ -1,0 +1,180 @@
+﻿.slider-slides {
+    width: 700px;
+    height: 380px;
+    margin: 0 0 0 5px;
+    -moz-user-select: none;
+    outline: none;
+    cursor: default;
+    font-family: "Segoe UI", "Trebuchet MS", Arial, Verdana;
+}
+
+    .slider-slides .rrClipRegion {
+        background: transparent;
+        background-position: 0 -487px;
+    }
+
+/* single slide settings */
+.slider-slide {
+    width: 700px;
+    height: 380px; /* We will show the slides with javascript */
+}
+
+    .slider-slide h6 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .slider-slide h6 {
+        font-size: 20px !important;
+        font-weight: normal !important;
+        color: black !important;
+        padding: 20px 0 0 40px !important;
+    }
+
+    /* Slides content */
+    .slider-slide .slideContent {
+        height: 200px;
+        width: 700px;
+        clear: both;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    .slider-slide .Motor_Description {
+        height: 164px;
+        width: 400px;
+        padding-top: 0;
+        padding-right: 20px;
+        float: right;
+        font-size: 14px;
+    }
+
+.rbToggleCheckbox, .rbToggleCheckboxChecked {
+    display: none !important;
+}
+
+.RadButton:hover {
+    cursor: pointer;
+}
+
+.slider-slideshow {
+    position: relative;
+    width: 750px;
+    height: 415px;
+    margin: auto;
+    background-color: #f5f5f5;
+    padding: 8px;
+    z-index: 1000;
+    font-family: "Segoe UI",Arial,Helvetica,sans-serif;
+    background-image: none;
+    margin-bottom:80px;
+}
+
+.sshow, .crtl, .controls, .ctrlBtns {
+    position: absolute;
+}
+
+.shimg {
+    width: 700px;
+    height: 381px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.slider-controls {
+    width: 750px;
+    height: 36px;
+    background-image: url(/images/shcontrols.png);
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    margin-left: -8px;
+    margin-top: -15px;
+}
+
+.sshow, .crtl {
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    bottom: 15px;
+}
+
+.sshow {
+    left: 24px;
+}
+
+.crtl {
+    right: 24px;
+}
+
+.ctrlBtns {
+    width: 165px;
+    height: 16px;
+    left: 273px;
+    bottom: 8px;
+}
+
+*html .ctrlBtns {
+    bottom: 16px;
+}
+
+* + html .ctrlBtns {
+    bottom: 20px;
+}
+
+    .ctrlBtns li {
+        float: left;
+        list-style: none;
+    }
+
+        .ctrlBtns li.playSpace {
+            padding: 0 15px;
+        }
+
+/*IE6 Fixes*/
+*html .controls {
+    filter: alpha(opacity=80);
+}
+
+*html .raw {
+    background-image: url(images/shRAW.gif) !important;
+}
+
+    *html .raw:hover {
+        background-image: url(images/shRAWHov.gif) !important;
+    }
+
+*html .ff {
+    background-image: url(images/shFF.gif) !important;
+}
+
+    *html .ff:hover {
+        background-image: url(images/shFFHov.gif) !important;
+    }
+
+*html .play {
+    background-image: url(images/shPlay.gif) !important;
+}
+
+    *html .play:hover {
+        background-image: url(images/shPlayHov.gif) !important;
+    }
+
+*html .pause {
+    background-image: url(images/shPause.gif) !important;
+}
+
+    *html .pause:hover {
+        background-image: url(images/shPauseHov.gif) !important;
+    }
+
+*html .play, *html .pause {
+    background-repeat: no-repeat !important;
+}
+
+a.RadButton_MetroTouch.rbImageButton:hover,
+a.RadButton_MetroTouch.rbImageButton:active,
+a.RadButton_MetroTouch.rbImageButton:focus {
+    border: 0 !important;
+    background-color: transparent !important;
+}
