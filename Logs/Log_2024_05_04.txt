@@ -1,0 +1,240 @@
+DATE: 2024-05-04 00:00:16
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-4
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:17:11 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:17:11 	 ERROR 	 DataLoader:Load Error Retrieving  sql:SELECT * FROM Elio_tier_management_users_settings 
+                                    WHERE is_active = 1 and is_public = 1 and user_id = @user_id
+                                    order by from_volume Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 00:17:12
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetTierManagementUserSettings(Int32 userId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 3752
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.GetTiersByUser(Int32 vendorId) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 929
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:17:12 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:17:12 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from elio_countries where is_public=1 order by country_name asc Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 00:17:12
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetPublicCountries(DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 10225
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadCountries() in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 984
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadStep(Int32 step) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 533
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.DrpCoursesPerm_SelectedIndexChanged(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 3583
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:17:47 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:17:47 	 ERROR 	 DataLoader:Load Error Retrieving  sql:SELECT * FROM Elio_tier_management_users_settings 
+                                    WHERE is_active = 1 and is_public = 1 and user_id = @user_id
+                                    order by from_volume Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 00:17:47
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetTierManagementUserSettings(Int32 userId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 3752
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.GetTiersByUser(Int32 vendorId) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 929
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:17:47 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:17:47 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from elio_countries where is_public=1 order by country_name asc Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 00:17:47
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetPublicCountries(DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 10225
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadCountries() in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 984
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadStep(Int32 step) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 533
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.DrpCoursesPerm_SelectedIndexChanged(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 3583
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:21:13 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:21:13 	 ERROR 	 DataLoader:Load Error Retrieving  sql:SELECT * FROM Elio_tier_management_users_settings 
+                                    WHERE is_active = 1 and is_public = 1 and user_id = @user_id
+                                    order by from_volume Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 00:21:13
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetTierManagementUserSettings(Int32 userId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 3752
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.GetTiersByUser(Int32 vendorId) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 929
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:21:13 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:21:13 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from elio_countries where is_public=1 order by country_name asc Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 00:21:14
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetPublicCountries(DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 10225
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadCountries() in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 984
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadStep(Int32 step) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 533
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.DrpCoursesPerm_SelectedIndexChanged(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 3583
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:21:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:21:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:SELECT * FROM Elio_tier_management_users_settings 
+                                    WHERE is_active = 1 and is_public = 1 and user_id = @user_id
+                                    order by from_volume Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 00:21:24
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetTierManagementUserSettings(Int32 userId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 3752
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.GetTiersByUser(Int32 vendorId) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 929
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:21:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:21:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from elio_countries where is_public=1 order by country_name asc Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 00:21:24
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetPublicCountries(DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 10225
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadCountries() in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 984
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadStep(Int32 step) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 533
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.DrpCoursesPerm_SelectedIndexChanged(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 3583
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:58:36 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:58:36 	 ERROR 	 DataLoader:Load Error Retrieving  sql:SELECT * FROM Elio_tier_management_users_settings 
+                                    WHERE is_active = 1 and is_public = 1 and user_id = @user_id
+                                    order by from_volume Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 00:58:36
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetTierManagementUserSettings(Int32 userId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 3761
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.GetTiersByUser(Int32 vendorId) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 932
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:58:36 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:58:36 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from elio_countries where is_public=1 order by country_name asc Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 00:58:36
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetPublicCountries(DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 10234
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadCountries() in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 987
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadStep(Int32 step) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 533
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.DrpCoursesPerm_SelectedIndexChanged(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 3586
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:58:45 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:58:45 	 ERROR 	 DataLoader:Load Error Retrieving  sql:SELECT * FROM Elio_tier_management_users_settings 
+                                    WHERE is_active = 1 and is_public = 1 and user_id = @user_id
+                                    order by from_volume Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 00:58:45
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetTierManagementUserSettings(Int32 userId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 3761
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.GetTiersByUser(Int32 vendorId) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 932
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:58:45 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:58:45 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from elio_countries where is_public=1 order by country_name asc Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 00:58:45
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetPublicCountries(DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 10234
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadCountries() in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 987
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadStep(Int32 step) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 533
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.DrpCoursesPerm_SelectedIndexChanged(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 3586
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:59:58 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:59:58 	 ERROR 	 DataLoader:Load Error Retrieving  sql:SELECT * FROM Elio_tier_management_users_settings 
+                                    WHERE is_active = 1 and is_public = 1 and user_id = @user_id
+                                    order by from_volume Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 00:59:58
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetTierManagementUserSettings(Int32 userId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 3761
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.GetTiersByUser(Int32 vendorId) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 932
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-04 00:59:58 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-04 00:59:58 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from elio_countries where is_public=1 order by country_name asc Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-05-04 02:00:17
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-04 05:00:12
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 6 leads were inserted to Elio from Snitcher API at date 2024-5-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-04 09:00:20
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 10 leads were inserted to Elio from Snitcher API at date 2024-5-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-04 10:00:26
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 12 leads were inserted to Elio from Snitcher API at date 2024-5-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-04 11:00:26
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 13 leads were inserted to Elio from Snitcher API at date 2024-5-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-04 12:00:14
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 15 leads were inserted to Elio from Snitcher API at date 2024-5-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-04 14:00:19
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 27 leads were inserted to Elio from Snitcher API at date 2024-5-4
+---------------------------------------------------------------------------------------------------------------------------

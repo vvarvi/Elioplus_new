@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Projects\publish\elioplus.com\20220325</_PublishTargetUrl>
+    <History>False|2022-03-25T21:05:38.7026062Z;False|2022-02-12T19:19:26.2767555+02:00;False|2022-01-11T11:24:33.7970786+02:00;False|2022-01-11T11:21:55.0263317+02:00;False|2022-01-11T11:17:35.3615473+02:00;False|2022-01-11T11:13:20.1092291+02:00;False|2022-01-11T11:10:12.0985263+02:00;False|2022-01-11T11:04:18.3365336+02:00;False|2022-01-11T11:03:35.2678806+02:00;False|2022-01-11T10:53:44.3078752+02:00;</History>
+  </PropertyGroup>
+</Project>

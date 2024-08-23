@@ -1,0 +1,233 @@
+DATE: 2024-04-04 01:00:15
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-4-4
+---------------------------------------------------------------------------------------------------------------------------
+2024-04-04 01:10:35 	 ERROR 	 DataLoader:Load Error Load  2
+2024-04-04 01:10:35 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select 
+	                                u.id as connection_id, 
+	                                u.company_name as company_name, 
+	                                u.user_application_type as user_application_type,
+                                    u.is_public as is_public,
+                                    u.company_type as company_type,
+	                                u.country as country,
+                                    isnull(u.company_logo, '') as company_logo,
+                                    isnull(up.avatar, '') as avatar,
+                                    isnull(upc.logo, '') as logo,
+	                                u.website as company_website,
+	                                u.sysdate AS sysdate,
+                                    isnull(upc.industry, '') as industry,
+                                    '' as categories,
+                                    '' as products
+                                from elio_users u with (nolock)
+                                left join Elio_users_person up
+	                                on up.user_id = u.id
+                                left join Elio_users_person_companies upc
+	                                on upc.elio_person_id = up.id
+		                                and up.clearbit_person_id = upc.clearbit_person_id
+		                                and up.user_id = upc.user_id and upc.user_id = u.id  cross apply
+                                        (
+                                            select top 1 sigi.id
+                                            from Elio_users_sub_industries_group_items usigi
+                                            inner join Elio_sub_industries_group_items sigi
+                                                on sigi.id = usigi.sub_industry_group_item_id
+                                            where usigi.user_id = u.id
+                                            and sigi.description IN ('3D CAD') ) sg where u.company_type = 'Channel Partners' 
+                                and ((u.is_public = 1 and u.account_status = 1) 
+                                or (u.is_public = 0 and u.account_status = 0 and u.user_application_type = 2)) 
+                                and u.id not in
+                                (
+	                                select ucon.connection_id
+	                                from Elio_users_connections ucon
+	                                where 1 = 1	
+	                                and ucon.connection_id = u.id
+	                                and ucon.user_id = 1 )  and u.country IN ('United States')  order by sysdate desc Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-04-04 01:10:35
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.FillDataForSearchGridObj(String countries, String varticals, String products) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 867
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.BindSearch(Boolean selectedAll) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 1343
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.ShowTab(Int32 tab) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 1385
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.aSearchConnection_ServerClick(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 1707
+---------------------------------------------------------------------------------------------------------------------------
+2024-04-04 01:11:11 	 ERROR 	 DataLoader:Load Error Load  2
+2024-04-04 01:11:11 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select 
+	                                u.id as connection_id, 
+	                                u.company_name as company_name, 
+	                                u.user_application_type as user_application_type,
+                                    u.is_public as is_public,
+                                    u.company_type as company_type,
+	                                u.country as country,
+                                    isnull(u.company_logo, '') as company_logo,
+                                    isnull(up.avatar, '') as avatar,
+                                    isnull(upc.logo, '') as logo,
+	                                u.website as company_website,
+	                                u.sysdate AS sysdate,
+                                    isnull(upc.industry, '') as industry,
+                                    '' as categories,
+                                    '' as products
+                                from elio_users u with (nolock)
+                                left join Elio_users_person up
+	                                on up.user_id = u.id
+                                left join Elio_users_person_companies upc
+	                                on upc.elio_person_id = up.id
+		                                and up.clearbit_person_id = upc.clearbit_person_id
+		                                and up.user_id = upc.user_id and upc.user_id = u.id  cross apply
+                                        (
+                                            select top 1 sigi.id
+                                            from Elio_users_sub_industries_group_items usigi
+                                            inner join Elio_sub_industries_group_items sigi
+                                                on sigi.id = usigi.sub_industry_group_item_id
+                                            where usigi.user_id = u.id
+                                            and sigi.description IN ('3D CAD') ) sg where u.company_type = 'Channel Partners' 
+                                and ((u.is_public = 1 and u.account_status = 1) 
+                                or (u.is_public = 0 and u.account_status = 0 and u.user_application_type = 2)) 
+                                and u.id not in
+                                (
+	                                select ucon.connection_id
+	                                from Elio_users_connections ucon
+	                                where 1 = 1	
+	                                and ucon.connection_id = u.id
+	                                and ucon.user_id = 1 )  and u.country IN ('United States')  order by sysdate desc Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-04-04 01:11:11
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.FillDataForSearchGridObj(String countries, String varticals, String products) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 867
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.BindSearch(Boolean selectedAll) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 1343
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.ShowTab(Int32 tab) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 1385
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.aSearchConnection_ServerClick(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 1707
+---------------------------------------------------------------------------------------------------------------------------
+2024-04-04 01:11:46 	 ERROR 	 DataLoader:Load Error Load  2
+2024-04-04 01:11:46 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select 
+	                                u.id as connection_id, 
+	                                u.company_name as company_name, 
+	                                u.user_application_type as user_application_type,
+                                    u.is_public as is_public,
+                                    u.company_type as company_type,
+	                                u.country as country,
+                                    isnull(u.company_logo, '') as company_logo,
+                                    isnull(up.avatar, '') as avatar,
+                                    isnull(upc.logo, '') as logo,
+	                                u.website as company_website,
+	                                u.sysdate AS sysdate,
+                                    isnull(upc.industry, '') as industry,
+                                    '' as categories,
+                                    '' as products
+                                from elio_users u with (nolock)
+                                left join Elio_users_person up
+	                                on up.user_id = u.id
+                                left join Elio_users_person_companies upc
+	                                on upc.elio_person_id = up.id
+		                                and up.clearbit_person_id = upc.clearbit_person_id
+		                                and up.user_id = upc.user_id and upc.user_id = u.id  cross apply
+                                        (
+                                            select top 1 sigi.id
+                                            from Elio_users_sub_industries_group_items usigi
+                                            inner join Elio_sub_industries_group_items sigi
+                                                on sigi.id = usigi.sub_industry_group_item_id
+                                            where usigi.user_id = u.id
+                                            and sigi.description IN ('3D CAD') ) sg where u.company_type = 'Channel Partners' 
+                                and ((u.is_public = 1 and u.account_status = 1) 
+                                or (u.is_public = 0 and u.account_status = 0 and u.user_application_type = 2)) 
+                                and u.id not in
+                                (
+	                                select ucon.connection_id
+	                                from Elio_users_connections ucon
+	                                where 1 = 1	
+	                                and ucon.connection_id = u.id
+	                                and ucon.user_id = 1 )  and u.country IN ('United States')  order by sysdate desc Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-04-04 02:07:37
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: Object reference not set to an instance of an object.
+STACK TRACE:    at WdS.ElioPlus.DashboardMyMatchesPageNew.RdgSearchConnections_OnItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 2665
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-04 04:00:18
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 2 leads were inserted to Elio from Snitcher API at date 2024-4-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-04 05:00:22
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 4 leads were inserted to Elio from Snitcher API at date 2024-4-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-04 07:00:20
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 17 leads were inserted to Elio from Snitcher API at date 2024-4-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-04 08:00:30
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 25 leads were inserted to Elio from Snitcher API at date 2024-4-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-04 10:00:32
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 48 leads were inserted to Elio from Snitcher API at date 2024-4-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-04 12:00:48
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 67 leads were inserted to Elio from Snitcher API at date 2024-4-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-04 13:00:44
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 74 leads were inserted to Elio from Snitcher API at date 2024-4-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-04 14:00:44
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 79 leads were inserted to Elio from Snitcher API at date 2024-4-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-04 15:00:42
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 84 leads were inserted to Elio from Snitcher API at date 2024-4-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-04 17:01:03
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 105 leads were inserted to Elio from Snitcher API at date 2024-4-4
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-04 18:01:01
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 114 leads were inserted to Elio from Snitcher API at date 2024-4-4
+---------------------------------------------------------------------------------------------------------------------------

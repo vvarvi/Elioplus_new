@@ -1,0 +1,80 @@
+DATE: 2024-04-03 23:29:26
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.ConnectionSearchList' to type 'System.Data.DataRowView'.
+STACK TRACE:    at WdS.ElioPlus.DashboardMyMatchesPageNew.RdgSearchConnections_OnItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 2659
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-03 23:30:54
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.ConnectionSearchList' to type 'System.Data.DataRowView'.
+STACK TRACE:    at WdS.ElioPlus.DashboardMyMatchesPageNew.RdgSearchConnections_OnItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 2659
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-03 23:30:54
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.ConnectionSearchList' to type 'System.Data.DataRowView'.
+STACK TRACE:    at WdS.ElioPlus.DashboardMyMatchesPageNew.RdgSearchConnections_OnItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 2659
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-03 23:30:55
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.ConnectionSearchList' to type 'System.Data.DataRowView'.
+STACK TRACE:    at WdS.ElioPlus.DashboardMyMatchesPageNew.RdgSearchConnections_OnItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 2659
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-03 23:30:55
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.ConnectionSearchList' to type 'System.Data.DataRowView'.
+STACK TRACE:    at WdS.ElioPlus.DashboardMyMatchesPageNew.RdgSearchConnections_OnItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 2659
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-03 23:30:55
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.ConnectionSearchList' to type 'System.Data.DataRowView'.
+STACK TRACE:    at WdS.ElioPlus.DashboardMyMatchesPageNew.RdgSearchConnections_OnItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 2659
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-03 23:30:55
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.ConnectionSearchList' to type 'System.Data.DataRowView'.
+STACK TRACE:    at WdS.ElioPlus.DashboardMyMatchesPageNew.RdgSearchConnections_OnItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 2659
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-03 23:30:55
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.ConnectionSearchList' to type 'System.Data.DataRowView'.
+STACK TRACE:    at WdS.ElioPlus.DashboardMyMatchesPageNew.RdgSearchConnections_OnItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 2659
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-03 23:30:55
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.ConnectionSearchList' to type 'System.Data.DataRowView'.
+STACK TRACE:    at WdS.ElioPlus.DashboardMyMatchesPageNew.RdgSearchConnections_OnItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 2659
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-03 23:30:55
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.ConnectionSearchList' to type 'System.Data.DataRowView'.
+STACK TRACE:    at WdS.ElioPlus.DashboardMyMatchesPageNew.RdgSearchConnections_OnItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 2659
+---------------------------------------------------------------------------------------------------------------------------

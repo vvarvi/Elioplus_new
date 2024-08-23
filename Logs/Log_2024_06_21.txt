@@ -1,0 +1,192 @@
+DATE: 2024-06-21 00:54:03
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 01:54:09
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 02:54:09
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 03:54:09
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 3 leads were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 04:54:10
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 4 leads were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 05:54:13
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 7 leads were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 06:54:14
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 8 leads were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 07:54:18
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 12 leads were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 08:54:18
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 16 leads were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 09:54:50
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 21 leads were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 10:54:15
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 31 leads were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 11:54:24
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 39 leads were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 12:54:31
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 42 leads were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 18:44:11
+TYPE: ERROR
+URL: Error for Lead ID 32350493 at 21/6/2024 6:44:10 도
+USER_ID: 
+PAGE: 
+MESSAGE: String or binary data would be truncated.
+The statement has been terminated.
+STACK TRACE:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity, String hint) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 326
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 193
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 188
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 382
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 18:44:11
+TYPE: ERROR
+URL: Error for Lead ID 17079845 at 21/6/2024 6:44:11 도
+USER_ID: 
+PAGE: 
+MESSAGE: String or binary data would be truncated.
+The statement has been terminated.
+STACK TRACE:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity, String hint) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 326
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 193
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 188
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 382
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 18:44:16
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 71 leads were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 18:54:24
+TYPE: ERROR
+URL: Error for Lead ID 32350493 at 21/6/2024 6:54:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: String or binary data would be truncated.
+The statement has been terminated.
+STACK TRACE:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity, String hint) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 326
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 193
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 188
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 382
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 18:54:24
+TYPE: ERROR
+URL: Error for Lead ID 17079845 at 21/6/2024 6:54:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: String or binary data would be truncated.
+The statement has been terminated.
+STACK TRACE:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity, String hint) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 326
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 193
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 188
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 382
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 18:54:29
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 71 leads were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-21 19:54:32
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 75 leads were inserted to Elio from Snitcher API at date 2024-6-21
+---------------------------------------------------------------------------------------------------------------------------

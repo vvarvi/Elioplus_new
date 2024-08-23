@@ -1,0 +1,15 @@
+DATE: 2024-03-28 15:22:13
+TYPE: ERROR
+URL: GetStatistics() for pages requests: 
+USER_ID: 
+PAGE: 
+MESSAGE: https://localhost:44343/Default.aspx
+STACK TRACE: /Default.aspx
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-03-28 20:00:56
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 110 leads were inserted to Elio from Snitcher API at date 2024-3-28
+---------------------------------------------------------------------------------------------------------------------------

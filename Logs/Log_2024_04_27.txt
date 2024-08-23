@@ -1,0 +1,407 @@
+DATE: 2024-04-27 00:00:13
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-4-27
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 01:00:20
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-4-27
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 02:00:13
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-4-27
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 07:00:19
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 5 leads were inserted to Elio from Snitcher API at date 2024-4-27
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 08:00:24
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 6 leads were inserted to Elio from Snitcher API at date 2024-4-27
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 09:00:21
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 12 leads were inserted to Elio from Snitcher API at date 2024-4-27
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 10:00:21
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 15 leads were inserted to Elio from Snitcher API at date 2024-4-27
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 11:00:30
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 18 leads were inserted to Elio from Snitcher API at date 2024-4-27
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 12:00:25
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 20 leads were inserted to Elio from Snitcher API at date 2024-4-27
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 14:00:25
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 28 leads were inserted to Elio from Snitcher API at date 2024-4-27
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:28:36
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Input string was not in a correct format.
+STACK TRACE:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.IsValidToContinueStep(Int32 step)
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.BtnNext_Click(Object sender, EventArgs e)
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:37:44
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:38:19
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2752
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:38:25
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2752
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:38:25
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2752
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:38:42
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:39:21
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:41:02
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:41:22
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:41:22
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:41:31
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2752
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:41:31
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2752
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:44:45
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2752
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:45:00
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2752
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 16:45:00
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2752
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 17:00:31
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 36 leads were inserted to Elio from Snitcher API at date 2024-4-27
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 18:00:23
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 38 leads were inserted to Elio from Snitcher API at date 2024-4-27
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:00:32
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 41 leads were inserted to Elio from Snitcher API at date 2024-4-27
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:41:34
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:41:44
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:41:47
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:42:09
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:43:47
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:43:50
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:44:02
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:44:14
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2752
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:44:18
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2752
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:44:25
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:44:30
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:44:36
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2752
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:44:42
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2345
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:56:50
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2347
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:57:07
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2754
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:57:11
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2347
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:58:15
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2347
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:58:23
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2754
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:58:30
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2347
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:58:39
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2347
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:58:48
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2347
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:59:30
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2347
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:59:44
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Course' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCategoriesCourses'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgCourses_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2347
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-27 23:59:56
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'WdS.ElioPlus.Objects.Chapter' to type 'WdS.ElioPlus.Objects.ElioUsersTrainingCoursesChapters'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapter_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 2754
+---------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,851 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Elioplus.master.cs" Inherits="WdS.ElioPlus.pages.Elioplus" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title id="PgTitle" runat="server"></title>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <meta name='robots' content='index,follow' />
+    <meta name="copyright" content="Elioplus" />
+    <meta name="author" content="Elioplus" />
+    <meta name="distribution" content="global" />
+    <meta name="theme-color" content="#39B4EF" />
+    <meta name="og:title" content="Channel Partners and software resellers network | Elioplus">
+    <meta name="og:url" content="https://elioplus.com/">
+    <meta name="og:description" content="Recruit new channel partners &amp; manage your partner network in an all-in-one solution. Attract new resellers, consultants, VARs and MSPs to help you scale your indirect sales.">
+    <meta property="og:image" content="/assets_out/images/global/social.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Elioplus" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site:id" content="@elioplus" />
+    <meta name="twitter:title" content="Channel Partners and software resellers network | Elioplus">
+    <meta name="twitter:description" content="Recruit new channel partners &amp; manage your partner network in an all-in-one solution. Attract new resellers, consultants, VARs and MSPs to help you scale your indirect sales.">
+    <meta name="twitter:image" content="/assets_out/images/global/social.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="canonical" content="https://elioplus.com/">
+    <link rel="icon" type="image/x-icon" href="/assets_out/images/global/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets_out/css/dist/style.min.css" />
+
+    <script type="text/javascript" src="//code.jivosite.com/widget/JxFDikw3YQ" async="async"></script>
+
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "bsk1jnpb6f");
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38815992-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-38815992-1');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9T5RMZ5YC5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9T5RMZ5YC5');
+    </script>
+
+    <script>
+        (function () {
+            window.ldfdr = window.ldfdr || {};
+            (function (d, s, ss, fs) {
+                fs = d.getElementsByTagName(s)[0]; function ce(src) {
+                    var cs = d.createElement(s); cs.src = src; setTimeout(function () {
+                        fs.parentNode.insertBefore(cs, fs)
+                    }, 1);
+                } ce(ss);
+            })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_JMvZ8g15dYM42pOd.js');
+        })();
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#252e39"
+                    },
+                    "button": {
+                        "background": "#14a7d0"
+                    }
+                },
+                "theme": "classic",
+                "position": "bottom-left",
+                "content": {
+                    "href": "https://elioplus.com/privacy"
+                }
+            })
+        });
+    </script>
+
+    <script>
+
+        function vqTrackId() {
+            return '8ab80416-d4ba-40cd-b89c-be0dad624f0a';
+        }
+        (
+            function (d, e) {
+                var el = d.createElement(e); el.sa = function (an, av) {
+                    this.setAttribute(an, av);
+                    return this;
+                }; el.sa('id', 'vq_tracking')
+                    .sa('src', '//t.visitorqueue.com/p/tracking.min.js?id=' + vqTrackId()).sa('async', 1)
+                    .sa('data-id', vqTrackId());
+                d.getElementsByTagName(e)[0].parentNode.appendChild(el);
+            }
+        )(document, 'script');
+
+    </script>
+
+</head>
+<body class="text-blackBlue overflow-x-hidden">
+    <form id="masterForm" runat="server">
+        <asp:ScriptManager ID="masterRadScriptManager" runat="server">
+        </asp:ScriptManager>
+
+        <header class="bg-white shadow-lg z-10 fixed top-0 left-0 w-screen">
+            <div class="container">
+                <div class="flex justify-between">
+                    <div class="py-10px xl:py-20px">
+                        <a id="aLogo" runat="server" class="pb-5px block header-logo" href="/home">
+                            <img src="/assets_out/images/global/logo.png" alt="Elioplus Logo" title="Elioplus Logo" width="110" height="52"></a>
+                    </div>
+                    <nav class="flex gap-5px usm:gap-10px xl:gap-15px relative py-10px xl:py-20px" id="mainNavigation">
+                        <ul class="text-sm xl:text-base hidden lg:flex gap-10px xl:gap-15px">
+                            <li class="flex items-center"><a class="flex items-center gap-5px font-bold" href="#ProductsServicesMenu">
+                                <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.95734 5.12856C10.2416 5.12856 11.2826 4.09242 11.2826 2.81428C11.2826 1.53614 10.2416 0.5 8.95734 0.5C7.67314 0.5 6.63208 1.53614 6.63208 2.81428C6.63208 4.09242 7.67314 5.12856 8.95734 5.12856Z" fill="#39B4EF" />
+                                    <path d="M8.95734 11.8141C10.2416 11.8141 11.2826 10.778 11.2826 9.49983C11.2826 8.22169 10.2416 7.18555 8.95734 7.18555C7.67314 7.18555 6.63208 8.22169 6.63208 9.49983C6.63208 10.778 7.67314 11.8141 8.95734 11.8141Z" fill="#39B4EF" />
+                                    <path d="M8.95734 18.5001C10.2416 18.5001 11.2826 17.464 11.2826 16.1859C11.2826 14.9077 10.2416 13.8716 8.95734 13.8716C7.67314 13.8716 6.63208 14.9077 6.63208 16.1859C6.63208 17.464 7.67314 18.5001 8.95734 18.5001Z" fill="#39B4EF" />
+                                    <path d="M2.75666 11.8141C4.04087 11.8141 5.08192 10.778 5.08192 9.49983C5.08192 8.22169 4.04087 7.18555 2.75666 7.18555C1.47245 7.18555 0.431396 8.22169 0.431396 9.49983C0.431396 10.778 1.47245 11.8141 2.75666 11.8141Z" fill="#39B4EF" />
+                                    <path d="M15.6746 11.8141C16.9589 11.8141 17.9999 10.778 17.9999 9.49983C17.9999 8.22169 16.9589 7.18555 15.6746 7.18555C14.3904 7.18555 13.3494 8.22169 13.3494 9.49983C13.3494 10.778 14.3904 11.8141 15.6746 11.8141Z" fill="#39B4EF" />
+                                </svg>
+                                <span>
+                                    <asp:Label ID="Label1" runat="server" /></span><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_2_1553)"><path d="M11.8082 2.54845L11.4151 2.15264C11.2914 2.02903 11.1268 1.96093 10.9509 1.96093C10.7751 1.96093 10.6103 2.02903 10.4866 2.15264L6.00268 6.63677L1.51357 2.14767C1.39006 2.02406 1.22528 1.95605 1.04947 1.95605C0.873666 1.95605 0.708786 2.02406 0.585176 2.14767L0.192002 2.54103C-0.0640005 2.79684 -0.0640005 3.21353 0.192002 3.46934L5.53683 8.83338C5.66034 8.95689 5.82493 9.04392 6.00229 9.04392H6.00434C6.18025 9.04392 6.34483 8.95679 6.46835 8.83338L11.8082 3.48387C11.9319 3.36036 11.9998 3.1908 12 3.01499C12 2.83909 11.9319 2.67187 11.8082 2.54845Z" fill="#B3C7EB" /></g><defs><clipPath id="clip0_2_1553"><rect width="12" height="9" fill="white" /></clipPath>
+                                    </defs></svg>
+                            </a></li>
+                            <li class="flex items-center">
+                                <div class="separator"></div>
+                            </li>
+                            <li class="flex items-center"><a class="flex items-center gap-5px font-bold" href="#BrowseCompaniesMenu">
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2_912)">
+                                        <path d="M15.4888 15.0735L11.6808 11.1129C12.6599 9.94901 13.1964 8.48455 13.1964 6.95999C13.1964 3.39801 10.2983 0.5 6.73636 0.5C3.17438 0.5 0.276367 3.39801 0.276367 6.95999C0.276367 10.522 3.17438 13.42 6.73636 13.42C8.07358 13.42 9.34788 13.0167 10.4374 12.251L14.2743 16.2416C14.4347 16.4082 14.6504 16.5 14.8816 16.5C15.1004 16.5 15.3079 16.4166 15.4655 16.2649C15.8003 15.9428 15.811 15.4085 15.4888 15.0735ZM6.73636 2.18522C9.36923 2.18522 11.5111 4.32713 11.5111 6.95999C11.5111 9.59286 9.36923 11.7348 6.73636 11.7348C4.10349 11.7348 1.96158 9.59286 1.96158 6.95999C1.96158 4.32713 4.10349 2.18522 6.73636 2.18522Z" fill="#39B4EF" />
+                                    </g><defs><clipPath id="clip0_2_912"><rect width="16" height="16" fill="white" transform="translate(0 0.5)" /></clipPath>
+                                    </defs></svg>
+                                <span>
+                                    <asp:Label ID="Label2" runat="server" /></span><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_2_1553)"><path d="M11.8082 2.54845L11.4151 2.15264C11.2914 2.02903 11.1268 1.96093 10.9509 1.96093C10.7751 1.96093 10.6103 2.02903 10.4866 2.15264L6.00268 6.63677L1.51357 2.14767C1.39006 2.02406 1.22528 1.95605 1.04947 1.95605C0.873666 1.95605 0.708786 2.02406 0.585176 2.14767L0.192002 2.54103C-0.0640005 2.79684 -0.0640005 3.21353 0.192002 3.46934L5.53683 8.83338C5.66034 8.95689 5.82493 9.04392 6.00229 9.04392H6.00434C6.18025 9.04392 6.34483 8.95679 6.46835 8.83338L11.8082 3.48387C11.9319 3.36036 11.9998 3.1908 12 3.01499C12 2.83909 11.9319 2.67187 11.8082 2.54845Z" fill="#B3C7EB" /></g><defs><clipPath id="clip0_2_1553"><rect width="12" height="9" fill="white" /></clipPath>
+                                    </defs></svg>
+                            </a></li>
+                            <li class="flex items-center">
+                                <div class="separator"></div>
+                            </li>
+                            <li class="flex items-center"><a class="flex items-center gap-5px font-bold" href="#FeaturesResourcesMenu">
+                                <asp:Label ID="Label3" runat="server" /><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_2_1553)"><path d="M11.8082 2.54845L11.4151 2.15264C11.2914 2.02903 11.1268 1.96093 10.9509 1.96093C10.7751 1.96093 10.6103 2.02903 10.4866 2.15264L6.00268 6.63677L1.51357 2.14767C1.39006 2.02406 1.22528 1.95605 1.04947 1.95605C0.873666 1.95605 0.708786 2.02406 0.585176 2.14767L0.192002 2.54103C-0.0640005 2.79684 -0.0640005 3.21353 0.192002 3.46934L5.53683 8.83338C5.66034 8.95689 5.82493 9.04392 6.00229 9.04392H6.00434C6.18025 9.04392 6.34483 8.95679 6.46835 8.83338L11.8082 3.48387C11.9319 3.36036 11.9998 3.1908 12 3.01499C12 2.83909 11.9319 2.67187 11.8082 2.54845Z" fill="#B3C7EB" /></g><defs><clipPath id="clip0_2_1553"><rect width="12" height="9" fill="white" /></clipPath>
+                                </defs></svg>
+                            </a></li>
+                            <li class="flex items-center"><a class="flex items-center gap-5px font-bold" href="#PricingMenu">
+                                <asp:Label ID="Label4" runat="server" /><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_2_1553)"><path d="M11.8082 2.54845L11.4151 2.15264C11.2914 2.02903 11.1268 1.96093 10.9509 1.96093C10.7751 1.96093 10.6103 2.02903 10.4866 2.15264L6.00268 6.63677L1.51357 2.14767C1.39006 2.02406 1.22528 1.95605 1.04947 1.95605C0.873666 1.95605 0.708786 2.02406 0.585176 2.14767L0.192002 2.54103C-0.0640005 2.79684 -0.0640005 3.21353 0.192002 3.46934L5.53683 8.83338C5.66034 8.95689 5.82493 9.04392 6.00229 9.04392H6.00434C6.18025 9.04392 6.34483 8.95679 6.46835 8.83338L11.8082 3.48387C11.9319 3.36036 11.9998 3.1908 12 3.01499C12 2.83909 11.9319 2.67187 11.8082 2.54845Z" fill="#B3C7EB" /></g><defs><clipPath id="clip0_2_1553"><rect width="12" height="9" fill="white" /></clipPath>
+                                </defs></svg>
+                            </a></li>
+                            <li class="flex items-center"><a class="flex items-center gap-5px font-bold" href="#AboutMenu">
+                                <asp:Label ID="Label5" runat="server" /><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_2_1553)"><path d="M11.8082 2.54845L11.4151 2.15264C11.2914 2.02903 11.1268 1.96093 10.9509 1.96093C10.7751 1.96093 10.6103 2.02903 10.4866 2.15264L6.00268 6.63677L1.51357 2.14767C1.39006 2.02406 1.22528 1.95605 1.04947 1.95605C0.873666 1.95605 0.708786 2.02406 0.585176 2.14767L0.192002 2.54103C-0.0640005 2.79684 -0.0640005 3.21353 0.192002 3.46934L5.53683 8.83338C5.66034 8.95689 5.82493 9.04392 6.00229 9.04392H6.00434C6.18025 9.04392 6.34483 8.95679 6.46835 8.83338L11.8082 3.48387C11.9319 3.36036 11.9998 3.1908 12 3.01499C12 2.83909 11.9319 2.67187 11.8082 2.54845Z" fill="#B3C7EB" /></g><defs><clipPath id="clip0_2_1553"><rect width="12" height="9" fill="white" /></clipPath>
+                                </defs></svg>
+                            </a></li>
+                            <li class="flex items-center">
+                                <div class="separator"></div>
+                            </li>
+                        </ul>
+                        <div class="hidden sm:flex items-center gap-10px xl:gap-15px">
+                            <a id="aMainMenuLogin" runat="server" class="btn font-bold text-sm xl:text-base text-blue" href="/login">
+                                <asp:Label ID="Label6" runat="server" />
+                            </a>
+                            <a id="aMainMenuFreeSignUp" runat="server" class="btn font-bold text-sm xl:text-base bg-blue text-white" href="/free-sign-up">
+                                <asp:Label ID="Label7" runat="server" />
+                            </a>
+                        </div>
+                        <div id="liMainMenuUser" runat="server" visible="false" class="flex items-center text-sm relative">
+                            <a class="font-semibold transition-colors duration-200 hover:text-blue flex items-center gap-5px pr-5px open-menu" href="#userMenu">
+                                <img id="ImgUserPhoto" runat="server" class="rounded-full" src="/images/no_logo_company.png" alt="Profile Image" title="Your profile image" width="30" height="30">
+                                <span class="hidden lg:block">
+                                    <asp:Label ID="LblUser" Text="Giannis Riganas" runat="server" /></span><img src="/assets_out/images/global/chevron.svg" alt="Quick Actions Icon" title="Click to open the account menu" width="12" height="9">
+                            </a>
+                            <div class="absolute right-0 top-full bg-white shadow-card w-[270px] rounded-8px py-20px mt-10px hidden menu-group" id="userMenu">
+                                <div class="flex flex-col gap-10px w-full">
+                                    <div class="flex items-center gap-10px w-full px-25px">
+                                        <img id="ImgCompanyLogo" runat="server" class="rounded-full border border-iconGray" src="/assets_out/images/global/company.png" alt="Profile Image" title="Your profile image" width="40" height="40">
+                                        <div class="flex flex-col gap-5px mb-5px">
+                                            <span class=" font-semibold  leading-[14px]">
+                                                <asp:Label ID="LblCompanyName" runat="server" Text="Acmonsen" /></span>
+                                            <span class=" font-normal text-textGray text-[13px] leading-[13px]">
+                                                <asp:Label ID="LblCompanyEmail" runat="server" Text="info@acmonsen.com" /></span>
+                                        </div>
+                                    </div>
+                                    <div class="w-full">
+                                        <div class="divider"></div>
+                                    </div>
+                                    <div class="flex items-center gap-10px w-full px-25px py-10px">
+                                        <img id="ImgUserPhoto2" runat="server" class="rounded-full border border-iconGray" src="/assets_out/images/global/profile-image.png" alt="Profile Image" title="Your profile image" width="40" height="40">
+                                        <div class="flex flex-col gap-5px w-full">
+                                            <span class=" font-semibold  leading-[14px]">
+                                                <asp:Label ID="LblUser2" Text="Giannis Riganas" runat="server" /></span>
+                                            <span class=" font-normal text-textGray text-[13px] leading-[13px]">
+                                                <asp:Label ID="LblUserEmail" Text="giannisrig@hotmail.gr" runat="server" /></span>
+                                        </div>
+                                    </div>
+                                    <div class="w-full">
+                                        <div class="divider"></div>
+                                    </div>
+                                    <ul class="flex flex-col gap-15px w-full px-25px py-10px">
+                                        <li class="flex-col w-full">
+                                            <a id="aMainMenuUserDashboard" runat="server" class="hover:text-blue transition-colors duration-200 flex items-center gap-5px font-semibold">
+                                                <img src="/assets_out/images/global/dashboard.svg" alt="dashboard icon"><span>
+                                                    <asp:Label ID="LblUserDashboard" Text="Dashboard" runat="server" /></span>
+                                            </a>
+                                            <span class="text-textGray font-normal text-[13px]">View your partners updates and your account overview.</span>
+                                        </li>
+                                        <li id="liMainMenuRegister" runat="server" visible="false" class="flex-col w-full">
+                                            <a id="aMainMenuUserRegister" runat="server" class="hover:text-blue transition-colors duration-200 flex items-center gap-5px font-semibold">
+                                                <img src="/assets_out/images/global/view.svg" alt="view icon" width="20" height="20"><span>
+                                                    <asp:Label ID="LblUserRegister" Text="Register" runat="server" /></span>
+                                            </a>
+                                            <span class="text-textGray font-normal text-[13px]">View your public Elioplus profile and how users see it.</span>
+                                        </li>
+                                        <li id="liMainMenuProfile" runat="server" visible="false" class="flex-col w-full">
+                                            <a id="liMainMenuUserDashboard" runat="server" class="hover:text-blue transition-colors duration-200 flex items-center gap-5px font-semibold">
+                                                <img src="/assets_out/images/global/view.svg" alt="view icon" width="20" height="20"><span>
+                                                    <asp:Label ID="LblUserProfile" Text="View Profile" runat="server" /></span>
+                                            </a>
+                                            <span class="text-textGray font-normal text-[13px]">View your public Elioplus profile and how users see it.</span>
+                                        </li>
+                                        <li id="liMainMenuUserEditProfile" runat="server" visible="false" class="flex-col w-ful">
+                                            <a id="aUserEditProfile" runat="server" class="hover:text-blue transition-colors duration-200 flex items-center gap-5px font-semibold">
+                                                <img src="/assets_out/images/global/edit-profile.svg" alt="edit profile icon" width="20" height="20"><span>
+                                                    <asp:Label ID="LblUserEditProfile" Text="Edit Profile" runat="server" /></span>
+                                            </a>
+                                            <span class="text-textGray font-normal text-[13px]">Edit your profile and your account settings.</span>
+                                        </li>
+                                        <li id="liMainMenuAdmin" runat="server" visible="false" class="flex-col w-ful">
+                                            <a id="aMainMenuAdmin" runat="server" class="hover:text-blue transition-colors duration-200 flex items-center gap-5px font-semibold">
+                                                <img src="/assets_out/images/global/edit-profile.svg" alt="edit profile icon" width="20" height="20"><span>
+                                                    <asp:Label ID="LblMainMenuAdmin" Text="Administrator" runat="server" /></span>
+                                            </a>
+                                            <span class="text-textGray font-normal text-[13px]">Edit your profile and your account settings.</span>
+                                        </li>
+                                        <li id="liMainMenuUserBilling" runat="server" visible="false" class="flex-col w-full">
+                                            <a id="aUserBilling" runat="server" class="hover:text-blue transition-colors duration-200 flex items-center gap-5px font-semibold">
+                                                <img src="/assets_out/images/global/billing.svg" alt="billing icon" width="20" height="20"><span>
+                                                    <asp:Label ID="LblUserBilling" Text="Billing & Subscriptions" runat="server" /></span>
+                                            </a>
+                                            <span class="text-textGray font-normal text-[13px]">Manage your subscriptions & billing information.</span>
+                                        </li>
+                                    </ul>
+                                    <div class="w-full">
+                                        <div class="divider"></div>
+                                    </div>
+                                    <div class="w-full px-25px">
+                                        <a id="aMainMenuUserLogout" runat="server" class="hover:text-blue transition-colors duration-200 flex items-center gap-5px font-semibold text-textGray block">
+                                            <img src="/assets_out/images/global/logout.svg" alt="edit profile icon" width="18" height="18"><span>
+                                                <asp:Label ID="LblUserLogout" runat="server" Text="Logout from your account" /></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden sm:flex items-center lg:hidden">
+                            <div class="separator"></div>
+                        </div>
+                        <a class="flex items-center gap-5px lg:hidden hamburger transition-colors duration-200 hover:text-blue" id="toggleMobileMenu" href="#mobileMenu">
+                            <svg enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m128 102.4c0-14.138 11.462-25.6 25.6-25.6h332.8c14.138 0 25.6 11.462 25.6 25.6s-11.462 25.6-25.6 25.6h-332.8c-14.138 0-25.6-11.463-25.6-25.6zm358.4 128h-460.8c-14.138 0-25.6 11.463-25.6 25.6 0 14.138 11.462 25.6 25.6 25.6h460.8c14.138 0 25.6-11.462 25.6-25.6 0-14.137-11.462-25.6-25.6-25.6zm0 153.6h-230.4c-14.137 0-25.6 11.462-25.6 25.6 0 14.137 11.463 25.6 25.6 25.6h230.4c14.138 0 25.6-11.463 25.6-25.6 0-14.138-11.462-25.6-25.6-25.6z" />
+                            </svg><span class="font-bold text-sm xl:text-base">Menu</span></a>
+                        <nav class="right-0 xl:left-0 py-30px px-40px bg-white absolute megamenu shadow-lg rounded-xl" id="ProductsServicesMenu">
+                            <div class="flex flex-col">
+                                <div class="flex flex-row gap-25px">
+                                    <div class="flex flex-col gap-40px megamenu-col">
+                                        <a id="aMainMenuPartnerRecruitmentAuto" runat="server" class="flex flex-col gap-10px megamenu-menu-item" href="/channel-partner-recruitment">
+                                            <h4 class="font-inter font-bold text-sm">
+                                                <asp:Label ID="Label8" runat="server" /></h4>
+                                            <p class="text-textGray text-sm">
+                                                <asp:Label ID="Label9" runat="server" />
+                                            </p>
+                                            <div class="btn font-bold text-blue text-sm">
+                                                <span>
+                                                    <asp:Label ID="Label10" runat="server" /></span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                                    </defs></svg>
+
+                                            </div>
+                                        </a><a id="aMainMenuPartnerRecruitmentData" runat="server" class="flex flex-col gap-10px megamenu-menu-item" href="/channel-partner-recruitment-database">
+                                            <h4 class="font-inter font-bold text-sm">
+                                                <asp:Label ID="Label11" runat="server" /></h4>
+                                            <p class="text-textGray text-sm">
+                                                <asp:Label ID="Label12" runat="server" />
+                                            </p>
+                                            <div class="btn font-bold text-blue text-sm">
+                                                <span>
+                                                    <asp:Label ID="Label13" runat="server" /></span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                                    </defs></svg>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="separator h-unset"></div>
+                                    <div class="flex flex-col gap-40px megamenu-col">
+                                        <a id="aMainMenuPRM" runat="server" class="flex flex-col gap-10px megamenu-menu-item" href="/prm-software">
+                                            <h4 class="font-inter font-bold text-sm">
+                                                <asp:Label ID="Label14" runat="server" /></h4>
+                                            <p class="text-textGray text-sm">
+                                                <asp:Label ID="Label15" runat="server" />
+                                            </p>
+                                            <div class="btn font-bold text-blue text-sm">
+                                                <span>
+                                                    <asp:Label ID="Label16" runat="server" /></span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                                    </defs></svg>
+
+                                            </div>
+                                        </a><a id="aMainMenuVendorManagement" runat="server" class="flex flex-col gap-10px megamenu-menu-item" href="/intent-signals">
+                                            <h4 class="font-inter font-bold text-sm">
+                                                <asp:Label ID="Label17" runat="server" /></h4>
+                                            <p class="text-textGray text-sm">
+                                                <asp:Label ID="Label18" runat="server" />
+                                            </p>
+                                            <div class="btn font-bold text-blue text-sm">
+                                                <span>
+                                                    <asp:Label ID="Label19" runat="server" /></span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                                    </defs></svg>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="separator h-unset"></div>
+                                    <div class="flex flex-col gap-40px megamenu-col">
+                                        <a id="aMainMenuReferralSoftware" runat="server" class="flex flex-col gap-10px megamenu-menu-item" href="/referral-software">
+                                            <h4 class="font-inter font-bold text-sm">
+                                                <asp:Label ID="Label20" runat="server" /></h4>
+                                            <p class="text-textGray text-sm">
+                                                <asp:Label ID="Label21" runat="server" />
+                                            </p>
+                                            <div class="btn font-bold text-blue text-sm">
+                                                <span>
+                                                    <asp:Label ID="Label22" runat="server" /></span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                                    </defs></svg>
+
+                                            </div>
+                                        </a><a id="aMainMenuMAMarketplace" runat="server" class="flex flex-col gap-10px megamenu-menu-item" href="/mergers-acquisition-marketplace">
+                                            <h4 class="font-inter font-bold text-sm">
+                                                <asp:Label ID="Label23" runat="server" /></h4>
+                                            <p class="text-textGray text-sm">
+                                                <asp:Label ID="Label24" runat="server" />
+                                            </p>
+                                            <div class="btn font-bold text-blue text-sm">
+                                                <span>
+                                                    <asp:Label ID="Label25" runat="server" /></span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                                    </defs></svg>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <nav class="py-30px px-40px bg-white absolute megamenu shadow-lg rounded-xl" id="BrowseCompaniesMenu">
+                            <div class="flex flex-col">
+                                <div class="flex flex-row gap-25px">
+                                    <div class="flex flex-col gap-40px megamenu-col">
+                                        <a id="aMainMenuSearch" runat="server" class="flex flex-col gap-10px megamenu-menu-item" href="/search">
+                                            <h4 class="font-inter font-bold text-sm">
+                                                <asp:Label ID="Label26" runat="server" /></h4>
+                                            <p class="text-textGray text-sm">
+                                                <asp:Label ID="Label27" runat="server" />
+                                            </p>
+                                            <div class="btn font-bold text-blue text-sm">
+                                                <span>
+                                                    <asp:Label ID="Label28" runat="server" /></span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                                    </defs></svg>
+
+                                            </div>
+                                        </a><a id="aMainMenuSearchChannelPartners" runat="server" class="flex flex-col gap-10px megamenu-menu-item" href="../templates/searchChannelPartners.html">
+                                            <h4 class="font-inter font-bold text-sm">
+                                                <asp:Label ID="Label29" runat="server" /></h4>
+                                            <p class="text-textGray text-sm">
+                                                <asp:Label ID="Label30" runat="server" />
+                                            </p>
+                                            <div class="btn font-bold text-blue text-sm">
+                                                <span>
+                                                    <asp:Label ID="Label31" runat="server" /></span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                                    </defs></svg>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="separator h-unset"></div>
+                                    <div class="flex flex-col gap-40px megamenu-col">
+                                        <a id="aMainMenuSearchVendors" runat="server" class="flex flex-col gap-10px megamenu-menu-item" href="../templates/searchVendors.html">
+                                            <h4 class="font-inter font-bold text-sm">
+                                                <asp:Label ID="Label32" runat="server" /></h4>
+                                            <p class="text-textGray text-sm">
+                                                <asp:Label ID="Label33" runat="server" />
+                                            </p>
+                                            <div class="btn font-bold text-blue text-sm">
+                                                <span>
+                                                    <asp:Label ID="Label34" runat="server" /></span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                                    </defs></svg>
+
+                                            </div>
+                                        </a><a id="aMainMenuSearchChannelPartnerships" runat="server" class="flex flex-col gap-10px megamenu-menu-item" href="../templates/searchPartnerhsips.html">
+                                            <h4 class="font-inter font-bold text-sm">
+                                                <asp:Label ID="Label35" runat="server" /></h4>
+                                            <p class="text-textGray text-sm">
+                                                <asp:Label ID="Label36" runat="server" />
+                                            </p>
+                                            <div class="btn font-bold text-blue text-sm">
+                                                <span>
+                                                    <asp:Label ID="Label37" runat="server" /></span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                                    </defs></svg>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <nav class="py-30px px-40px bg-white absolute megamenu shadow-lg rounded-xl right-0" id="FeaturesResourcesMenu">
+                            <div class="flex flex-row gap-40px">
+                                <div class="flex flex-col gap-25px megamenu-col">
+                                    <div class="flex flex-col gap-15px megamenu-menu-item">
+                                        <h4 class="font-inter font-bold text-sm">Main Features</h4>
+                                        <ul class="flex flex-col gap-10px">
+                                            <li><a id="aFeaturesVendors" runat="server" class="text-textGray text-sm" href="../templates/featuresVendors.html">Vendors</a></li>
+                                            <li><a id="aFeaturesChannelPartners" runat="server" class="text-textGray text-sm" href="../templates/featuresChannelPartners.html">Channel Partners</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="flex flex-col gap-15px megamenu-menu-item">
+                                        <h4 class="font-inter font-bold text-sm">Resources</h4>
+                                        <ul class="flex flex-col gap-10px">
+                                            <li><a id="aP2PDeals" runat="server" class="text-textGray text-sm" href="/resources-page">All Resources</a></li>
+                                        </ul>
+                                        <a id="aResources" runat="server" class="btn font-bold text-blue text-sm" href="/resources-page"><span>All Resources</span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                        </defs></svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="separator h-unset"></div>
+                                <div class="flex flex-col gap-40px megamenu-col">
+                                    <div class="flex flex-col gap-15px megamenu-menu-item">
+                                        <h4 class="font-inter font-bold text-sm">PRM Alternatives</h4>
+                                        <ul class="flex flex-col gap-10px">
+                                            <li><a id="aImpartner" runat="server" class="text-textGray text-sm" href="../templates/prmAlternative.html">Impartner</a></li>
+                                            <li><a id="aPartnerStack" runat="server" class="text-textGray text-sm" href="../templates/prmAlternative.html">PartnerStack</a></li>
+                                            <li><a id="aAllbound" runat="server" class="text-textGray text-sm" href="../templates/prmAlternative.html">Allbound</a></li>
+                                            <li><a id="aZiftSolutions" runat="server" class="text-textGray text-sm" href="../templates/prmAlternative.html">Zift Solutions</a></li>
+                                            <li><a id="aSalesforcePRM" runat="server" class="text-textGray text-sm" href="../templates/prmAlternative.html">Salesforce PRM</a></li>
+                                            <li><a id="aMagentrix" runat="server" class="text-textGray text-sm" href="../templates/prmAlternative.html">Mindmatrix</a></li>
+                                            <li><a id="aMyprm" runat="server" class="text-textGray text-sm" href="../templates/prmAlternative.html">Myprm</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="separator h-unset"></div>
+                                <div class="flex flex-col gap-40px megamenu-col">
+                                    <div class="flex flex-col gap-15px megamenu-menu-item">
+                                        <h4 class="font-inter font-bold text-sm">Elioplus PRM Features</h4>
+                                        <div class="flex flex-row gap-50px">
+                                            <ul class="flex flex-col gap-10px">
+                                                <li><a id="aPartnerPortal" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Partner Portal</a></li>
+                                                <li><a id="aPartnerDirectory" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Partner Directory</a></li>
+                                                <li><a id="aPartnerOnboarding" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Partner Onboarding</a></li>
+                                                <li><a id="aDealRegistration" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Deal Registration</a></li>
+                                                <li><a id="aLeadDistribution" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Lead Distribution</a></li>
+                                                <li><a id="aContentManagement" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Content Management</a></li>
+                                                <li><a id="aCollaboration" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Collaboration</a></li>
+                                            </ul>
+                                            <ul class="flex flex-col gap-10px">
+                                                <li><a id="aChannelAnalytics" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Channel Analytics</a></li>
+                                                <li><a id="aPartnerLocator" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Partner Locator</a></li>
+                                                <li><a id="aPartner2Partner" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Partner 2 Partner</a></li>
+                                                <li><a id="aPartnerActivation" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Partner Activation</a></li>
+                                                <li><a id="aPartnerTierManagement" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Tier Management</a></li>
+                                                <li><a id="aPartnerTeamRoles" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Team Roles</a></li>
+                                                <li><a id="aPartnerManagement" runat="server" class="text-textGray text-sm" href="../templates/prmFeature.html">Partner Management</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <nav class="py-30px px-40px bg-white absolute megamenu shadow-lg rounded-xl right-0" id="PricingMenu">
+                            <div class="flex flex-row gap-40px">
+                                <div class="flex flex-col gap-25px megamenu-col">
+                                    <div class="flex flex-col gap-15px megamenu-menu-item">
+                                        <h4 class="font-inter font-bold text-sm">IT Vendors</h4>
+                                        <ul class="flex flex-col gap-5px">
+                                            <li><a id="aMainMenuPricingPRM" runat="server" class="text-textGray text-sm" href="../templates/pricingPRM.html">PRM Software Pricing</a></li>
+                                            <li><a id="aMainMenuPricingPR" runat="server" class="text-textGray text-sm" href="../templates/pricingPR.html">Partner Recruitment Pricing</a></li>
+                                            <li><a id="aMainMenuPricingIS" runat="server" class="text-textGray text-sm" href="../templates/pricingIntent.html">Intent Signals Pricing</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="separator h-unset"></div>
+                                <div class="flex flex-col gap-40px megamenu-col">
+                                    <div class="flex flex-col gap-15px megamenu-menu-item">
+                                        <a id="aMainMenuSignUp" runat="server" class="flex flex-col gap-10px megamenu-menu-item" href="../templates/register.html">
+                                            <h4 class="font-inter font-bold text-sm">Channel Partners</h4>
+                                            <p class="text-textGray text-sm">All our features are completely free for channel partners without limitations.</p>
+                                            <div class="btn font-bold text-blue text-sm">
+                                                <span>Sign up for free</span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                                </defs></svg>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <nav class="py-30px px-40px bg-white absolute megamenu shadow-lg rounded-xl right-0" id="AboutMenu">
+                            <div class="flex flex-row gap-40px">
+                                <div class="flex flex-col gap-40px megamenu-col">
+                                    <div class="flex flex-col gap-15px megamenu-menu-item">
+                                        <div class="flex flex-col gap-15px megamenu-menu-item">
+                                            <div class="w-20 logo">
+                                                <svg width="113" height="48" viewBox="0 0 113 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M25.5525 27.5987C25.5525 20.7196 20.8923 16.5504 14.3471 16.5504C6.75464 16.5504 1.57085 23.0647 1.57085 32.1326C1.57085 40.7836 6.59756 46.6725 14.5042 46.6725C21.5206 46.6725 24.034 43.4414 24.034 39.8976V37.2919H23.7722C22.4631 38.5948 20.3163 39.5328 16.2321 39.5328C12.8286 39.5328 10.3152 37.8652 10.3152 34.8426H13.5616C21.573 34.8426 25.5525 33.4355 25.5525 27.5987ZM17.4888 26.8169C17.4888 28.224 16.651 29.0579 12.5144 29.0579H10.1058C10.2105 25.6704 11.8337 23.4816 14.0853 23.4816C16.3892 23.4816 17.4888 24.6281 17.4888 26.8169ZM43.0752 42.1385V39.2201H41.2425C38.8863 39.2201 37.839 38.4906 37.839 36.1454V13.9447C37.839 10.2446 36.1111 8.4206 32.184 8.4206H29.4088V37.1356C29.4088 43.6499 33.1265 46.3598 37.9437 46.3598C40.1429 46.3598 42.1327 45.5781 42.8134 43.702C42.9705 43.233 43.0752 42.7118 43.0752 42.1385ZM55.248 10.7657C55.248 8.21214 53.1535 6.17969 50.5878 6.17969C47.9697 6.17969 45.8229 8.21214 45.8229 10.7657C45.8229 13.3193 47.9697 15.4039 50.5878 15.4039C53.1535 15.4039 55.248 13.3193 55.248 10.7657ZM59.4893 42.2949V39.4807H58.1279C55.7716 39.4807 54.8291 38.7511 54.8291 36.406V23.3774C54.8291 19.6773 53.0488 17.8533 49.1217 17.8533H46.3465V37.4483C46.3465 43.9626 49.8024 46.4119 54.6197 46.4119C57.9184 46.4119 59.4893 44.8485 59.4893 42.2949ZM61.3469 31.872C61.3469 40.6272 66.2689 46.6725 74.071 46.6725C82.3965 46.6725 86.9519 40.6272 86.9519 31.403C86.9519 22.1788 81.7681 16.5504 74.2804 16.5504C66.2689 16.5504 61.3469 23.0126 61.3469 31.872ZM78.3122 32.1847C78.3122 37.3962 76.3749 39.4286 74.4375 39.4286C71.7147 39.4286 69.9868 37.2398 69.9868 31.0382C69.9868 26.4 71.7147 23.8464 73.9662 23.8464C76.4272 23.8464 78.3122 25.5662 78.3122 32.1847Z" fill="#39B4EF" />
+                                                    <path d="M98.178 6.17143C99.8903 6.17143 101.278 4.78991 101.278 3.08572C101.278 1.38152 99.8903 0 98.178 0C96.4657 0 95.0776 1.38152 95.0776 3.08572C95.0776 4.78991 96.4657 6.17143 98.178 6.17143Z" fill="#39B4EF" />
+                                                    <path d="M98.178 15.0857C99.8903 15.0857 101.278 13.7042 101.278 12C101.278 10.2958 99.8903 8.91431 98.178 8.91431C96.4657 8.91431 95.0776 10.2958 95.0776 12C95.0776 13.7042 96.4657 15.0857 98.178 15.0857Z" fill="#39B4EF" />
+                                                    <path d="M98.178 24C99.8903 24 101.278 22.6185 101.278 20.9143C101.278 19.2101 99.8903 17.8286 98.178 17.8286C96.4657 17.8286 95.0776 19.2101 95.0776 20.9143C95.0776 22.6185 96.4657 24 98.178 24Z" fill="#39B4EF" />
+                                                    <path d="M89.9104 15.0857C91.6227 15.0857 93.0108 13.7042 93.0108 12C93.0108 10.2958 91.6227 8.91431 89.9104 8.91431C88.1981 8.91431 86.81 10.2958 86.81 12C86.81 13.7042 88.1981 15.0857 89.9104 15.0857Z" fill="#39B4EF" />
+                                                    <path d="M107.135 15.0857C108.847 15.0857 110.235 13.7042 110.235 12C110.235 10.2958 108.847 8.91431 107.135 8.91431C105.422 8.91431 104.034 10.2958 104.034 12C104.034 13.7042 105.422 15.0857 107.135 15.0857Z" fill="#39B4EF" />
+                                                </svg>
+
+                                            </div>
+                                            <p class="text-textGray text-sm">Elioplus is a leading provider of partner recruitment and management solutions that assist IT software companies to expand their partner network.</p>
+                                            <div class="flex flex-row gap-15px">
+                                                <a id="aFooterFacebook" runat="server" class="socialLink rounded-full flex items-center justify-center" href="https://www.facebook.com/elioplus">
+                                                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <mask id="mask0_75_24467" style="mask-type: luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="12" height="13">
+                                                            <path d="M11.6928 0.773926H0.154297V12.3811H11.6928V0.773926Z" fill="white" />
+                                                        </mask>
+                                                        <g mask="url(#mask0_75_24467)">
+                                                            <path d="M6.8171 12.3811V7.08689H8.58291L8.84784 5.02305H6.8171V3.70558C6.8171 3.10824 6.98133 2.70115 7.83381 2.70115L8.91932 2.70071V0.854729C8.73159 0.830189 8.08721 0.773926 7.33721 0.773926C5.7711 0.773926 4.69891 1.73556 4.69891 3.50118V5.02305H2.92773V7.08689H4.69891V12.3811H6.8171Z" fill="#39B4EF" />
+                                                        </g>
+                                                    </svg>
+                                                </a><a id="aFooterLinkedin" runat="server" class="socialLink rounded-full flex items-center justify-center" href="https://www.linkedin.com/company/elio/">
+                                                    <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M13.3608 13.7186V9.4994C13.3608 7.4258 12.9144 5.8418 10.4952 5.8418C9.32882 5.8418 8.55122 6.4754 8.23442 7.0802H8.20562V6.029H5.91602V13.7186H8.30642V9.9026C8.30642 8.8946 8.49362 7.9298 9.73202 7.9298C10.956 7.9298 10.9704 9.0674 10.9704 9.9602V13.7042H13.3608V13.7186Z" fill="#39B4EF" />
+                                                        <path d="M2.02832 6.0293H4.41872V13.7189H2.02832V6.0293Z" fill="#39B4EF" />
+                                                        <path d="M3.22322 2.19873C2.46002 2.19873 1.84082 2.81793 1.84082 3.58113C1.84082 4.34433 2.46002 4.97793 3.22322 4.97793C3.98642 4.97793 4.60562 4.34433 4.60562 3.58113C4.60562 2.81793 3.98642 2.19873 3.22322 2.19873V2.19873Z" fill="#39B4EF" />
+                                                    </svg>
+                                                </a><a id="aFooterTwitter" runat="server" class="socialLink rounded-full flex items-center justify-center" href="https://twitter.com/elioplus">
+                                                    <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <g clip-path="url(#clip0_75_24495)">
+                                                            <path d="M14.8004 3.49399C14.2649 3.72889 13.6943 3.88459 13.0994 3.96019C13.7114 3.59479 14.1785 3.02059 14.3981 2.32849C13.8275 2.66869 13.1975 2.90899 12.5261 3.04309C11.9843 2.46619 11.2121 2.10889 10.3697 2.10889C8.73529 2.10889 7.41949 3.43549 7.41949 5.06179C7.41949 5.29579 7.43929 5.52079 7.48789 5.73499C5.03359 5.61529 2.86189 4.43899 1.40299 2.64709C1.14829 3.08899 0.998891 3.59479 0.998891 4.13929C0.998891 5.16169 1.52539 6.06799 2.31019 6.59269C1.83589 6.58369 1.37059 6.44599 0.976391 6.22909C0.976391 6.23809 0.976391 6.24979 0.976391 6.26149C0.976391 7.69609 1.99969 8.88769 3.34159 9.16219C3.10129 9.22789 2.83939 9.25939 2.56759 9.25939C2.37859 9.25939 2.18779 9.24859 2.00869 9.20899C2.39119 10.3781 3.47659 11.2376 4.76719 11.2655C3.76279 12.0512 2.48749 12.5246 1.10689 12.5246C0.864791 12.5246 0.632591 12.5138 0.400391 12.4841C1.70809 13.3274 3.25789 13.8089 4.92919 13.8089C10.3616 13.8089 13.3316 9.30889 13.3316 5.40829C13.3316 5.27779 13.3271 5.15179 13.3208 5.02669C13.9067 4.61089 14.399 4.09159 14.8004 3.49399Z" fill="#39B4EF" />
+                                                        </g>
+                                                        <defs>
+                                                            <clipPath id="clip0_75_24495">
+                                                                <rect width="14.4" height="14.4" fill="white" transform="translate(0.400391 0.758789)" />
+                                                            </clipPath>
+                                                        </defs>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="separator h-unset"></div>
+                                <div class="flex flex-col gap-25px megamenu-col">
+                                    <div class="flex flex-col gap-15px megamenu-menu-item">
+                                        <h4 class="font-inter font-bold text-sm">About</h4>
+                                        <ul class="flex flex-col gap-5px">
+                                            <li><a id="aAbout" runat="server" class="text-textGray text-sm" href="../templates/aboutUs.html">About Elioplus</a></li>
+                                            <li><a id="aMainMenuCaseStudies" runat="server" class="text-textGray text-sm" href="../templates/caseStudiesArchive.html">Case Studies</a></li>
+                                            <li><a id="aContact" runat="server" class="text-textGray text-sm" href="../templates/contactUs.html">Contact us</a></li>
+                                            <li><a id="aBlog" runat="server" class="text-textGray text-sm" href="https://medium.com/@elioplus">Blog</a></li>
+                                            <li><a id="aFaq" runat="server" class="text-textGray text-sm" href="../templates/faq.html">FAQ</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <nav class="bg-white fixed top-0 right-0 h-screen w-screen max-w-sm shadow-lg z-40 flex" id="mobileMenu">
+            <div class="flex flex-col w-full">
+                <div class="flex justify-between px-30px py-10px items-center border-b-2 border-gray pb-5px">
+                    <div class="py-10px xl:py-20px">
+                        <a class="pb-5px block header-logo" href="elioplus.com">
+                            <img src="/assets_out/images/global/logo.svg" alt="Elioplus Mobile Menu logo"></a>
+                    </div>
+                    <a class="flex items-center gap-5px" id="closeMobileMenu" href="#">
+                        <div class="p-2.5 bg-gray rounded-full w-8 h-8 flex items-center justify-center">
+                            <img src="/assets_out/images/global/close.svg" alt="close icon">
+                        </div>
+                        <span class="font-bold text-sm xl:text-base text-textGray transition-colors duration-200 hover:text-blue">Close Menu</span></a>
+                </div>
+                <div class="flex flex-col px-30px py-30px grow overflow-y-auto">
+                    <ul class="flex flex-col gap-10px">
+                        <li class="flex flex-col gap-10px"><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 has-submenu flex items-center gap-5px font-bold" href="#"><span>Products &amp; Services</span><img src="/assets_out/images/global/chevron.svg" alt="chevron icon"></a>
+                            <ul class="pl-5 hidden">
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/channel-partner-recruitment">Partner Recruitment - Automation</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/channel-partner-recruitment-database">Partner Recruitment - Database</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software">Partner Relationship Management</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/intent-signals">RFQs and Intend Data</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/referral-software">Referral Software</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/mergers-acquisition-marketplace">M&amp;A Marketplace</a></li>
+                            </ul>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="divider"></div>
+                        </li>
+                        <li class="flex flex-col gap-10px"><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 has-submenu flex items-center gap-5px font-bold" href="#"><span>Browse Companies</span><img src="/assets_out/images/global/chevron.svg" alt="chevron icon"></a>
+                            <ul class="pl-5 hidden">
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/search">Search Companies</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/search/channel-partners">Channel Partners</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/saas-partner-programs">Vendors</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/partnerships">Partnerships</a></li>
+                            </ul>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="divider"></div>
+                        </li>
+                        <li class="flex flex-col gap-10px"><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 has-submenu flex items-center gap-5px font-bold" href="#"><span>Features</span><img src="/assets_out/images/global/chevron.svg" alt="chevron icon"></a>
+                            <ul class="pl-5 hidden">
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/vendors-features">Vendors</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/channel-partners-features">Channel Partners</a></li>
+                            </ul>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="divider"></div>
+                        </li>
+                        <li class="flex flex-col gap-10px"><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 has-submenu flex items-center gap-5px font-bold" href="#"><span>Resources</span><img src="/assets_out/images/global/chevron.svg" alt="chevron icon"></a>
+                            <ul class="pl-5 hidden">
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="../templates/resourcesArticle.html">Partner to Partner Deals</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="../templates/resourcesArticle.html">Collaboration Tool</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/resources-page">All Resources</a></li>
+                            </ul>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="divider"></div>
+                        </li>
+                        <li class="flex flex-col gap-10px"><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 has-submenu flex items-center gap-5px font-bold" href="#"><span>PRM Alternatives</span><img src="/assets_out/images/global/chevron.svg" alt="chevron icon"></a>
+                            <ul class="pl-5 hidden">
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/alternatives/impartner">Impartner</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/alternatives/partnerstack">PartnerStack</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/alternatives/allbound">Allbound</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/alternatives/zift-solutions">Zift Solutions</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/alternatives/salesforce-communities">Salesforce PRM</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/alternatives/mindmatrix">Mindmatrix</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/alternatives/myprm">Myprm</a></li>
+                            </ul>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="divider"></div>
+                        </li>
+                        <li class="flex flex-col gap-10px"><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 has-submenu flex items-center gap-5px font-bold" href="#"><span>PRM Features</span><img src="/assets_out/images/global/chevron.svg" alt="chevron icon"></a>
+                            <ul class="pl-5 hidden">
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/partner-portal">Partner Portal</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/partner-directory">Partner Directory</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/partner-onboarding">Partner Onboarding</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/deal-registration">Deal Registration</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/lead-distribution">Lead Distribution</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/content-management">Content Management</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/collaboration">Collaboration</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/channel-analytics">Channel Analytics</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/artner-locator">Partner Locator</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/partner-2-partner">Partner 2 Partner</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/partner-activation">Partner Activation</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/tier-management">Tier Management</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/team-roles">Team Roles</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software/partner-management">Partner Management</a></li>
+                            </ul>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="divider"></div>
+                        </li>
+                        <li class="flex flex-col gap-10px"><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 has-submenu flex items-center gap-5px font-bold" href="#"><span>Pricing</span><img src="/assets_out/images/global/chevron.svg" alt="chevron icon"></a>
+                            <ul class="pl-5 hidden">
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/prm-software-pricing">PRM Software Pricing</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/partner-recruitment-pricing">Partner Recruitment Pricing</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/intent-signals-pricing">Intent Signals Pricing</a></li>
+                            </ul>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="divider"></div>
+                        </li>
+                        <li class="flex flex-col gap-10px"><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 has-submenu flex items-center gap-5px font-bold" href="#"><span>About Us</span><img src="/assets_out/images/global/chevron.svg" alt="chevron icon"></a>
+                            <ul class="pl-5 hidden">
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/about-us">About Elioplus</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/case-studies">Case Studies</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/contact-us">Contact us</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="https://medium.com/@elioplus">Blog</a></li>
+                                <li><a class="hover:text-blue text-sm md:text-base transition-colors duration-200 py-5px" href="/faq">FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="divider"></div>
+                        </li>
+                        <li class="flex items-center gap-10px xl:gap-15px pt-10px">
+                            <a class="btn font-bold text-sm xl:text-base text-blue" href="/login">Login</a>
+                            <a class="btn font-bold text-sm xl:text-base bg-blue text-white" href="/free-sign-up">Sign up free</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <footer class="bg-white border-t-2 border-gray">
+            <div class="py-50px lg:py-80px">
+                <div class="container">
+                    <div class="flex flex-col gap-50px">
+                        <div class="flex-col lg:flex-row flex border-b-2 border-gray pb-30px justify-between items-bottom gap-20px">
+                            <div class="flex flex-col gap-20px">
+                                <div class="flex-col md:flex-row justify-center md:justify-start items-center md:items-end flex gap-20px">
+                                    <img src="/assets_out/images/global/logo.svg" alt="Elioplus logo footer">
+                                    <div class="flex flex-row gap-15px items-end">
+                                        <a class="socialLink rounded-full flex items-center justify-center" href="https://www.facebook.com/elioplus">
+                                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <mask id="mask0_75_24467" style="mask-type: luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="12" height="13">
+                                                    <path d="M11.6928 0.773926H0.154297V12.3811H11.6928V0.773926Z" fill="white" />
+                                                </mask>
+                                                <g mask="url(#mask0_75_24467)">
+                                                    <path d="M6.8171 12.3811V7.08689H8.58291L8.84784 5.02305H6.8171V3.70558C6.8171 3.10824 6.98133 2.70115 7.83381 2.70115L8.91932 2.70071V0.854729C8.73159 0.830189 8.08721 0.773926 7.33721 0.773926C5.7711 0.773926 4.69891 1.73556 4.69891 3.50118V5.02305H2.92773V7.08689H4.69891V12.3811H6.8171Z" fill="#39B4EF" />
+                                                </g>
+                                            </svg>
+                                        </a><a class="socialLink rounded-full flex items-center justify-center" href="https://www.linkedin.com/company/elio/">
+                                            <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13.3608 13.7186V9.4994C13.3608 7.4258 12.9144 5.8418 10.4952 5.8418C9.32882 5.8418 8.55122 6.4754 8.23442 7.0802H8.20562V6.029H5.91602V13.7186H8.30642V9.9026C8.30642 8.8946 8.49362 7.9298 9.73202 7.9298C10.956 7.9298 10.9704 9.0674 10.9704 9.9602V13.7042H13.3608V13.7186Z" fill="#39B4EF" />
+                                                <path d="M2.02832 6.0293H4.41872V13.7189H2.02832V6.0293Z" fill="#39B4EF" />
+                                                <path d="M3.22322 2.19873C2.46002 2.19873 1.84082 2.81793 1.84082 3.58113C1.84082 4.34433 2.46002 4.97793 3.22322 4.97793C3.98642 4.97793 4.60562 4.34433 4.60562 3.58113C4.60562 2.81793 3.98642 2.19873 3.22322 2.19873V2.19873Z" fill="#39B4EF" />
+                                            </svg>
+                                        </a><a class="socialLink rounded-full flex items-center justify-center" href="https://twitter.com/elioplus">
+                                            <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_75_24495)">
+                                                    <path d="M14.8004 3.49399C14.2649 3.72889 13.6943 3.88459 13.0994 3.96019C13.7114 3.59479 14.1785 3.02059 14.3981 2.32849C13.8275 2.66869 13.1975 2.90899 12.5261 3.04309C11.9843 2.46619 11.2121 2.10889 10.3697 2.10889C8.73529 2.10889 7.41949 3.43549 7.41949 5.06179C7.41949 5.29579 7.43929 5.52079 7.48789 5.73499C5.03359 5.61529 2.86189 4.43899 1.40299 2.64709C1.14829 3.08899 0.998891 3.59479 0.998891 4.13929C0.998891 5.16169 1.52539 6.06799 2.31019 6.59269C1.83589 6.58369 1.37059 6.44599 0.976391 6.22909C0.976391 6.23809 0.976391 6.24979 0.976391 6.26149C0.976391 7.69609 1.99969 8.88769 3.34159 9.16219C3.10129 9.22789 2.83939 9.25939 2.56759 9.25939C2.37859 9.25939 2.18779 9.24859 2.00869 9.20899C2.39119 10.3781 3.47659 11.2376 4.76719 11.2655C3.76279 12.0512 2.48749 12.5246 1.10689 12.5246C0.864791 12.5246 0.632591 12.5138 0.400391 12.4841C1.70809 13.3274 3.25789 13.8089 4.92919 13.8089C10.3616 13.8089 13.3316 9.30889 13.3316 5.40829C13.3316 5.27779 13.3271 5.15179 13.3208 5.02669C13.9067 4.61089 14.399 4.09159 14.8004 3.49399Z" fill="#39B4EF" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_75_24495">
+                                                        <rect width="14.4" height="14.4" fill="white" transform="translate(0.400391 0.758789)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="text-sm md:text-base text-center md:text-left max-w-xl">Elioplus is a leading provider of partner recruitment and management solutions that assist IT software companies to expand their partner network.</p>
+                            </div>
+                            <div class="justify-center md:justify-start gap-5px sm:gap-15px flex flex-row items-end">
+                                <a id="aSearchVendors" runat="server" class="btn font-bold text-blue text-sm" href="../templates/searchVendors.html"><span>VENDORS</span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                </defs></svg>
+                                </a><a id="aSearchChannelPartners" runat="server" class="btn font-bold text-blue text-sm" href="../templates/searchChannelPartners.html"><span>CHANNEL PARTNERS</span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                </defs></svg>
+                                </a><a id="aSearchPartnerhsips" runat="server" class="btn font-bold text-blue text-sm" href="../templates/searchPartnerhsips.html"><span>PARTNERSHIPS</span><svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_75_23830)"><path d="M2.28634 0.643855L1.98948 0.938663C1.89677 1.03144 1.8457 1.15488 1.8457 1.28681C1.8457 1.41867 1.89677 1.54225 1.98948 1.63503L5.35258 4.99799L1.98575 8.36482C1.89304 8.45745 1.84204 8.58104 1.84204 8.7129C1.84204 8.84475 1.89304 8.96841 1.98575 9.06112L2.28078 9.356C2.47263 9.548 2.78515 9.548 2.977 9.356L7.00003 5.34738C7.09267 5.25475 7.15794 5.13131 7.15794 4.99828V4.99674C7.15794 4.86482 7.09259 4.74138 7.00003 4.64874L2.9879 0.643855C2.89527 0.551074 2.7681 0.500147 2.63624 0.5C2.50431 0.5 2.3789 0.551074 2.28634 0.643855Z" fill="#39B4EF" /></g><defs><clipPath id="clip0_75_23830"><rect width="9" height="9" fill="white" transform="matrix(0 -1 1 0 0 9.5)" /></clipPath>
+                                </defs></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="grid gap-30px grid-cols-2 md:grid-cols-3 mdl:flex mdl:justify-between mdl:gap-0">
+                            <div class="flex flex-col gap-15px">
+                                <h4 class="text-sm md:text-base lg:text-lg font-itner font-bold">PRODUCTS & SERVICES</h4>
+                                <ul class="flex flex-col gap-10px">
+                                    <li><a id="aFooterPR" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="/channel-partner-recruitment">Partner Recruitment</a></li>
+                                    <li><a id="aFooterPRM" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="/prm-software">Partner Relationship Management</a></li>
+                                    <li><a id="aFooterIntentSignals" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="/intent-signals">Intent Signals</a></li>
+                                    <li><a id="aFooterReferralSoftware" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="/referral-software">Referral Software</a></li>
+                                    <li><a id="aFooterMAMarketplace" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="/mergers-acquisition-marketplace">M&amp;A Marketplace</a></li>
+                                </ul>
+                                <div>
+                                    <a href="https://www.capterra.com/reviews/171144/Elioplus-PRM?utm_source=vendor&amp;utm_medium=badge&amp;utm_campaign=capterra_reviews_badge" target="_blank">
+                                        <img src="/assets_out/images/global/capterra.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-15px">
+                                <h4 class="text-sm md:text-base lg:text-lg font-itner font-bold">PRM ALTERNATIVES</h4>
+                                <ul class="flex flex-col gap-10px">
+                                    <li><a id="aImpartnerF" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="../templates/prmAlternative.html">vs Impartner</a></li>
+                                    <li><a id="aPartnerStackF" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="../templates/prmAlternative.html">vs PartnerStack</a></li>
+                                    <li><a id="aAllboundF" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="../templates/prmAlternative.html">vs Allbound</a></li>
+                                    <li><a id="aZiftSolutionsF" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="../templates/prmAlternative.html">vs Zift Solutions</a></li>
+                                    <li><a id="aSalesforcePRMF" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="../templates/prmAlternative.html">vs Salesforce PRM</a></li>
+                                    <li><a id="aMagentrixF" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="../templates/prmAlternative.html">vs Mindmatrix</a></li>
+                                    <li><a id="aMyprmF" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="../templates/prmAlternative.html">vs myprm</a></li>
+                                </ul>
+                            </div>
+                            <div class="flex flex-col gap-15px">
+                                <h4 class="text-sm md:text-base lg:text-lg font-itner font-bold">COMPANY</h4>
+                                <ul class="flex flex-col gap-10px">
+                                    <li><a id="aFooterAbout" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="/about-us">About Us</a></li>
+                                    <li><a id="aFooterCaseStudies" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="/case-studies">Case studies</a></li>
+                                    <li><a id="aFooterBlog" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="https://medium.com/@elioplus">Blog</a></li>
+                                    <li><a id="aFooterResources" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="/resources-page">Resources</a></li>
+                                    <li><a id="aFooterSearch" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="/search">Search</a></li>
+                                    <li><a id="aFooterFeatures" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="#">Features</a></li>
+                                    <li><a id="aFooterPricing" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="/pricing">Pricing</a></li>
+                                    <li><a id="aFooterFaq" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="/faq">FAQ</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-span-1 md:col-span-full flex flex-col gap-15px">
+                                <h4 class="text-sm md:text-base lg:text-lg font-itner font-bold">CONTACT ELIOPLUS</h4>
+                                <div class="flex flex-col gap-15px md:gap-20px">
+                                    <a id="aFooterContact" runat="server" class="hover:text-blue text-sm md:text-base transition-colors duration-200 text-textGray" href="/contact-us">Contact us</a>
+                                    <div class="flex flex-col gap-15px md:flex-row mdl:flex-col md:gap-30px mdl-gap-20px">
+                                        <div class="flex flex-col gap-5px">
+                                            <div class="text-sm mdl:text-base font-bold">Email:</div>
+                                            <a id="aFooterInfoEmail" runat="server" class="hover:text-blackBlue text-sm md:text-base transition-colors duration-200 font-semibold text-blue" href="mailto:info@elioplus.com">info@elioplus.com</a>
+                                        </div>
+                                        <div class="flex flex-col gap-5px max-w-300px">
+                                            <div class="text-sm mdl:text-base font-bold">US office:</div>
+                                            <div class="text-sm mdl:text-base text-textGray"><strong>Address:</strong> 3511 Silverside Road, Suite 105, Wilmington, DE 19810</div>
+                                        </div>
+                                        <div class="flex flex-col gap-5px max-w-300px">
+                                            <div class="text-sm mdl:text-base font-bold">Europe office:</div>
+                                            <div class="text-sm mdl:text-base text-textGray"><strong>Address:</strong> 33 Saronikou St , 163 45, Ilioupoli, Athens, Greece</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-15px md:py-25px bg-blue text-white">
+                <div class="container">
+                    <div class="flex-col-reverse md:flex-row flex justify-between gap-10px">
+                        <div class="justify-center md:justify-start text-xs md:text-sm flex items-center">Elioplus 2023, All Rights Reserved</div>
+                        <ul class="justify-center md:justify-start flex items-center gap-25px">
+                            <li><a id="aFooterTerms" runat="server" class="text-xs md:text-sm" href="/terms">Terms & Conditions</a></li>
+                            <li><a id="aFooterPrivacy" runat="server" class="text-xs md:text-sm" href="/privacy">Privacy Policy</a></li>
+                            <li><a id="aFooterMyData" runat="server" class="text-xs md:text-sm" href="/my-data">Do not sell my Data</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="fixed top-0 right-0 h-screen w-screen hidden z-20 bg-transparent" id="overlay"></div>
+
+        <script src="/assets_out/js/dist/script.min.js"></script>
+    </form>
+</body>
+</html>

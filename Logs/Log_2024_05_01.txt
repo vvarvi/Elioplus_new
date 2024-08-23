@@ -1,0 +1,107 @@
+DATE: 2024-05-01 01:00:12
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-1
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-01 01:32:31
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Collection was modified; enumeration operation may not execute.
+STACK TRACE:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.aDeleteCourse_ServerClick(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 3119
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-01 01:45:05
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Collection was modified; enumeration operation may not execute.
+STACK TRACE:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.aDeleteCourse_ServerClick(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 3137
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-01 02:11:58
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Collection was modified; enumeration operation may not execute.
+STACK TRACE:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.aDeleteCourse_ServerClick(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 3141
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-01 03:00:11
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-1
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-01 04:00:20
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 3 leads were inserted to Elio from Snitcher API at date 2024-5-1
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-01 05:00:21
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 4 leads were inserted to Elio from Snitcher API at date 2024-5-1
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-01 07:00:20
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 8 leads were inserted to Elio from Snitcher API at date 2024-5-1
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-01 08:00:21
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 10 leads were inserted to Elio from Snitcher API at date 2024-5-1
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-01 10:00:26
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 22 leads were inserted to Elio from Snitcher API at date 2024-5-1
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-01 11:00:27
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 32 leads were inserted to Elio from Snitcher API at date 2024-5-1
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-01 16:00:43
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 61 leads were inserted to Elio from Snitcher API at date 2024-5-1
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-01 18:00:34
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 63 leads were inserted to Elio from Snitcher API at date 2024-5-1
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-01 23:00:37
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 83 leads were inserted to Elio from Snitcher API at date 2024-5-1
+---------------------------------------------------------------------------------------------------------------------------

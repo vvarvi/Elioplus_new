@@ -1,0 +1,91 @@
+DATE: 2024-06-03 00:30:52
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-6-3
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-03 10:21:03
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 43 leads were inserted to Elio from Snitcher API at date 2024-6-3
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-03 10:54:15
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 48 leads were inserted to Elio from Snitcher API at date 2024-6-3
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-03 11:54:29
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 64 leads were inserted to Elio from Snitcher API at date 2024-6-3
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-03 12:54:24
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 68 leads were inserted to Elio from Snitcher API at date 2024-6-3
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-03 13:54:33
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 89 leads were inserted to Elio from Snitcher API at date 2024-6-3
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-03 14:54:44
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 101 leads were inserted to Elio from Snitcher API at date 2024-6-3
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-03 15:54:40
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 109 leads were inserted to Elio from Snitcher API at date 2024-6-3
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-03 16:54:46
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 119 leads were inserted to Elio from Snitcher API at date 2024-6-3
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-03 17:54:40
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 127 leads were inserted to Elio from Snitcher API at date 2024-6-3
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-03 18:54:43
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 136 leads were inserted to Elio from Snitcher API at date 2024-6-3
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-03 19:55:01
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 141 leads were inserted to Elio from Snitcher API at date 2024-6-3
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-03 21:01:54
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 145 leads were inserted to Elio from Snitcher API at date 2024-6-3
+---------------------------------------------------------------------------------------------------------------------------

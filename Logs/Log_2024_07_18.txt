@@ -1,0 +1,80 @@
+DATE: 2024-07-18 13:37:08
+TYPE: ERROR
+URL: Service Snitcher Anonymous Tracking class error at, 18/7/2024 1:37:08 도, for website ID: 19976
+USER_ID: 
+PAGE: 
+MESSAGE: Something went wrong for website ID:19976
+STACK TRACE:    at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 242
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-07-18 13:37:08
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-7-18
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-07-18 14:20:25
+TYPE: ERROR
+URL: Service Snitcher Anonymous Tracking class error at, 18/7/2024 2:20:25 도, for website ID: 19976
+USER_ID: 
+PAGE: 
+MESSAGE: Something went wrong for website ID:19976
+STACK TRACE:    at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 242
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-07-18 14:20:25
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-7-18
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-07-18 14:29:16
+TYPE: ERROR
+URL: https://localhost:44343/webform1.aspx?ip=8.8.8.8
+USER_ID: 
+PAGE: 
+MESSAGE: Invalid column name 'company_type'.
+STACK TRACE:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity, String hint) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 326
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 193
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 188
+   at WdS.ElioPlus.Lib.Services.IpInfoAPI.IpInfoServiceAPI.GetInfo(String ip, String url, String path, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\IpInfoAPI\IpInfoServiceAPI.asmx.cs:line 95
+   at WdS.ElioPlus.WebForm1.Page_Load(Object sender, EventArgs e) in D:\Project\ElioMarketplace\WebForm1.aspx.cs:line 42
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-07-18 15:01:39
+TYPE: ERROR
+URL: Service Snitcher Anonymous Tracking class error at, 18/7/2024 3:01:39 도, for website ID: 19976
+USER_ID: 
+PAGE: 
+MESSAGE: Something went wrong for website ID:19976
+STACK TRACE:    at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 242
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-07-18 15:01:39
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-7-18
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-07-18 18:24:37
+TYPE: ERROR
+URL: Service Snitcher Anonymous Tracking class error at, 18/7/2024 6:24:37 도, for website ID: 19976
+USER_ID: 
+PAGE: 
+MESSAGE: Something went wrong for website ID:19976
+STACK TRACE:    at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 242
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-07-18 18:24:37
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-7-18
+---------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,28 @@
+DATE: 2024-08-19 15:51:10
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetIpInfoLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 0 leads were inserted to Elio from Anonymous Ip Info/The Companies API at 19/8/2024 3:51:10 도
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-19 15:51:10
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetIpInfoLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 0 leads were inserted to Elio from Anonymous Ip Info/The Companies API at 19/8/2024 3:51:10 도
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-19 15:54:34
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetIpInfoLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 0 leads were inserted to Elio from Anonymous Ip Info/The Companies API at 19/8/2024 3:54:34 도
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-19 15:54:34
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetIpInfoLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 0 leads were inserted to Elio from Anonymous Ip Info/The Companies API at 19/8/2024 3:54:34 도
+---------------------------------------------------------------------------------------------------------------------------

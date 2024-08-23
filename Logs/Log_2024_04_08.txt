@@ -1,0 +1,29 @@
+DATE: 2024-04-08 21:00:58
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 126 leads were inserted to Elio from Snitcher API at date 2024-4-8
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-08 22:02:17
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 130 leads were inserted to Elio from Snitcher API at date 2024-4-8
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-08 22:04:23
+TYPE: ERROR
+URL: https://localhost:44343/190103/claim-profile
+USER_ID: 1
+PAGE: 
+MESSAGE: You are in Development Mode so the email could not be send
+STACK TRACE:    at WdS.ElioPlus.pages.ClaimProfilePage.BtnSendClaim_OnClick(Object sender, EventArgs e) in D:\Project\ElioMarketplace\pages\ClaimProfilePage.aspx.cs:line 225
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-08 23:01:44
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 132 leads were inserted to Elio from Snitcher API at date 2024-4-8
+---------------------------------------------------------------------------------------------------------------------------

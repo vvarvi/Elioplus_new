@@ -1,0 +1,15 @@
+DATE: 2024-03-04 18:01:25
+TYPE: ERROR
+URL: Service Snitcher Anonymous Tracking class error at, 4/3/2024 6:01:25 µµ, for website ID: 19976
+USER_ID: 
+PAGE: 
+MESSAGE: Something went wrong for website ID:19976
+STACK TRACE:    at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 242
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-03-04 18:01:25
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-3-4
+---------------------------------------------------------------------------------------------------------------------------

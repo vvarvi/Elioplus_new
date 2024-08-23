@@ -1,0 +1,44 @@
+DATE: 2024-03-01 17:04:47
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 84 leads were inserted to Elio from Snitcher API at date 2024-3-1
+---------------------------------------------------------------------------------------------------------------------------
+2024-03-01 19:51:48 	 ERROR 	 DataLoader:Load Error Load  2
+2024-03-01 19:51:48 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select top 1 * from elio_sub_industries_group_items 
+                                        where description like 'elioplus'%7C%7CDBMS PIPE.RECEIVE MESSAGE(CHR(98)%7C%7CCHR(98)%7C%7CCHR(98),15)%7C%7C'.com' Error:Incorrect syntax near 'C'. 
+DATE: 2024-03-01 19:51:48
+TYPE: ERROR
+URL: https://localhost:44343/partner-programs/templates/elioplus'||DBMS_PIPE.RECEIVE_MESSAGE(CHR(98)||CHR(98)||CHR(98),15)||'.com
+USER_ID: 1
+PAGE: /dashboard/1/web-designsolutions/home
+MESSAGE: Incorrect syntax near 'C'.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSubIndustriesGroupItemByVerticalDescription(String verticalDescription, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 9487
+   at WdS.ElioPlus.pages.ProfilesSubIndustriesForVendorsPage.FixPageResultsContent() in D:\Project\ElioMarketplace\pages\ProfilesSubIndustriesForVendorsPage.aspx.cs:line 293
+   at WdS.ElioPlus.pages.ProfilesSubIndustriesForVendorsPage.Page_Load(Object sender, EventArgs e) in D:\Project\ElioMarketplace\pages\ProfilesSubIndustriesForVendorsPage.aspx.cs:line 240
+---------------------------------------------------------------------------------------------------------------------------
+2024-03-01 19:52:17 	 ERROR 	 DataLoader:Load Error Load  2
+2024-03-01 19:52:17 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select top 1 * from elio_sub_industries_group_items 
+                                        where description like 'elioplus'%7C%7CDBMS PIPE.RECEIVE MESSAGE(CHR(98)%7C%7CCHR(98)%7C%7CCHR(98),15)%7C%7C'.com' Error:Incorrect syntax near 'C'. 
+DATE: 2024-03-01 19:52:17
+TYPE: ERROR
+URL: https://localhost:44343/partner-programs/templates/elioplus'||DBMS_PIPE.RECEIVE_MESSAGE(CHR(98)||CHR(98)||CHR(98),15)||'.com
+USER_ID: 1
+PAGE: /dashboard/1/web-designsolutions/home
+MESSAGE: Incorrect syntax near 'C'.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSubIndustriesGroupItemByVerticalDescription(String verticalDescription, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 9487
+   at WdS.ElioPlus.pages.ProfilesSubIndustriesForVendorsPage.FixPageResultsContent() in D:\Project\ElioMarketplace\pages\ProfilesSubIndustriesForVendorsPage.aspx.cs:line 293
+   at WdS.ElioPlus.pages.ProfilesSubIndustriesForVendorsPage.Page_Load(Object sender, EventArgs e) in D:\Project\ElioMarketplace\pages\ProfilesSubIndustriesForVendorsPage.aspx.cs:line 240
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-03-01 20:04:04
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 100 leads were inserted to Elio from Snitcher API at date 2024-3-1
+---------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,49 @@
+DATE: 2024-06-24 18:46:37
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 128 leads were inserted to Elio from Snitcher API at date 2024-6-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-24 18:54:31
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 128 leads were inserted to Elio from Snitcher API at date 2024-6-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-24 19:54:33
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 129 leads were inserted to Elio from Snitcher API at date 2024-6-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-24 20:54:45
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 131 leads were inserted to Elio from Snitcher API at date 2024-6-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-24 21:54:43
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 133 leads were inserted to Elio from Snitcher API at date 2024-6-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-24 22:54:37
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 135 leads were inserted to Elio from Snitcher API at date 2024-6-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-24 23:55:19
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 136 leads were inserted to Elio from Snitcher API at date 2024-6-24
+---------------------------------------------------------------------------------------------------------------------------

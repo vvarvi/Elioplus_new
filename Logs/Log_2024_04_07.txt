@@ -1,0 +1,140 @@
+2024-04-07 14:55:32 	 ERROR 	 DataLoader:Load Error Load  2
+2024-04-07 14:55:32 	 ERROR 	 DataLoader:Load Error Retrieving  sql:select                                 
+                                    uc.id as connection_id, 
+                                    uc.user_id as connection_user_id, 
+                                    uc.connection_id as connection_company_id,
+                                    uc.sysdate, 
+                                    uc.current_period_start, 
+                                    uc.current_period_end, 
+                                    uc.can_be_viewed, 
+                                    uc.is_new,
+                                    Elio_users.company_name, 
+                                    Elio_users.email as company_email, 
+                                    Elio_users.official_email, 
+                                    Elio_users.website as company_website,
+                                    Elio_users.company_logo, 
+                                    Elio_users.billing_type, 
+                                    Elio_users.user_application_type, 
+                                    Elio_users.country, 
+                                    Elio_users.linkedin_url, 
+                                    Elio_users.company_type, 
+                                    Elio_users.is_public,
+                                    up.avatar as avatar,
+                                    upc.logo as logo
+                                    from Elio_users_connections uc
+                                    inner join Elio_users on Elio_users.id = uc.connection_id
+                                    left join Elio_users_person up
+	                                    on up.user_id = connection_id
+                                    left join Elio_users_person_companies upc
+	                                    on upc.elio_person_id = up.id
+		                                    and up.clearbit_person_id = upc.clearbit_person_id
+		                                    and up.user_id = upc.user_id and upc.user_id = uc.connection_id                                    
+                                where uc.user_id = 1  and can_be_viewed=1)  select *
+                            from MyDataSet 
+                            order by sysdate desc Error:ExecuteReader requires an open and available Connection. The connection's current state is closed. 
+DATE: 2024-04-07 14:55:35
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: ExecuteReader requires an open and available Connection. The connection's current state is closed.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.FillDataForGridObj() in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 1001
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.BindConnections() in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 1293
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.ShowTab(Int32 tab) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 1471
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.aMyConneciton_ServerClick(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 1803
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-07 15:00:27
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 33 leads were inserted to Elio from Snitcher API at date 2024-4-7
+---------------------------------------------------------------------------------------------------------------------------
+2024-04-07 15:46:37 	 ERROR 	 DataLoader:Load Error Load  2
+2024-04-07 15:46:37 	 ERROR 	 DataLoader:Load Error Retrieving  sql:select                                 
+                                    uc.id as connection_id, 
+                                    uc.user_id as connection_user_id, 
+                                    uc.connection_id as connection_company_id,
+                                    uc.sysdate, 
+                                    uc.current_period_start, 
+                                    uc.current_period_end, 
+                                    uc.can_be_viewed, 
+                                    uc.is_new,
+                                    Elio_users.company_name, 
+                                    Elio_users.email as company_email, 
+                                    Elio_users.official_email, 
+                                    Elio_users.website as company_website,
+                                    Elio_users.company_logo, 
+                                    Elio_users.billing_type, 
+                                    Elio_users.user_application_type, 
+                                    Elio_users.country, 
+                                    Elio_users.linkedin_url, 
+                                    Elio_users.company_type, 
+                                    Elio_users.is_public,
+                                    up.avatar as avatar,
+                                    upc.logo as logo
+                                    from Elio_users_connections uc
+                                    inner join Elio_users on Elio_users.id = uc.connection_id
+                                    left join Elio_users_person up
+	                                    on up.user_id = connection_id
+                                    left join Elio_users_person_companies upc
+	                                    on upc.elio_person_id = up.id
+		                                    and up.clearbit_person_id = upc.clearbit_person_id
+		                                    and up.user_id = upc.user_id and upc.user_id = uc.connection_id                                    
+                                where uc.user_id = 1  and can_be_viewed=1)  select *
+                            from MyDataSet 
+                            order by sysdate desc Error:Incorrect syntax near ')'. 
+2024-04-07 15:59:06 	 ERROR 	 DataLoader:Load Error Load  2
+2024-04-07 15:59:06 	 ERROR 	 DataLoader:Load Error Retrieving  sql:select                                 
+                                    uc.id as connection_id, 
+                                    uc.user_id as connection_user_id, 
+                                    uc.connection_id as connection_company_id,
+                                    uc.sysdate, 
+                                    -uc.current_period_start, 
+                                    --uc.current_period_end, 
+                                    uc.can_be_viewed, 
+                                    uc.is_new,
+                                    Elio_users.company_name, 
+                                    Elio_users.email as company_email, 
+                                    Elio_users.official_email, 
+                                    Elio_users.website as company_website,
+                                    Elio_users.company_logo, 
+                                    --Elio_users.billing_type, 
+                                    Elio_users.user_application_type, 
+                                    Elio_users.country, 
+                                    --Elio_users.linkedin_url, 
+                                    Elio_users.company_type, 
+                                    Elio_users.is_public,
+                                    up.avatar as avatar,
+                                    upc.logo as logo
+                                    from Elio_users_connections uc
+                                    inner join Elio_users on Elio_users.id = uc.connection_id
+                                    left join Elio_users_person up
+	                                    on up.user_id = connection_id
+                                    left join Elio_users_person_companies upc
+	                                    on upc.elio_person_id = up.id
+		                                    and up.clearbit_person_id = upc.clearbit_person_id
+		                                    and up.user_id = upc.user_id and upc.user_id = uc.connection_id                                    
+                                where uc.user_id = 1  and can_be_viewed=1 select *
+                            from MyDataSet 
+                            order by sysdate desc Error:Operand data type datetime is invalid for minus operator. 
+DATE: 2024-04-07 15:59:32
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/find-new-partners-admin
+USER_ID: 1
+PAGE: 
+MESSAGE: Operand data type datetime is invalid for minus operator.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.FillDataForGridObj() in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 999
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.BindConnections() in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 1294
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.ShowTab(Int32 tab) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 1470
+   at WdS.ElioPlus.DashboardMyMatchesPageNew.aMyConneciton_ServerClick(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardMyMatchesPageNew.aspx.cs:line 1804
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-07 16:00:32
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 33 leads were inserted to Elio from Snitcher API at date 2024-4-7
+---------------------------------------------------------------------------------------------------------------------------

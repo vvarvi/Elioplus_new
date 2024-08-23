@@ -1,0 +1,18 @@
+DATE: 2024-03-22 01:21:15
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/admin-rfps-requests-management
+USER_ID: 1
+PAGE: 
+MESSAGE: SendRFQApprovedRequestMessageNotificationEmail receiver user/s not found for Lead.ID 225124.
+STACK TRACE:    at WdS.ElioPlus.Lib.EmailNotificationSender.EmailSenderLib.SendRFQApprovedRequestMessageNotificationEmail(ApiLeadCategory leadCategory, Int32 leadId, String lang, DBSession session) in D:\Project\ElioMarketplace\Lib\EmailNotificationSender\EmailSenderLib.cs:line 880
+   at WdS.ElioPlus.Management.AdminRFPsRequestsManagement.aBtnApprove_ServerClick(Object sender, EventArgs e) in D:\Project\ElioMarketplace\AdminRFPsRequestsManagement.aspx.cs:line 543
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-03-22 01:38:45
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/admin-rfps-requests-management
+USER_ID: 1
+PAGE: 
+MESSAGE: SendRFQApprovedRequestMessageNotificationEmail receiver user/s not found for Lead.ID 225124 in Country United States and for product  Asus laptop.
+STACK TRACE:    at WdS.ElioPlus.Lib.EmailNotificationSender.EmailSenderLib.SendRFQApprovedRequestMessageNotificationEmail(ApiLeadCategory leadCategory, Int32 leadId, String lang, DBSession session) in D:\Project\ElioMarketplace\Lib\EmailNotificationSender\EmailSenderLib.cs:line 880
+   at WdS.ElioPlus.Management.AdminRFPsRequestsManagement.aBtnApprove_ServerClick(Object sender, EventArgs e) in D:\Project\ElioMarketplace\AdminRFPsRequestsManagement.aspx.cs:line 543
+---------------------------------------------------------------------------------------------------------------------------

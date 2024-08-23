@@ -1,0 +1,777 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DashboardMaster.master.cs" Inherits="WdS.ElioPlus.DashboardMaster" %>
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title id="PgTitle" runat="server"></title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <%--<meta http-equiv="refresh" content="2">--%>
+    <link href="<%= Page.ResolveUrl("/assets_main/global/plugins/bootstrap/css/bootstrap.min.css") %>" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("/assets_main/global/css/components.min.css") %>" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="/assets_main/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("/assets_main/global/css/components.css") %>" rel="stylesheet" id="style_component" type="text/css" />
+    <link href="/assets_main/global/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/global/plugins/select2/css/select2-bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/global/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("/assets_main/global/css/components-rounded.css") %>" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/layouts/layout/css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/layouts/layout/css/themes/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color" />
+
+    <link href="<%= Page.ResolveUrl("/assets_main/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css") %>" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/apps/css/inbox.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/pages/css/pricing.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/pages/css/faq.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/pages/css/profile-2.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/tutorial/introjs.css" rel="stylesheet" />
+
+    <link href="/assets_main/pages/css/profile.css" rel="stylesheet" />
+
+    <link href="/assets_main/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/global/plugins/bootstrap-summernote/summernote.css" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/global/plugins/bootstrap-markdown/css/bootstrap-markdown.min.css" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("/assets_main/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css") %>" rel="stylesheet" />
+    <link href="/assets_main/layouts/layout/css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets_main/layouts/layout/css/themes/darkblue.min.css" rel="stylesheet" type="text/css" id="Link1" />
+
+    <link href="/assets_main/apps/css/todo-2.css" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("/DashboardTemplate/plugins/datatables.net-select-bs/css/select.bootstrap.min.css") %>" rel="stylesheet" type="text/css">
+    <link href="/DashboardTemplate/plugins/datatables.net-responsive-bs/css/responsive.bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="/DashboardTemplate/plugins/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+
+    <link href="<%= Page.ResolveUrl("/assets_main/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css") %>" rel="stylesheet" type="text/css" />
+</head>
+<!-- END HEAD -->
+<body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
+    <form id="dashboardForm" class="class1" runat="server" enctype="multipart/form-data">
+        <telerik:RadScriptManager ID="masterRadScriptManager" runat="server">
+        </telerik:RadScriptManager>
+        <!-- BEGIN HEADER -->
+        <div class="page-header navbar navbar-fixed-top">
+            <!-- BEGIN HEADER INNER -->
+            <div class="page-header-inner ">
+                <!-- BEGIN LOGO -->
+                <div class="page-logo">
+                    <a id="aElioplusLogo" runat="server">
+                        <asp:Image ID="ImgElioplusLogo" CssClass="logo-default" runat="server" AlternateText="elioplus logo" ImageUrl="/assets_main/images/logo-elioplus.png" />
+                    </a>
+                    <div class="menu-toggler sidebar-toggler"></div>
+                </div>
+                <div id="divSearchBtn" runat="server" style="float: left; margin-top: 6px; margin-left: 5%;">
+                    <a id="aBtnSearch" runat="server" class="btn btn-circle green btn-md">
+                        <asp:Label ID="LblBtnSearch" runat="server" />
+                        <i class="fa fa-search"></i>
+                    </a>
+                </div>
+                <!-- END LOGO -->
+                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                <a class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"></a>
+                <!-- END RESPONSIVE MENU TOGGLER -->
+                <!-- BEGIN TOP NAVIGATION MENU -->
+                <div class="top-menu">
+                    <ul id="ulUserNotif" runat="server" class="nav navbar-nav pull-right">
+                        <!-- BEGIN NOTIFICATION DROPDOWN -->
+                        <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                        <li class="dropdown dropdown-extended dropdown-notification" id="header_notification_bar">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <i class="icon-bell"></i>
+                                <span id="UserNotif" runat="server" visible="false" class="badge badge-default">
+                                    <asp:Label ID="LblUserNotif" runat="server" /></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="external">
+                                    <span class="bold"><a id="aUserNotif" runat="server">
+                                        <asp:Label ID="LblUserNotifContent" runat="server" /></a></span>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END NOTIFICATION DROPDOWN -->
+                        <!-- BEGIN INBOX DROPDOWN -->
+                        <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                        <li class="dropdown dropdown-extended dropdown-inbox" id="header_inbox_bar">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <i class="icon-envelope-open"></i>
+                                <span id="UserMessages" runat="server" visible="false" class="badge badge-default">
+                                    <asp:Label ID="LblUserMessages" runat="server" /></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="external">
+                                    <span class="bold"><a id="aUserMessages" runat="server">
+                                        <asp:Label ID="LblUserMessagesContent" runat="server" /></a></span>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END INBOX DROPDOWN -->
+                        <!-- BEGIN TODO DROPDOWN -->
+                        <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                        <li class="dropdown dropdown-extended dropdown-tasks" id="header_task_bar">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <i class="fa fa-eye-slash"></i>
+                                <span id="UserLeads" runat="server" visible="false" class="badge badge-default">
+                                    <asp:Label ID="LblUserLeads" runat="server" /></span>
+                            </a>
+                            <ul class="dropdown-menu extended tasks">
+                                <li class="external">
+                                    <span class="bold"><a id="aUserLeads" runat="server">
+                                        <asp:Label ID="LblUserLeadsContent" runat="server" /></a></span>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END TODO DROPDOWN -->
+                        <!-- BEGIN USER LOGIN DROPDOWN -->
+                        <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                        <li id="liUserOptions" runat="server" class="dropdown dropdown-user">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <asp:Image ID="ImgUserPhoto" CssClass="img-circle" runat="server" />
+                                <span class="username username-hide-on-mobile">
+                                    <asp:Label ID="LblUserCompanyName" runat="server" /></span>
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-default">
+                                <li>
+                                    <a id="aUserGoFull" runat="server" visible="false">
+                                        <i class="fa fa-registered"></i>
+                                        <asp:Label ID="LblUserGoFull" runat="server" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="aUserProfile" runat="server" visible="false">
+                                        <i class="fa fa-user-plus"></i>
+                                        <asp:Label ID="LblUserProfile" runat="server" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="aUserDashboard" runat="server">
+                                        <i class="fa fa-tachometer"></i>
+                                        <asp:Label ID="LblUserDashboard" runat="server" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="aUserEditProfile" runat="server">
+                                        <i class="fa fa-pencil-square-o"></i>
+                                        <asp:Label ID="LblUserEditProfile" runat="server" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="aUserBilling" runat="server">
+                                        <i class="fa fa-pencil-square-o"></i>
+                                        <asp:Label ID="LblUserBilling" runat="server" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="aAdminElioFinancialIncomeFlow" visible="false" runat="server">
+                                        <i class="fa fa-pencil-square-o"></i>
+                                        <asp:Label ID="LblAdminElioFinancialIncomeFlow" runat="server" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="aAdminElioFinancialExpensesFlow" visible="false" runat="server">
+                                        <i class="fa fa-pencil-square-o"></i>
+                                        <asp:Label ID="LblAdminElioFinancialExpensesFlow" runat="server" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="aUserCommunityProfile" runat="server" visible="false">
+                                        <i class="fa fa-users"></i>
+                                        <asp:Label ID="LblUserCommunityProfile" runat="server" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="aUserAdminPage" runat="server" visible="false">
+                                        <i class="fa fa-cog"></i>
+                                        <asp:Label ID="LblUserAdminPage" runat="server" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="aManagement" runat="server" visible="false">
+                                        <i class="fa fa-cog"></i>
+                                        <asp:Label ID="LblManagement" runat="server" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="aUserAdminStatisticsPage" runat="server" visible="false">
+                                        <i class="fa fa-cog"></i>
+                                        <asp:Label ID="LblUserAdminStatisticsPage" runat="server" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="aAddThirdPartyUsers" visible="false" runat="server">
+                                        <i class="fa fa-cog"></i>
+                                        <asp:Label ID="LblAddThirdPartyUsers" runat="server" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="aAddIntentSignalsData" visible="false" runat="server">
+                                        <i class="fa fa-cog"></i>
+                                        <asp:Label ID="LblAddIntentSignalsData" runat="server" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="btnSubmit" href="javascript:void(0);" onclick="javascript:introJs().setOption('showProgress', true).start();" runat="server" visible="false">
+                                        <i class="fa fa-cog"></i>
+                                        <asp:Label ID="LblUserTutorial" runat="server" />
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a id="aUserLogout" runat="server" onserverclick="Logout_OnClick">
+                                        <i class="fa fa-sign-out"></i>
+                                        <asp:Label ID="LblUserLogout" runat="server" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- END USER LOGIN DROPDOWN -->
+                    </ul>
+                </div>
+                <!-- END TOP NAVIGATION MENU -->
+            </div>
+            <!-- END HEADER INNER -->
+        </div>
+        <!-- END HEADER -->
+        <!-- BEGIN HEADER & CONTENT DIVIDER -->
+        <div class="clearfix"></div>
+        <!-- END HEADER & CONTENT DIVIDER -->
+        <!-- BEGIN CONTAINER -->
+        <div class="page-container">
+            <!-- BEGIN SIDEBAR -->
+            <div class="page-sidebar-wrapper">
+                <!-- BEGIN SIDEBAR -->
+                <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                <!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                <div class="page-sidebar navbar-collapse collapse">
+                    <!-- BEGIN SIDEBAR MENU -->
+                    <!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
+                    <!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
+                    <!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
+                    <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                    <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
+                    <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                    <ul id="ulMainMenu" runat="server" class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
+                        <!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
+                        <li class="sidebar-toggler-wrapper hide">
+                            <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+                            <div class="sidebar-toggler"></div>
+                            <!-- END SIDEBAR TOGGLER BUTTON -->
+                        </li>
+                        <li id="liMenuDash" runat="server" class="nav-item">
+                            <a id="aMenuDashboard" runat="server" class="nav-link ">
+                                <i class="fa fa-tachometer"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuDashboard" runat="server" /></span>
+                                <span id="DashNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblDashNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liSection1" class="heading" runat="server" visible="false">
+                            <h3 class="uppercase">
+                                <asp:Label ID="LblSection1" runat="server" />
+                            </h3>
+                        </li>
+                        <li id="liMenuPartners" runat="server" class="nav-item">
+                            <a id="aMenuFindPartners" runat="server" class="nav-link">
+                                <i class="fa fa-list-ul"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuFindPartners" runat="server" /></span>
+                                <span id="PartnersNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblPartnerNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuOpportunities" runat="server" class="nav-item">
+                            <a id="aMenuOpportunities" visible="false" runat="server" class="nav-link nav-toggle">
+                                <i class="fa fa-filter"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuOpportunities" runat="server" /></span>
+                                <span id="OpportunitiesNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblOpportunitiesNotif" runat="server" />
+                                </span>
+                                <span id="spanOpportunitiesArrow" class="arrow" runat="server"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li id="liSubMenuOpportunities" class="nav-item" runat="server">
+                                    <a id="aSubMenuOpportunities" class="nav-link" visible="false" runat="server">
+                                        <i class="fa fa-filter"></i>
+                                        <span class="title">
+                                            <asp:Label ID="LblSubMenuOpportunities" runat="server" /></span>
+                                    </a>
+                                </li>
+                                <li id="liSubMenuOpportunitiesTasks" class="nav-item" runat="server">
+                                    <a id="aSubMenuOpportunitiesTasks" class="nav-link" visible="false" runat="server">
+                                        <i class="fa fa-tasks"></i>
+                                        <span class="title">
+                                            <asp:Label ID="LblSubMenuOpportunitiesTasks" runat="server" /></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="liMenuMessages" runat="server" class="nav-item">
+                            <a id="aMenuMessages" runat="server" class="nav-link">
+                                <i class="fa fa-envelope"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuMessages" runat="server" /></span>
+                                <span id="MessagesNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblMessagesNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liSection2" class="heading" runat="server" visible="false">
+                            <h3 class="uppercase">
+                                <asp:Label ID="LblSection2" runat="server" />
+                            </h3>
+                        </li>
+                        <li id="liMenuTierManagement" runat="server" class="nav-item">
+                            <a id="aMenuTierManagement" runat="server" class="nav-link ">
+                                <i class="fa fa-file-pdf-o"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuTierManagement" runat="server" /></span>
+                                <span id="MenuTierManagementNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblMenuTierManagementNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuPermissionsRolesManagement" runat="server" class="nav-item">
+                            <a id="aMenuPermissionsRolesManagement" runat="server" class="nav-link ">
+                                <i class="fa fa-file-pdf-o"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuPermissionsRolesManagement" runat="server" /></span>
+                                <span id="MenuPermissionsRolesManagement" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblMenuPermissionsRolesManagementNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuDealPartnerDirectory" runat="server" class="nav-item">
+                            <a id="aMenuDealPartnerDirectory" runat="server" class="nav-link nav-toggle">
+                                <i class="fa fa-users"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuDealPartnerDirectory" runat="server" /></span>
+                                <span id="DealPartnerDirectoryNotif" runat="server" visible="false" style="height: 10px;" class="badge badge-danger">
+                                    <asp:Label ID="LblMenuDealPartnerDirectoryNotif" runat="server" />
+                                </span>
+                                <span id="spanPartnerDirectoryArrow" class="arrow" runat="server"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li id="liSubMenuDealPartnerManage" class="nav-item" runat="server">
+                                    <a id="aSubMenuDealPartnerManage" class="nav-link" runat="server">
+                                        <i class="fa fa-tasks"></i>
+                                        <span class="title">
+                                            <asp:Label ID="LblSubMenuDealPartnerManage" runat="server" /></span>
+                                    </a>
+                                </li>
+                                <li id="liSubMenuDealPartnerRequests" class="nav-item" runat="server">
+                                    <a id="aSubMenuDealPartnerRequests" class="nav-link" runat="server">
+                                        <i class="fa fa-filter"></i>
+                                        <span class="title">
+                                            <asp:Label ID="LblSubMenuDealPartnerRequests" runat="server" /></span>
+                                    </a>
+                                </li>
+                                <li id="liSubMenuDealPartnerSendInvitations" class="nav-item" runat="server">
+                                    <a id="aSubMenuDealPartnerSendInvitations" class="nav-link" runat="server">
+                                        <i class="fa fa-filter"></i>
+                                        <span class="title">
+                                            <asp:Label ID="LblSubMenuDealPartnerSendInvitations" runat="server" /></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="liMenuDealAnalytics" runat="server" class="nav-item">
+                            <a id="aMenuDealAnalytics" runat="server" class="nav-link nav-toggle">
+                                <i class="fa fa-users"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuDealAnalytics" runat="server" /></span>
+                                <span id="spanMenuDealAnalyticsNotif" runat="server" visible="false" style="height: 10px;" class="badge badge-danger">
+                                    <asp:Label ID="LblMenuDealAnalyticsNotif" runat="server" />
+                                </span>
+                                <span id="spanMenuDealAnalyticsArrow" class="arrow" runat="server"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li id="liSubMenuDealAnalyticsGeneral" class="nav-item" runat="server">
+                                    <a id="aSubMenuDealAnalyticsGeneral" class="nav-link" runat="server">
+                                        <i class="fa fa-tasks"></i>
+                                        <span class="title">
+                                            <asp:Label ID="LblSubMenuDealAnalyticsGeneral" runat="server" /></span>
+                                    </a>
+                                </li>
+                                <li id="liSubMenuDealAnalyticsSalesLeaderBoard" class="nav-item" runat="server">
+                                    <a id="aSubMenuDealAnalyticsSalesLeaderBoard" class="nav-link" runat="server">
+                                        <i class="fa fa-filter"></i>
+                                        <span class="title">
+                                            <asp:Label ID="LblSubMenuDealAnalyticsSalesLeaderBoard" runat="server" /></span>
+                                    </a>
+                                </li>
+                                <li id="liSubMenuDealAnalyticsActivePartners" class="nav-item" runat="server">
+                                    <a id="aSubMenuDealAnalyticsActivePartners" class="nav-link" runat="server">
+                                        <i class="fa fa-filter"></i>
+                                        <span class="title">
+                                            <asp:Label ID="LblSubMenuDealAnalyticsActivePartners" runat="server" /></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="liMenuPartnerOnboarding" runat="server" class="nav-item">
+                            <a id="aMenuPartnerOnboarding" runat="server" class="nav-link ">
+                                <i class="fa fa-file-pdf-o"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuPartnerOnboarding" runat="server" /></span>
+                                <span id="MenuPartnerOnboarding" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblMenuPartnerOnboardingNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuDealRegistration" runat="server" class="nav-item">
+                            <a id="aMenuDealRegistration" runat="server" class="nav-link">
+                                <i class="fa fa-registered"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuDealRegistration" runat="server" /></span>
+                                <span id="DealRegistrationNotif" runat="server" title="New deal" visible="false" style="height: 10px;" class="badge badge-danger">
+                                    <asp:Label ID="LblDealRegistrationNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuLeadDistribution" runat="server" class="nav-item">
+                            <a id="aMenuLeadDistribution" runat="server" class="nav-link">
+                                <i class="icon-action-redo"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuLeadDistribution" runat="server" /></span>
+                                <span id="LeadDistributionNotif" runat="server" visible="false" style="height: 10px;" class="badge badge-danger">
+                                    <asp:Label ID="LblMenuLeadDistributionNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuCollaboration" runat="server" class="nav-item">
+                            <a id="aMenuCollaboration" runat="server" visible="false" class="nav-link">
+                                <i class="fa fa-comments-o"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuCollaboration" runat="server" /></span>
+                                <span id="CollaborationNotif" runat="server" title="Pending issue at collaboration tool" visible="false" style="height: 10px;" class="badge badge-danger">
+                                    <asp:Label ID="LblCollaborationNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuPartnerToPartner" runat="server" class="nav-item">
+                            <a id="aMenuPartnerToPartner" runat="server" class="nav-link">
+                                <i class="fa fa-dot-circle-o"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuPartnerToPartner" runat="server" /></span>
+                                <span id="PartnerToPartnerNotif" runat="server" visible="false" style="height: 10px;" class="badge badge-danger">
+                                    <asp:Label ID="LblMenuPartnerToPartnerNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liSection4" class="heading" runat="server">
+                            <h3 class="uppercase">
+                                <asp:Label ID="LblSection4" runat="server" />
+                            </h3>
+                        </li>
+                        <li id="liMenuTeamAndIntegrations" runat="server" class="nav-item">
+                            <a id="aMenuTeamAndIntegrations" runat="server" class="nav-link">
+                                <i class="fa fa-exchange"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuIntegrations" runat="server" /></span>
+                                <span id="IntegrationsNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblTeamAndIntegrationsNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liSection3" class="heading" runat="server" visible="false">
+                            <h3 class="uppercase">
+                                <asp:Label ID="LblSection3" runat="server" />
+                            </h3>
+                        </li>
+                        <li id="liMenuTeam" runat="server" class="nav-item">
+                            <a id="aMenuTeam" runat="server" class="nav-link">
+                                <i class="icon-user"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuTeam" runat="server" /></span>
+                                <span id="TeamNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblTeamNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuConnections" visible="false" runat="server" class="nav-item">
+                            <a id="aMenuConnections" runat="server" class="nav-link">
+                                <i class="fa fa-list-ul"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuConnections" runat="server" /></span>
+                                <span id="ConnectionsNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblConnectionsNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuNewClients" runat="server" class="nav-item">
+                            <a id="aMenuNewClients" runat="server" class="nav-link">
+                                <i class="fa fa-share-alt"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuNewClients" runat="server" /></span>
+                                <span id="MenuNewClientsNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblMenuNewClientsNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <!-- Collaoration Menu Old End -->
+                        <li id="liMenuLeads" runat="server" visible="false" class="nav-item">
+                            <a id="aMenuLeads" runat="server" class="nav-link">
+                                <i class="fa fa-bullseye"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuLeads" runat="server" /></span>
+                                <span id="LeadsNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblLeadsNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuFavorites" runat="server" visible="false" class="nav-item">
+                            <a id="aMenuFavorites" runat="server" class="nav-link">
+                                <i class="fa fa-star"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuFavorites" runat="server" /></span>
+                                <span id="FavoritesNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblFavoritesNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuBilling" runat="server" visible="false" class="nav-item">
+                            <a id="aMenuBilling" runat="server" visible="false" class="nav-link">
+                                <i class="fa fa-calculator"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuBilling" runat="server" /></span>
+                                <span id="BillingNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblBillingNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuAlgor" runat="server" class="nav-item">
+                            <a id="aMenuAlgorithm" runat="server" visible="false" class="nav-link">
+                                <i class="fa fa-cogs"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuAlgorithm" runat="server" /></span>
+                                <span id="AlgorithmNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblAlgorithmNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuStats" runat="server" class="nav-item">
+                            <a id="aMenuStatistics" runat="server" visible="false" class="nav-link">
+                                <i class="fa fa-line-chart"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuStatistics" runat="server" /></span>
+                                <span id="StatisticsNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblStatisticsNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuDemoRequests" runat="server" class="nav-item">
+                            <a id="aMenuDemoRequests" runat="server" class="nav-link">
+                                <i class="fa fa-flag-checkered"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuDemoRequests" runat="server" /></span>
+                                <span id="DemoRequestsNotif" runat="server" visible="false" style="height: 10px;" class="badge badge-danger">
+                                    <asp:Label ID="LblDemoRequestsNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuRFPsRequests" runat="server" class="nav-item">
+                            <a id="aMenuRFPsRequests" runat="server" class="nav-link">
+                                <i class="fa fa-flag-checkered"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuRFPsRequests" runat="server" /></span>
+                                <span id="RFPsRequestsNotif" runat="server" visible="false" style="height: 10px;" class="badge badge-danger">
+                                    <asp:Label ID="LblMenuRFPsRequestsNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuRFPsMessages" runat="server" class="nav-item">
+                            <a id="aMenuRFPsMessages" runat="server" class="nav-link">
+                                <i class="fa fa-flag-checkered"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuRFPsMessages" runat="server" /></span>
+                                <span id="RFPsMessagesNotif" runat="server" visible="false" style="height: 10px;" class="badge badge-danger">
+                                    <asp:Label ID="LblMenuRFPsMessagesNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuLogs" runat="server" class="nav-item">
+                            <a id="aMenuLogs" runat="server" class="nav-link">
+                                <i class="fa fa-file-archive-o"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuLogs" runat="server" /></span>
+                                <span id="LogsNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblLogsNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuClearbitLogs" runat="server" class="nav-item">
+                            <a id="aMenuClearbitLogs" runat="server" class="nav-link">
+                                <i class="fa fa-file-archive-o"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuClearbitLogs" runat="server" /></span>
+                                <span id="SpanMenuClearbitLogsNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblMenuClearbitLogsNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuInfoLogs" runat="server" class="nav-item">
+                            <a id="aMenuInfoLogs" runat="server" class="nav-link">
+                                <i class="fa fa-file-code-o"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuInfoLogs" runat="server" /></span>
+                                <span id="InfoLogsNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblInfoLogsNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liMenuAnonymousLogs" runat="server" class="nav-item">
+                            <a id="aMenuAnonymousLogs" runat="server" class="nav-link">
+                                <i class="fa fa-file-code-o"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuAnonymousLogs" runat="server" /></span>
+                                <span id="MenuAnonymousLogsNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblMenuAnonymousLogsNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                        <li id="liAdminSection" class="heading" runat="server">
+                            <h3 class="uppercase">
+                                <asp:Label ID="LblAdminSection" runat="server" />
+                            </h3>
+                        </li>
+                        <li id="liRegistrationProducts" runat="server" class="nav-item">
+                            <a id="aMenuRegistrationProducts" runat="server" class="nav-link">
+                                <i class="fa fa-exchange"></i>
+                                <span class="title">
+                                    <asp:Label ID="LblMenuRegistrationProducts" runat="server" /></span>
+                                <span id="MenuRegistrationProductsNotif" runat="server" visible="false" class="badge badge-success">
+                                    <asp:Label ID="LblMenuRegistrationProductsNotif" runat="server" />
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END SIDEBAR -->
+            </div>
+            <!-- END SIDEBAR -->
+            <!-- BEGIN CONTENT -->
+            <div class="page-content-wrapper">
+                <div class="page-content">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <!-- END CONTENT BODY -->
+            </div>
+            <!-- END CONTENT -->
+        </div>
+        <!-- END CONTAINER -->
+        <!-- BEGIN FOOTER -->
+        <div class="page-footer">
+            <div class="page-footer-inner">
+                <asp:Label ID="LblCopyright" Visible="false" runat="server" />
+                <a id="aCopyright" visible="false" runat="server" style="color: #32c5d2;">
+                    <asp:Label ID="LblCopyrightContent" runat="server" /></a>
+            </div>
+            <div class="scroll-to-top">
+                <i class="icon-arrow-up"></i>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+        <!--[if lt IE 9]>
+        <script src="/metronic/assets_main/global/plugins/respond.min.js"></script>
+        <script src="/metronic/assets_main/global/plugins/excanvas.min.js"></script> 
+        <![endif]-->
+        <!-- BEGIN CORE PLUGINS -->
+
+        <script src="<%= Page.ResolveUrl("/assets_main/global/scripts/datatable.js") %>" type="text/javascript"></script>
+
+        <script src="/assets_main/global/plugins/jquery.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/scripts/app.min.js" type="text/javascript"></script>
+        <script src="/assets_main/pages/scripts/dashboard.min.js" type="text/javascript"></script>
+
+        <script src="/assets_main/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+        <script src="<%= Page.ResolveUrl("/assets_main/global/plugins/bootstrap-switch/js/bootstrap-switch.js") %>" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/moment.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/flot/jquery.flot.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/flot/jquery.flot.resize.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/flot/jquery.flot.categories.min.js" type="text/javascript"></script>
+        <script src="/assets_main/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>
+        <script src="/assets_main/layouts/layout/scripts/demo.min.js" type="text/javascript"></script>
+        <script src="/assets_main/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/bootstrap-tabdrop/js/bootstrap-tabdrop.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/select2/js/select2.full.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/jquery-validation/js/additional-methods.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js" type="text/javascript"></script>
+
+        <script src="/assets_main/global/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js" type="text/javascript"></script>
+        <script src="/assets_main/pages/scripts/ui-blockui.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js" type="text/javascript"></script>
+
+        <script src="/assets_main/global/plugins/bootstrap-markdown/lib/markdown.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/bootstrap-markdown/js/bootstrap-markdown.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/bootstrap-summernote/summernote.min.js" type="text/javascript"></script>
+
+        <script src="/assets_main/pages/scripts/ui-confirmations.min.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/bootstrap-confirmation/bootstrap-confirmation.min.js" type="text/javascript"></script>
+
+        <script src="/assets_main/global/plugins/amcharts/amcharts/amcharts.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/amcharts/amcharts/serial.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/amcharts/amcharts/pie.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/amcharts/amcharts/radar.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/amcharts/amcharts/themes/light.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/amcharts/amcharts/themes/patterns.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/amcharts/amcharts/themes/chalk.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/amcharts/ammap/ammap.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/amcharts/ammap/maps/js/worldLow.js" type="text/javascript"></script>
+        <script src="/assets_main/global/plugins/amcharts/amstockcharts/amstock.js" type="text/javascript"></script>
+
+        <script src="<%= Page.ResolveUrl("assets_main/pages/scripts/profile.js") %>" type="text/javascript"></script>
+        <script src="<%= Page.ResolveUrl("assets_main/pages/scripts/profile.min.js") %>" type="text/javascript"></script>
+
+        <script src="<%= Page.ResolveUrl("assets_main/global/plugins/amcharts/amcharts/amcharts.js") %>" type="text/javascript"></script>
+        <script src="<%= Page.ResolveUrl("assets_main/global/plugins/amcharts/amcharts/serial.js") %>" type="text/javascript"></script>
+        <script src="<%= Page.ResolveUrl("assets_main/global/plugins/amcharts/amcharts/pie.js") %>" type="text/javascript"></script>
+        <script src="<%= Page.ResolveUrl("assets_main/global/plugins/amcharts/amcharts/radar.js") %>" type="text/javascript"></script>
+        <script src="<%= Page.ResolveUrl("assets_main/global/plugins/amcharts/amcharts/themes/light.js") %>" type="text/javascript"></script>
+        <script src="<%= Page.ResolveUrl("assets_main/global/plugins/amcharts/amcharts/themes/patterns.js") %>" type="text/javascript"></script>
+        <script src="<%= Page.ResolveUrl("assets_main/global/plugins/amcharts/amcharts/themes/chalk.js") %>" type="text/javascript"></script>
+        <script src="<%= Page.ResolveUrl("assets_main/global/plugins/amcharts/ammap/ammap.js") %>" type="text/javascript"></script>
+        <script src="<%= Page.ResolveUrl("assets_main/global/plugins/amcharts/ammap/maps/js/worldLow.js") %>" type="text/javascript"></script>
+        <script src="<%= Page.ResolveUrl("assets_main/global/plugins/amcharts/amstockcharts/amstock.js") %>" type="text/javascript"></script>
+
+        <script src="<%= Page.ResolveUrl("assets_main/pages/scripts/charts-amcharts.min.js") %>" type="text/javascript"></script>
+
+        <%--<link href="assets_main/css/styles.css" rel="stylesheet" />
+            <script src="/assets_main/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>--%>
+    </form>
+    <script type="text/javascript">
+        $(".class1").serialize();
+        $(".form-horizontal").serialize();
+        $("#submit_form").serialize();
+        $("submit_upload_form").serialize();
+    </script>
+
+</body>
+</html>

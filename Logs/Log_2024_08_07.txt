@@ -1,0 +1,44 @@
+DATE: 2024-08-07 19:26:56
+TYPE: ERROR
+URL: Service Snitcher Anonymous Tracking class error at, 7/8/2024 7:26:56 도, for website ID: 19976
+USER_ID: 
+PAGE: 
+MESSAGE: Something went wrong for website ID:19976
+STACK TRACE:    at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 241
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-07 19:26:56
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-8-7
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-07 20:08:47
+TYPE: ERROR
+URL: Service Snitcher Anonymous Tracking class error at, 7/8/2024 8:08:47 도, for website ID: 19976
+USER_ID: 
+PAGE: 
+MESSAGE: Something went wrong for website ID:19976
+STACK TRACE:    at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 241
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-07 20:08:47
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-8-7
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-07 20:16:01
+TYPE: ERROR
+URL: AdminRFPsRequestsManagement --> RbtnGetLeads_Click()
+USER_ID: 1
+PAGE: /dashboard/1/web-designsolutions/home
+MESSAGE: 15 leads were inserted to Elio from Anonymous Ip Info/The Companies API at 7/8/2024 8:16:00 도
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-07 20:17:33
+TYPE: ERROR
+URL: AdminRFPsRequestsManagement --> RbtnGetLeads_Click()
+USER_ID: 1
+PAGE: /dashboard/1/web-designsolutions/home
+MESSAGE: 1 leads were inserted to Elio from Anonymous Ip Info/The Companies API at 7/8/2024 8:17:33 도
+---------------------------------------------------------------------------------------------------------------------------

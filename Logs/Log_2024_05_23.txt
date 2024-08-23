@@ -1,0 +1,172 @@
+DATE: 2024-05-23 00:00:13
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-23
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 02:00:13
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-23
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 03:00:09
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-23
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 04:00:13
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 1 leads were inserted to Elio from Snitcher API at date 2024-5-23
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 08:00:18
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 18 leads were inserted to Elio from Snitcher API at date 2024-5-23
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 10:00:27
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 43 leads were inserted to Elio from Snitcher API at date 2024-5-23
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 12:00:26
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 67 leads were inserted to Elio from Snitcher API at date 2024-5-23
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 13:00:33
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 80 leads were inserted to Elio from Snitcher API at date 2024-5-23
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 15:14:11
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: is_new1 is neither a DataColumn nor a DataRelation for table .
+STACK TRACE:    at System.Data.DataRowView.get_Item(String property)
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.BuildRepeaterItem(RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 1457
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.Rdg1_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 3923
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 15:17:19
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: is_new1 is neither a DataColumn nor a DataRelation for table .
+STACK TRACE:    at System.Data.DataRowView.get_Item(String property)
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.BuildRepeaterItem(RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 1457
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.Rdg1_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 3923
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 15:17:45
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: Object reference not set to an instance of an object.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingOverviewPage.HpLnkFile2_ServerClick(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 3378
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 15:18:40
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: is_new1 is neither a DataColumn nor a DataRelation for table .
+STACK TRACE:    at System.Data.DataRowView.get_Item(String property)
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.BuildRepeaterItem(RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 1457
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.Rdg1_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 3923
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 15:25:02
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: is_new1 is neither a DataColumn nor a DataRelation for table .
+STACK TRACE:    at System.Data.DataRowView.get_Item(String property)
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.BuildRepeaterItem(RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 1457
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.Rdg1_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 3923
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 15:26:06
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: is_new1 is neither a DataColumn nor a DataRelation for table .
+STACK TRACE:    at System.Data.DataRowView.get_Item(String property)
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.BuildRepeaterItem(RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 1457
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.Rdg1_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 3923
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 16:00:55
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 104 leads were inserted to Elio from Snitcher API at date 2024-5-23
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 17:00:53
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 112 leads were inserted to Elio from Snitcher API at date 2024-5-23
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 18:00:54
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 125 leads were inserted to Elio from Snitcher API at date 2024-5-23
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 19:00:53
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 130 leads were inserted to Elio from Snitcher API at date 2024-5-23
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 19:19:48
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: is_new1 is neither a DataColumn nor a DataRelation for table .
+STACK TRACE:    at System.Data.DataRowView.get_Item(String property)
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.BuildRepeaterItem(RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 1457
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.Rdg1_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 3923
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 19:20:19
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: is_new1 is neither a DataColumn nor a DataRelation for table .
+STACK TRACE:    at System.Data.DataRowView.get_Item(String property)
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.BuildRepeaterItem(RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 1457
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.Rdg1_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 3923
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-23 19:20:28
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: is_new1 is neither a DataColumn nor a DataRelation for table .
+STACK TRACE:    at System.Data.DataRowView.get_Item(String property)
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.BuildRepeaterItem(RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 1457
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.Rdg1_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 3923
+---------------------------------------------------------------------------------------------------------------------------

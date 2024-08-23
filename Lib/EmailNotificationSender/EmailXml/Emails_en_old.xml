@@ -1,0 +1,784 @@
+﻿  <Emails>
+    <email id="1" name="NewReview">
+      <subject>
+        Elioplus New Review Notification
+      </subject>
+      <body>
+        Hi,
+        
+        A user from our platform, {CompanyName}, wrote a review about your partner program.
+        
+        Visit your profile to view it.
+        
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="2" name="NewInboxMessage">
+      <subject>
+        Elioplus Inbox New Message Notification
+      </subject>
+      <body>
+        You received a new email from: {CompanyEmail}
+
+        Email Message Content
+
+        {mailMessage}
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="3" name="EmailToFriends">
+      <subject>
+        Elioplus New message Notification
+      </subject>
+      <body>
+        A company from our platform,{CompanyName}, sent you an email at {date}. Login to your dashboard to reply.
+        
+        Subject: {EmailSubject}
+        
+        Go to your Messages in your dashboard to see your new message and reply.
+        
+        View it now here
+
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="4" name="ResentLeads">
+      <subject>
+        You have a new partner lead on Elioplus
+      </subject>
+      <body>
+        Hi,
+        
+        You have a new prospect lead on your dashboard.
+        
+        To view it, go to our website, login and go to your profile.
+        
+        Navigate to the Leads tab where you'll see the details and get in touch with the respective company directly
+        
+        View it now here
+
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="5" name="NotFullRegisteredUser">
+      <subject>
+        Now it is time to complete your profile
+      </subject>
+      <body>
+        Hi,
+
+        We noticed that you haven't completed your company’s profile yet.
+        
+        Why now it’s the time to do it?
+        
+        We are attracting more and more users every day on our platform. If you complete your company's public profile not only you'll create more awareness and exposure but we’ll also be able to connect you with business partners.
+
+        We are an all-in-one solution for vendors and resellers to engage in new business and also collaborate through our platform.
+
+        25.000+ opportunities are waiting for you. Login to complete your registration.
+        
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="6" name="ActivationAccount">
+      <subject>
+        Your account on Elioplus is active
+      </subject>
+      <body>
+        Hi,
+        
+        Thanks for joining our platform!
+        
+        We send you some quick notes to help you get started and make better use of our platform.
+        
+        From your dashboard you'll be able to view statistics about your profile views, the incoming messages from other users and also your new leads and get in touch with them directly.
+        
+        If haven’t done it already, add your data on our matching tool that is located on the "Find new Partners" tab of your dashboard in order to get matched accurately with your new partners!
+        
+        We love feedback so if you have any suggestion or inquiry just reply to this message or use the contact form on our website.
+        
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="7" name="NewFullRegisteredUser">
+      <subject>
+        New Company Full Registration ({CompanyType})
+      </subject>
+      <body>        
+        A new company was registered at {date}
+        
+        <b>Company Name: </b> {CompanyName}
+        
+        <b>Company Type: </b> {CompanyType}
+       
+        <b>Company Country: </b> {Country}
+        
+        <b>Company Address: </b> {Address}
+        
+        <b>Company Phone: </b> {Phone}
+        
+        <b>Company WebSite: </b> {WebSite}
+        
+        <b>Company Email:</b> {Email}
+        
+        <b>Company Official Email: </b> {OfficialEmail}
+        
+        <b>Company Description: </b> {Description}
+        
+        <b>Company Overview: </b> {Overview}
+        
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="8" name="NewSimpleRegisteredUser">
+      <subject>
+        New Company Simple Registration
+      </subject>
+      <body>        
+        A new company was registered at {date}
+       
+        <b>Company Email:</b> {Email}
+       
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="9" name="Resetpassword">
+      <subject>
+        Reset your password
+      </subject>
+      <body>
+        You request a new password at {date} ,to log in to your elioplus account.
+
+        Your new password is <b>{newPassword}</b>
+
+        We recommend to change it when you log in for your safety.
+      </body>
+      <footer>
+        If you didn't request this, you can ignore this email or let us know. 
+        
+        Your password won't change until you create a new.
+      </footer>
+    </email>
+    <email id="10" name="ContactElioplusMessage">
+      <subject>
+        Contact Us
+      </subject>
+      <body>
+        A company from our platform, {CompanyName}, sent you an email at {date}. Login to your dashboard to reply.
+        
+        Subject: {EmailSubject}.
+        
+        Company Phone: {Phone}.
+        
+        Email: {UserEmail}.
+        
+        Message:
+        
+        {Message}
+
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="11" name="ErrorNotificationEmail">
+      <subject>
+        Error Notification Email
+      </subject>
+      <body>        
+        An error occured on Elioplus at {date}.
+        
+        Error details
+        
+        {type}
+        
+        {url}
+        
+        {msg}
+        
+        {stackTrace}
+        
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="12" name="CommunityUpvoteUserPost">
+      <subject>
+        A member upvoted your post
+      </subject>
+      <body>
+        Hi,
+
+        One of our members, {Community name of the user}, found your post interesting and gave it a positive vote.
+
+        Log in to our community to see who.
+
+        View it now here
+
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="13" name="CommunityCommentUserPost">
+      <subject>
+        Someone commented your post
+      </subject>
+      <body>
+        Hi,
+
+        A member on the Elioplus community ,{Community name of the user}, commented at your post. 
+        
+        Log in to read it and reply.
+
+        View the comment here
+
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="14" name="CommunityFollowUserPost">
+      <subject>
+        A new member is following you now
+      </subject>
+      <body>
+        Hi,
+        
+        A member from our community, {Community name of the user}, has liked your profile and is now following you.
+        
+        Log in to see more details and follow back if you like.
+        
+        Login to Elioplus community
+
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="15" name="CommunityCreateNewPost">
+      <subject>
+        A member you follow shared a post
+      </subject>
+      <body>
+        Hi,
+        
+        Our user, {Community name of the user}, whom you follow has added a new post.
+        
+        Log in to our community to read it and leave your comment.
+        
+        View the submitted post here
+
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="16" name="NewSimpleRegisteredCommunityUser">
+      <subject>
+        New Community Simple Registration
+      </subject>
+      <body>
+        A new community user was registered at {date}
+        
+        <b>Email:</b> {Email}
+        
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="17" name="NewFullRegisteredCommunityUser">
+      <subject>
+        New Community Full Registration
+      </subject>
+      <body>
+        A new community user was registered at {date}
+        
+        <b>Last Name: </b> {LastName}
+       
+        <b>First Name: </b> {FirstName}
+        
+        <b>Job Position: </b> {Position}
+        
+        <b>Linkedin: </b> {Linkedin}
+        
+        <b>Twitter: </b> {Twitter}
+        
+        <b>Summary: </b> {Summary}
+        
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="18" name="InboxEmail">
+      <subject>
+        New Inbox Email
+      </subject>
+      <body>
+          You received a new email: {CompanyEmail}
+
+      </body>
+      <footer>
+        Best regards,
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="19" name="InvitationEmail">
+      <title>
+        Let's work together
+      </title>
+      <subject>
+        You are invited to join the {CompanyName} team
+      </subject>
+      <body>
+        A colleague from {CompanyName} invited you to join the team on Elioplus.Welcome to the crew!
+
+        Please use the link below to create your own password and join the team.
+
+        {link}
+      </body>
+      <footer>
+        What is Elioplus?
+
+        It's a platform that enables vendors to recruit and manage their channel partners seamlessly.<a href="https://elioplus.com/how-it-works" style="" target="_blank"> Learn more</a>
+      </footer>
+    </email>
+    <email id="20" name="StripeTrialActivationEmail">
+      <subject>
+        Your trial period on Elioplus has just started
+      </subject>
+      <body>
+        Hi,
+
+        Thanks for starting your 14-day trial on our platform. Below are some details so you can make better
+        use of your trial:
+
+        Our system has started to process the data you provided in order to match you with potential channel
+        partners. Periodically, every couple of days, new connections will be added to your "My connections"
+        tab.
+
+        You can use these data to follow up with each channel partner based on your company's internal process
+        or you can add them as opportunities in order to create a prospect pipeline with just one click.
+
+        Once the trial ends you will receive a complete report with all your connections and activity on our
+        platform.
+        
+      </body>
+      <footer>
+        Best regards,
+
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="21" name="NewTaskNotificationEmail">
+      <subject>
+        Task Reminder Notification
+      </subject>
+      <body>
+        {CompanyName} added Task at {TaskDateIn}.
+
+        Task Remind Date:   {TaskRemindDate}
+
+        Opportunity:        {OpportunityName}
+
+        Opportunity Email:  {OpportunityEmail}
+
+        Task Subject:       {TaskSubject}
+        
+        Task:
+
+        {TaskContent}
+
+      </body>
+      <footer>
+        Best regards,
+
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="22" name="TaskReminderEmail">
+      <subject>
+        Task Reminder
+      </subject>
+      <body>
+        Hi {CompanyName},
+
+        This is a reminder you requested for the task with subject {TaskSubject} at {TaskDateIn}.
+
+        Task:  Follow up with {TaskCompanyName}
+        
+        Date Due : {TaskRemindDate}
+        
+        Task Details:
+
+        {TaskContent}
+
+      </body>
+      <footer>
+        Best regards,
+
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="23" name="NewMultiAccountRegisteredUser">
+      <subject>
+        Supervisor's New Client Full Registration
+      </subject>
+      <body>
+        A new company was registered at {date} from Supervisor {supervisor} (ID:{id})
+
+        <b>Company Name: </b> {CompanyName}
+
+        <b>Company Type: </b> {CompanyType}
+
+        <b>Company Country: </b> {Country}
+
+        <b>Company Address: </b> {Address}
+
+        <b>Company Phone: </b> {Phone}
+
+        <b>Company WebSite: </b> {WebSite}
+
+        <b>Company Email:</b> {Email}
+
+        <b>Company Official Email: </b> {OfficialEmail}
+
+        <b>Company Description: </b> {Description}
+
+        <b>Company Overview: </b> {Overview}
+
+      </body>
+      <footer>
+        Best regards,
+
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="24" name="CollaborationInvitationEmailForExistingConnections">
+      <title>
+        Let's collaborate!
+      </title>
+      <subject>
+        You are invited to join the {CompanyName} collaboration team
+      </subject>
+      <body>
+        {CompanyName} invites you to join their partner portal
+
+        Please use the link below to create your free account
+      </body>
+      <footer>
+        What is Elioplus?
+
+        It's a platform that enables vendors and their partners to collaborate seamlessly.<a href="https://elioplus.com/how-it-works" style="" target="_blank"> Learn more</a>
+      </footer>
+    </email>
+    <email id="25" name="CollaborationInvitationEmailForUserPartners">
+      <title>
+        Let's collaborate!
+      </title>
+      <subject>
+        You are invited to join the {CompanyName} collaboration team
+      </subject>
+      <body>
+        {CompanyName} invites you to join their partner portal
+
+        Please click the button bellow to create your free account
+      </body>
+      <footer>
+        What is Elioplus?
+
+        It's a platform that enables vendors and their partners to collaborate seamlessly.<a href="https://elioplus.com/how-it-works" style="" target="_blank"> Learn more</a>
+      </footer>
+    </email>
+    <email id="26" name="AcceptInvitationEmail">
+      <title>
+        Congratulations!
+      </title>
+      <subject>
+        Collaboration Invitation Confirmed by {CompanyName}
+      </subject>
+      <body>
+        {CompanyName} has accepted your invitation to join and collaborate with you!
+      </body>
+      <footer>
+        What is Elioplus?
+
+        It's a platform that enables vendors and their partners to collaborate seamlessly.<a href="https://elioplus.com/how-it-works" style="" target="_blank"> Learn more</a>
+      </footer>
+    </email>
+    <email id="27" name="CollaborationInvitationEmailForNotFullRegisteredUsers">
+      <title>
+        Let's collaborate!
+      </title>
+      <subject>
+        You are invited to join the {CompanyName} collaboration team
+      </subject>
+      <body>
+        Hi,
+
+        A colleague from {CompanyName} invited you to join the collaboration team on Elioplus.
+
+        First, we noticed that you haven't completed your company’s profile.
+
+        Why now it’s the time to do it?
+
+        We are attracting more and more users every day on our platform. If you complete your company's public profile not only you'll create more awareness and exposure but we’ll also be able to connect you with business partners.
+
+        We are an all-in-one solution for vendors and resellers to engage in new business and also collaborate through our platform, like now.
+
+        25.000+ opportunities are waiting for you. Login to complete your registration first and accept the invitation you received from {CompanyName} right after.
+
+        You' ll be able to accept it, from your Collaboration-tool dashboard page.
+
+        Welcome to our crew!
+
+      </body>
+      <footer>
+        Best regards,
+
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="28" name="NewSimpleRegisteredThirdPartyToElioUser">
+      <subject>
+        New Company Simple Registration(Convert Third Party to Elio User)
+      </subject>
+      <body>
+        A new company was registered at {date}
+
+        <b>Company Email:</b> {Email}
+
+        Company with ID: {UserId}, was registered as third party, but user converted his type from Third Party to Elioplus.
+      </body>
+      <footer>
+        Best regards,
+
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="29" name="ClaimProfileResetPasswordEmail">
+      <subject>
+        Claim Profile and reset password
+      </subject>
+      <body>
+        You made a request for claiming this Elioplus profile at {date}.
+
+        Your account password is <b>{newPassword}</b>
+        
+        You can log in with these credentials, your email and this password.
+        
+        We recommend to change it when you log in for your safety.
+      </body>
+      <footer>
+        If you didn't request this, you can ignore this email or let us know.
+
+        Your password won't change until you create a new.
+      </footer>
+    </email>
+    <email id="30" name="ContactElioplusDemoRequestMessage">
+      <subject>
+        Demo Request
+      </subject>
+      <body>
+        A company from our platform, {CompanyName}, sent you an email at {date} to request a demo. <br/>
+        
+        Login to Elio dashboard to reply.<br/>
+        
+        Subject: Call for Demo<br/>
+        
+        First Name: {FirstName}.<br/>
+        
+        Last Name: {LastName}.<br/>
+        
+        Email: {CompanyEmail}.<br/>
+        
+      </body>
+      <footer>
+        Best regards,<br/>
+        
+        To Elioplus team
+      </footer>
+    </email>
+    <email id="31" name="NewUploadedFileEmail">
+      <subject>
+        New Onboarding File
+      </subject>
+      <body>
+        Your collaboration vendor, {CompanyName}, has uploaded a new {FileType} file, in {LibraryCategory} category to his library. <br/>
+        
+        Login to Elio dashboard to see it.<br/>
+        
+      </body>
+      <footer>
+        Best regards,<br/>
+        
+        To Elioplus team
+      </footer>
+    </email>
+    <email id="32" name="NewDealRegistrationEmail">
+      <subject>
+        New Deal Registration
+      </subject>
+      <body>
+        Your collaboration partner, {CompanyName}, has added a new registration deal. <br/>
+        
+        Login to Elio dashboard to see and Approve/Reject it.<br/>
+        
+      </body>
+      <footer>
+        Best regards,<br/>
+        
+        To Elioplus team
+      </footer>
+    </email>
+    <email id="33" name="NewDealRegistrationChangeStatusEmail">
+      <subject>
+        Deal Registration Status
+      </subject>
+      <body>
+        Your collaboration vendor, {CompanyName}, has {Status} your registration deal about {DealCompanyName}. <br/>
+        
+        Login to Elio dashboard to see it.<br/>
+        
+      </body>
+      <footer>
+        Best regards,<br/>
+        
+        To Elioplus team
+      </footer>
+    </email>
+    <email id="34" name="NewDealRegistrationWonLostEmail">
+      <subject>
+        Deal Registration Result Status
+      </subject>
+      <body>
+        Your collaboration partner, {CompanyName}, has {Status} his registration deal about {DealCompanyName} company. <br/>
+        
+        Login to Elio dashboard to see it.<br/>
+        
+      </body>
+      <footer>
+        Best regards,<br/>
+        
+        To Elioplus team
+      </footer>
+    </email>
+    <email id="35" name="NewLeadDistributionEmail">
+      <subject>
+        New LeadDistribution
+      </subject>
+      <body>
+        Your collaboration vendor, {CompanyName}, added a new lead distribution. <br/>
+        
+        Login to Elio dashboard to see it.<br/>
+        
+      </body>
+      <footer>
+        Best regards,<br/>
+        
+        To Elioplus team
+      </footer>
+    </email>
+    <email id="36" name="NewLeadDistributionWonLostEmail">
+      <subject>
+        Lead Distribution Result Status
+      </subject>
+      <body>
+        Your collaboration partner, {CompanyName}, {Status} his lead distribution about {LeadCompanyName} company. <br/>
+        
+        Login to Elio dashboard to see it.<br/>
+        
+      </body>
+      <footer>
+        Best regards,<br/>
+        
+        To Elioplus team
+      </footer>
+    </email>
+    <email id="37" name="NewPartner2PartnerDealRegistrationEmail">
+      <subject>
+        Partner to Partner Deal
+      </subject>
+      <body>
+        Your collaboration partner, {CompanyName}, has added a new deal with Opportunity name {OpportunityName}. <br/>
+        
+        Login to Elio dashboard to see it.<br/>
+        
+      </body>
+      <footer>
+        Best regards,<br/>
+        
+        To Elioplus team
+      </footer>
+    </email>
+    <email id="38" name="ContactElioplusToApproveDemoRequestEmail">
+      <subject>
+        Approve Demo Request
+      </subject>
+      <body>
+        A company from our platform, {CompanyName}, send a request for demo at {date} that need to be approved from Elioplus team.
+        
+        You can approve it through Dashboard, Management, Demo Requests in order to receive it company {DemoCompany}. <br/>
+
+        Login to Elio dashboard to see it.<br/>
+
+      </body>
+      <footer>
+        Best regards,<br/>
+
+        To Elioplus team
+      </footer>
+    </email>
+  </Emails>

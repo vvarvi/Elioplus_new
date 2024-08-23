@@ -1,0 +1,64 @@
+DATE: 2024-08-17 16:57:21
+TYPE: ERROR
+URL: Error for Lead ID 32201 at 17/8/2024 4:57:20 도
+USER_ID: 
+PAGE: 
+MESSAGE: Transaction (Process ID 71) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+STACK TRACE:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity, String hint) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 326
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 193
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 188
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeadsFromInfo(ElioAnonymousCompaniesInfo companyInfo, ElioAnonymousIpInfo leadInfo, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 1033
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-17 16:57:21
+TYPE: ERROR
+URL: Service Ip Info/Companies Anonymous Tracking class error at, 17/8/2024 4:57:21 도, for website ID: 19980
+USER_ID: 
+PAGE: 
+MESSAGE: Transaction (Process ID 71) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+STACK TRACE:    at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeadsFromInfo(ElioAnonymousCompaniesInfo companyInfo, ElioAnonymousIpInfo leadInfo, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 1119
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-17 16:57:26
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetIpInfoLeads
+USER_ID: 
+PAGE: 
+MESSAGE: Transaction (Process ID 71) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+STACK TRACE:    at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeadsFromInfo(ElioAnonymousCompaniesInfo companyInfo, ElioAnonymousIpInfo leadInfo, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 1125
+   at WdS.ElioPlus.Lib.Services.HangfireJobs.Get.GetData.GetIpInfoLeads() in D:\Project\ElioMarketplace\Lib\Services\HangfireJobs\Get\GetData.cs:line 1998
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-17 16:57:30
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetIpInfoLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 0 leads were inserted to Elio from Anonymous Ip Info/The Companies API at 17/8/2024 4:57:30 도
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-17 16:57:30
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetIpInfoLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 1 leads were inserted to Elio from Anonymous Ip Info/The Companies API at 17/8/2024 4:57:30 도
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-17 17:54:09
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetIpInfoLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 0 leads were inserted to Elio from Anonymous Ip Info/The Companies API at 17/8/2024 5:54:09 도
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-17 17:54:09
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetIpInfoLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 0 leads were inserted to Elio from Anonymous Ip Info/The Companies API at 17/8/2024 5:54:09 도
+---------------------------------------------------------------------------------------------------------------------------

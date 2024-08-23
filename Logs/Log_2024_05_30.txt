@@ -1,0 +1,1533 @@
+DATE: 2024-05-30 00:00:16
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 01:00:21
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 03:54:00
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 03:56:13
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-courses-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: A column named 'category_id' already belongs to this DataTable.
+STACK TRACE:    at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at System.Data.DataColumnCollection.Add(String columnName)
+   at WdS.ElioPlus.DashboardTrainingCoursesOverviewPage.RdgElioUsers_OnNeedDataSource(Object sender, EventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingCoursesOverviewPage.aspx.cs:line 2290
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 03:56:58
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-courses-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: Input array is longer than the number of columns in this table.
+STACK TRACE:    at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at WdS.ElioPlus.DashboardTrainingCoursesOverviewPage.RdgElioUsers_OnNeedDataSource(Object sender, EventArgs args)
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 04:00:24
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 2 leads were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 05:00:21
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 2 leads were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 06:00:13
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 3 leads were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 07:00:10
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 8 leads were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 08:00:17
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 7 leads were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 09:00:23
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 15 leads were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 10:00:32
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 25 leads were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 11:00:14
+TYPE: ERROR
+URL: Error for Lead ID 18398410 at 30/5/2024 11:00:14 p�
+USER_ID: 
+PAGE: 
+MESSAGE: String or binary data would be truncated.
+The statement has been terminated.
+STACK TRACE:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity, String hint) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 326
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 193
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 188
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 382
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 11:00:22
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 39 leads were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 11:43:37
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Unable to cast object of type 'ChapterOvrv' to type 'WdS.ElioPlus.Objects.Chapter'.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.RdgChapterOverview_ItemDataBound(Object sender, RepeaterItemEventArgs args)
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 12:00:23
+TYPE: ERROR
+URL: Error for Lead ID 18398410 at 30/5/2024 12:00:23 도
+USER_ID: 
+PAGE: 
+MESSAGE: String or binary data would be truncated.
+The statement has been terminated.
+STACK TRACE:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity, String hint)
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity)
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj)
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session)
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 12:00:32
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 52 leads were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 13:00:31
+TYPE: ERROR
+URL: Error for Lead ID 18398410 at 30/5/2024 1:00:31 도
+USER_ID: 
+PAGE: 
+MESSAGE: String or binary data would be truncated.
+The statement has been terminated.
+STACK TRACE:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity, String hint)
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity)
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj)
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session)
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 13:00:38
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 56 leads were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 13:23:53
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/40066/vagelis-varvi-company/partner-training-library
+USER_ID: 40066
+PAGE: /dashboard/40066/vagelis-varvi-company/home
+MESSAGE: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+STACK TRACE:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at WdS.ElioPlus.DashboardTrainingLibraryPage.LoadGridData(Repeater rpt, DAMessageControl control)
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 13:29:47
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/40066/vagelis-varvi-company/partner-training-library
+USER_ID: 40066
+PAGE: /dashboard/40066/vagelis-varvi-company/home
+MESSAGE: Object reference not set to an instance of an object.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingLibraryPage.Rdg1_OnItemDataBound(Object sender, RepeaterItemEventArgs args)
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 14:00:27
+TYPE: ERROR
+URL: Error for Lead ID 31856943 at 30/5/2024 2:00:27 도
+USER_ID: 
+PAGE: 
+MESSAGE: String or binary data would be truncated.
+The statement has been terminated.
+STACK TRACE:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity, String hint) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 326
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 193
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 188
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 382
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 14:00:36
+TYPE: ERROR
+URL: Error for Lead ID 18398410 at 30/5/2024 2:00:36 도
+USER_ID: 
+PAGE: 
+MESSAGE: String or binary data would be truncated.
+The statement has been terminated.
+STACK TRACE:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity, String hint) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 326
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 193
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 188
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 382
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 14:00:45
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 67 leads were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 15:00:24
+TYPE: ERROR
+URL: Error for Lead ID 31856943 at 30/5/2024 3:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: String or binary data would be truncated.
+The statement has been terminated.
+STACK TRACE:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity, String hint) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 326
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 193
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 188
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 382
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 15:00:33
+TYPE: ERROR
+URL: Error for Lead ID 18398410 at 30/5/2024 3:00:33 도
+USER_ID: 
+PAGE: 
+MESSAGE: String or binary data would be truncated.
+The statement has been terminated.
+STACK TRACE:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity, String hint) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 326
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj, Boolean updateIdentity) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 193
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.Insert(T obj) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 188
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 382
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 15:00:40
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 73 leads were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:20 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:20 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:20
+TYPE: ERROR
+URL: Error for Lead ID 25107086 at 30/5/2024 4:00:20 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:21
+TYPE: ERROR
+URL: Error for Lead ID 31377598 at 30/5/2024 4:00:21 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:21
+TYPE: ERROR
+URL: Error for Lead ID 13540882 at 30/5/2024 4:00:21 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:21
+TYPE: ERROR
+URL: Error for Lead ID 26562311 at 30/5/2024 4:00:21 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:21
+TYPE: ERROR
+URL: Error for Lead ID 31858605 at 30/5/2024 4:00:21 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:21
+TYPE: ERROR
+URL: Error for Lead ID 24075094 at 30/5/2024 4:00:21 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:21
+TYPE: ERROR
+URL: Error for Lead ID 31858065 at 30/5/2024 4:00:21 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:21
+TYPE: ERROR
+URL: Error for Lead ID 24075094 at 30/5/2024 4:00:21 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:21
+TYPE: ERROR
+URL: Error for Lead ID 31857805 at 30/5/2024 4:00:21 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:21
+TYPE: ERROR
+URL: Error for Lead ID 31857805 at 30/5/2024 4:00:21 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:21 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:22
+TYPE: ERROR
+URL: Error for Lead ID 20960943 at 30/5/2024 4:00:22 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:22
+TYPE: ERROR
+URL: Error for Lead ID 31857517 at 30/5/2024 4:00:22 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:22
+TYPE: ERROR
+URL: Error for Lead ID 31857444 at 30/5/2024 4:00:22 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:22
+TYPE: ERROR
+URL: Error for Lead ID 18597569 at 30/5/2024 4:00:22 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:22
+TYPE: ERROR
+URL: Error for Lead ID 27262613 at 30/5/2024 4:00:22 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:22
+TYPE: ERROR
+URL: Error for Lead ID 21054738 at 30/5/2024 4:00:22 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:22
+TYPE: ERROR
+URL: Error for Lead ID 31856972 at 30/5/2024 4:00:22 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:22
+TYPE: ERROR
+URL: Error for Lead ID 31856943 at 30/5/2024 4:00:22 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:22
+TYPE: ERROR
+URL: Error for Lead ID 18322433 at 30/5/2024 4:00:22 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:22
+TYPE: ERROR
+URL: Error for Lead ID 18322433 at 30/5/2024 4:00:22 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:22
+TYPE: ERROR
+URL: Error for Lead ID 31856515 at 30/5/2024 4:00:22 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:22
+TYPE: ERROR
+URL: Error for Lead ID 19892647 at 30/5/2024 4:00:22 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:22 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:22
+TYPE: ERROR
+URL: Error for Lead ID 31855961 at 30/5/2024 4:00:22 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:23
+TYPE: ERROR
+URL: Error for Lead ID 13244611 at 30/5/2024 4:00:23 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:23
+TYPE: ERROR
+URL: Error for Lead ID 31851782 at 30/5/2024 4:00:23 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:23
+TYPE: ERROR
+URL: Error for Lead ID 20676970 at 30/5/2024 4:00:23 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:23
+TYPE: ERROR
+URL: Error for Lead ID 31734269 at 30/5/2024 4:00:23 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:23
+TYPE: ERROR
+URL: Error for Lead ID 16163999 at 30/5/2024 4:00:23 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:23
+TYPE: ERROR
+URL: Error for Lead ID 13258803 at 30/5/2024 4:00:23 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:23
+TYPE: ERROR
+URL: Error for Lead ID 16738823 at 30/5/2024 4:00:23 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:23
+TYPE: ERROR
+URL: Error for Lead ID 31854600 at 30/5/2024 4:00:23 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:23
+TYPE: ERROR
+URL: Error for Lead ID 19851705 at 30/5/2024 4:00:23 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:23
+TYPE: ERROR
+URL: Error for Lead ID 19851705 at 30/5/2024 4:00:23 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:23
+TYPE: ERROR
+URL: Error for Lead ID 13961183 at 30/5/2024 4:00:23 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:23
+TYPE: ERROR
+URL: Error for Lead ID 18727338 at 30/5/2024 4:00:23 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:23 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:24
+TYPE: ERROR
+URL: Error for Lead ID 12923408 at 30/5/2024 4:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:24
+TYPE: ERROR
+URL: Error for Lead ID 31854233 at 30/5/2024 4:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:24
+TYPE: ERROR
+URL: Error for Lead ID 15335642 at 30/5/2024 4:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:24
+TYPE: ERROR
+URL: Error for Lead ID 31853187 at 30/5/2024 4:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:24
+TYPE: ERROR
+URL: Error for Lead ID 16163999 at 30/5/2024 4:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:24
+TYPE: ERROR
+URL: Error for Lead ID 29769318 at 30/5/2024 4:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:24
+TYPE: ERROR
+URL: Error for Lead ID 31853669 at 30/5/2024 4:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:24
+TYPE: ERROR
+URL: Error for Lead ID 31853667 at 30/5/2024 4:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:24
+TYPE: ERROR
+URL: Error for Lead ID 12499960 at 30/5/2024 4:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:24
+TYPE: ERROR
+URL: Error for Lead ID 17357653 at 30/5/2024 4:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:24
+TYPE: ERROR
+URL: Error for Lead ID 17357653 at 30/5/2024 4:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:24
+TYPE: ERROR
+URL: Error for Lead ID 18398410 at 30/5/2024 4:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:24 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:24
+TYPE: ERROR
+URL: Error for Lead ID 18068193 at 30/5/2024 4:00:24 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 18068193 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 31853187 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 23845083 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 23845083 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 31852959 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 31852959 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 31654485 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 31852681 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 19586954 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 13075886 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 12507345 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 13258803 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 14815858 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:25 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:25
+TYPE: ERROR
+URL: Error for Lead ID 31852041 at 30/5/2024 4:00:25 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:26
+TYPE: ERROR
+URL: Error for Lead ID 19647423 at 30/5/2024 4:00:26 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:26
+TYPE: ERROR
+URL: Error for Lead ID 19647423 at 30/5/2024 4:00:26 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:26
+TYPE: ERROR
+URL: Error for Lead ID 18813945 at 30/5/2024 4:00:26 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:26
+TYPE: ERROR
+URL: Error for Lead ID 31851916 at 30/5/2024 4:00:26 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:26
+TYPE: ERROR
+URL: Error for Lead ID 31794586 at 30/5/2024 4:00:26 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:26
+TYPE: ERROR
+URL: Error for Lead ID 31851782 at 30/5/2024 4:00:26 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:26
+TYPE: ERROR
+URL: Error for Lead ID 31851782 at 30/5/2024 4:00:26 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:26
+TYPE: ERROR
+URL: Error for Lead ID 19428787 at 30/5/2024 4:00:26 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:26
+TYPE: ERROR
+URL: Error for Lead ID 14290078 at 30/5/2024 4:00:26 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:26
+TYPE: ERROR
+URL: Error for Lead ID 20369821 at 30/5/2024 4:00:26 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:26
+TYPE: ERROR
+URL: Error for Lead ID 21148302 at 30/5/2024 4:00:26 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:26
+TYPE: ERROR
+URL: Error for Lead ID 31850146 at 30/5/2024 4:00:26 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:26 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:26
+TYPE: ERROR
+URL: Error for Lead ID 31849498 at 30/5/2024 4:00:26 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:27 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:27 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:27
+TYPE: ERROR
+URL: Error for Lead ID 13281484 at 30/5/2024 4:00:27 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+2024-05-30 16:00:27 	 ERROR 	 DataLoader:Load Error Load  2
+2024-05-30 16:00:27 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select * from Elio_snitcher_website_leads 
+                                        where website_id = @website_id
+                                        and lead_id = @lead_id
+                                        order by lead_last_seen desc Error:SHUTDOWN is in progress. 
+DATE: 2024-05-30 16:00:27
+TYPE: ERROR
+URL: Error for Lead ID 13281484 at 30/5/2024 4:00:27 도
+USER_ID: 
+PAGE: 
+MESSAGE: SHUTDOWN is in progress.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 103
+   at WdS.ElioPlus.Lib.DB.DataLoader`1.LoadSingle(String sql, SqlParameter[] parameters) in D:\Project\ElioMarketplace\Lib\DB\DataLoader.cs:line 24
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetSnitcherWebsiteLeadByWebsiteIdLeadId(String websiteId, String leadId, DBSession session) in D:\Project\ElioMarketplace\Lib\DBQueries\Sql.cs:line 2964
+   at WdS.ElioPlus.Lib.Services.AnonymousTrackingAPI.SnitcherService.GetWebsiteLeads(ElioSnitcherWebsites website, Int32 page, String date, DBSession session) in D:\Project\ElioMarketplace\Lib\Services\AnonymousTrackingAPI\SnitcherService.asmx.cs:line 295
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-30 16:00:27
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-30
+---------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WdS.ElioPlus.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="mode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sandbox</Value>
+    </Setting>
+    <Setting Name="clientId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AWqA3O71YrIzJ8Zj03oRAXFUiaKCEkqoJKmNuE8nAMoseYm_aXgioLwQNkA6oF3ut8g_RlopfQB3MuPv</Value>
+    </Setting>
+    <Setting Name="clientSecret" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EL1dxyvsql3guI-WzR7ZTEoqUQUBp2XRxvbcqDOv19xRh8ugRv2SJPBVEy3Vx3FPEmzOeNHldQDy3hDo</Value>
+    </Setting>
+    <Setting Name="FileAppender" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">true</Value>
+    </Setting>
+    <Setting Name="WdS_ElioPlus_SalesforceDC_SforceService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://login.salesforce.com/services/Soap/c/48.0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

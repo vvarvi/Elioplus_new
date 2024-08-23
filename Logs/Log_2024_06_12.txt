@@ -1,0 +1,18 @@
+DATE: 2024-06-12 19:18:42
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 99 leads were inserted to Elio from Snitcher API at date 2024-6-12
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-12 19:26:20
+TYPE: ERROR
+URL: https://localhost:44343/profile/channel-partners/google_workspace?page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3&page=3
+USER_ID: 
+PAGE: 
+MESSAGE: Object reference not set to an instance of an object.
+STACK TRACE:    at WdS.ElioPlus.pages.ProfilesSubIndustriesForChannelPartnersPage.LoadRepeater(Navigation navigation, List`1 users) in D:\Project\ElioMarketplace\pages\ProfilesSubIndustriesForChannelPartnersPage.aspx.cs:line 906
+   at WdS.ElioPlus.pages.ProfilesSubIndustriesForChannelPartnersPage.FixPageResultsContent() in D:\Project\ElioMarketplace\pages\ProfilesSubIndustriesForChannelPartnersPage.aspx.cs:line 1058
+   at WdS.ElioPlus.pages.ProfilesSubIndustriesForChannelPartnersPage.FixPage() in D:\Project\ElioMarketplace\pages\ProfilesSubIndustriesForChannelPartnersPage.aspx.cs:line 1286
+   at WdS.ElioPlus.pages.ProfilesSubIndustriesForChannelPartnersPage.Page_Load(Object sender, EventArgs e) in D:\Project\ElioMarketplace\pages\ProfilesSubIndustriesForChannelPartnersPage.aspx.cs:line 705
+---------------------------------------------------------------------------------------------------------------------------

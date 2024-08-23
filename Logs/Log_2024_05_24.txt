@@ -1,0 +1,155 @@
+DATE: 2024-05-24 01:00:17
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 01:18:34
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: Column 'course_description1' does not belong to table .
+STACK TRACE:    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.LoadGridData(Repeater rpt, Int32 categoryID, DAMessageControl control) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 1872
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 01:22:26
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: Column 'course_description1' does not belong to table .
+STACK TRACE:    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.LoadGridData(Repeater rpt, Int32 categoryID, DAMessageControl control) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 1872
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 01:26:32
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: Column 'course_description2' does not belong to table .
+STACK TRACE:    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.LoadGridData(Repeater rpt, Int32 categoryID, DAMessageControl control) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 1873
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 01:28:50
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: Column 'course_description2' does not belong to table .
+STACK TRACE:    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.LoadGridData(Repeater rpt, Int32 categoryID, DAMessageControl control)
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 01:31:20
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-overview
+USER_ID: 1
+PAGE: 
+MESSAGE: is_new1 is neither a DataColumn nor a DataRelation for table .
+STACK TRACE:    at System.Data.DataRowView.get_Item(String property)
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.BuildRepeaterItem(RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 1457
+   at WdS.ElioPlus.DashboardTrainingOverviewPage.Rdg1_ItemDataBound(Object sender, RepeaterItemEventArgs args) in D:\Project\ElioMarketplace\DashboardTrainingOverviewPage.aspx.cs:line 3891
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 02:00:09
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 04:00:13
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: No new leads (count: 0) were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 06:00:19
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 2 leads were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 07:00:20
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 6 leads were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 08:00:18
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 7 leads were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 09:00:16
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 21 leads were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 11:00:22
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 35 leads were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 12:00:29
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 41 leads were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 13:00:28
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 50 leads were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 14:00:28
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 57 leads were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 15:00:29
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 65 leads were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 17:00:41
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 78 leads were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 18:00:39
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 79 leads were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-05-24 19:00:36
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 86 leads were inserted to Elio from Snitcher API at date 2024-5-24
+---------------------------------------------------------------------------------------------------------------------------

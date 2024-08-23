@@ -1,0 +1,24 @@
+DATE: 2024-04-13 21:00:32
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 37 leads were inserted to Elio from Snitcher API at date 2024-4-13
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-13 21:17:37
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 
+PAGE: 
+MESSAGE: Object reference not set to an instance of an object.
+STACK TRACE:    at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadCourses() in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 200
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadStep(Int32 step) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 269
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.BtnPrevious_Click(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 569
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-13 22:00:28
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 38 leads were inserted to Elio from Snitcher API at date 2024-4-13
+---------------------------------------------------------------------------------------------------------------------------

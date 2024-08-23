@@ -1,0 +1,14 @@
+DATE: 2024-06-13 17:32:19
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 75 leads were inserted to Elio from Snitcher API at date 2024-6-13
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-06-13 18:19:23
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 80 leads were inserted to Elio from Snitcher API at date 2024-6-13
+---------------------------------------------------------------------------------------------------------------------------

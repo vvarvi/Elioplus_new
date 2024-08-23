@@ -1,0 +1,266 @@
+﻿  <Emails>    
+    <email id="1" name="InboxMessages">
+	  <title>
+	    You have new inbox unread messages  	
+	  </title>
+      <subject>
+        Elioplus unread inbox messages
+      </subject>
+      <body>
+        You have some new unread messages received in your inbox.<br/>
+		  
+        Login into your account on Elioplus and enter the Messages tab on your Dashboard to view them and reply.<br/>
+		  
+      </body>
+      <footer>
+        Best regards, <br/>
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="2" name="TeamSubAccounts">
+		<title>
+			Let's work together
+		</title>
+		<subject>
+			You are invited to join the {CompanyName} team
+		</subject>
+		<body>
+			A colleague from {CompanyName} invited you to join the team on Elioplus.Welcome to the crew!<br/>
+
+			Please use the link below to create your own password and join the team. <br/>
+		</body>
+		<footer>
+			Best regards,<br/>
+
+			The Elioplus team
+		</footer>
+    </email>
+    <email id="3" name="TasksReminder">
+	  <title>
+	    Task Reminder 	
+	  </title>
+      <subject>
+        Task Reminder
+      </subject>
+      <body>
+        Hello, <br/>        
+
+        Below is your task reminder that you have created on your pipeline of opportunities. <br/> 
+		  
+		Task Subject: {TaskSubject} <br/> 
+		  
+        Task Remind Date: {RemindDate} <br/> 
+
+		Please, login to view or edit your task.<br/>
+		 
+      </body>
+      <footer>
+        Best regards, <br/>
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="4" name="PendingInvitations">
+	  <title>
+	    Invitation to join 	
+	  </title>
+      <subject>
+		  {CompanyName} has invited you to join their PRM account on Elioplus
+	  </subject>
+      <body>
+		    {CompanyName} invites you to join their partner portal on Elioplus. <br/>
+        
+        Sign up and create for free a profile in order to accept the invitation and join their PRM account. <br/>
+        
+        Please click the button bellow <br/>
+
+      </body>
+      <footer>
+        Best regards, <br/>
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="5" name="PendingRequests">
+	    <title>
+		    Aprove the pending request from {CompanyName} to join your PRM account
+	    </title>
+      <subject>
+        Approve the pending request
+      </subject>
+      <body>
+        {CompanyName} requested to join your PRM account from your partner portal sign up page on Elioplus.<br/>
+		  
+        Approval or rejection is needed. <br/>
+		  
+		    Login into your dashboard and follow the path Partner Directory | Partner Requests | Pending Requests.<br/>
+		  
+        Approve the invitation if you want to start collaborating with {CompanyName}. <br/>
+		
+        Please click the button below to login into your dashboard.<br/>
+
+      </body>
+      <footer>
+        Best regards, <br/>
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="6" name="NotConfirmedDeals">
+	  <title>
+		    Deal Registration Request from a {CompanyName}
+	  </title>
+      <subject>
+        You have a deal registered from a {CompanyName}
+      </subject>
+      <body>
+	      You have a deal registration request from {CompanyName}. <br/>
+
+		    Action is required in order {CompanyName} to start working on it.<br/>
+		  
+        Login into your dashboard, enter the Deal registration tab and view the deal to Approve or Reject it.<br/>
+
+        Click here to login
+
+      </body>
+      <footer>
+        Best regards, <br/>
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="7" name="ExpiringDeals">
+	  <title>
+		    {DaysBefore} days left to close the deal
+	  </title>
+      <subject>
+		    {DaysBefore} days left to win {ClientName}'s deal
+	  </subject>
+      <body>
+		    We would like to remind you that you have {DaysBefore} days left to win {ClientName}'s deal.<br/>
+		  
+        Enter the Deal registration tab, locate the {ClientName}'s deal and define if it's won or lost.<br/>
+
+        Click here to login<br/>
+
+      </body>
+      <footer>
+        Best regards, <br/>
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="8" name="NewLeads">
+	  <title>
+		Pending Lead
+	  </title>
+      <subject>
+        You have an open Lead from {VendorName}
+      </subject>
+      <body>
+		You have an open lead from {VendorName}. <br/>
+
+	    {VendorName}, has sent you a lead of a potential client, {ClientName} inside your account on Elioplus. <br/>
+		
+        Define if the Lead is Won or Lost at the end of your efforts. <br/>
+		  
+        Login into your account on Elioplus and enter the Lead distribution tab to view the Lead. <br/>
+       
+      </body>
+      <footer>
+        Best regards, <br/>
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="9" name="PendingLeads">
+	  <title>
+		Won or Lost?
+	  </title>
+      <subject>
+        Reminder - Is your {ClientName}'s lead won or lost?
+      </subject>
+      <body>
+		Is your {ClientName}'s lead Won or Lost from {VendorName}? In case the lead is closed then you need to define if it's won or lost.<br/>
+		  
+        Login into your dashboard and enter the Lead distribution tab, loqate the lead and define if it's lost or won.<br/>
+		  
+        Also, define the amount that this deal was closed in case of won. 
+		
+	    Click the link below to login<br/>
+	  
+      </body>
+      <footer>
+        Best regards, <br/>
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="10" name="OnboardingFiles">
+	  <title>
+		You have unread files
+	  </title>
+      <subject>
+        You have unread files on the Vendor Resources tab of your dashboard
+      </subject>
+      <body>
+        {VendorName} has distributed new file's on the Vendor Resources tab of your dashboard on Elioplus.<br/>
+		  
+        Login into your account on Elioplus, enter the Vendor Resources tab, select your Vendor and find the new material.<br/>
+		  
+        Please click the button below to login.<br/>
+
+        Click here to login<br/>
+		
+      </body>
+      <footer>
+        Best regards, <br/>
+        
+        The Elioplus team
+      </footer>
+    </email>
+    <email id="11" name="CollaborationMailboxMessages">
+	  <title>
+		You have unread messages on Collaboration
+	  </title>
+      <subject>
+		You have open discussions on the Collaborate tab with {CompanyName}
+	  </subject>
+      <body>        
+        You have unread messages from {CompanyName} inside the Collaborate tab of your dashboard.<br/>
+
+		Login into your account on Elioplus and enter the Collaborate tab to view and continue the conversation with {CompanyName}.<br/>
+        
+	    Click here to login <br/>
+      </body>
+      <footer>
+        Best regards, <br/>
+        
+        The Elioplus team
+      </footer>
+    </email>
+	<email id="13" name="CollaborationLibraryFiles">
+	    <title>
+			You have unread Library files
+		</title>
+		<subject>
+			You have unread files on the Library|My Files tab of your dashboard
+		</subject>
+		<body>
+			{VendorName} has uploaded and sent to you new file's on the Library|My Files tab of your dashboard on Elioplus.<br/>
+
+			Login into your account on Elioplus, enter the Library|My Files tab, select your Vendor and find the new material.<br/>
+
+			Please click the button below to login.<br/>
+
+			Click here to login<br/>
+
+		</body>
+		<footer>
+			Best regards, <br/>
+
+			The Elioplus team
+		</footer>
+	</email>
+  </Emails>

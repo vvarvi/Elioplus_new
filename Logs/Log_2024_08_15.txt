@@ -1,0 +1,36 @@
+2024-08-15 00:54:19 	 ERROR 	 DataLoader:Load Error Load  2
+2024-08-15 00:54:19 	 ERROR 	 DataLoader:Load Error Retrieving  sql:SELECT *
+                                  FROM Elio_anonymous_ip_info
+                                where is_inserted = @is_inserted
+                                and sysdate >= '2024-07-18'
+                                and url != ''
+                                and company_domain != ''
+                                order by sysdate Error:Invalid column name 'is_inserted'. 
+2024-08-15 00:54:47 	 ERROR 	 DataLoader:Load Error Load  2
+2024-08-15 00:54:47 	 ERROR 	 DataLoader:Load Error Retrieving  sql:SELECT *
+                                  FROM Elio_anonymous_ip_info
+                                where is_inserted = @is_inserted
+                                and sysdate >= '2024-07-18'
+                                and url != ''
+                                and company_domain != ''
+                                order by sysdate Error:Invalid column name 'is_inserted'. 
+DATE: 2024-08-15 00:54:47
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetIpInfoLeads
+USER_ID: 
+PAGE: 
+MESSAGE: Invalid column name 'is_inserted'.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters)
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetAnonymousIpInfoByInsertedStatus(Int32 isInserted, DBSession session)
+   at WdS.ElioPlus.Lib.Services.HangfireJobs.Get.GetData.GetIpInfoLeads()
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-08-15 00:54:53
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetIpInfoLeads
+USER_ID: 
+PAGE: 
+MESSAGE: Invalid column name 'is_inserted'.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters)
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetAnonymousIpInfoByInsertedStatus(Int32 isInserted, DBSession session)
+   at WdS.ElioPlus.Lib.Services.HangfireJobs.Get.GetData.GetIpInfoLeads()
+---------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,66 @@
+DATE: 2024-04-19 15:16:50
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Input string was not in a correct format.
+STACK TRACE:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadChaptersRpt() in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 286
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadStep(Int32 step) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 413
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.BtnNext_Click(Object sender, EventArgs e) in D:\Project\ElioMarketplace\DashboardTrainingAddNewPage.aspx.cs:line 639
+---------------------------------------------------------------------------------------------------------------------------
+2024-04-19 15:18:16 	 ERROR 	 DataLoader:Load Error Load  2
+2024-04-19 15:18:16 	 ERROR 	 DataLoader:Load Error Retrieving  sql:Select *
+                                    FROM Elio_users_training_courses_chapters
+                                    where user_id = @user_id 
+                                    and category_id = @category_id
+                                    and course_id = @course_id
+                                    and is_public = 1
+                                order by course_description Error:Invalid column name 'course_description'. 
+DATE: 2024-04-19 15:19:56
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Invalid column name 'course_description'.
+STACK TRACE:    at WdS.ElioPlus.Lib.DB.DataLoader`1.Load(String sql, SqlParameter[] parameters)
+   at WdS.ElioPlus.Lib.DBQueries.Sql.GetElioUserTrainingCourseChapters(Int32 userId, Int32 categoryId, Int32 courseId, DBSession session)
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadChaptersRpt()
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.BtnAddchapter_Click(Object sender, EventArgs e)
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-19 15:20:32
+TYPE: ERROR
+URL: https://localhost:44343/dashboard/1/web-designsolutions/partner-training-add-new
+USER_ID: 1
+PAGE: 
+MESSAGE: Input string was not in a correct format.
+STACK TRACE:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadChaptersRpt()
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.LoadStep(Int32 step)
+   at WdS.ElioPlus.DashboardTrainingAddNewPage.BtnNext_Click(Object sender, EventArgs e)
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-19 21:00:51
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 95 leads were inserted to Elio from Snitcher API at date 2024-4-19
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-19 22:00:43
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 96 leads were inserted to Elio from Snitcher API at date 2024-4-19
+---------------------------------------------------------------------------------------------------------------------------
+DATE: 2024-04-19 23:00:49
+TYPE: ERROR
+URL: HangfireDashboard.DBModel.DBQueries.GetSnitcherLeads
+USER_ID: 
+PAGE: 
+MESSAGE: 99 leads were inserted to Elio from Snitcher API at date 2024-4-19
+---------------------------------------------------------------------------------------------------------------------------
