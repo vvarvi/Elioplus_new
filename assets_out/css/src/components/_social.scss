@@ -1,0 +1,28 @@
+.socialLink {
+  background-color: #E2EDFF;
+  width:30px;
+  height: 30px;
+  transition: 0.2s ease-in;
+
+  svg {
+    width: 15px;
+    height: auto;
+
+    path {
+      transition: 0.2s ease-in;
+    }
+
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #39B4EF;
+
+    svg path {
+      fill: #fff;
+    }
+
+  }
+
+}

@@ -1,0 +1,56 @@
+.faq-item {
+  cursor: pointer;
+
+  summary {
+    border-bottom: 1px solid transparent;
+    transition: 0.2s ease-in;
+
+    &::before {
+      content:'';
+      display: block;
+      position: absolute;
+      right:20px;
+      top:24px;
+      border: solid #B3C7EB;
+      border-width: 0 4px 4px 0;
+      padding: 4px;
+      transform: rotate(45deg);
+      transition: 0.2s ease-in;
+
+      @media only screen and (max-width: 999px) {
+        border-width: 0 3px 3px 0;
+        padding: 3px;
+        right:10px;
+        top:18px;
+      }
+
+    }
+
+  }
+
+  &:hover {
+    summary {
+      color: #39B4EF;
+    }
+  }
+
+  &[open] summary {
+    color:#39B4EF;
+    border-bottom: 1px solid #E2EDFF;
+
+    &::before {
+      border: solid #39B4EF;
+      border-width: 0 4px 4px 0;
+      transform: rotate(-135deg);
+      top:29px;
+
+      @media only screen and (max-width: 999px) {
+        border-width: 0 3px 3px 0;
+        top:23px;
+      }
+
+    }
+
+  }
+
+}

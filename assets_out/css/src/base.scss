@@ -1,0 +1,33 @@
+@import "custom-styles";
+@import "libs/owl";
+@import "libs/toasts";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    background-color: #F3F8FF;
+  }
+
+  a {
+    display: block;
+  }
+
+}
+
+
+@layer components {
+  .button {
+    @apply flex gap-5px px-15px text-sm font-semibold rounded-30px border w-max py-7px transition-colors duration-200 bg-white
+  }
+  .card {
+    @apply bg-white rounded-10px px-20px md:px-30px py-25px flex flex-col gap-30px w-full shadow-card relative
+  }
+
+
+}

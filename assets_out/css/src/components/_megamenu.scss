@@ -1,0 +1,65 @@
+.megamenu {
+  display: none;
+  border-top:1px solid #E2EDFF;
+  top:calc(100% - 5px);
+
+  &.open {
+    display: block;
+    z-index: 99;
+  }
+
+  .megamenu-col {
+    width: max-content;
+  }
+
+  .logo svg {
+    width:100%;
+    height:auto;
+  }
+
+  p {
+    width:305px;
+  }
+
+  .separator {
+    background-color: #E2EDFF;
+  }
+
+  .megamenu-menu-item {
+
+    h4 {
+      font-size: 15px;
+    }
+
+    h4, .btn, .btn svg path   {
+      transition: 0.2s ease-in;
+    }
+
+    .btn {
+      margin-top:5px;
+      height: 30px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+
+      h4 {
+        color:#39B4EF;
+      }
+
+      .btn {
+        background-color: #39B4EF;
+        color: #fff;
+
+        svg path {
+          fill: #fff;
+        }
+
+      }
+
+    }
+  }
+
+}
+
