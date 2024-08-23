@@ -1,0 +1,2359 @@
+﻿<elio>
+  <header>
+    <sitemaster>
+      <labels>
+        <label id="1" text="Home" />
+        <label id="2" text="How it works" />
+        <label id="3" text="Search" />
+        <label id="4" text="Pricing" />
+        <label id="5" text="Blog" />
+        <label id="6" text="About" />
+        <label id="7" text="Contact" />
+        <label id="8" text="More" />
+        <label id="9" text="Profile" />
+        <label id="10" text="Dashboard" />
+        <label id="11" text="Register" />
+        <label id="12" text="Log out" />
+        <label id="13" text="Case Studies"/>
+        <label id="14" text="Search by categories" />
+        <label id="15" text="Products"/>
+        <label id="16" text="Partner Recruitment"/>
+        <label id="17" text="Partner Relationship Management"/>
+        <label id="18" text="RFQs and Intent data"/>
+		<label id="19" text="M&amp;A Marketplace"/>
+      </labels>
+      <literals>
+        <literal id="11" text="Login" />
+        <literal id="12" text="Sign up free" />
+      </literals>
+      <tooltips>
+        <tooltip id="1" text="Elioplus home" />
+      </tooltips>
+      <alternates>
+        <alternate id="1" text="Elioplus logo" />
+      </alternates>
+    </sitemaster>
+    <prmmaster>
+      <labels>
+        <label id="1" text="Free Partner Relationship Management (PRM) software to manage, incentivize and enable your partner network. Focused on SaaS &amp; cloud vendors and their channel partners."/>
+        <label id="2" text="partner relationship management, free PRM software, PRM software, partner management, lead distribution, deal registration,partner management, channel management"/>
+      </labels>
+      <literals>
+        <literal id="1" text="Home"/>
+        <literal id="2" text="About"/>
+        <literal id="3" text="Features"/>
+        <literal id="4" text="Integrations"/>
+        <literal id="5" text="Security"/>
+        <literal id="6" text="Pricing"/>
+        <literal id="7" text="Our clients"/>
+        <literal id="8" text="Testimonials"/>
+        <literal id="9" text=""/>
+        <literal id="10" text=""/>
+        <literal id="11" text=""/>
+        <literal id="12" text=""/>
+      </literals>
+      <buttons>
+        <button id="1" text="SIGN IN"/>
+        <button id="2" text="SIGN UP"/>
+      </buttons>      
+    </prmmaster>
+    <default>
+      <literals>
+        <literal id="1" text="Home"/>
+        <literal id="2" text="Page 1"/>
+      </literals>
+    </default>
+    <login>
+      <labels>
+
+      </labels>
+      <literals>
+
+      </literals>
+      <tooltips>
+        <tooltip id="1" text="Elioplus home" />
+      </tooltips>
+      <alternates>
+        <alternate id="1" text="Elioplus logo" />
+      </alternates>
+    </login>
+    <signup>
+      <alternates>
+        <alternate id="1" text="Elioplus logo" />
+      </alternates>
+    </signup>
+  </header>
+  <content>
+    <prmmaster>
+      <literals>
+        <literal id="1" text="Home"/>
+        <literal id="2" text="About"/>
+        <literal id="3" text="Features"/>
+        <literal id="4" text="Integrations"/>
+        <literal id="5" text="Security"/>
+        <literal id="6" text="Pricing"/>
+        <literal id="7" text="Our clients"/>
+        <literal id="8" text="Testimonials"/>
+        <literal id="9" text="Terms &amp; Conditions"/>
+        <literal id="10" text="Privacy Policy"/>
+        <literal id="11" text="Faq"/>
+        <literal id="12" text="Blog"/>
+        <literal id="13" text="Français"/>
+        <literal id="14" text="Español"/>
+        <literal id="15" text="Deutsch"/>
+        <literal id="16" text="Português"/>
+        <literal id="17" text="عربى"/>
+      </literals>
+      <labels>
+        <label id="1" text="Partner management software to boost your channel sales" />
+        <label id="2" text="The perfect PRM software to supercharge your partner network. Enable your partners to register deals, distribute leads, manage your content, collaborate in real time and many more features." />
+        <label id="3" text="Rating" />
+        <label id="4" text="4.4 stars based on overall " />
+        <label id="5" text="156" />
+        <label id="6" text="View this page in:" />
+        <label id="7" text="" />
+        <label id="8" text="They Trust Us" />
+        <label id="9" text="Deals – Collaborative Sales" />
+        <label id="10" text="Enable your partners to register deals and collaborate with them in each deal by adding notes and documents as you move forward. Your partners can upload a new deal directly from our platform or their CRM and our system checks for duplicates so you can approve or reject a deal without hassle. Track all your current and past deals from a single place and set specific timeframes for your partners. Triggered notifications will help them keep track of their deadlines." />
+        <label id="11" text="" />
+        <label id="12" text="Lead Distribution" />
+        <label id="13" text="Elioplus PRM helps you to distribute leads to your partners seamlessly. Either upload a new lead or pull it from your CRM or marketing automation system and send it to your partners. Our system will automatically update the status of every lead both on your partner portal and your CRM so you have the correct data for your use on all your applications. From the analytics section you will be able to see the closing rate for your partner network and every partner separately."/>
+        <label id="14" text="" />
+        <label id="15" text="Integrate your CRM"/>
+        <label id="16" text="We offer an one-step option to integrate your CRM system and transfer data between the two applications seamlessly. This will enable you to pull data from your CRM that you want to distribute to your partners, receive new deals without the manual process or check for duplicate deals without leaving your partner portal. When your partners make a status change then all the deals and leads will be automatically updated on your CRM, so, you won’t miss a thing or view outdated information."/>
+        <label id="17" text=""/>
+        <label id="18" text="Content Management"/>
+        <label id="19" text="Our Library helps you to upload all your content in a single place, create different content categories and make it available to all you partners, send documents to a specific partner or group of partners. The Onboarding feature enables you to add content for all your partners so they can improve their product skills or send new sales, marketing and other types of material. Our triggered notifications make sure that your partners are notified that you uploaded new material."/>
+        <label id="20" text="Features that matter"/>
+        <label id="21" text="Elioplus PRM provides features that can increase your channel sales. Avoid a ton of features that make your life difficult. Through Elioplus PRM you are focusing on your channel partner's productivity and needs through collaboration and incentivization."/>
+        <label id="22" text=""/>
+        <label id="23" text="Tier Management"/>
+        <label id="24" text="Tier management enables you to create different tiers for your channel partners, manage commissions, incentivize them with goal setting tasks and give them permissions to features based on their tier."/>
+        <label id="25" text="Analytics"/>
+        <label id="26" text="Get insights for your partner network’s performance, detailed analytics for each partner, their activity on your partner portal and forecasting for potential deals that might close successfully from your channel partners in the next quarters."/>
+        <label id="27" text="Collaboration"/>
+        <label id="28" text="Collaborate in real time with one-to-one conversations or create groups to exchange information and send documents to specific partners in order to increase their engagement and productivity."/>
+        <label id="29" text="Roles Management"/>
+        <label id="30" text="Create different roles for your team members and add permissions for each role. You can allow them access to certain features or the ability to edit and delete content on each feature."/>
+        <label id="31" text="Multi-currency"/>
+        <label id="32" text="If you have an international partner network then every partner can work on their local currency or select a different currency by default and all deals are automatically converted to your local currency."/>
+        <label id="33" text="Partner Portal"/>
+        <label id="34" text="Enjoy a full branded partner portal with your own logo and your unique sign up and sign in URL. Your channel partners can now easily have access to the PRM through your unique partner portal page which you can upload on your website as well."/>
+        <label id="35" text="Partner Locator"/>
+        <label id="36" text="Add a partner locator to showcase your partners to your visitors in order to find a local company that offers your products and services. Incentivize your partners with new leads and your customers with better support."/>
+        <label id="37" text="Partner Activation"/>
+        <label id="38" text="Keep your partners active with triggered notifications based on their actions and pending tasks. The system sends multiple email notifications so your partners won’t miss any critical update or deal registration deadline."/>
+        <label id="39" text="Partner Activation"/>
+        <label id="40" text="Keep your partners active with triggered notifications based on their actions and pending tasks. The system sends multiple email notifications so your partners won’t miss any critical update or deal registration deadline."/>
+        <label id="41" text="Tier Management"/>
+        <label id="42" text="Tier management enables you to create different tiers for your channel partners to manage commissions, incentivize them with goal setting tasks and give them permissions to features based on their tier."/>
+        <label id="43" text="Roles and Permissions"/>
+        <label id="44" text="All our plans come with unlimited team members that you can invite to help you manage your partner network. Give permissions for every role to grant them access on specific functionality and privileges."/>
+        <label id="45" text="Partner Management"/>
+        <label id="46" text="Get a detailed view for each of your channel partners concerning their activity, revenue analytics and company details. View all the critical information for each partner on a single page to better manage your partners."/>
+        <label id="47" text="Integrations"/>
+        <label id="48" text="Custom Integrations"/>
+        <label id="49" text="Security"/>
+        <label id="50" text="Fully Secure"/>
+        <label id="51" text="99.9% Platform Uptime"/>
+        <label id="52" text="GDPR Compliant"/>
+        <label id="53" text="SSL Encryption Enabled"/>
+        <label id="54" text="Our pricing"/>
+        <label id="55" text="Select the plan that fits your needs and start inviting your channel partners to join your PRM portal"/>
+        <label id="56" text="Free"/>
+        <label id="57" text=" month"/>
+        <label id="58" text="Manage up to {count} partners"/>
+        <label id="59" text="2 GB library storage"/>
+        <label id="60" text="Onboarding"/>
+        <label id="61" text="Deal registration"/>
+        <label id="62" text="+ Partner recruitment"/>
+        <label id="63" text="Partner directory"/>
+        <label id="64" text="Partner to partner"/>
+        <label id="65" text="Start-Up"/>
+        <label id="66" text="+ Manage up to {count} partners"/>
+        <label id="67" text="+ {count} GB library storage"/>
+        <label id="68" text="+ Customization"/>
+        <label id="69" text="Growth"/>
+        <label id="70" text="Popular"/>
+        <label id="71" text="+ Partner recruitment(advanced)"/>
+        <label id="72" text="Have you got a bigger partner network to manage? Get in touch with our sales team"/>
+        <label id="73" text="Some of our clients"/>
+        <label id="74" text="Testimonials"/>
+        <label id="75" text="We focus on the success of our clients. Take a look at the experience they are facing by using Elioplus for their channel development efforts."/>
+        <label id="76" text="Guys you are doing a great job, really appreciate your support and your help by increasing our channel partners network through your service."/>
+        <label id="77" text="Tomi Brooks"/>
+        <label id="78" text="VP of Growth at Chatwork"/>
+        <label id="79" text="Amazing service and partnership matches, excellent support and summary of the work. Thanks a lot Elioplus!"/>
+        <label id="80" text="Manuel Marquina"/>
+        <label id="81" text="Head of Account Management and Business, EMEA at Evernote"/>
+        <label id="82" text="Elio platform is easy to use and has all the features you need to increase your channel partners and manage your existing and new ones. Highly recommended!"/>
+        <label id="83" text="Eran Amit"/>
+        <label id="84" text="CMO at Bobile"/>
+        <label id="85" text="Interface is easy to understand and use. Data is in a format that is simple to work with.  Elio team is extremely helpful in figuring out the right potential partners. Service is a good value for the price. Elioplus PRM is helping us expand our reseller network throughout the world by providing not only leads for us to contact but also guidance on targeting and messaging."/>
+        <label id="86" text="Len Bruskiewitz"/>
+        <label id="87" text="Director of Global Channel Development at Repsly"/>
+        <label id="88" text="By feeding us with a steady array of qualified channel candidates at home and abroad, and providing an intuitive interface to manage the engagements, the Elioplus portal has quickly become one of the most valuable tools in our business development arsenal..."/>
+        <label id="89" text="David Friedland"/>
+        <label id="90" text="VP Business Development IRI, The CoSort Company"/>
+        <label id="91" text="Request a Demo with our team"/>
+        <label id="92" text="Note: Mandatory fields with (*)"/>
+        <label id="93" text="Elioplus is the All-in-One solution in IT channel industry to manage your channel partners and recruit new quality ones."/>
+        <label id="94" text="@copy 2023 "/>
+        <label id="95" text="Elioplus "/>
+        <label id="96" text="All Rights Reserved"/>
+        <label id="97" text="Company"/>
+        <label id="98" text="Useful Links"/>
+        <label id="99" text="Compare Elioplus PRM"/>
+        <label id="100" text="vs Impartner"/>
+        <label id="101" text="vs PartnerStack"/>
+        <label id="102" text="vs Allbound"/>
+        <label id="103" text="vs Zift Solutions"/>
+        <label id="104" text="vs Salesforce PRM"/>
+        <label id="105" text="vs Mindmatrix"/>
+        <label id="106" text="vs myprm"/>
+        <label id="107" text="Social"/>
+        <label id="108" text=""/>
+      </labels>
+      <buttons>
+        <button id="1" text=" reviews"/>
+        <button id="2" text="Get Started for Free"/>
+        <button id="3" text="Schedule demo"/>
+        <button id="4" text="View more"/>
+        <button id="5" text="See all Features"/>
+        <button id="6" text="Learn more"/>
+        <button id="7" text="CHOOSE"/>
+        <button id="8" text="Contact us"/>
+        <button id="9" text="Send"/>
+        <button id="10" text="Schedule demo"/>
+        <button id="11" text="Facebook "/>
+        <button id="12" text="Twitter "/>
+        <button id="13" text="Linkedin "/>
+        <button id="14" text="Google+ "/>
+        <button id="15" text="About Us "/>
+      </buttons>
+      <messages>
+        <message id="1" text="Please enter your first name"/>
+        <message id="2" text="Please enter your last name"/>
+        <message id="3" text="Please enter your company name"/>
+        <message id="4" text="Please enter an email address"/>
+        <message id="5" text="Please enter a valid email address"/>
+        <message id="6" text="Sorry, but something went wrong. Please try again later."/>
+        <message id="7" text="Thank you! Your demo request was successfully sent."/>
+      </messages>
+      <tooltips>
+        <tooltip id="1" text="First Name (*)"/>
+        <tooltip id="2" text="Last Name (*)"/>
+        <tooltip id="3" text="Company Name (*)"/>
+        <tooltip id="4" text="Email (*)"/>
+      </tooltips>
+    </prmmaster>
+    <sitemaster>
+      <labels>
+        <label id="1" text="Username:"/>
+        <label id="2" text="Password:"/>
+        <label id="3" text="Remember me"/>
+        <label id="4" text="Home"/>
+        <label id="5" text="How it Works"/>
+        <label id="6" text="Pricing"/>
+        <label id="7" text="Search"/>
+        <label id="8" text="Contact Us"/>
+        <label id="9" text="Blog"/>
+        <label id="10" text="SITEMAP"/>
+        <label id="11" text="Terms / Privacy"/>
+        <label id="12" text="Contact Information"/>
+        <label id="13" text="About us"/>
+        <label id="14" text="info@elioplus.com"/>
+        <label id="15" text=""/>
+        <label id="16" text="Elioplus Team"/>
+        <label id="17" text="Your account is blocked. Please contact us!"/>
+        <label id="18" text="You are not full registered. Please click here or on the register option under your name to complete your registration!"/>
+        <label id="19" text="Your profile is not public, probably because of invalid data or profile misuse. Please contact us for any questions."/>
+        <label id="20" text="My Dashboard"/>
+        <label id="21" text="Register"/>
+        <label id="22" text="Admin Page"/>
+        <label id="23" text="Log Out"/>
+        <label id="24" text="Elioplus - A Marketplace for IT Partnership"/>
+        <label id="25" text="How to build IT Partneship on Elioplus"/>
+        <label id="26" text="Find your business partner on Elioplus"/>
+        <label id="27" text="Contact Elioplus Team - IT Marketplace"/>
+        <label id="28" text="Elioplus Team - IT Marketplace"/>
+        <label id="29" text="Your answer is here - Elioplus IT Marketplace"/>
+        <label id="30" text="Free and Fast Registration - Elioplus IT Marketplace"/>
+        <label id="31" text="Our pricing strategy - Elioplus IT Marketplace"/>
+        <label id="32" text="Easy password reset - Elioplus IT Marketplace"/>
+        <label id="33" text="Elioplus community - Elioplus IT Marketplace"/>
+        <label id="34" text="Your community profile - Elioplus IT Marketplace"/>
+        <label id="35" text=" | Elioplus - A Marketplace for IT Partnership"/>
+        <label id="36" text=" profile | Elioplus - A Marketplace for IT Partnership"/>
+        <label id="37" text="support@elioplus.com"/>
+        <label id="38" text="Contact Us at:"/>
+        <label id="39" text="Support issues at:"/>
+        <label id="40" text="Enter username"/>
+        <label id="41" text="Enter password"/>
+        <label id="42" text="Your account is blocked. Please contact with us"/>
+        <label id="43" text="Check username"/>
+        <label id="44" text="Check password"/>
+        <label id="45" text="Forgot Password"/>
+        <label id="46" text="Username"/>
+        <label id="47" text="Password"/>
+        <label id="48" text="My Profile"/>
+        <label id="49" text="Our Community"/> 
+        <label id="50" text="Elioplus community latest posts - Elioplus IT Marketplace"/>
+        <label id="51" text="Elioplus community most voted posts - Elioplus IT Marketplace"/>
+        <label id="52" text="Elioplus community most discussed posts - Elioplus IT Marketplace"/>
+        <label id="53" text="Elioplus community must read posts - Elioplus IT Marketplace"/>
+      </labels>
+      <literals>
+        <literal id="1" text="Copyright @ 2024 Elioplus. All Rights Reserved."/>
+        <literal id="2" text="Design by "/>
+        <literal id="3" text="Faqs"/>
+      </literals>
+      <buttons>
+        <button id="1" text="Login"/>
+        <button id="2" text="Sign Up Free"/>
+      </buttons>
+      <tooltips>
+        <tooltip id="1" text="Change to English language"/>
+        <tooltip id="2" text="Change to Greek language"/>
+      </tooltips>
+      <messages>
+        <message id="1" text="You have {count} new message in your inbox."/>
+        <message id="2" text="You have {count} new messages in your inbox."/>
+        <message id="3" text="Coming soon"/>
+        <message id="4" text="Change Site Language"/>
+        <message id="5" text="You have {count} new prospect lead on your dashboard."/>
+        <message id="6" text="You have {count} new prospect leads on your dashboard."/>
+      </messages>
+    </sitemaster>
+    <login>
+      <labels>
+        <label id="1" text="Log in to Elioplus" />
+        <label id="2" text="Forgot password?" />
+        <label id="3" text="Log in" />
+        <label id="4" text="Remember me" />
+        <label id="5" text="Don't have an Elioplus account?" />
+        <label id="6" text="Create your account now" />
+        <label id="7" text="Or" />
+        <label id="8" text="Warning! " />
+        <label id="9" text="Please enter a username" />
+        <label id="10" text="Please enter a password" />
+        <label id="11" text="Check username" />
+        <label id="12" text="Check password" />
+        <label id="13" text="Your account is blocked. Please contact us for any questions."/>
+        <label id="14" text="Sorry, a temporary error occured and you can not log in through Linkedin at this moment. Please try again later or contact us."/>
+        <label id="15" text="Your account is deleted. Please contact us for any questions."/>
+        <label id="16" text="Your sub account is blocked. Please contact us for any questions."/>
+        <label id="17" text="Your sub account is deleted. Please contact us for any questions."/>
+        <label id="18" text="Your sub account is not active. Please contact us for any questions."/>
+        <label id="19" text="Your sub account is not confirmed. Please contact us for any questions."/>
+        <label id="20" text="Please enter captcha correct" />
+        <label id="21" text="Please fill captcha field" />
+        <label id="22" text="Check username and/or password"/>
+    </labels>
+    </login>
+    <default>
+      <labels>
+        <label id="1" text="Whether you are a channel partner and looking for new products to add to your portofolio or a developer browsing for APIs, you can search for the best software and Saas vendors on your  platform."/>
+        <label id="2" text="As a member you'll be able to contact directly the company or individual that fits your needs and connect with them. Also, you can see all your resent leads on your dashboard."/>
+        <label id="3" text="Use the advanced search filters to find the exact product, tool or company you are searching for. See each company's profile page to discover their complete offering and benefits of partnership."/>
+        <label id="4" text="Featured Vendors"/>
+        <label id="5" text="Company Name"/>
+        <label id="6" text="Industry"/>
+        <label id="7" text="Country"/>
+        <label id="8" text="Elioplus in a Nutshell"/>
+        <label id="9" text="Connecting SaaS and software companies with channel partners and developers. Elioplus is a B2B platform that brings together companies (software, SaaS and high tech hardware) that offer partner programs with their respective business partners. Discover great products and get in touch with innovative companies."/>
+        <label id="10" text="Learn more..."/>
+        <label id="11" text="Search"/>
+        <label id="12" text="Connect"/>
+        <label id="13" text="Discover"/>
+        <label id="14" text="Connecting software vendors and channel partners"/>
+        <label id="15" text="We are matching software &amp; cloud vendors and channel partners creating more than {count} partnerships in 120+ product categories" />
+        <label id="16" text="" />
+        <label id="17" text="Add Your Company Free" />
+        <label id="18" text="Category"/>
+        <label id="19" text="Industry"/>
+        <label id="20" text="Partner Program"/>
+        <label id="21" text="How it"/>
+        <label id="22" text="works"/>
+        <label id="23" text="Are you a Software"/>
+        <label id="24" text="or SaaS Vendor?"/>
+        <label id="25" text="Are you a Software"/>
+        <label id="26" text="or SaaS Channel Partner?"/>
+        <label id="27" text="Are you an"/>
+        <label id="28" text="API developer?"/>
+        <label id="29" text="Use the search box to enter your criteria and find the partnership opportunities that you are looking for. Use the advanced search filters to find the exact product, tool or company you are searching for." />
+        <label id="30" text="See each company's profile page to discover their complete offering and benefits of partnership. As a member you'll be able to contact directly the company or individual that fits your needs and connect with them." />
+        <label id="31" text="You can see all your recent leads on your dashboard and get in touch with the respective company. In addition, you can use our algorithm tool to automatically connect you with potential partners based on your profile data." />
+        <label id="32" text="Sign up for Free" />
+        <label id="33" text="Sign up (under 30 seconds), create your company's account and provide some information about your partner program structure like partnership types, benefits, support and requirements. You can add unlimited members in your team, like the Channel Manager, the Business Development etc." />
+        <label id="34" text="Tell us more" />
+        <label id="35" text="Provide some information about your partner program structure like partnership types, benefits, support, requirements etc. so we can match you with the best channel partners and increase the effectiveness of your network." />
+        <label id="36" text="Connect and Grow" />
+        <label id="37" text="We distribute your partner program to interested channel partners based on the criteria of your offering. We use over 15 main criteria to reach the correct channel partners and deliver the most accurate leads directly in your dashboard and inbox." />
+        <label id="38" text="Sign up (under 30 seconds) and create your company's public profile. Users can rate and review your listing in order to gain credibility and more offers from vendors with better partnership terms." />
+        <label id="39" text="Specify" />
+        <label id="40" text="We analyze and recommend the best vendors that match with your company profile based on multiple criteria such as industry and market segmentation, number of partners in your location etc." />
+        <label id="41" text="Receive and Determine" />
+        <label id="42" text="Receive offers in your inbox and compare the most competitive partner programs based on your criteria. We provide all the information you need about partner programs and the respective companies so you can make the best decision." />
+        <label id="43" text="Tell us about you" />
+        <label id="44" text="Complete the quick form and tell us what products you like to build. Choose between Business Services, Media and Entertainment, Retail and Ecommerce, Location, Social and Health." />
+        <label id="45" text="Start Building" />
+        <label id="46" text="Receive new recommendations based on your criteria, we match you with the best API providers. You can also search our database to discover all the available API programs that are added daily." />
+        <label id="47" text="Community" />
+        <label id="48" text="Soon, we'll roll out our developers community where you can add related content, promote your work, request help for your projects and many more..." />
+        <label id="49" text="Featured Companies" />
+        <label id="50" text="View profile" />
+        <label id="51" text="Our Partners" />
+        <label id="52" text="Elioplus in a Nutshell" />
+        <label id="53" text="Elioplus is a B2B business development platform that enables software, SaaS and cloud vendors to recruit and manage their channel partners. We use over 15 main criteria in order to match quickly, effectively and with accuracy vendors with channel partners and help them establish valuable partnerships." />
+        <label id="54" text="Start Now Free" />
+        <label id="55" text=" Learn more..." />
+        <label id="56" text="Market" />
+        <label id="57" text="API Category" />
+        <label id="58" text="Search" />
+        <label id="59" text="I am looking for" />
+        <label id="60" text="In this Industry" />
+        <label id="61" text="With this partner program" />
+        <label id="62" text="That specialises in" />
+        <label id="63" text="With interest in this API" />
+        <label id="64" text="Partner Recruitment" />
+        <label id="65" text="Get matched and recruit the best partners based on location, industry, experience and 13 more criteria." />
+        <label id="66" text="Partner Management" />
+        <label id="67" text="Manage your partner network and incentivize your partner with our free partner relationship management software." />
+        <label id="68" text="Unify Communications – Get new business" />
+        <label id="69" text="Manage all your tech partner communications from a single dashboard. Receive new customer leads from your partner networks." />
+        <label id="70" text="Learn more" />
+        <label id="71" text="What they say about us"/>
+        <label id="72" text="For IT Vendors" />
+        <label id="73" text="For Channel Partners"/>
+      </labels>
+      <tooltips>
+        <tooltip id="1" text="Create your public profile. Provide your Partner Programm or API details. We connect you with channel partners and developers."/>
+        <tooltip id="2" text="Create your company profile on our platform. Tell us about the products and services you are looking for. We recommend you innovative and competitive partner programms."/>
+        <tooltip id="3" text="Sign up and join on our platform. Tell us what products you like to build. Receive new recommendations based on your criteria."/>
+      </tooltips>
+      <literals>
+        <literal id="1" text="Search for vendors, channel partners and API developers" />
+        <literal id="2" text="Discover partnership opportunities" />
+        <literal id="3" text="Connect with new bussiness partners" />
+        <literal id="4" text="Featured company 1" />
+        <literal id="5" text="Featured company 2" />
+        <literal id="6" text="Featured company 3" />
+        <literal id="7" text="Featured company 4" />
+        <literal id="8" text="Featured company 5" />
+        <literal id="9" text="Featured company 6" />
+        <literal id="10" text="Featured company 7" />
+        <literal id="11" text="Featured company 8" />
+        <literal id="12" text="Company 1 rating" />
+        <literal id="13" text="Company 2 rating" />
+        <literal id="14" text="Company 3 rating" />
+        <literal id="15" text="Company 4 rating" />
+        <literal id="16" text="Company 5 rating" />
+        <literal id="17" text="Company 6 rating" />
+        <literal id="18" text="Company 7 rating" />
+        <literal id="19" text="Company 8 rating" />
+        <literal id="20" text="Elioplus partner 1" />
+        <literal id="21" text="Elioplus partner 2" />
+        <literal id="22" text="Elioplus partner 3" />
+        <literal id="23" text="Elioplus partner 4" />
+        <literal id="24" text="Elioplus partner 5" />
+        <literal id="25" text="Elioplus partner 6" />
+
+      </literals>
+      <alternates>
+        <alternate id="1" text="vendor sign up join" />
+        <alternate id="2" text="vendor program partnership" />
+        <alternate id="3" text="vendor connect grow" />
+        <alternate id="4" text="channel partner sign up join" />
+        <alternate id="5" text="channel partner specify" />
+        <alternate id="6" text="channel partner receive determine" />
+        <alternate id="7" text="API developer introduce" />
+        <alternate id="8" text="API developer build" />
+        <alternate id="9" text="API developer community" />
+      </alternates>
+    </default>
+    <profile>
+      <labels>
+        <label id="1" text="Add Review" />
+        <label id="2" text="Save profile" />
+        <label id="3" text="Overview" />
+        <label id="4" text="Description" />
+        <label id="5" text="Partner Program Reviews" />
+        <label id="6" text="Contact Details" />
+        <label id="7" text="Industry:" />
+        <label id="8" text="Subcategories:" />
+        <label id="9" text="Market specialisation:" />
+        <label id="10" text="Partner program:" />
+        <label id="11" text="API:" />
+        <label id="12" text="Website:" />
+        <label id="13" text="Address:" />
+        <label id="14" text="Phone:" />
+        <label id="15" text="Registration date:" />
+        <label id="16" text="Watch a demo" />
+        <label id="17" text="user(s) have rated" />
+        <label id="18" text="Total reviews" />
+        <label id="19" text="Mashape account" />
+        <label id="20" text="View Product Demo" />
+      </labels>
+      <literals>
+        <literal id="1" text="Elioplus profile logo" />
+      </literals>
+    </profile>
+    <howitworks>
+      <labels>
+        <label id="1" text="Learn How It Works"/>
+        <label id="2" text="&lt;b&gt;Create&lt;/b&gt; a profile for your company"/>
+        <label id="3" text="&lt;b&gt;Provide&lt;/b&gt; your Partner Program or API details"/>
+        <label id="4" text="Sign up and &lt;b&gt;join&lt;/b&gt; on our platform"/>
+        <label id="5" text="&lt;b&gt;Tell&lt;b/&gt; us about what products you like to build"/>
+        <label id="6" text="&lt;b&gt;Receive&lt;b/&gt; new recommendations based on your criteria"/>
+        <label id="7" text="Create &lt;b&gt;a profile for your company&lt;b/&gt;&lt;br/&gt;&lt;br/&gt;"/>
+        <label id="8" text="&lt;b&gt;Tell us&lt;b/&gt; about the products and services you are looking for"/>
+        <label id="9" text="We &lt;b&gt;recommend&lt;b/&gt; you innovative and competitive partner programs"/>
+        <label id="10" text="Sign up and Join"/>
+        <label id="11" text="Create a profile for your company as a Channel Partner"/>
+        <label id="12" text="Provide info about your partnership needs"/>
+        <label id="13" text="Tell us more"/>
+        <label id="14" text="Go to the ‘Find new Partners’ tab of your dashboard and select from 16 partnership criteria those that fit your needs. By submitting them on our system you will have the chance to receive partnership proposals into your inbox."/>
+        <label id="15" text="Connect and Grow"/>
+        <label id="16" text="Use our platform to find actively new channel partners. Use all our features to connect with the Vendors you really want and use our matching process feature to find the best products to resell with the partnership criteria you had chosen."/>
+        <label id="17" text="Sign up (under 30 seconds) and create your company's public profile. Users can rate and review your listing in order to gain credibility and more offers from vendors."/>
+        <label id="18" text="Specify"/>
+        <label id="19" text="We analyze and recommend the best vendors that match with your company profile based on multiple criteria such as industry and market segmentation, number of partners in your location etc."/>
+        <label id="20" text="Receive and Determine"/>
+        <label id="21" text="Receive offers in your inbox and compare the most competitive partner programs based on your criteria. We provide all the information you need about partner programs and the respective companies so you can make the best decision."/>
+        <label id="22" text="Tell us about you"/>
+        <label id="23" text="Complete the quick form and tell us what products you like to build. Choose between Business Services, Media and Entertainment, Retail and Ecommerce, Location, Social and Health."/>
+        <label id="24" text="Start Building"/>
+        <label id="25" text="Receive new recommendations based on your criteria, we match you with the best API providers. You can also search our database to discover all the available API programs that are added daily and send direct messages to API Vendors right into your dashboard."/>
+        <label id="26" text="Community"/>
+        <label id="27" text="Join our Community and add related content, promote your work, request help for your projects and get exposure."/>
+        <label id="28" text="We &lt;b&gt;connect&lt;b/&gt; you with channel partners and developers"/>
+        <label id="29" text="Vendors"/>
+        <label id="30" text="Channel Partners" />
+        <label id="31" text="API Developers" />
+        <label id="32" text="Promote your partner program" />
+        <label id="33" text="Promote your partner program and attract high quality leads to recruit new business partners and grow your channel network. Put your partner program in front of thousands of channel partners that visit our website." />
+        <label id="34" text="Get matched automatically" />
+        <label id="35" text="Based on the data you provide us, we look in 15 main criteria like product category, geographic markets, monetization structure etc. and provide you with channel partner leads that match these criteria. You set it once and we provide partner leads continuously." />
+        <label id="36" text="Opportunities pipeline" />
+        <label id="37" text="Create a pipeline to manage all your partner leads and create notes and task reminders for every event. You can also add partner leads from your website, events etc. to unify all your leads." />
+        <label id="38" text="Sign up and join for Free" />
+        <label id="39" text="Sign up (under 30 seconds) and create your company's profile. Whether you are looking for new products to add to your portfolio and resell or you are researching for new innovations in your field, you can use the filters in our search feature to find all the available solutions and products in your industry." />
+        <label id="40" text="Partner with new vendors" />
+        <label id="41" text="We analyze all the data based on your preferences in order to make the best recommendations that suit your needs. We provide you all the necessary data to compare the partner programs and make the best decision. You can also find ratings and reviews in each vendor profile from other channel partners to help you evaluate each prospect partner." />
+        <label id="42" text="Manage your vendors" />
+        <label id="43" text="Collaborate in real time with your vendors using our built in tools. You can add as many vendors as you like in order to create an all-in-one communication funnel and manage them under a unified dashboard." />
+        <label id="44" text="Start Building" />
+        <label id="45" text="Complete the quick form and tell us what products you like to build. Choose between
+                                        Business Services, Media and Entertainment, Retail and Ecommerce, Location, Social
+                                        and Health." />
+        <label id="46" text="Get matched automatically" />
+        <label id="47" text="Receive new recommendations based on your criteria, we match you with the best API
+                                        providers. You can also search our database to discover all the available API programs
+                                        that are added daily." />
+        <label id="48" text="Community" />
+        <label id="49" text="Soon, we'll roll out our developers community where you can add related content,
+                                        promote your work, request help for your projects and many more..." />
+        <label id="50" text="Collaborate with your partners" />
+        <label id="51" text="Collaborate in real time with your partners to send them product, marketing and sales material. Manage your channel partners, create a content library and many more features to enable your channel network to promote your products." />
+        <label id="52" text="Sign up for Free" />
+        <label id="53" text="Sign up (under 30 seconds), create your company's account and provide some information about your partner program structure like partnership types, benefits, support and requirements. You can add unlimited members in your team, like the Channel Manager, the Business Development etc." />
+        <label id="54" text="Receive sales incentives" />
+        <label id="55" text="Our content management library enables you to receive documentation, sales and marketing material from your vendors and easy retrieve any document for your team. In addition, our partner-to-partner feature enables you to collaborate with other channel partners of the same vendors to close bigger customer deals." />
+        <label id="56" text="Learn more..." />
+        <label id="57" text="Collaborate with your Partners" />
+        <label id="58" text="Bring your partner network together! Empower your team with a partner portal to optimize your network and give your partners powerful features to enable them to grow their sales." />
+        <label id="59" text="Powerful Features for Everyone" />
+        <label id="60" text="Manage Your Partners" />
+        <label id="61" text="Create a partner portal for your partners to enable them with real time collaboration and material distribution. You can have one to one conversations or group your partners based on location and type." />
+        <label id="62" text="Bring Your Existing Partners" />
+        <label id="63" text="Add your existing partners with ease by sending them automated invitations, while you can also add new channel partners from our platform to grow your network." />
+        <label id="64" text="Content Library" />
+        <label id="65" text="Send product documentation, marketing and sales material to your partners to empower them. You can create different categories so your partners can easily retrieve past documents." />
+        <label id="66" text="Analytics" />
+        <label id="67" text="Check what partners are active in your conversations and which companies make use of the material you distribute. Take action when your channel partners are inactive in order to incentivize them to promote your products." />
+        <label id="68" text="Partner to Partner" />
+        <label id="69" text="Allow your channel partners to collaborate and to create synergies to close bigger deals and work together on quotes, customer sales and product development." />
+        <label id="70" text="Vendor's benefits" />
+        <label id="71" text="Channel Partner's benefits" />
+        <label id="72" text="Developers benefits" />        
+      </labels>
+      <alternates>
+        <alternate id="1" text="Vendors features and benefits" />
+        <alternate id="2" text="Channel Partners features and benefits" />
+        <alternate id="3" text="API Developers features and benefits" />
+        <alternate id="4" text="Partner program promotion" />
+        <alternate id="5" text="Automatic partner matching" />
+        <alternate id="6" text="Find new partners" />
+        <alternate id="7" text="channel partners match with vendors" />
+        <alternate id="8" text="channel partners find new partners" />
+        <alternate id="9" text="channel partners channel programs" />
+        <alternate id="10" text="Manage Your Partners" />
+        <alternate id="11" text="Bring Your Existing Partners" />
+        <alternate id="12" text="Content Library" />
+        <alternate id="13" text="Analytics" />
+        <alternate id="14" text="Partner to Partner" />
+      </alternates>
+      <literals>
+        <literal id="1" text="Vendors" />
+        <literal id="2" text="Channel Partners" />
+        <literal id="3" text="API Developers" />
+      </literals>
+      <tooltips>
+        <tooltip id="1" text="Go to top"/>
+      </tooltips>
+    </howitworks>
+    <recruitment>
+      <labels>
+        <label id="57" text="Engage and Sign Up new Channel Partners" />
+        <label id="58" text="Get connected and reach out to channel partners (like resellers, Value Added Resellers, system integrators, consultants etc.) to your target markets or worldwide, to help you grow your partner network and increase your indirect sales." />
+        <label id="59" text="How it Works" />
+        <label id="60" text="Create your company profile" />
+        <label id="61" text="Sign up and create a free profile for your partner program adding all your partner program details. You can also add a demo video and a pdf file for your prospect partners to easily evaluate your offering. Your partners can rate and review your partner program to help you rank higher on relevant searches attract new channel partners." />
+        <label id="62" text="Select your partnership criteria" />
+        <label id="63" text="Select the product categories you want to recruit new partners, your locations (our platform enables global coverage), type of partnership, industry and from 12 more optional criteria that are available. If you have specialized needs then you can inform your account manager and we’ll apply them, nothing is too extreme for us." />
+        <label id="64" text="Get matched with the best opportunities available" />
+        <label id="65" text="Once you have completed the registration we provide you with a number of channel partners that exact match your selected criteria. We start providing you the best matches directly in your dashboard along with contact details from each company and more than 30 attributes about the company and the contact person. You can add each potential partner to our pipeline tool or export your data in a CSV file." />
+        <label id="66" text="Manage your prospect partners" />
+        <label id="67" text="Elioplus enables you to manage the negotiations with your potential partners in a pipeline, both those from our platform as well as you can add an opportunity from any other source. You can add tasks, notes and reminders, move the opportunities around in order to have a clear image and follow up with your partners for better efficiency." />
+        <label id="68" text="Full-service channel marketing" />
+        <label id="69" text="If you have limited resources or time to reach out to potential partners we offer the option to hire a dedicated account manager from our company to do all the necessary follow ups to your matches that you receive through Elioplus. So, we are doing all the hard work of follow ups through emails to all your matches and we provide you only qualified partnership opportunities like channel partner sign ups, demo requests, call requests, more information requests in order to convert them as channel partners of your solutions." />
+        <label id="70" text="Manage your partners" />
+        <label id="71" text="After you have successfully engaged into new partnerships via our platform you can seamlessly add your new partners to our free PRM software to manage, collaborate and incentivize them. You can optionally select to use our partner portal software to unify your partner recruitment and management needs. " />
+        <label id="72" text="Set up in minutes. No credit card required." />
+        <label id="73" text="Read more here." />
+      </labels>
+      <alternates>
+        <alternate id="1" text="Vendors features and benefits" />
+        <alternate id="2" text="Channel Partners features and benefits" />
+        <alternate id="3" text="API Developers features and benefits" />
+        <alternate id="4" text="Partner program promotion" />
+        <alternate id="5" text="Automatic partner matching" />
+        <alternate id="6" text="Find new partners" />
+        <alternate id="7" text="channel partners match with vendors" />
+        <alternate id="8" text="channel partners find new partners" />
+        <alternate id="9" text="channel partners channel programs" />
+        <alternate id="10" text="Manage Your Partners" />
+        <alternate id="11" text="Bring Your Existing Partners" />
+        <alternate id="12" text="Content Library" />
+        <alternate id="13" text="Analytics" />
+        <alternate id="14" text="Partner to Partner" />
+      </alternates>
+    </recruitment>
+    <partnermanagementsoftware>
+      <labels>
+        <label id="1" text="What is a partner relationship management system?"/>
+        <label id="2" text="&lt;b&gt;Partner relationship management system&lt;/b&gt; or simply PRM is a software system that includes tools, modules and capabilities to help vendors manage and enable their partner network. While traditional partner relationship management systems were viewed mostly as a database to manage partner contact information modern PRM software applications are focused on incentives and social collaboration features to help vendors activate and enable their partners to perform better on their sales efforts and thus increasing indirect revenues."/>
+        <label id="3" text="While vendors are usually driven by their motivation to enter fast new markets and keep their financial overhead at a minimum, channel partners on the other hand need to be trained properly, invest in their salespeople to understand the product or solution and the sales process and finally benefit from the commission scheme in order to make sense to make this investment. This is what a partner relationship management system should include in the methods offered to increase partner engagement."/>
+        <label id="4" text="Some of the typical features found in a &lt;b&gt;partner relationship management system&lt;/b&gt; application are deal registration, lead distribution, content library, analytics, onboarding and training, MDF request programs and joint business planning. Below is a brief overview of these features and their importance."/>
+        <label id="5" text="Deal registration "/>
+        <label id="6" text="Having a deal registration plan is place is a basic but also great incentive for channel partners as it gives them peace of mind to work on their leads without the worries of having to compete with other partners of the same network or even with the vendor itself. "/>
+        <label id="7" text="Lead Distribution"/>
+        <label id="8" text="Another great way to incentivize partners is the send them leads from companies that operate in their market and would to work with a local partner. Lead distribution can be used to award the top performing channel partners or to boost companies that are lagging, it’s a strategic decision."/>
+        <label id="9" text="Market development funds (MDFs)"/>
+        <label id="10" text="Many vendors choose to deploy market development funds or Co-op Funds in order to help channel partner create local awareness about their product. While these funds can be prove to be very helpful there are a number of factors to consider before defining such programs."/>
+        <label id="11" text="Content Library"/>
+        <label id="12" text="Providing update and relevant material like product documentation, sales decks, marketing material and other important documents it’s critical for a vendor’s partner network as it provides the right tools to their partners and salesforce in order to close more deals."/>
+        <label id="13" text="Collaboration"/>
+        <label id="14" text="At this day and age, being able to collaborate in real-time with ones partners it’s crucial to increase channel partner productivity and indirect revenue. Collaboration features can be used to provide the right channel company or group of channel partners the right material in time and also perform co-sales initiatives."/>
+        <label id="15" text="Continuous training"/>
+        <label id="16" text="While onboarding channel partners is very important also of equal importance is to undergo through training during a channel partner’s lifecycle. Having a trained and up to date indirect sales team can mean a constant flow of indirect sales or a rapid increase in some cases."/>
+        <label id="17" text="Partner relationship management thoughts"/>
+        <label id="18" text="Almost every vendor has realized that recruiting channel partners is only have of the job. Keeping the channel network active and incentivized to sell ones solutions is the most important aspect in the channel industry. In order to achieve that a proper &lt;b&gt;partner relationship management system&lt;/b&gt; should be implemented to give you the tools to enable your partner network and also pass the message to the partners that you are providing the means for them to be successful."/>
+        <label id="19" text="If you are looking how to enable your partners, check our "/>
+        <label id="20" text="partner relationship management system"/>
+      </labels>
+    </partnermanagementsoftware>
+	  <partnermanagement>
+      <labels>
+        <label id="1" text="The Ultimate Guide for Partner Management"/>
+        <label id="2" text="A significant part of the global economy flows through the channel and the same holds true in the software, SaaS and cloud sectors as well. A big part of the tools and solutions available by hundreds of thousands of vendor are being promoted and sold via channel partners. "/>
+        <label id="3" text="In the old days, in some cases this is true even today, many vendors chose to manage their partner network with spreadsheets rather than using a software tool. This was due to the fact that there weren’t many solutions in the market and also because some of the products that existed were expensive and sold mainly to enterprise level businesses. But with the explosion of SaaS tools there are now many solutions a vendor can select to manage, optimize and enable their partner network."/>
+        <label id="4" text="Below is a list of 14 main categories and 48 tools including partner management systems, channel marketing or Through-Channel Marketing Automation tools, channel data management solutions, partner training and many more. We present the functionality and the importance of each tool as well as some well-known companies in every category."/>
+        <label id="5" text="Partner Relationship Management"/>
+        <label id="6" text="When it comes to partner management then the first tool to be considered is a PRM or Partner Relationship Management software or simply a partner portal. A PRM tool will provide you with enough functionality to manage, optimize and enable your partner network."/>
+        <label id="7" text="Some of the most common elements found in a PRM software include Deal Registration features that help you avoid conflict between channel partners, Lead Distribution to help you distribute leads to your partners, a Partner Directory and Locator to showcase your partners to your visitors, Partner Training and Certification that helps you to create and publish courses for your partners and also certify them and of course co-branding features."/>
+        <label id="8" text="Other important features that you should consider before investing in a PRM tool are the integrations with third party applications like CRMs, marketing automation tools, file storage solutions etc., partner recruitment features that can help you sustain and grow the number of partners in your network and in some cases a referral add-on for companies that rely on consultants and their clientele to drive new business."/>
+        <label id="9" text="Using a referral tool will help you to keep everything organized and keep track of payouts, it also signals to your referral partners that you have invested in this channel and it is important for your company. Having a PRM and referral tool under one dashboard will minimize your time to manage your partner network and can give you the complete picture of your channel efforts in terms of analytics and commissions."/>
+        <label id="10" text="There are enough options to review in this space and for every budget available, from small companies and new startups up to enterprise level companies that have complex partner networks and needs. We’ll start from our own "/>
+        <label id="11" text="PRM solution"/>
+        <label id="12" text=" for two reasons, it has a complete free plan for vendors with a small partner network and all features are available for use and secondly it has a "/>
+        <label id="13" text="Partner Recruitment"/>
+        <label id="14" text=" tool built-in that helps you to attract new channel partners and grow your network effortless and all under the same application."/>
+        <label id="15" text="When it comes to PRM, Impartner is one of the oldest (previously known as Treehouse Interactive) and most well-known companies that you should consider for your partner portal. Although it might be out of reach for some companies due to pricing as it attracts a lot of enterprise level companies Intel, LANDESK and EMC, Impartner also offer a referral product that can be handy for vendors that offer multiple partner programs."/>
+        <label id="16" text="LogicBay is another well-known channel sales software that specializes in the manufacturing industry and their recent FUSE product is the only member-based platform for the manufacturing industry. Some additional companies that offer partner portals with great functionality are Mindmatrix, that also offers a sales enablement suite, Allbound, that offers partner portal and partner engagement products, MyPRM which is a French software company, Channeltivity and PartnerStack that is ideal for SaaS vendors with referral and affiliate networks."/>
+        <label id="17" text="Channel Marketing - Through-Channel Marketing Automation"/>
+        <label id="18" text="An effective partner management strategy should include some sort of channel marketing or Through-Channel Marketing Automation (TCMA) to make the best out of your partner network’s reach. TCMA software tools will help you to create complex campaigns utilizing your partners reach in order to generate demand, manage leads and keep track of the performance for each partner."/>
+        <label id="19" text="Some of the most common features on each of these tools include co-branding and collaboration features so vendors and partners can work on collateral material, lead management, reporting and analytics to optimize channel marketing spend and measure ROI."/>
+        <label id="20" text="ZiftSolutions is one of the most well-known companies in the channel and offers products around partner management with channel marketing being one of those solutions. Their channel marketing product includes data analytics, MDF tracking and creative services for content like graphic design, microsites etc."/>
+        <label id="21" text="StructureWeb is a SaaS company that offers a TCMA platform with features such as channel marketing process collaboration, channel marketing automation for repeatable marketing programs to thousands of partners, lead management and analytics. The company also offers solutions like content syndication and CRM integration."/>
+	    <label id="22" text="TIE KINETIX offers all the basic functionality including through-partner marketing feature, co-branding, performance and lead management. In addition, the company also offers Google Ads for the Channel tool to help you generate demand for your partners via Google Ads."/>
+	    <label id="23" text="Another contender in this field is Sproutloud that offer both a platform for TCMA and professional services. Their platform includes channel marketing automation, spend management and analytics among other features while the company also offers co-op advertising solutions."/>
+	    <label id="24" text="Other notable solutions in this sector are distribion that offers content marketing and campaign execution, Zinfi with features like Social Syndication and Search Marketing, Averetek (now part of E2Open), Marketopia, SocialRep for partner sales, Channel Matters, OneAffiniti and Tune."/>
+	    <label id="25" text="Channel Data Management"/>
+	    <label id="26" text="Channel Data Management products are essential in some cases, like manufacturers, that have complex partner networks with different types of partners such as distributors, resellers, ODMs and OEMs. These products will help you gain intelligent insights of your network and answer difficult questions like if your partners are stocking the right products or if you are overpaying incentives."/>
+	    <label id="27" text="Model N is a company that stands out when it comes in Channel Data Management. Their product includes functionality that helps manufacturers to monitor their network’s performance, maximize channel revenue and decrease operational costs for partner management."/>
+	    <label id="28" text="E2 Open is another great solution in this area that can help you take data-driven decisions on how to improve your channel and your supply chain planning. Their product can provide with great insights on your best sellers, inventory and how to structure your incentive payments."/>
+	    <label id="29" text="Incentives"/>
+	    <label id="30" text="Having a productive partner network is not just about utilizing their reach in order to sell through your partners your products and services but also to provide incentives and rewards to boost their efforts. Incentives, rewards, rebates and Market Development Funds (MDFs) are all a great way to enhance your partner management efforts."/>
+	    <label id="31" text="PerksWW is a leading company that provides channel incentive marketing solutions like rebates, rewards and Marketing Development Funds. Their channel incentives automation platform can be used for multiple programs across your entire portfolio."/>
+	    <label id="32" text="WorkStride provides an impressive portfolio of solutions around channel incentives that will help you manage promotions, boost partner engagement, keep your partners motivated and reduce manual processes for claim validation."/>
+	    <label id="33" text="Other notable companies in this category are Power2Motivate that offers sales and channel partner incentive programs, MTCPerformance with their incentive solutions for manufacturers, distributors and large resellers, Incentive Solutions which as their name suggest helps you run incentive programs, fielo with their incentive automation platform that also runs on Salesforce and ChannelAssist that helps you increase channel sales and engagement."/>
+	    <label id="34" text="Partner Training"/>
+	    <label id="35" text="Training your partners is essential for partner management, it guarantees that your branding and messaging stays consistent even in complex partner networks in which hundreds or even thousands sales reps and support people are involved. Most PRM systems will have a partner training module either native or as an integration with a third-party application but there also exist Learning Management Systems (LMS) that are focused in the channel."/>
+	    <label id="36" text="One such example is NetExam that offers an LMS system focused on training channel partners and can be integrated with most CRMs like Salesforce, Oracle and Microsoft Dynamics."/>
+	    <label id="37" text="Litmos from SAP is another company that although they offer an LMS product they also have a specialized solution for partner training and some great functionality that allows you to even charge your partners for the training courses."/>
+	    <label id="38" text="Integrations Management"/>
+	    <label id="39" text="Most SaaS applications offer various integration with third party providers that not only helps their end-customers to easily transfer data from one application to another but also makes it easier for their product to be adopted by channel partners that are interested to upsell their clientele. The logistics of having an integration ecosystem of partners though can make it difficult to manage different APIs, scale your connectors and showcase your partners."/>
+	    <label id="40" text="Apideck provides a platform to help you eliminate some headaches as their products will help you build your app store and showcase your integrations and their unified APIs make it easy to create native integrations with other SaaS companies."/>
+	    <label id="41" text="Ecosystems"/>
+	    <label id="42" text="Partner networks are in essence ecosystems, sometimes simple and some other times very complex in a way that are involved different types of companies from various sectors using multiple applications to run their businesses. That makes it challenging to have transparency in the channel and align strategies towards customer acquisition."/>
+	    <label id="43" text="In the recent years many great applications have emerged to help vendors manage their partner programs and ecosystems more effectively. One of these companies is Crossbeam that can help you uncover overlapping prospects and customers by analyzing the CRM system of the vendor and the channel partner."/>
+	    <label id="44" text="Another great platform is WorkSpan and its cloud ecosystem will help your to manage your partner programs and connect with your partners. Their products also include Joint Sales, Funds and Marketing for vendors that run more mature partner programs."/>
+	    <label id="45" text="Finally, there is TIDWIT with their Cloud Ecosystem Network that enables scalable collaboration, distribution and information exchange between customers and partners."/>
+	    <label id="46" text="Channel Enablement"/>
+	    <label id="47" text="An effective partner management strategy takes in consideration how to enable channel partners and stand out of the crowd. Channel companies partner with multiple vendors and getting your message to the right ears without distractions is a challenge. Atrivity offers a gamification tool to deliver training material in a true gaming format. The training material can be anything from product knowledge, sales promotions and negotiation skills."/>
+	    <label id="48" text="Subscription Management"/>
+	    <label id="49" text="In the age of SaaS economy, recurring subscriptions tend to dominate the landscape and this creates all sorts of issues for vendors and their partners. Iasset has acknowledged this issue and is offering a product for vendors with vast partner networks to manage every recurring revenue opportunity and renewals as well."/>
+	    <label id="50" text="Another great application in this space is Appbind that makes it easy for your channel partners to create different credit cards and manage subscriptions for their partners and also manage commissions as well."/>
+	    <label id="51" text="Partner Program Scoring"/>
+	    <label id="52" text="Prospect partners expect from you to have a partner program in place that fully explains the benefits and requirements of the partnership. myChannelScore offers a quick way to evaluate your partner program and some key indicators."/>
+	    <label id="53" text="P2P Network"/>
+	    <label id="54" text="As we mentioned on a previous section there are hidden opportunities in a partner ecosystem between the vendor and its channel partners. The same is true between channel partners that can collaborate in joint efforts to win more deals. Partner-to-Partner networks enable channel partners to share and receive deals with other companies in their network. A typical example is a channel company that has a potential lead but no expertise in that industry so they create a one-off collaboration with another channel company that fulfils the criteria to win the customer."/>
+	    <label id="55" text="One such network is P2PGlobal that is open for many different types of channel partners. Also, our platform has a "/>
+	    <label id="56" text="P2P built-in feature"/>
+	    <label id="57" text=" P2P built-in feature that allows channel companies to share and receive such leads."/>
+	    <label id="58" text="Partner Recruitment"/>
+	    <label id="59" text="In the partner recruitment space there is an abundance of options to help you identify your ideal channel partners and create outreach campaigns to attract new partners. First of all, there are hundreds of channel consultants that can help you to set up a proper partner program, in case you don’t have already one, create an ideal partner persona and get in touch with potential partners to drive new partnerships."/>
+	    <label id="60" text="In terms of tools, there is SaaSMAX with their Partner Optimizer tool to help you find the right partners and partnerprograms.io that is an ideal solution to connect you with all types of agencies. You can also consider our platform that actively promotes your partner program and matches you with the best potential partners around the globe or in specific countries."/>
+	    <label id="61" text="Channel Directories – Communities"/>
+	    <label id="62" text="Joining IT communities is not only great in terms of engaging with new partners but also will provide you great insights knowing the thoughts, troubles and current trends in the channel from trusted leaders and professionals. One such community organizing many local events is the ascii group. Other communities and directories in the channel industry include The Reseller Network and The Alliance Partners."/>
+	    <label id="63" text="Databases"/>
+	    <label id="64" text="For vendors that would like to access databases in order to actively go after new partner recruitment then there are multiple options that provide data from channel companies. Some companies that shouldn’t go unnoticed in this space are PartnerOptimizer and Channel Navigator in the US and compuBase in the European market."/>
+	    <label id="65" text="Conclusion"/>
+	    <label id="66" text="Partner management is an essential component to scale your indirect sales. Having a partner network is only half of the job, keeping your partners motivated, organized and making the best out of your partnerships is equally, if not more, important. There are multiple solutions as we described above in every category and for every budget these days. Just take your time to review every solution and make the adoption process for your partners seamless in order to not waste their time and resources."/>
+	    <label id="67" text="All registered trademarks, company names and brand names used on this website are the property of their respective owners. Data on features are taken directly from related web sites and marketing materials as of the date of publication. Information and features are subject to change. To report corrections, please contact us "/>
+	    <label id="68" text="here"/>
+	    <label id="69" text="."/>
+	</labels>
+    </partnermanagement>
+    <managechannelpartners>
+      <labels>
+        <label id="1" text="How to manage channel partners"/>
+        <label id="2" text="Having a healthy channel network is paramount for vendors that rely on channel partners to drive revenue, up to 30% of total revenue in most cases. Recruiting new partners is just the first step when it comes to implementing a partner program. Keeping your partners constantly engaged and active is very important to achieve a high ROI on the money spent to attract new partners."/>
+        <label id="3" text="Furthermore, enabling channel partners in the form of incentives, rewards, proper program structure and commissions is equally important. In order to put all these efforts in place, &lt;b&gt;channel partner management applications&lt;/b&gt; have been introduced to help vendors manage their partner network while providing the necessary support to partners. Many vendors rely on CRM or spreadsheets to manage their network and below we provide some reasons why these are not good solutions."/>
+        <label id="4" text="Managing channel partners using a CRM"/>
+        <label id="5" text="Using CRM to manage customer information and communications is great and can increase productivity. But using is to manage channel partners is not a good idea, not only it doesn’t provide all the tools to increase engagement and partner activity but also it sends a message to the partner network that he right tools are not in place to enable them."/>
+        <label id="6" text="A CRM can keep updated contact details of a partner network, send occasional product updates or newsletters via email and check deals that can be registered but it leaves out all the important tools for channel partners to boost their performance. For example, there is no content library that channel partners can use to have access to important sales and marketing material, no deal registration process, no training module available and no commission automation. We can keep going with capabilities that CRM systems lack when it comes to managing channel partners."/>
+        <label id="7" text="Managing channel partners with spreadsheets"/>
+        <label id="8" text="&lt;b&gt;Managing channel partners via spreadsheets&lt;/b&gt; is also a bad idea, it has all the cons of a CRM system in addition to not being able to send new updates. Also, there is always the risk of duplicate data or errors when someone is using a spreadsheet and entering manual data. Finally, it send a really bad message to the partner network in terms of the organization and the importance it assigns to its partners."/>
+        <label id="9" text="If you want to use a software tool to manage and enable your partner network but don’t have the budget you can check our PRM software that comes with a free fully functional plan."/>
+        <label id="10" text="Using PRM software to manage channel partners"/>
+        <label id="11" text="A proper PRM system will provide you all the functionality and capabilities to manage and enable your partner network. It provides by default all the management features a CRM or spreadsheets offer with the addition of tools and modules to incentivize your partners, train them correctly, provide sales and marketing material via a content library, deal registration tools and automate processes when it comes to reporting and assigning commissions."/>
+        <label id="12" text="&lt;b&gt;Managing channel partners&lt;/b&gt; is critical to make a partner network successful and having the right tools to do it can not only increase your chances to make it happen but also reduce costs, resources and time."/>
+        <label id="13" text="Do you want to manage your channel partners better? Check our "/>
+        <label id="14" text="PRM software"/>
+        <label id="15" text=" that comes with a free plan."/>
+      </labels>
+    </managechannelpartners>
+    <recruitmentproccess>
+      <labels>
+        <label id="1" text="How the channel partner recruitment process works"/>
+        <label id="2" text="Creating and scaling a partner network can make the difference for many SaaS companies in their growth efforts or to penetrate certain markets. But the &lt;b&gt;channel partner recruitment process&lt;/b&gt; may be proved to be more complex and harder than many channel developers think."/>
+        <label id="3" text="Starting from the basics, similar to targeting end-customers, you have to identify who the ideal partner is. To achieve this, there are some indicators to help you find what the ideal channel partner looks like. First, you have to consider the markets that you want to recruit your partners, even if your mission is to recruit partners globally you have to prioritize the countries or regions."/>
+        <label id="4" text="Another good indicator is to reach out to channel partners that already sell products that your solution integrates with. These companies not only are already active and have a sales process established and a customer base but also it’s easier for these organizations to offer complementary products to upsell their customers. Also, targeting companies that sell on specific industries is a great indicator for your ideal partners. These companies operate in specific segments of the economy so they know how to add value to certain customers."/>
+        <label id="5" text="The company size of the channel partner can play a role when it comes to committing resources to actively promote and sell your solution or cover the demand you have generated. Therefore, depending on your end-customers, if you are targeting small or mid-sized companies or enterprise level organizations, you have to take into account the size of your partners as well. Finally, after you have narrowed down you list you have to identify the right person to get in touch. In very small or small companies it is usually the CEO or the CTO that are taking these types of decisions when it comes to partnering. In larger businesses you may find a vendor management role who is your best option to discuss about a potential synergy."/>
+        <label id="6" text="After you have identified the right company and person there are a couple of things you can do to start engaging with them. You can create an email sequence to start booking meetings with potential partners or get in touch via social platforms like LinkedIn. These platforms also work to build awareness by joining relevant groups, like ours at IT Channel Partners, but do not overdo it in promoting your partner program. There are also many channel partner events that you can attend to connect with people working in the channel and also explore new market trends."/>
+        <label id="7" text="If you are looking for an automated "/>
+        <label id="8" text="channel partner recruitment process"/>
+        <label id="9" text=" you can join our platform that uses more than 20 different criteria to connect vendors with channel partners"/>
+      </labels>
+    </recruitmentproccess>
+    <partner2partnerdeals>
+      <labels>
+        <label id="57" text="Share and receive deals from your partners’ network" />
+        <label id="58" text="Create one-off or long term partnerships with other channel companies, that you belong to the same partner networks, to win more deals based on your industry expertise and location." />
+        <label id="59" text="How it Works" />
+        <label id="60" text="Share a deal to win a new customer" />
+        <label id="61" text="If you have a new lead from a potential customer but don’t meet all the criteria, for example: you don’t have experience on the specific industry or don’t serve that location, then you can establish a partnership with companies within your network to help you win that client." />
+        <label id="62" text="Receive interest from trusted companies" />
+        <label id="63" text="After you add some details concerning the deal, it is shared with companies that belong to the same partner networks as your company does, for example those tech vendors  you have partnered with. This insures that you will find what you are looking for quickly and that the companies will be from a trusted source." />
+        <label id="64" text="Receive new deals" />
+        <label id="65" text="After the sign up process, you can browse the tech vendors based on your current product and service offerings to join their network. If any of your tech partners is not yet on our platform you can invite them, it’s free for them to join as well. The more partners you have on your network the better opportunities you have to receive new deals from their network." />
+        <label id="66" text="Share and you shall receive" />
+        <label id="67" text="Companies that upload a deal have exclusive access to new deals that get uploaded for 48 hours before they are visible to other companies on our platform that fulfil the criteria." />
+        <label id="68" text="Join now" />
+        <label id="69" text="Sign up, create your company profile and start winning more deals. It’s completely free, set it up in minutes, no credit card is required. As a matter of fact, we do not even have a paid plan for channel companies." />
+        <label id="70" text="Not yet a member? Join now, it’s free." />
+        <label id="71" text="We match you with companies that offer the required technologies, that have joined the same tech vendors as you and have knowledge of the industry you are looking for, as well as the location, to speed up the process." />
+        <label id="72" text="Why it Works" />
+        <label id="73" text="Once you have received interest from potential collaborators you can evaluate them and get in touch with the companies that are the best option to move forward and win your customer." />
+        <label id="74" text="Join" />
+        <label id="75" text="Sing up and join the partner Sing up and join the partner networks of your tech vendors to have access to their partners. If you can’t find them on our platform yet you can invite them. It’s free for your company and theirs as well." />
+        <label id="76" text="Share or receive deals" />
+        <label id="77" text="Share a deal with your partner networks to find a collaborator based on their expertise or location or receive deals that are relevant to you from your networks. The more networks you have joined the more deals you will be receiving." />
+        <label id="78" text="Get new customers" />
+        <label id="79" text="Once you have found what you are looking for you can exchange more details to take the next steps and win more deals. When you share deals you are the first to get access to new deals on our platform to help you reach new clients." />
+        <label id="80" text="When you receive a new deal based on your expertise and location you can message the company that upload it to express your interest and collaborate together to win the customer."/>
+        <label id="81" text="In order to reward companies that share a deal, we provide them access to deals that are uploaded on our platform and match the criteria, for two days, so they have the head start to express their interest and join the deal."/>
+      </labels>
+      <alternates>
+        <alternate id="1" text="Share a deal to win a customer" />
+        <alternate id="2" text="Receive interest from trusted companies" />
+        <alternate id="3" text="Receive a deal" />
+        <alternate id="4" text="Share and you shall receive" />
+        <alternate id="5" text="Sign Up bottom" />        
+      </alternates>
+    </partner2partnerdeals>
+    <recruitmentquestions>
+      <labels>
+        <label id="1" text="How many channel partners do you have available?"/>
+        <label id="2" text="That depends on your product category and industry. Once you complete your company profile during your registration and have selected your categories we will provide you with a number of potential channel partners you can reach via our platform. Of course, that number grows daily as more channel partners join us."/>
+        <label id="3" text="Can I recruit channel partners on a global scale?"/>
+        <label id="4" text="Yes. You can either select to target channel partners globally or to specify countries that you are interested to recruit new partners. You can always change that option at any time."/>
+        <label id="5" text="How can I browse for channel partners?"/>
+        <label id="6" text="There are different filters that you can use on our search page to search for specific type of channel partners based on their location, product categories etc."/>
+        <label id="7" text="Can I reach out to companies that I’m interested in?"/>
+        <label id="8" text="Yes. You can use our message functionality to get in touch with a company that fits your profile. They will be notified via their dashboard and email as well and can respond back to you via our platform. Feel free to exchange your contact details if you want to take this conversation to your business email."/>
+      </labels>
+    </recruitmentquestions>
+    <howitworkscollaboration>
+      <labels>
+        <label id="1" text="How many channel partners can I manage?"/>
+        <label id="2" text="As many as you have in your partner network. You can start for free collaborating with up to 25 partners and then upgrade or downgrade depending on your needs. If you have more than 250 partner we offer custom plans that fit your needs."/>
+        <label id="3" text="Is it free to join for channel partners?"/>
+        <label id="4" text="Yes. It's completely free for channel partners, like channel partners and VARs, to join and start collaborating with their vendors. For more details about the features please visit our explanation page "/>
+        <label id="5" text="What is the pricing?"/>
+        <label id="6" text="You can start with our free plan to check our platforms efficiency that allows you to manage 25 partners and then upgrade based on your needs. For more details on our pricing plans visit our pricing page "/>
+        <label id="7" text="How many members can I add to a team?"/>
+        <label id="8" text="You can add unlimited members from your company as a team to manage your profile on Elioplus."/>
+        <label id="9" text="Frequently asked questions"/>
+        <label id="10" text="here"/>
+      </labels>
+    </howitworkscollaboration>
+    <benefits>
+      <labels>
+        <label id="1" text="Vendors Benefits"/>
+        <label id="2" text="Channel Partners Benefits"/>
+        <label id="3" text="Developers Benefits"/>
+      </labels>
+    </benefits>
+    <pricing>
+      <labels>
+        <label id="1" text="Pricing"/>
+        <label id="2" text="Our basic plan for vendors and channel partners is and will remain "/>
+        <label id="3" text="Free"/>
+        <label id="4" text="Premium"/>
+        <label id="5" text="Vendors"/>
+        <label id="6" text="Select your plan"/>
+        <label id="7" text="Free"/>
+        <label id="8" text="Public Profile"/>
+        <label id="9" text="Analytics"/>
+        <label id="10" text="Visitor tracking and leads"/>
+        <label id="11" text="View unlimited profiles"/>
+        <label id="12" text="Save unlimited profiles"/>
+        <label id="13" text="Contact other members directly"/>
+        <label id="14" text="Available partners opportunities"/>
+        <label id="15" text="For vendors that are actively looking to connect with partners, we'll introduce our pricing plans in the following weeks. You will be able to add your partner program details, like benefits, requirements, etc., and our algorithm will automatically connect you with interested channel partners or developers based on the criteria you have provided. Coming soon..."/>
+        <label id="16" text="Off course, our basic plans will still be free and you'll be able to promote your partner programs publicly on our platform and use our current features."/>
+        <label id="17" text="API Developers"/>
+        <label id="18" text="Premium"/>
+        <label id="19" text="Price"/>
+        <label id="20" text="Company profile"/>
+        <label id="21" text="1st page in search results"/>
+        <label id="22" text="Connections"/>
+        <label id="23" text="Leads notifications"/>
+        <label id="24" text="Direct messages to other companies"/>
+        <label id="25" text="Searches"/>
+        <label id="26" text="Advanced search"/>
+        <label id="27" text="View unlimited profiles"/>
+        <label id="28" text="Save profiles"/>
+        <label id="29" text="Community members"/>
+        <label id="30" text="Opportunities management"/>
+        <label id="31" text="Sign Up Free"/>
+        <label id="32" text="Upgrade now"/>
+        <label id="33" text="For vendors that are actively looking to connect with partners, we'll introduce
+                            our pricing plans in the following weeks. You will be able to add your partner program
+                            details, like benefits, requirements, etc., and our algorithm will automatically
+                            connect you with interested channel partners or developers based on the criteria you have
+                            provided. Coming soon..."/>
+        <label id="34" text="Off course, our basic plans will still be free and you'll be able to promote
+                            your partner programs publicly on our platform and use our current features."/>
+        <label id="35" text="Our Features"/>
+        <label id="36" text="Create a complete profile of your company and add your details such as your market specialization, an overview of your operations, complete description of your offering or what you're looking for, logo etc."/>
+        <label id="37" text="1st page search results"/>
+        <label id="38" text="Appear in first place in search results every time someone searches for your industry, product or vertical, location etc."/>
+        <label id="39" text="Matches"/>
+        <label id="40" text="Based on your targeting criteria that you provided during your registration we match you every month with new potential partners according to the plan that you have chosen. You can edit these criteria at any time if you want to get connected with a different type of channel partner or target different markets."/>
+        <label id="41" text="Lead notifications"/>
+        <label id="42" text="Receive in your dashboard and inbox leads from companies that showed an interest and browsed your company profile."/>
+        <label id="43" text="Direct messages"/>
+        <label id="44" text="You can send messages directly to a company that you believe fits your criteria when browsing our platform. These messages are limited based on the plan you are using."/>
+        <label id="45" text="Search and view unlimited profiles in our platform. Additionally, you can use the advance search to laser target your potential partners."/>
+        <label id="46" text="Save those companies that you find interesting and would like to revisit in the future directly in your dashboard. You can add or delete anytime and keep your list always updated."/>
+        <label id="47" text="Community"/>
+        <label id="48" text="We have built the first community for business development and channel professionals and it's available and open to all our users. You can add your own content, explore, upvote and comment on other submissions that you find interesting."/>
+        <label id="49" text="Opportunities management"/>
+        <label id="50" text="We offer to all our premium accounts the ability to manage their partnership opportunities with one single feature. If a connection we provide with a company fit your needs, you can add it as a partnership opportunity and you can even create and add your current partners."/>
+        <label id="51" text="Have more questions?"/>
+        <label id="52" text="Get in touch"/>
+        <label id="53" text="No hidden fees! "/>
+        <label id="54" text="Take a look at the pricing table to see the current features that are included. "/>
+        <label id="55" text="Choose your plan" />
+        <label id="56" text="free forever! " />
+        <label id="57" text="Cancel any time." />
+        <label id="58" text="Regarding your 14-Day Trial: Your credit card will not be charged and you can cancel at any time. During this free trial our system will periodically provide you with 25 matches with channel partners in total that will be available in your dashboard in order to get in touch and test the efficiency of our platform." />
+        <label id="59" text="Why is a credit card required to start your free trial? Our platform sends a continuous flow of connections and leads directly into your dashboard, and this way we ensure that there will be no disruption to your data. Of course, you can cancel anytime before your trial expires and your credit card will not be charged."/>
+        <label id="60" text="Register Now Free"/>
+        <label id="61" text="* All payments are processed safely via Stripe. We do not store any credit data on our platform."/>
+        <label id="62" text="Upgrade Now"/>
+        <label id="63" text="Add an Account Manager to your account that will follow up with all your connections and send you qualified leads 
+                            that are ready for Demo or Meeting. We’ll follow up with every connection you receive multiple times until we get a response in 
+                            order to increase the chances of partnership. You’ll be able to watch the progress of your account via your Prospect Pipeline 
+                            where you’ll find every task and prospect note at any time, giving you a complete view of your leads."/>
+        <label id="64" text="Partners to manage"/>
+        <label id="65" text="Library storage"/>
+        <label id="66" text="Contact us"/>
+        <label id="67" text="Apart from our recruitment features we also offer tools that help you collaborate and enable your partners. You can start by managing up to 5 partner in our free plan and then upgrade based on your needs to manage a larger number of partners."/>
+        <label id="68" text="Upgrade now"/>
+        <label id="69" text="Manage Partners"/>
+        <label id="70" text="Storage"/>
+        <label id="71" text="The total storage that you are using to upload and distribute content and material to your partners."/>
+        <label id="72" text="Learn more"/>
+      </labels>
+      <buttons>
+        <button id="1" text="Sign up Now"/>
+        <button id="2" text="Contact us"/>
+        <button id="3" text="StartUp plan"/>
+        <button id="4" text="Growth plan"/>
+        <button id="5" text="Premium plan"/>
+        <button id="6" text="Upgrade now"/>
+        <button id="7" text="Self Service plan"/>
+      </buttons>
+    </pricing>
+    <search>
+      <labels>
+        <label id="1" text="Search for "/>
+        <label id="2" text="Vendors, Channel Partners, Developers"/>
+        <label id="3" text="Choose a category"/>
+        <label id="4" text="Start by selecting a category, between vendors, channel partners and developers, to search for comany profiles."/>
+        <label id="5" text="Advanced Search"/>
+        <label id="6" text="Click the advanced search feature and select the criteria that apply in order to find exact matches for what you are looking for."/>
+        <label id="7" text="Pick an Industry"/>
+        <label id="8" text="Select one of the industries displayed to refine your search and discover the most relevant products and companies"/>
+        <label id="9" text="The results are ranked by rating"/>
+        <label id="10" text="Featured" />
+        <label id="11" text="in this country" />
+        <label id="12" text="Company name" />
+        <label id="13" text="Get started - It's free!" />
+        <label id="14" text="Start a new partnership!"/>
+      </labels>
+      <grids>
+        <grid id="1">
+          <columns>
+            <column id="1" text="No Data found"/>
+            <column id="2" text="Status"/>
+            <column id="3" text="Mode"/>
+            <column id="4" text="Trial Days Left"/>
+            <column id="5" text="Date created"/>
+            <column id="6" text="Starting date"/>
+            <column id="7" text="Expiration date"/>
+            <column id="8" text="Canceled date"/>
+            <column id="9" text="Order Type"/>
+            <column id="10" text="Price"/>
+            <column id="11" text="Cancel Plan"/>
+            <column id="12" text="Expiration trial date"/>
+          </columns>
+        </grid>
+      </grids>
+    </search>
+    <details>
+      <labels>
+        <label id="1" text="Registration Date:"/>
+        <label id="2" text="Mashape API page:"/>
+        <label id="3" text="Written at: "/>
+        <label id="4" text="Review"/>
+        <label id="5" text="Please write your review about this {typeofuser}"/>
+        <label id="6" text="Your review about this {typeofuser} was successfully saved"/>
+        <label id="7" text="You have to be full registered to be able to contact with this company. "/>
+        <label id="8" text="There are no reviews available. Be the first"/>
+        <label id="9" text="Add"/>
+        <label id="10" text="Company Rating"/>
+        <label id="11" text="Developer Rating"/>
+        <label id="12" text="Partner Program Rating"/>
+        <label id="13" text="Total Program Reviews:"/>
+        <label id="14" text="Total Reviews:"/>
+      </labels>
+      <messages>
+        <message id="1" text="Your review about this company could not be saved"/>
+        <message id="2" text="{count} user(s) have rated"/>
+        <message id="3" text="Check out this company: "/>
+      </messages>
+      <buttons>
+        <button id="1" text="Save profile"/>
+        <button id="2" text="Add review"/>
+      </buttons>
+      <tooltips>
+        <tooltip id="1" text="1 star"/>
+        <tooltip id="2" text="2 stars"/>
+        <tooltip id="3" text="3 stars"/>
+        <tooltip id="4" text="4 stars"/>
+        <tooltip id="5" text="5 stars"/>
+        <tooltip id="6" text="You are allowed to rate only once"/>
+        <tooltip id="7" text="Your review can't be over 500 characters"/>
+        <tooltip id="8" text="View details of this company"/>
+        <tooltip id="9" text="Set review not public"/>
+        <tooltip id="10" text="You are not allowed to rate again this company"/>
+        <tooltip id="11" text="You are not allowed to rate your own program"/>
+        <tooltip id="12" text="You are not allowed to rate because you are not full registered yet"/>
+        <tooltip id="13" text="You can add more than one email by separating them with comma(,)"/>
+      </tooltips>
+      <tabs>
+        <tab id="1" text="Overview"/>
+        <tab id="2" text="Description"/>
+        <tab id="3" text="Contact Us"/>
+        <tab id="4" text="Send to a friend"/>
+        <tab id="5" text="Partner Program Reviews"/>
+        <tab id="6" text="Personal Profile"/>
+      </tabs>
+    </details>
+    <contact>
+      <labels>
+        <label id="1" text=""/>
+        <label id="2" text="Contact Us"/>
+        <label id="3" text="Contact form"/>
+        <label id="4" text="Contact Information"/>
+        <label id="5" text="Contact Email:"/>
+        <label id="6" text="Support Email:"/>
+        <label id="7" text="Facebook"/>
+        <label id="8" text="Twitter"/>
+        <label id="9" text="Google+"/>
+        <label id="10" text="Linkedin"/>
+        <label id="11" text="Our Offices:"/>
+        <label id="12" text="How to find us"/>
+        <label id="13" text="Elioplus is a B2B platform that helps IT companies that offer partner programs (i.e. white label, distributors) to grow their indirect channel and recruit new business partners. We aim to link the vast volume of the companies and individuals that operate within the IT industry, to connect them and create a seamless experience. We want to enhance their efforts in order to grow their partner network and build brand awareness for their partner profile."/>
+        <label id="14" text="33 Saronikou St , 163 45, Ilioupoli, Athens, Greece"/>
+        <label id="15" text="+30 2177367850"/>
+        <label id="16" text="We'd love to hear from you! Feel free to contact us!"/>
+        <label id="17" text="Send message"/>
+        <label id="18" text="info@elioplus.com"/>
+        <label id="19" text="Back to contact form"/>
+      </labels>
+    </contact>
+    <community>
+      <labels>
+        <label id="1" text="Elioplus Community"/>
+        <label id="2" text="You can also "/>
+        <label id="3" text=" Finally, you can discover the most engaging content and upvote your favorite ones."/>
+        <label id="4" text=" and join our community of IT professionals and experts. You'll be able to submit relevant content that you've created, interesting articles from around the web or start a discussion."/>
+        <label id="5" text=" with as much details as you can in order to attract interest and get connected with other industry professionals."/>
+        <label id="6" text=" by "/>
+        <label id="7" text=" comments"/>
+        <label id="8" text="Title"/>
+        <label id="9" text="URL"/>
+        <label id="10" text="summary"/>
+        <label id="11" text="Feel free to create your own post"/>
+        <label id="12" text="Please fill out the title of your post"/>
+        <label id="13" text="Please fill out your post's summary"/>
+        <label id="14" text="IT channel and business development community"/>
+        <label id="15" text="Login"/>
+        <label id="16" text="Sign Up"/>
+        <label id="17" text="Profile"/>
+        <label id="18" text="Submitted Posts"/>
+        <label id="19" text="Log Out"/>
+        <label id="20" text="Go to Elioplus"/>
+        <label id="21" text="Submitted Posts"/>
+        <label id="22" text="Latest"/>
+        <label id="23" text="Popular"/>
+        <label id="24" text="Discussed"/>
+        <label id="25" text="Must Read"/>
+        <label id="26" text="Please fill out a valid url"/>
+        <label id="27" text=""/>
+      </labels>
+      <buttons>
+        <button id="1" text="complete your personal profile"/>
+        <button id="2" text="Complete your personal profile"/>
+        <button id="3" text="Add post"/>
+        <button id="4" text="Submit New"/>
+        <button id="5" text=""/>
+      </buttons>
+      <messages>
+        <message id="1" text="Please login in order to create your personal profile in Elioplus Community."/>
+        <message id="2" text="Create Your Personal Profile"/>
+        <message id="3" text="You have already completed your personal profile procedure.&lt;br/&gt;You can edit or change anything from your Dashboard. &lt;br/&gt;&lt;br/&gt;Soon you will be able to join it."/>
+        <message id="4" text="Personal Profile Completed"/>
+        <message id="5" text="There are no posts available. Be the first"/>
+      </messages>
+      <emptymessages>
+        <emptymessage id="1" text="Type the title of your post here"/>
+        <emptymessage id="2" text="Type the url of your post here (https://www.example.com) or leave it blank if it doesn't point to an external link"/>
+        <emptymessage id="3" text="Type a summary for your post here"/>
+      </emptymessages>
+      <tooltips>
+        <tooltip id="1" text="Set post not public"/>
+        <tooltip id="2" text="Click to see the post"/>
+        <tooltip id="3" text="See user's details"/>
+        <tooltip id="4" text="Follow this post"/>
+        <tooltip id="5" text="Log in to follow this post"/>
+        <tooltip id="6" text="You have already followed this post"/>
+        <tooltip id="7" text="Discuss"/>
+        <tooltip id="8" text="Set post as must read"/>
+        <tooltip id="9" text="Set post as not must read"/>
+        <tooltip id="10" text="This post has been set as must read"/>
+      </tooltips>
+      <tabs>
+        <tab id="1" text="Return to Elioplus"/>
+        <tab id="2" text="Trending"/>
+        <tab id="3" text="Back to Posts"/>
+        <tab id="4" text="Submit New Post"/>
+        <tab id="5" text="Latest"/>
+        <tab id="6" text="Must Read"/>
+        <tab id="7" text="Discussions"/>
+        <tab id="8" text="Jobs"/>
+        <tab id="9" text="Growth Studies"/>
+      </tabs>
+    </community>
+    <communitydiscussed>
+      <labels>
+        <label id="1" text="Most Commented Posts"/>
+      </labels>
+    </communitydiscussed>
+    <communitypopular>
+      <labels>
+        <label id="1" text="Most Voted Posts"/>
+      </labels>
+    </communitypopular>
+    <communitymustread>
+      <labels>
+        <label id="1" text="Must Read Posts"/>
+      </labels>
+      <messages>
+        <message id="1" text="Below is a curated list of the best content and resources our team finds on the internet. If you have any interesting content worth sharing, get in touch at &lt;a href=&quot;mailto:info@elioplus.com?subject=Elioplus Community Must Read Posts&quot;&gt;info@elioplus.com"/>
+      </messages>
+    </communitymustread>
+    <communitycomments>
+      <labels>
+        <label id="1" text="Post Comments"/>
+        <label id="2" text=" wrote at "/>
+        <label id="3" text="Please fill out your comment about this post"/>
+        <label id="4" text="Log in"/>
+        <label id="5" text=" to post a comment"/>
+        <label id="6" text=" or "/>
+        <label id="7" text="Sign up"/>
+        <label id="8" text="&lt;b&gt;Post: {topic}&lt;/b&gt; ({count} comments)"/>
+        <label id="9" text="&lt;b&gt;{topic}&lt;/b&gt; ({count} comment)"/>
+        <label id="10" text="Please fill out your comment"/>
+      </labels>
+      <buttons>
+        <button id="1" text="Add comment"/>
+      </buttons>
+      <messages>
+        <message id="1" text="There are no comments about this post. Be the first"/>
+      </messages>
+      <tooltips>
+        <tooltip id="1" text="Set comment not public"/>
+        <tooltip id="2" text="Reply to this comment"/>
+        <tooltip id="3" text="Click here to login and be able to reply to this comment"/>
+      </tooltips>
+    </communitycomments>
+    <communityuserpersonalinfo>
+      <labels>
+        <label id="1" text="User Activities"/>
+        <label id="2" text="I want to follow this user"/>
+        <label id="3" text="Job position: "/>
+        <label id="4" text="Summary text: "/>
+        <label id="5" text="Social Media: "/>
+        <label id="6" text=""/>
+      </labels>
+      <tabs>
+        <tab id="1" text="Submitted Posts"/>
+        <tab id="2" text="Comments"/>
+        <tab id="3" text="Upvoted"/>
+        <tab id="4" text="Followers"/>
+        <tab id="5" text="Following"/>
+        <tab id="6" text="Settings"/>
+      </tabs>
+      <tooltips>
+        <tooltip id="1" text="Sorry, but you are not able to follow yourself"/>
+      </tooltips>
+      <messages>
+        <message id="1" text="User has no posts."/>
+        <message id="2" text="User has no comments."/>
+        <message id="3" text="User has not upvoted any post."/>
+        <message id="4" text="User is not followed by any user yet."/>
+        <message id="5" text="User is not following any user yet."/>
+        <message id="6" text="Your account settings were successfully updated."/>
+        <message id="7" text="User has no comments about any post."/>
+      </messages>
+      <buttons>
+        <button id="1" text="follow"/>
+        <button id="2" text="unfollow"/>
+      </buttons>
+    </communityuserpersonalinfo>
+    <communityfullregistration>
+      <labels>
+        <label id="1" text=""/>
+        <label id="2" text=""/>
+        <label id="3" text=""/>
+        <label id="4" text=""/>
+        <label id="5" text=""/>
+        <label id="6" text=""/>
+        <label id="7" text=""/>
+        <label id="8" text=""/>
+      </labels>
+      <messages>
+        <message id="1" text="Please enter last name"/>
+        <message id="2" text="Please enter first name"/>
+        <message id="3" text="Please enter job position"/>
+        <message id="4" text="Please enter linkedin url"/>
+        <message id="5" text="Please enter twitter url"/>
+        <message id="6" text="Please enter summary text"/>
+        <message id="7" text="Please upload personal image"/>
+        <message id="8" text=""/>
+      </messages>
+    </communityfullregistration>
+    <about>
+      <labels>
+        <label id="1" text="About Us"/>
+        <label id="2" text="A few years ago, as channel partners, we came to realize how hard is to discover new products, get in touch with the respective company, reach an agreement and finally resell software products. Some months and an Alpha version later, we introduce our Beta version in order to make that process uninterrupted and optimal."/>
+        <label id="3" text="To make this happen we combined the talent of our software developer, Vagelis and the experience on partnerships, Christos and Ilias. Our vision is to help companies from the inception of a partner program to establishing a network of thousand business partners. Below you can see our team and duties."/>
+        <label id="4" text="The Team"/>
+        <label id="5" text="Vagelis Varvitsiotis"/>
+        <label id="6" text="CTO"/>
+        <label id="7" text="Lead Developer"/>
+        <label id="8" text="Ilias Ndreu"/>
+        <label id="9" text="CEO"/>
+        <label id="10" text="Business Development"/>
+        <label id="11" text="Christos Mantzikos"/>
+        <label id="12" text="Marketing Community and Sales"/>
+        <label id="13" text="Dimitris Kalogeros"/>
+        <label id="14" text="CPO"/>
+        <label id="15" text="Meet Elioplus"/>
+        <label id="16" text="We are a leading provider of partner recruitment and management solutions that assist IT companies to expand their partner network and offer a better experience to their partners. Since our beginning with have worked with both startup companies to help them kick off their partner program and attract their first partners up to enterprise level organizations that rely on our platform to further increase their network around the world. We provide channel managers with tools to identify and partner with the best candidate companies and seamlessly optimize their network under the same roof."/>
+        <label id="17" text="Partner management as it should be: effortless and affordable"/>
+        <label id="18" text="CTO Lead Developer"/>
+        <label id="19" text="Meet the team"/>
+        <label id="20" text="CPO Product Development"/>
+        <label id="21" text="Marketing Community and Sales"/>
+        <label id="22" text="CEO Business Development"/>
+        <label id="23" text="We envisioned a simple yet effective partner management tool accessible to small and medium businesses ready to be used without complex processes nor breaking the bank. Channel managers can save time by connecting their favorite applications and move data around seamlessly while having insights about the performance and activity of their partners. Now you can recruit, onboard, manage and train your channel partners from a single solution."/>
+        <label id="24" text="We wanted to provide channel partners with the same tools to manage all the tech partnerships from a single dashboard without signing up or logging in to multiple partner portals and wasting valuable time and resources in the process. As a channel company you can manage all your sales data, reporting, commissions, training and communications from a single point and connect all your team members in the same account for better visibility and performance."/>
+      </labels>
+      <alternates>
+        <alternate id="1" text="CTO Vagelis Varvitsiotis" />
+        <alternate id="2" text="CPO Dimitris Kalogeros" />
+        <alternate id="3" text="MCS Christos Mantzikos" />
+        <alternate id="4" text="CEO Ilias Ndreu" />
+      </alternates>
+    </about>
+    <faq>
+      <labels>
+        <label id="1" text="Frequently Asked Questions"/>
+        <label id="2" text="Which companies should create a profile as a Vendor?"/>
+        <label id="3" text="Software, SaaS and cloud companies that offer a channel partner partner program and would like to increase their partners’ network by getting matched with channel partners that exact fit their needs."/>
+        <label id="4" text="Which companies should create a profile as a Channel Partner?"/>
+        <label id="5" text="IT companies looking to resell new innovative SaaS solutions or cloud services, IT consultants, VARs, distributors, service providers, system integrators and more, all operating in software, SaaS or cloud industry."/>
+        <label id="6" text="I'm a channel partner. Why should I join?"/>
+        <label id="7" text="Apart from promoting your company, we make it easy to discover new innovative products and get information about the partner program that fit your needs. You can also make settings in order to get notified early and compare between competitive programs so you can take the best decision about which vendor to trust. Also, by using our management solution you can invite all your vendors into your account and collaborate with them. No matter how many vendors you are partnering with, now you can collaborate and receive relevant content, all in one dashboard so you can get the maximum functionality and save time and resources. "/>
+        <label id="8" text="Can I promote my partner programs for free?"/>
+        <label id="9" text="Absolutely. You can create a profile page for your company and promote your partner program to our users and visitors for free."/>
+        <label id="10" text="Are the company profiles and partner programs vetted?"/>
+        <label id="11" text="We do our best to check and verify the data provided by our users but it their responsibility to give us accurate data. We want to keep the quality of content on our website very high and we are developing tools towards this direction in order to provide accurate and relevant information."/>
+        <label id="12" text="What’s the matching process feature and how it works?"/>
+        <label id="13" text="Our matching algorithm analyzes all the data that vendors and channel partners are providing during their registration process, like type of software or cloud service, targeted countries, program maturity, localization, commission based model or annual fee etc. By analyzing all the data from more than 30.000 quality companies of our database, the algorithm brings the most accurate matches inside your dashboard."/>
+        <label id="14" text="Why to submit and save the partnership criteria of the matching process?"/>
+        <label id="15" text="By submitting the criteria you are giving all the necessary information to our system in order to match you with the right partners. This is a very important step and it’s free. You can always change your criteria and save them to our system."/>
+        <label id="16" text="How can I see my possible partnership opportunities?"/>
+        <label id="17" text="You can see how many potential partnership opportunities we can provide you on the &lt;b&gt;My Matches&lt;/b&gt; tab on your dashboard. It shows the number of matches according to the products you had selected at your registration process! Also you can find out here: https://elioplus.com/search-details"/>
+        <label id="18" text="What happens when I GO PREMIUM ?"/>
+        <label id="19" text="When you pay for our premium package you are getting matched with the partners that fit your needs according to the criteria you have provided to our system. You will find these companies on the “My Matches” tab of your dashboard and the list will be updated day by day with new prospects in order to get in touch with them. Also, when our system provides a match inside your dashboard, it automatically sends one notification email informing your partner about the potential partnership with your company."/>
+        <label id="20" text="How the matches look like and how often the platform provides them into my dashboard?"/>
+        <label id="21" text="When you are a Premium user then our system provides day by day new matches with channel partners that exact fit your needs on the  “My Matches” tab of your dashboard. We provide all the information needed in order to get in touch with them like company name, URL, email of the appropriate person to get in touch, LinkedIn profile of the appropriate person and more."/>
+        <label id="22" text="When I upload the CSV file with my partners is the data private or public?"/>
+        <label id="23" text="The data you provide us with your partners is private and will not be visible on Elioplus. You are uploading the CSV file in order to get matched with new partners and not with those you already have!"/>
+        <label id="24" text="Faq about our matching process" />
+        <label id="25" text="Have more questions?" />
+        <label id="26" text="Get in touch" />
+        <label id="27" text="Is there a way to promote my offering more actively?" />
+        <label id="28" text="Yes. You can choose to become a Premium user in order to get matched with those channel partners that exact fit your needs. Also, you will appear in the 1st page in search results every time someone searches for your industry, product or vertical, location etc." />
+        <label id="29" text="Can I upgrade, downgrade or cancel my Premium plan?" />
+        <label id="30" text="Yes, it’s very easy to change your account’s status." />
+        <label id="31" text="Are the matches quality ones and is the data up-to-date?" />
+        <label id="32" text="We have more than 30.000 quality channel partners on our network in more than 80+ different software and cloud verticals. Also, our network is always up-to-date providing the information of the appropriate person to get in touch that’s why our conversion rate in terms of qualified partnerships is too high." />
+      </labels>
+    </faq>
+    <forgotpassword>
+      <labels>
+        <label id="1" text="Forgot Password"/>
+        <label id="2" text="Password Reset"/>
+        <label id="3" text="Please enter your email address below and you will receive a new password in your email inbox. You can change it any time you want."/>
+        <label id="4" text="Email"/>
+        <label id="5" text="Reset password"/>
+        <label id="6" text="Take me back to the "/>
+        <label id="7" text="log in"/>
+        <label id="8" text=" page"/>
+        <label id="9" text="Please enter your email address below and you will receive a temporary password. Please change that password when you login from your settings."/>
+      </labels>
+    </forgotpassword>
+    <signup>
+      <labels>
+        <label id="1" text="Make a simple, fast and free Registration"/>
+        <label id="2" text="Channel Partners"/>
+        <label id="3" text="Vendors"/>
+        <label id="4" text="Sign up free and find the best partners to increase your market share"/>
+        <label id="5" text="Discover and compare"/>
+        <label id="6" text="We provide you with the options and insights to find and compare vendors."/>
+        <label id="7" text="Get new partnership proposals"/>
+        <label id="8" text="Receive better deals, in terms of comminsions or benefits, based on your preferences."/>
+        <label id="9" text="Boost your sales"/>
+        <label id="10" text="We give you exclusive  access to tools so you can promote your products and increase sales."/>
+        <label id="11" text="Sign up free and grow your network"/>
+        <label id="12" text="Promote your partner program"/>
+        <label id="13" text="Expose your partner program to thousands of channel partners that visit our website."/>
+        <label id="14" text="Get matched automatically"/>
+        <label id="15" text="We analyze over 15 main criteria of your partner program to deliver the best leads."/>
+        <label id="16" text="New leads and partners"/>
+        <label id="17" text="We connect you with the best prospect partners and grow your channel network."/>
+        <label id="18" text="Sign up for free now"/>
+        <label id="19" text="It's free and takes under 2 minutes!"/>
+        <label id="20" text="Sign up"/>
+        <label id="21" text="By signing up, you agree to our "/>
+        <label id="22" text="Already have an account?"/>
+        <label id="23" text="Log in"/>
+        <label id="24" text="Or"/>
+        <label id="25" text="Please enter username"/>
+        <label id="26" text="Username can't be less than 8 characters"/>
+        <label id="27" text="Minimum length:  8 characters  -  Allowed: all characters and numbers and these symbols:  _.-@!$" />
+        <label id="28" text="Minimum length:  8 characters  -  Allowed: all characters and numbers and these symbols:  !@#$%^*()_." />
+        <label id="29" text="Example:  name@example.com" />
+        <label id="30" text="Username contains invalid characters - Allowed: all characters and numbers and these symbols: _.-@!$"/>
+        <label id="31" text="This username is already registered"/>
+        <label id="32" text="Don't worry, we won't post anything without your permission."/>
+        <label id="33" text="Please enter password"/>
+        <label id="34" text="Password can't be less than 8 characters"/>
+        <label id="35" text="Password contains invalid characters - Allowed: all characters and numbers and these symbols: !@#$%^*()_."/>
+        <label id="36" text="Please retype password"/>
+        <label id="37" text="Passwords don't match"/>
+        <label id="38" text="Please enter email"/>
+        <label id="39" text="Please enter a valid email - Example: name@example.com"/>
+        <label id="40" text="This email is already registered"/>
+        <label id="41" text="Please enter company name"/>
+        <label id="42" text="This email is already registered"/>
+        <label id="43" text="Please enter a valid official email - Example: name@example.com"/>
+        <label id="44" text="Please enter website"/>
+        <label id="45" text="Please select country"/>
+        <label id="46" text="Please enter address"/>
+        <label id="47" text="Please enter "/>
+        <label id="48" text="terms of services"/>
+        <label id="49" text=" and "/>
+        <label id="50" text="privacy policy"/>
+        <label id="51" text="Take me back to the "/>
+        <label id="52" text=" page"/>
+        <label id="53" text="This email is not valid to register with"/>
+        <label id="54" text="Back to login"/>
+      </labels>
+      <alternates>
+        <alternate id="1" text="" />
+      </alternates>
+    </signup>
+    <dashboard>
+      <labels>
+        <label id="1" text="General Information"/>
+        <label id="2" text="Total Views"/>
+        <label id="3" text="New Messages"/>
+        <label id="4" text="Favourited"/>
+        <label id="5" text="Below you can see a list of company profiles that are interested in you"/>
+        <label id="6" text="Below you can see a list of full registered companies that viewed your profile"/>
+        <label id="7" text="Below you can see companies that added you to their favourites profiles list"/>
+        <label id="8" text="Below you can see your ratings by companies"/>
+        <label id="9" text="Your Average rating is: {rating}"/>
+        <label id="10" text="Email"/>
+        <label id="11" text="Select Email"/>
+        <label id="12" text="Company Profile"/>
+        <label id="13" text="Free"/>
+        <label id="14" text="Elioplus Log Files View"/>
+        <label id="15" text="Elioplus Statistics of user registrations"/>
+        <label id="16" text="Elioplus Info Log Files View"/>
+        <label id="17" text="Upgrade now"/>
+      </labels>
+      <tabs>
+        <tab id="1" text="Dashboard"/>
+        <tab id="2" text="View My Company"/>
+        <tab id="3" text="Messages"/>
+        <tab id="4" text="Favourites"/>
+        <tab id="5" text="Edit Company Profile"/>
+        <tab id="6" text="Recent Leads"/>
+        <tab id="7" text="Favourited"/>
+        <tab id="8" text="My Ratings"/>
+        <tab id="9" text="Edit Community Profile"/>
+        <tab id="10" text="Statistics"/>
+        <tab id="11" text="Marketing Tools"/>
+        <tab id="12" text="View Log Files"/>
+        <tab id="13" text="View Info Log Files"/>
+      </tabs>
+      <messages>
+        <message id="1" text="Your profile can not be viewed because you are not full registered yet."/>
+        <message id="2" text="Your profile has not been viewed by a company yet."/>
+        <message id="3" text="You can add no company profiles that are interested in you because you are not full registered yet."/>
+        <message id="4" text="You have add no company profiles that are interested in you yet."/>
+        <message id="5" text="You have no companies that added you to their favourites profiles list because you are not full registered yet."/>
+        <message id="6" text="You have no companies that added you to their favourites profiles list yet."/>
+        <message id="7" text="You have no rating by company yet."/>
+        <message id="8" text="Unfortunately we could not delete this record.Please try later or contact us to report this problem."/>
+        <message id="9" text="Unfortunately we could not find the details of this company. Please try from Search section or contact us to report this problem."/>
+        <message id="10" text="You are not able to compose a new email because you are not full registered yet."/>
+        <message id="11" text="File could not be deleted."/>
+        <message id="12" text="There are no log files"/>
+        <message id="13" text="You are not able to {text1} because you have no available {text2} in your account."/>
+        <message id="14" text="There are no info log files"/>
+        <message id="15" text="There are no favourite company profiles"/>
+        <message id="16" text="There are no favourited company profiles"/>
+        <message id="17" text="There are no recent leads"/>
+        <message id="18" text="There are no recent connections"/>
+        <message id="19" text="Category could not be deleted."/>
+        <message id="20" text="Group could not be deleted."/>
+        <message id="21" text="Preview icon could not be deleted."/>
+		<message id="22" text="No connections found by search"/>
+      </messages>
+      <nodes>
+        <node id="1" text="Messages"/>
+        <node id="2" text="Inbox"/>
+        <node id="3" text="New messages"/>
+        <node id="4" text="Old messages"/>
+        <node id="5" text="Deleted messages"/>
+        <node id="6" text="Compose New"/>
+        <node id="7" text="Sent messages"/>
+      </nodes>
+    </dashboard>
+    <adminpage>
+      <labels>
+        <label id="1" text="All Elioplus companies profiles"/>
+        <label id="2" text="Company Profile"/>
+        <label id="3" text="Registered"/>
+        <label id="4" text="Not Registered"/>
+        <label id="5" text="Status"/>
+        <label id="6" text="Is Public"/>
+        <label id="7" text="Select Vendor Company by Name"/>
+        <label id="8" text="Sort by"/>
+        <label id="9" text="Billing type"/>
+        <label id="10" text="User ID"/>
+        <label id="11" text="Stripe ID"/>
+        <label id="12" text="Application Type"/>
+        <label id="13" text="Assign Role to User"/>
+        <label id="14" text="Roles"/>
+        <label id="15" text="Email"/>
+        <label id="16" text="Country"/>
+        <label id="17" text="Search for companies"/>
+        <label id="18" text="Packet Status User Id"/>
+        <label id="19" text="Connections"/>
+        <label id="20" text="Starting Date"/>
+        <label id="21" text="Expiration Date"/>
+        <label id="22" text="Company Name"/>
+        <label id="23" text="Company Email"/>
+        <label id="24" text="You are going to delete this user for ever. Are you sure?"/>
+        <label id="25" text="Select Channel Partner Company by Name"/>
+        <label id="26" text="Select Third Party Company by Name"/>
+      </labels>
+      <tooltips>
+        <tooltip id="1" text="Edit Profile"/>
+        <tooltip id="2" text="Cancel Edit"/>
+        <tooltip id="3" text="Save Changes"/>
+        <tooltip id="4" text="Login As {comapnyname}"/>
+        <tooltip id="5" text="View Company Profile"/>
+        <tooltip id="6" text="Send Notification Email"/>
+        <tooltip id="7" text="Get Clearbit Data for {email}"/>
+        <tooltip id="8" text=""/>
+      </tooltips>
+      <messages>
+        <message id="1" text="Your changes was successfully saved."/>
+        <message id="2" text=" Because you are administrator you have to refresh the page to see the changes."/>
+        <message id="3" text="Your changes were canceled."/>
+        <message id="4" text="Notification email was successfully sent to {companyemail}"/>
+        <message id="5" text=" and "/>
+        <message id="6" text="You can not set user as Premium with no stripe customer id. Please fill the textBox."/>
+        <message id="7" text="Something went wrong and editing user could not be find. Your changes did not saved. "/>
+        <message id="8" text="Invitation email was successfully sent to {companyemail}"/>
+        <message id="9" text="Something went wrong and user could not be found."/>
+        <message id="10" text="User deleted successfully."/>
+        <message id="11" text="User is already deleted."/>
+        <message id="12" text="Something went wrong and user could not be deleted."/>
+      </messages>
+      <buttons>
+        <button id="1" text="Continue"/>
+        <button id="2" text="No, thanks"/>
+      </buttons>
+    </adminpage>
+    <resellerspage>
+      <labels>
+        <label id="1" text="Pricing"/>
+        <label id="2" text="Manage your vendor communication and collaboration in one place"/>
+        <label id="3" text="No matter how many vendors you are partnering with, now you can unify all your vendors in one dashboard and save time and resources for your company in order to sell more."/>
+        <label id="4" text="Partner with new vendors"/>
+        <label id="5" text="Find new products to add to your portfolio or switch between vendors that offer similar products with ease. We provide all the information you need to compare different solutions and partner programs so you can make the right choice."/>
+        <label id="6" text="Add your team"/>
+        <label id="7" text="Invite team members from your company that handle with different aspects in your partner network. You can add your sales team or your marketing team for example in order to receive relevant content from your vendors directly to them."/>
+        <label id="8" text="Collaborate with your vendors"/>
+        <label id="9" text="No matter how many vendors you are partnering with, now you can collaborate and receive relevant content, all in one dashboard so you can get the maximum functionality and save time and resources."/>
+        <label id="10" text="Content library"/>
+        <label id="11" text="All the content you receive from your vendors is archived in categories for easy access. Search by vendor, type of content or date to find everything you need quickly. If you’re just starting with a new vendor, all the content distributed in the past is waiting for you."/>
+        <label id="12" text="Reporting"/>
+        <label id="13" text="Forget about the tedious task of reporting to your vendor again. We make reporting obsolete by syncing with the service you are using to automatically collect data for your vendor so you don’t have to do data entry no more. (Coming soon)"/>
+        <label id="14" text="Create synergies with Partners"/>
+        <label id="15" text="Collaborate with other channel partners to close bigger customer deals, earn more revenue, sell higher into the customer organization. "/>
+        <label id="16" text="Any suggestions?"/>
+        <label id="17" text="We love feedback! If you have any suggestion or a feature that would make your life easier, feel free to send us your comments "/>
+        <label id="18" text="Free. Zero. Zilch. Nada. Signing up and using our tools and service is completely free. Add as many team members as you like and vendors as well."/>
+        <label id="19" text="Channel Partners | Elioplus"/>
+      </labels>
+      <buttons>
+        <button id="1" text="sign up with email"/>
+        <button id="2" text="Learn more"/>
+        <button id="3" text="here."/>
+        <button id="4" text="Sign up now as a channel partner!"/>
+      </buttons>
+    </resellerspage>
+    <thankyoupage>
+      <labels>
+        <label id="1" text="You have registered successfully!"/>
+        <label id="2" text="Now you can find the most promising partners to grow your network..."/>
+        <label id="3" text="Use our PRM to manage them"/>
+        <label id="4" text="Communicate &amp; manage your partners"/>
+        <label id="5" text="Copyright 2023 - www.elioplus.com - All rights reserved"/>
+        <label id="6" text="Successfull Registration | Elioplus"/>
+        <label id="7" text="Recruit new channel partners"/>
+        <label id="8" text="Copyright 2023 - "/>
+        <label id="9" text=" - All rights reserved"/>
+        <label id="10" text="www.elioplus.com"/>
+      </labels>
+      <buttons>
+        <button id="1" text="Go to your dashboard"/>
+      </buttons>
+    </thankyoupage>
+    <collaborationtoolmaster>
+      <labels>
+        <label id="1" text="Main Dashboard"/>
+        <label id="2" text="Chat Dashboard"/>
+        <label id="3" text="Partners"/>
+        <label id="4" text="Library"/>
+        <label id="5" text=""/>
+        <label id="6" text=""/>
+        <label id="7" text="My profile"/>
+        <label id="8" text="Dashboard"/>
+        <label id="9" text="Edit profile"/>
+        <label id="10" text="Log out"/>
+        <label id="11" text="Choose Partner"/>
+        <label id="12" text="My Files"/>
+        <label id="13" text=""/>
+      </labels>
+      <tooltips>
+        <tooltip id="1" text="Your used storage limit is too hight"/>
+        <tooltip id="2" text="Your free storage limit is too low"/>
+      </tooltips>
+    </collaborationtoolmaster>
+    <team>
+      <labels>
+        <label id="1" text="Edit profile"/>
+      </labels>
+    </team>
+  </content>
+  <controls>
+    <usersregistrationcontrol>
+      <labels>
+        <label id="1" text="Number of users registration per: "/>
+        <label id="2" text="Year"/>
+        <label id="3" text="Month"/>
+        <label id="4" text="Day"/>
+      </labels>
+      <buttons>
+        <button id="1" text="View"/>
+      </buttons>
+    </usersregistrationcontrol>
+    <viewcontrol>
+      <labels>
+        <label id="1" text="Daily views of your profile the last 30 days"/>
+        <label id="2" text="No company can view your profile because you are not full registered"/>
+      </labels>
+    </viewcontrol>
+    <companycategoriesdata>
+      <labels>
+        <label id="1" text="You must select at least one {notselectedcategory} category"/>
+        <label id="2" text="Your changes were successfully commited"/>
+        <label id="3" text="You are able to select up to fifteen (15) industry verticals max"/>
+      </labels>
+    </companycategoriesdata>
+    <companydataeditmode>
+      <labels>
+        <label id="1" text="Please enter username"/>
+        <label id="2" text="Please add company name"/>
+        <label id="3" text="Please enter email"/>
+        <label id="4" text="Please enter a valid email"/>
+        <label id="5" text="Please enter a valid official email"/>
+        <label id="6" text="Please add website"/>
+        <label id="7" text="Please select country"/>
+        <label id="8" text="Please add address"/>
+        <label id="9" text="Please add phone"/>
+        <label id="10" text="Please add valid phone"/>
+        <label id="11" text="Please add company Overview"/>
+        <label id="12" text="Please add company Description"/>
+        <label id="13" text="Please enter old password"/>
+        <label id="14" text="The old password is not correct"/>
+        <label id="15" text="Please enter new password"/>
+        <label id="16" text="Password must be at least 8 characters"/>
+        <label id="17" text="Password contains invalid characters"/>
+        <label id="18" text="Please retype new password"/>
+        <label id="19" text="Please retype new password correct"/>
+        <label id="20" text="-- Select Country--"/>
+      </labels>
+      <messages>
+        <message id="1" text="You must update your password or cancel it"/>
+        <message id="2" text="Your password changed successfully"/>
+        <message id="3" text="Your changing password procedure was canceled"/>
+      </messages>
+    </companydataeditmode>
+    <featurecompanies>
+      <labels>
+        <label id="1" text="Our Partners"/>
+      </labels>
+    </featurecompanies>
+    <contact>
+      <labels>
+        <label id="1" text="Name"/>
+        <label id="2" text="Email"/>
+        <label id="3" text="Phone"/>
+        <label id="4" text="Subject"/>
+        <label id="5" text="Message"/>
+        <label id="6" text="Send Message To"/>
+        <label id="7" text="Compose New Message"/>
+      </labels>
+      <tooltips>
+        <tooltip id="1" text="Your message can't be over 500 characters"/>
+      </tooltips>
+      <buttons>
+        <button id="1" text="Reset all fields"/>
+        <button id="2" text="Send Message"/>
+      </buttons>
+    </contact>
+    <inboxnew>
+      <labels>
+        <label id="1" text="New Messages"/>
+      </labels>
+      <messages>
+        <message id="1" text="You have no new messages because you are not full registered yet."/>
+        <message id="2" text="You have no new messages"/>
+      </messages>
+    </inboxnew>
+    <inboxsent>
+      <labels>
+        <label id="1" text="New Messages"/>
+      </labels>
+      <messages>
+        <message id="1" text="You have send no messages because you are not full registered yet."/>
+        <message id="2" text="You have send no messages"/>
+      </messages>
+    </inboxsent>
+    <inboxold>
+      <labels>
+        <label id="1" text="Old Messages"/>
+      </labels>
+      <messages>
+        <message id="1" text="You have no old messages because you are not full registered yet."/>
+        <message id="2" text="You have no old messages"/>
+      </messages>
+    </inboxold>
+    <inboxdeleted>
+      <labels>
+        <label id="1" text="Deleted Messages"/>
+      </labels>
+      <messages>
+        <message id="1" text="You have no deleted messages because you are not full registered yet."/>
+        <message id="2" text="You have no deleted messages"/>
+      </messages>
+    </inboxdeleted>
+    <simpleregistration>
+      <labels>
+        <label id="1" text="Username: "/>
+        <label id="2" text="Password: "/>
+        <label id="3" text="Retype Password: "/>
+        <label id="4" text="Email: "/>
+      </labels>
+      <buttons>
+        <button id="1" text="Clear Fields"/>
+        <button id="2" text="Generate password"/>
+        <button id="3" text="Submit"/>
+        <button id="4" text="Cancel"/>
+      </buttons>
+      <tooltips>
+        <tooltip id="1" text="Valid characters/symbols:"/>
+        <tooltip id="2" text="Retype the password you entered above"/>
+        <tooltip id="3" text="Enter your registration email. In this email you will get notifications and news letters."/>
+      </tooltips>
+      <messages>
+        <message id="1" text="Please enter username"/>
+        <message id="2" text="Username must be at least 8 characters"/>
+        <message id="3" text="Username contains invalid characters"/>
+        <message id="4" text="This username is already registered"/>
+        <message id="5" text="Please enter a password"/>
+        <message id="6" text="Password must be at least 8 characters"/>
+        <message id="7" text="Password contains invalid characters"/>
+        <message id="8" text="Please retype your password"/>
+        <message id="9" text="Please retype correct your password"/>
+        <message id="10" text="Please enter email"/>
+        <message id="11" text="Please enter a valid email"/>
+        <message id="12" text="This email is already registered"/>
+        <message id="13" text="Your registration was successfull."/>
+        <message id="14" text="This username is already registered from another user"/>
+        <message id="15" text="The old password is not correct"/>
+        <message id="16" text="Please enter a new password"/>
+        <message id="17" text="Password must be at least 8 characters"/>
+        <message id="18" text="Password contains invalid characters"/>
+        <message id="19" text="Please retype new password correct"/>
+        <message id="20" text="Please retype new password"/>
+      </messages>
+    </simpleregistration>
+    <fullregistration>
+      <labels>
+        <label id="1" text="Select Vendor"/>
+        <label id="2" text="Select Vendor if you offer unique products and looking for channel partners."/>
+        <label id="3" text="Select Developer"/>
+        <label id="4" text="If you are an individual or company that uses available APIs to built products on top of API partner programs."/>
+        <label id="5" text="Select Channel Partner"/>
+        <label id="6" text="Select Channel Partner if you are a local IT company or service provider that offers software and cloud services and third party products."/>
+        <label id="7" text="Overview (describe your company - *required)"/>
+        <label id="8" text="Overview (describe your company and products you resell - *required)"/>
+        <label id="9" text="Overview"/>
+        <label id="10" text="Description"/>
+        <label id="11" text="Partner Program Description (benefits, requirements, etc - *required)"/>
+        <label id="12" text="Description (describe your benefits that you want from the potential vendor - *required)"/>
+        <label id="13" text="Company Overview (give a brief description of your company's solutions/products and services)"/>
+        <label id="14" text="&lt;b&gt;Typical examples:&lt;/b&gt; Microsoft, IBM, Salesforce, Vmware, Hubspot etc."/>
+        <label id="15" text="&lt;b&gt;Typical examples:&lt;/b&gt; Managed Service Providers, IT companies, Resellers, VARs, web and software development companies."/>
+        <label id="" text=""/>
+        <label id="" text=""/>
+        <label id="" text=""/>
+      </labels>
+      <buttons>
+        <button id="1" text=""/>
+        <button id="2" text=""/>
+        <button id="3" text=""/>
+        <button id="4" text=""/>
+      </buttons>
+      <tooltips>
+        <tooltip id="1" text="Use your company name or if you are a Developer your Full Name"/>
+        <tooltip id="2" text="Use your official email, it will not be visible to other users or visitors. Your leads will be forwarded here. If it's the same as your registration email just leave it empty."/>
+        <tooltip id="3" text="Your company website. If you are a Developer, you can enter your blog, Github etc."/>
+        <tooltip id="4" text="Enter an initial letter to jump directly to your country."/>
+        <tooltip id="5" text="Enter your office address. If you are a Developer you can add your city or 'Global' for example."/>
+        <tooltip id="6" text="Don't leave  spaces or use characters like dots, parenthesis etc."/>
+        <tooltip id="7" text="Please use an image no more than 100 Kb and of type: png, jpg, jpeg, gif. Ideal dimensions 400 X 300 pixels."/>
+        <tooltip id="8" text="Choose all that apply"/>
+        <tooltip id="9" text="Select the partner programs that you offer (for vendors) or if you are a channel partner the type of programs that you are interested in. Choose all that apply"/>
+        <tooltip id="10" text="What is your target market"/>
+        <tooltip id="11" text="Enter your Mashape username"/>
+        <tooltip id="12" text=""/>
+        <tooltip id="13" text=""/>
+        <tooltip id="14" text=""/>
+        <tooltip id="15" text=""/>
+        <tooltip id="16" text=""/>
+        <tooltip id="17" text=""/>
+        <tooltip id="18" text="A brief description of your company and products. If you are a Developer you can add your past and current projects etc."/>
+        <tooltip id="19" text="For vendors: add your partner program description and structure. For channel partners: add some details on type of programs and products that you are interested on reselling and your company's experience. For developers: you can add in details what kind of products you'd like to build and in what industry."/>
+      </tooltips>
+      <messages>
+        <message id="1" text="Please choose type"/>
+        <message id="2" text="Please add company name"/>
+        <message id="3" text="Please enter a valid email"/>
+        <message id="4" text="Please add website"/>
+        <message id="5" text="Please select country"/>
+        <message id="6" text="Please add address"/>
+        <message id="7" text="File has not uploaded"/>
+        <message id="8" text="Please select at least one industry category"/>
+        <message id="9" text="Please select at least one partner program"/>
+        <message id="10" text="Please select at least one market specialization"/>
+        <message id="11" text="Please select at least one API category"/>
+        <message id="12" text="Please add your last name"/>
+        <message id="13" text="Please add your first name"/>
+        <message id="14" text="Please add your personal address"/>
+        <message id="15" text="Please add your job position"/>
+        <message id="16" text="Please add some summary details about you"/>
+        <message id="17" text="Your personal image has not uploaded"/>
+        <message id="18" text="Please fill company overview"/>
+        <message id="19" text="Please fill company description"/>
+        <message id="20" text="Please accept terms and conditions"/>
+        <message id="21" text="Please select at least one industry vertical"/>
+        <message id="22" text="Please enter email"/>
+		<message id="23" text="User with this company name is already registered in this country"/>
+		<message id="24" text="Company name contains special characters. Please add valid company name"/>
+      </messages>
+      <items>
+        <item id="1" text="Type Of User"/>
+        <item id="2" text="Step 1 0f 4 - Company Information"/>
+        <item id="3" text="Step 2 0f 4 - Interests"/>
+        <item id="4" text="Choose your products (up to 15)"/>
+        <item id="5" text="Personal Information for Elioplus Community"/>
+        <item id="6" text="Work and Products"/>
+        <item id="7" text="Company and Solutions"/>
+        <item id="8" text="Company and Partner Program Description"/>
+        <item id="9" text=" - those you are interested in reselling"/>
+        <item id="10" text="Step 1 0f 2 - Company Information"/>
+        <item id="11" text="Step 2 0f 2 - Select Plan"/>
+      </items>
+    </fullregistration>
+    <communitysignin>
+      <labels>
+        <label id="1" text="Login"/>
+        <label id="2" text="Keep me logged in"/>
+        <label id="3" text="Sign up for free"/>
+        <label id="4" text="Full Registration"/>
+        <label id="5" text="Already have an account? "/>
+        <label id="6" text="Log in here"/>
+        <label id="7" text="Sign up"/>
+      </labels>
+      <items>
+        <item id="1" text="Log In"/>
+        <item id="2" text="Sign Up"/>
+      </items>
+      <emptymessages>
+        <emptymessage id="1" text="Username or Email"/>
+        <emptymessage id="2" text="Password"/>
+        <emptymessage id="3" text="Retype Password"/>
+        <emptymessage id="4" text="Email"/>
+      </emptymessages>
+      <messages>
+        <message id="1" text="Your Elioplus account is blocked. Please contact us."/>
+      </messages>
+    </communitysignin>
+    <sendactivationemail>
+      <labels>
+        <label id="1" text="Email"/>
+        <label id="2" text="Please fill your email address"/>
+        <label id="3" text="Please fill a valid email address"/>
+        <label id="4" text="Success! "/>
+      </labels>
+      <buttons>
+        <button id="1" text="Clear Email"/>
+        <button id="2" text="Send Password"/>
+      </buttons>
+      <tooltips>
+        <tooltip id="1" text="Add your registration email to receive a new password. You can change it any time you want."/>
+      </tooltips>
+      <messages>
+        <message id="1" text="We ase sorry but something wrong was happened. Please try again later or contact with us"/>
+        <message id="2" text="You are in Development Mode so your password was not changed"/>
+        <message id="3" text="The email you entered does not belong to any Elioplus user. Please try again or contact with us"/>
+        <message id="4" text="A new password was successfully send to the email you entered. You can change it any time you want"/>
+        <message id="5" text="We ase sorry but something wrong was happened. Please try again later or contact us"/>
+      </messages>
+    </sendactivationemail>
+    <privacy>
+      <labels>
+        <label id="1" text="At Elioplus Inc. (henceforth referred to as “Elioplus”,”we,” “us,” “our”), we take great care about how our users’ personal information is used and shared, and we take your privacy seriously. This Privacy Policy describes how Elioplus collects and uses the personal information you provide on our Website elioplus.com (“Website”) and Blog blog.elioplus.com (“Blog”)."/>
+        <label id="2" text="This Privacy Policy is an integral part of our Terms of Service. Before you use Elioplus, please read this Privacy Policy carefully. By using or accessing our Website and/or Blog, you are accepting the practices described in our Privacy Policy and you agree that we will collect, use, and share your information in the following ways."/>
+        <label id="3" text="Elioplus may collect two types of information: personal (name, email address, company information) or non-personal visitor information (such as: the Device’s Internet Protocol (“IP”) address, browser type, the web page visited before or after you came to our website, information you search for on our website and interactions with the website)."/>
+        <label id="4" text="You may visit our Website anonymously. You may be asked to enter your email address on the Website in order to download a material, or to ask a question about the Service using a live chat installed on the Website."/>
+        <label id="5" text="You may visit our Blog anonymously. You may be asked to enter your email address on the Blog in order to download material and subscribe to a blog newsletter sent weekly, or an email course list."/>
+        <label id="6" text="When starting on our website, you will be asked to enter your username and email address."/>
+        <label id="7" text="When subscribing for Premium Elioplus account, you will be asked to enter your, email address and appropriate payment information."/>
+        <label id="8" text="When using our website both during the free period as well as during the premium subscription, we will process any information you choose to provide us with, while keeping respect to your email recipients and partners (“Prospect” or “Prospects”). The Prospects’ information we process typically include names and email addresses of your partners, but will consist of any information you choose to upload to the Service."/>
+        <label id="9" text="We collect your information to personalize your experience with the Website, Blog and promotional materials we distribute via social media platforms and GoogleAdwords."/>
+        <label id="10" text="PRIVACY POLICY"/>
+        <label id="11" text="Privacy Policy"/>
+        <label id="12" text="Close" />
+      </labels>
+    </privacy>
+    <terms>
+      <labels>
+        <label id="1" text="These Terms of Service (henceforth referred to as the “Terms”) regulate your access to and use of elioplus.com (“Elioplus Inc.”, „we”, “us”, “our”, “ours”) and related services."/>
+        <label id="2" text="PLEASE READ THE TERMS CAREFULLY BEFORE YOU USE OR ACCESS THE WEBSITE &#038; THE BLOG. BY USING OR ACCESSING THE WEBSITE &#038; THE BLOG, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD AND AGREE TO BE LEGALLY BOUND BY THESE TERMS. IF YOU ARE USING THE SERVICES ON BEHALF OF AN ORGANIZATION, YOU ARE AGREEING TO THESE TERMS FOR THAT ORGANIZATION AND REPRESENTING THAT YOU HAVE THE AUTHORITY TO BIND THAT ORGANIZATION TO THESE TERMS. IN THAT CASE, “YOU” AND “YOUR” WILL REFER TO THAT ORGANIZATION."/>
+        <label id="3" text="IF YOU DO NOT ASSENT TO THESE TERMS, PLEASE DO NOT USE OR VIEW THE WEBSITE &#038; THE BLOG."/>
+        <label id="4" text="By accepting these Terms, you warrant that you are at least eighteen (18) years old and may lawfully enter into and form binding legal contracts. If you are entering into these Terms on behalf of an organization (for example, your employer), you warrant and represent that you are a properly authorized representative of such organization with the authority to enter into binding contracts on behalf of such organization."/>
+        <label id="5" text="Because the Website and the Blog will continue to evolve as we refine features and functionality, we may modify, suspend, or terminate the Website and the Blog in general or with respect to you, occasionally without cause or prior notice. We may also delete any content or data from the Website or the Blog at our discretion. The measures considering personal data you provide to the Website and the Blog are described in detail in our Privacy Policy, which should be treated as an inherent part of these Terms."/>
+        <label id="6" text="We reserve the right to use your company name as a reference for promotional purposes on the Website and in other communication with existing or potential elioplus.com users."/>
+        <label id="7" text="Elioplus.com provides web-based application and services dedicated to individuals, teams, and organizations that want to build B2B partnerships or manage their partner network. The Service is available online and it is located at https://elioplus.com/ to users who have set up an account or accounts in the Service (henceforth referred to as the “Users”)."/>
+        <label id="8" text="TERMS OF SERVICE"/>
+        <label id="9" text="TERMS OF SERVICE"/>
+        <label id="10" text="Close" />
+      </labels>
+      <literals>
+        <literal id="1" text="TERMS OF SERVICE" />
+      </literals>
+    </terms>
+    <profiledata>
+      <labels>
+        <label id="1" text="Personal Image"/>
+        <label id="2" text="Last Name"/>
+        <label id="3" text="First Name"/>
+        <label id="4" text="Job Position"/>
+        <label id="5" text="Summary"/>
+        <label id="6" text="See your Personal Information for Elioplus Community"/>
+        <label id="7" text="Edit your Personal Information for Elioplus Community"/>
+        <label id="8" text="Manage Your Elioplus Profile"/>
+        <label id="9" text="Promote your company’s expertise to our visitors, our business community, and interested local businesses with an up-to-date profile on Elioplus. Update your company’s profile to reflect your product portfolio and services and grow your awareness to your local market. In order to claim a company profile please browse and visit a company profile and use the “Claim Profile” option on the bottom of the listing."/>
+        <label id="10" text="Want to remove your existing company profile and individual data from the Elioplus database? Click the button below. If you make this choice, all information contained in your company profile, including personal data, will be removed and your record will become unavailable in our products as soon as possible. Removing your company profile also serves as an opt-out of the sale of information that was contained in your profile."/>
+        <label id="11" text=""/>
+        <label id="12" text=""/>
+        <label id="13" text=""/>
+        <label id="14" text=""/>
+        <label id="15" text=""/>
+        <label id="16" text=""/>
+        <label id="17" text=""/>
+      </labels>
+      <messages>
+        <message id="1" text="Please enter your last name"/>
+        <message id="2" text="Please enter your first name"/>
+        <message id="3" text="Please enter your job position"/>
+        <message id="4" text="Please add some summary text about you"/>
+        <message id="5" text="Please select a personal image"/>
+        <message id="6" text="Your personal image has not be uploaded"/>
+      </messages>
+    </profiledata>
+    <statistics>
+      <labels>
+        <label id="1" text="Total"/>
+      </labels>
+    </statistics>
+    <vendorsbenefits>
+      <labels>
+        <label id="1" text="Promote your partner program"/>
+        <label id="2" text="Create your company profile and add all the data, like benefits and requirements, and put your partner program in front of thousands of channel partners that visit our website."/>
+        <label id="3" text="The better rating you have the higher you rank in relative searches. We make it easy using our search feature for channel partners to find your profile and we award the best rated partner programs by ranking them higher."/>
+        <label id="4" text="Get matched automatically"/>
+        <label id="5" text="Go to the ‘Find new Partners’ tab and select from 16 partnership criteria those that you are offering according to your partner program structure."/>
+        <label id="6" text="Choose the products you want to find channel partners for and we give you the option to upload a PDF of your partner program in order to be delivered to the email addresses of the channel partners that have the same needs."/>
+        <label id="7" text="New leads and partners"/>
+        <label id="8" text="Get matched with the channel partners you want! Run our matching process feature, go Premium and find new partners."/>
+        <label id="9" text="We deliver your company details and PDF to the channel partners that fit your needs and also you can see them on the ‘My Connections’ tab of your dashboard."/>
+      </labels>
+    </vendorsbenefits>
+    <resellersbenefits>
+      <labels>
+        <label id="1" text="All the vendors at your fingertips"/>
+        <label id="2" text="Whether you are looking for new products to add to your portfolio and resell or you are researching for new innovations in your field you can use the filters in our search feature to find all the available solutions and products in your industry."/>
+        <label id="3" text="We want to provide you the best options so we rank vendors based on their ratings. You can also read the reviews to help you make your decision or add your own."/>
+        <label id="4" text="Get new partnership offers"/>
+        <label id="5" text="We analyze all the data based on your preferences plus the data from the partner program structure from vendors in order to make the best recommendations that suit your needs."/>
+        <label id="6" text="We provide you all the necessary data to compare the partner programs and make the best decision. You can also find ratings and reviews in each vendors' profile from other channel partners to help you evaluate each prospect partner."/>
+        <label id="7" text="New partnership proposals at your inbox"/>
+        <label id="8" text="As vendors compete to recruit you as a channel partner you will receive new proposals at your dashboard and inbox."/>
+        <label id="9" text="To find actively the best software or SaaS products to resell with the best partnership terms just run our matching algorithm by choosing from 15 partnership criteria those that your vendors want to include on their partner program."/>
+      </labels>
+    </resellersbenefits>
+    <developersbenefits>
+      <labels>
+        <label id="1" text=""/>
+        <label id="2" text=""/>
+        <label id="3" text=""/>
+        <label id="4" text=""/>
+        <label id="5" text=""/>
+        <label id="6" text=""/>
+        <label id="7" text=""/>
+        <label id="8" text=""/>
+        <label id="9" text=""/>
+      </labels>
+    </developersbenefits>
+    <marketingtools>
+      <labels>
+        <label id="1" text="Boomerang for Gmail"/>
+        <label id="2" text="Boomerang adds scheduled sending and the easiest, most integrated email reminders to Gmail, helping toy search Inbox Zero."/>
+        <label id="3" text="Charlie"/>
+        <label id="4" text="Charlie combs through 100s of sources and automatically sends you a one-pager on everyone you're going to meet with, before you see them."/>
+        <label id="5" text="Email Hunter"/>
+        <label id="6" text="Email Hunter is the easiest way to find profesional email addresses. Give a domain name and get the list of all the emails related to it found on the internet."/>
+        <label id="7" text="Norbert"/>
+        <label id="8" text="Voila Norbert aims to help people find anyone email address by only having their full name and company domain."/>
+        <label id="9" text="Find That Lead"/>
+        <label id="10" text="FindThatLead gives you the power to connect with people that matter to you."/>
+        <label id="11" text="Sidekick"/>
+        <label id="12" text="Sidekick is a free service that gives you email superpowers with contact insights, email tracking and email scheduling."/>
+        <label id="13" text="Streak"/>
+        <label id="14" text="Streak lets its users manage customers, sales, email support, bug tracking and hiring via Gmail."/>
+        <label id="15" text="Sniply"/>
+        <label id="16" text="Share Content. Drive Traffic. Attach a call-action to every link you share."/>
+        <label id="17" text="Visual Visitor"/>
+        <label id="18" text="Virtual Visitor, anonymous web visitor identification, identify web visitors, web visitor tracking, website visitor tracking."/>
+        <label id="19" text="Sellhack"/>
+        <label id="20" text="Extend Social Profiles with a HACK IN button to uncover more data."/>
+        <label id="21" text="FileBoard"/>
+        <label id="22" text="Are your prospects ready to bu? Find out now with instant access to actionable insights in Fileboard, the leading sales engagement platform."/>
+        <label id="23" text="Sparta sales"/>
+        <label id="24" text="Sparta helps sales teams run better sales competitions, that light up the sales floor with excitement, competitive spirit and momentum."/>
+      </labels>
+    </marketingtools>
+    <buypackets>
+      <items>
+        <item id="1" text="Select your Packet"/>
+        <item id="2" text="Add your Billing Details"/>
+        <item id="3" text="Cart Summary Details"/>
+        <item id="4" text="Select Payment Way"/>
+      </items>
+    </buypackets>
+    <paymentresults>
+      <labels>
+        <label id="1" text="Please enter your Email address"/>
+        <label id="2" text="Please enter valid Email address"/>
+        <label id="3" text="Please enter your Card Number"/>
+        <label id="4" text="Please enter Expiration Month"/>
+        <label id="5" text="Please enter Expiration Year"/>
+        <label id="6" text="Please enter Cvc Number"/>
+        <label id="7" text="Your Card has Expired"/>
+        <label id="8" text="Please enter your Coupon ID"/>
+        <label id="9" text="Please select a Plan"/>
+      </labels>
+      <messages>
+        <message id="1" text="Congratulations ! Your transaction was successfully done."/>
+        <message id="2" text="Warning ! Your payment transaction was canceled."/>
+        <message id="3" text="Error ! Sorry but something unexpected was happened. Please try again later."/>
+        <message id="4" text="Information ! Your order has been successfully closed but it is not ready to use."/>
+        <message id="5" text="You subscribed successfully!"/>
+        <message id="6" text="You are already Premium user"/>
+        <message id="7" text="You must be on a premium plan in order to buy this service"/>
+      </messages>
+    </paymentresults>
+    <payment>
+      <labels>
+        <label id="1" text="Your trial is for our monthly plan"/>
+        <label id="2" text="Your monthly plan is "/>
+        <label id="3" text="Your monthly service plan is "/>
+        <label id="4" text="Your monthly plan cost is "/>
+        <label id="5" text="Service monthly cost is "/>
+        <label id="6" text="Your total monthly cost is "/>
+      </labels>
+    </payment>
+    <collaborationMailBox>
+      <labels>
+        <label id="1" text="Set message not public"/>
+      </labels>
+    </collaborationMailBox>
+    <storageVolume>
+      <labels>
+        <label id="1" text="Storage Data Volume"/>
+        <label id="2" text="Library used space"/>
+        <label id="3" text="Library free space"/>
+      </labels>
+    </storageVolume>
+  </controls>
+  <global>
+    <labels>
+      <label id="1" text="33 Saronikou St , 163 45, Ilioupoli, Athens, Greece "/>
+      <label id="2" text="Category"/>
+      <label id="3" text="Industry"/>
+      <label id="4" text="Partner program"/>
+      <label id="5" text="Market Specialisation"/>
+      <label id="6" text="API Category"/>
+      <label id="7" text="Country"/>
+      <label id="8" text="Vendor's Name"/>
+      <label id="9" text="Channel Partner's Name"/>
+      <label id="10" text="Developer's Name"/>
+      <label id="11" text="API"/>
+      <label id="12" text="search vendor by name"/>
+      <label id="13" text="search channel partner by name"/>
+      <label id="14" text="search developer by name"/>
+      <label id="15" text="-- Select --"/>
+      <label id="16" text="Personal Information"/>
+      <label id="17" text="Company Logo: "/>
+      <label id="18" text="Username: "/>
+      <label id="19" text="Email: "/>
+      <label id="20" text="Official Email: "/>
+      <label id="21" text="Company Name"/>
+      <label id="22" text="Website"/>
+      <label id="23" text="Country"/>
+      <label id="24" text="Address"/>
+      <label id="25" text="Phone"/>
+      <label id="26" text="Mashape Username"/>
+      <label id="27" text="OverView"/>
+      <label id="28" text="Description"/>
+      <label id="29" text="Company Information"/>
+      <label id="30" text="Old Password: "/>
+      <label id="31" text="New Password: "/>
+      <label id="32" text="Retype New Password: "/>
+      <label id="33" text="Market:"/>
+      <label id="35" text="Not available"/>
+      <label id="36" text="API Developers"/>
+      <label id="37" text="Channel Partners"/>
+      <label id="38" text="Vendors"/>
+      <label id="39" text="Select Category"/>
+      <label id="40" text="Select Status"/>
+      <label id="41" text="Select Public"/>
+      <label id="42" text="Select Vendor Company Name"/>
+      <label id="43" text="Yes"/>
+      <label id="44" text="No"/>
+      <label id="45" text="Select Public"/>
+      <label id="46" text="Select Company Name"/>
+      <label id="47" text="Yes"/>
+      <label id="48" text="No"/>
+      <label id="49" text="Learn More"/>
+      <label id="50" text="Company"/>
+      <label id="51" text="Developer"/>
+      <label id="52" text="Sub Industry"/>
+      <label id="53" text="Tel"/>
+      <label id="54" text="+30 2177367850"/>
+      <label id="55" text="Company Sub Categories Information"/>
+      <label id="56" text="read more..."/>
+      <label id="57" text="Billing Type:"/>
+      <label id="58" text="Select Billing Type"/>
+      <label id="59" text="Select Application Type"/>
+      <label id="60" text="Elioplus "/>
+      <label id="61" text="Third Party "/>
+      <label id="62" text="3 months minimum commitment"/>
+      <label id="63" text="Income amount "/>
+      <label id="64" text="Income source "/>
+      <label id="65" text="Income vat "/>
+      <label id="66" text="Income with no vat "/>
+      <label id="67" text="Date in "/>
+      <label id="68" text="Last updated "/>
+      <label id="69" text="Comments "/>
+      <label id="70" text="Admin name "/>
+      <label id="71" text="Admin ID "/>
+      <label id="72" text="ID "/>
+      <label id="73" text="Is Public"/>
+      <label id="74" text="Total income "/>
+      <label id="75" text="Total vat "/>
+      <label id="76" text="Incomes with no vat"/>
+      <label id="77" text="Vat amount"/>
+      <label id="78" text="Organization"/>
+      <label id="79" text="Currency"/>
+      <label id="80" text="Expenses amount "/>
+      <label id="81" text="Expenses reason "/>
+      <label id="82" text="Expenses vat "/>
+      <label id="83" text="Expenses with no vat "/>
+      <label id="84" text="Expenses vat amount"/>
+      <label id="91" text="Total expenses "/>
+      <label id="92" text="Total vat "/>
+      <label id="93" text="Expenses with no vat"/>
+      <label id="94" text="User ID "/>
+      <label id="95" text="Final Amount "/>
+      <label id="96" text="Final Vat"/>
+      <label id="97" text="Final Clear Amount"/>
+      <label id="98" text="Select Channel Partner Company Name"/>
+      <label id="99" text="Select Third Party Company Name"/>
+      <label id="100" text="Partner Management Software by"/>
+    </labels>
+    <buttons>
+      <button id="1" text="Advanced Search"/>
+      <button id="2" text="Close Advanced Search"/>
+      <button id="3" text="Search Now"/>
+      <button id="4" text="Update"/>
+      <button id="5" text="Edit"/>
+      <button id="6" text="Save"/>
+      <button id="7" text="Cancel"/>
+      <button id="8" text="Change Password"/>
+      <button id="9" text="Update Password"/>
+      <button id="10" text="Reset"/>
+      <button id="11" text="Search"/>
+      <button id="12" text="Close"/>
+      <button id="13" text="Register"/>
+      <button id="14" text="Create Now"/>
+      <button id="15" text="Clear"/>
+      <button id="16" text="Log in"/>
+      <button id="17" text="Do it later"/>
+      <button id="18" text="Save Changes"/>
+      <button id="19" text="Upgrade now"/>
+      <button id="20" text="Start your Service"/>
+      <button id="21" text="Contact Us"/>
+      <button id="22" text="Add Connections"/>
+      <button id="23" text="Go Start-Up"/>
+      <button id="24" text="Go Growth"/>
+      <button id="25" text="Get Bulk Clearbit Data"/>
+      <button id="26" text="Go Self Service"/>
+      <button id="27" text="Choose Free"/>
+      <button id="28" text="Choose Start-Up"/>
+      <button id="29" text="Choose Growth"/>
+    </buttons>
+    <messages>
+      <message id="1" text="Sorry, a temporary error occured and you can not reply directly from here. Click Compose and find the company you want in order to send email"/>
+      <message id="2" text="Your message was successfully send."/>
+      <message id="3" text="Your message could not be send to {companyName}"/>
+      <message id="4" text=". Please try again later or contact with us"/>
+      <message id="5" text=" to your friends"/>
+      <message id="6" text="your friends"/>
+      <message id="7" text="You have to be full registered in order to Save any company profile."/>
+      <message id="8" text="Create your profile now"/>
+      <message id="9" text="Sign up to see more details of this and unlimited other company profiles."/>
+      <message id="10" text="It`s completely Free and it takes less than 30 seconds."/>
+      <message id="11" text="Unfotunately company's details are not available at this moment."/>
+      <message id="12" text="Please fill your name"/>
+      <message id="13" text="Please fill your email address"/>
+      <message id="14" text="Please fill a valid email address"/>
+      <message id="15" text="Please fill your phone"/>
+      <message id="16" text="Please fill your message subject"/>
+      <message id="17" text="Please fill your message"/>
+      <message id="18" text="this company"/>
+      <message id="19" text=" We will contact you as soon as posible."/>
+      <message id="20" text="Sorry, a temporary error occured and your message could not be send at this moment."/>
+      <message id="21" text="Sorry, a temporary error occured and you can not log in through Linkedin at this moment. Please try again later or contact with us."/>
+      <message id="22" text="You have make no purchase yet."/>
+    </messages>
+    <grids>
+      <grid id="1">
+        <column id="1" text="Company Name" />
+        <column id="2" text="Company Type" />
+        <column id="3" text="Company Email/Official Email" />
+        <column id="4" text="Is Public" />
+        <column id="5" text="Status" />
+        <column id="6" text="Feature" />
+        <column id="7" text="Last Login" />
+        <column id="8" text="Login Times" />
+        <column id="9" text="Send Times" />
+        <column id="10" text="First Send" />
+        <column id="11" text="Last Send" />
+        <column id="12" text="Actions" />
+        <column id="13" text="Personal Email" />
+        <column id="14" text="Company Email" />
+        <column id="15" text="Date" />
+        <column id="16" text="Rating" />
+        <column id="17" text="First View" />
+        <column id="18" text="Last View" />
+        <column id="19" text="From" />
+        <column id="20" text="Email" />
+        <column id="21" text="Subject" />
+        <column id="22" text="Message" />
+        <column id="23" text="Sent Date" />
+        <column id="24" text="Status" />
+        <column id="25" text="Rating" />
+        <column id="26" text="Receiver Email" />
+        <column id="27" text="Date Created" />
+        <column id="28" text="Last Updated" />
+        <column id="29" text="Total Cost" />
+        <column id="30" text="Purchase way" />
+        <column id="31" text="Purchase type" />
+        <column id="32" text="Is Paid" />
+        <column id="33" text="Expiration Date" />
+        <column id="34" text="Status" />
+        <column id="35" text="Company Website  ( link )" />
+        <column id="36" text="Billing Type" />
+        <column id="37" text="Country" />
+        <column id="38" text="Stripe ID" />
+        <column id="39" text="Verticals" />
+        <column id="40" text="Available Connections"/>
+      </grid>
+      <grid id="2">
+        <column id="1" text="Year" />
+        <column id="2" text="January" />
+        <column id="3" text="February" />
+        <column id="4" text="March" />
+        <column id="5" text="April" />
+        <column id="6" text="May" />
+        <column id="7" text="June" />
+        <column id="8" text="July" />
+        <column id="9" text="August" />
+        <column id="10" text="September" />
+        <column id="11" text="October" />
+        <column id="12" text="November" />
+        <column id="13" text="December" />
+        <column id="14" text="Total" />
+        <column id="15" text="Average" />
+      </grid>
+      <grid id="3">
+        <column id="1" text="ID" />
+        <column id="2" text="File Path" />
+        <column id="3" text="File Name" />
+        <column id="4" text="File Size" />
+        <column id="5" text="Date Created" />
+        <column id="6" text="Actions" />
+      </grid>
+      <grid id="4">
+        <column id="1" text="No Data found"/>
+        <column id="2" text="Status"/>
+        <column id="3" text="Mode"/>
+        <column id="4" text="Trial Days Left"/>
+        <column id="5" text="Date created"/>
+        <column id="6" text="Starting date"/>
+        <column id="7" text="Expiration date"/>
+        <column id="8" text="Canceled date"/>
+        <column id="9" text="Order Type"/>
+        <column id="10" text="Total Amount"/>
+        <column id="11" text="Cancel Plan"/>
+        <column id="12" text="Expiration trial date"/>
+        <column id="13" text="Plan"/>
+        <column id="14" text="Activate Plan"/>
+		    <column id="15" text="Invoice"/>								 
+      </grid>
+      <grid id="5">
+        <column id="1" text="ID" />
+        <column id="2" text="Admin ID" />
+        <column id="3" text="Admin Name" />
+        <column id="4" text="Income amount" />
+        <column id="5" text="Income source" />
+        <column id="6" text="Date In" />
+        <column id="7" text="Last Updated" />
+        <column id="8" text="Vat" />
+        <column id="9" text="Amount With No Vat" />
+        <column id="10" text="Comments" />
+        <column id="11" text="Actions" />
+        <column id="12" text="Last Update By User" />
+        <column id="13" text="Vat Amount" />
+        <column id="14" text="Organization" />
+      </grid>
+      <grid id="6">
+        <column id="1" text="ID" />
+        <column id="2" text="Admin ID" />
+        <column id="3" text="Admin Name" />
+        <column id="4" text="Expenses amount" />
+        <column id="5" text="Expenses reason" />
+        <column id="6" text="Date In" />
+        <column id="7" text="Last Updated" />
+        <column id="8" text="Vat" />
+        <column id="9" text="Amount With No Vat" />
+        <column id="10" text="Comments" />
+        <column id="11" text="Actions" />
+        <column id="12" text="Last Update By User" />
+        <column id="13" text="Vat Amount" />
+        <column id="14" text="Organization" />
+        <column id="15" text="User ID" />
+      </grid>
+      <grid id="7">
+        <column id="1" text="Logo" />
+        <column id="2" text="Company Name" />
+        <column id="3" text="Email" />
+        <column id="4" text="Website" />
+        <column id="5" text="Contact Person" />
+        <column id="6" text="Status" />
+        <column id="7" text="Complete Details" />
+        <column id="8" text="Country" />
+      </grid>
+    </grids>
+    <tooltips>
+      <tooltip id="1" text="Delete profile"/>
+      <tooltip id="2" text="View company details"/>
+      <tooltip id="3" text="Delete company from his favourites"/>
+      <tooltip id="4" text="Set not public"/>
+      <tooltip id="5" text="Set as viewed"/>
+      <tooltip id="6" text="Delete company from your list"/>
+    </tooltips>
+  </global>
+  <footer>
+    <sitemaster>
+      <labels>
+        <label id="1" text="Home" />
+        <label id="8" text="Sitemap" />
+        <label id="2" text="How it works" />
+        <label id="4" text="Pricing" />
+        <label id="3" text="Search" />
+        <label id="7" text="Contact" />
+        <label id="5" text="Blog" />
+        <label id="10" text="Terms &amp; Conditions" />
+        <label id="11" text="Terms / Conditions" />
+        <label id="12" text="Privacy Statement" />
+        <label id="9" text="Faq" />
+        <label id="13" text="Contact Information" />
+        <label id="6" text="About" />
+        <label id="7" text="Products"/>
+      </labels>
+      <literals>
+        <literal id="3" text="Contact us at: " />
+        <literal id="4" text="info@elioplus.com" />
+        <literal id="5" text="Support issues at: " />
+        <literal id="6" text="support@elioplus.com" />
+        <literal id="7" text="Address: 33 Saronikou St , 163 45, Ilioupoli, Athens, Greece" />
+        <literal id="8" text="Tel: +30 2177367850" />
+        <literal id="9" text="Copyright Elioplus @ 2023. Designed by " />
+        <literal id="10" text="Elioplus Team" />
+      </literals>
+    </sitemaster>
+    <default>
+      <literals>
+        <literal id="1" text=""/>
+      </literals>
+    </default>
+  </footer>
+</elio>

@@ -1,0 +1,735 @@
+﻿<elio>
+  <header>
+    <default>
+      <literals>
+        <literal id="1" text="Home"/>
+        <literal id="2" text="Page 1"/>
+      </literals>
+    </default>
+  </header>
+  <content>
+    <sitemaster>
+      <labels>
+        <label id="1" text="Όνομα χρήστη:"/>
+        <label id="2" text="Κωδικός χρήστη:"/>
+        <label id="3" text="Συνδεδεμένος"/>
+        <label id="4" text="Αρχική"/>
+        <label id="5" text="Περισσότερα"/>
+        <label id="6" text="Πακέτα"/>
+        <label id="7" text="Αναζήτηση"/>
+        <label id="8" text="Επικοινωνία"/>
+        <label id="9" text="Blog"/>
+        <label id="10" text="Χάρτης"/>
+        <label id="11" text="Όροι / Απόρρητο"/>
+        <label id="12" text="Στοιχεία Επικοινωνίας"/>
+        <label id="13" text="Μάθετε για την Elioplus"/>
+        <label id="14" text="info@elioplus.com"/>
+        <label id="15" text="Αθήνα, Ελλάδα"/>
+        <label id="16" text="Η ομάδα της Elioplus"/>
+        <label id="17" text="Ο λογαριασμός σας είναι μπλοκαρισμένος. Παρακαλώ επικοινωνήστε μάζί μας"/>
+        <label id="18" text="Your account need your attention. You are not full registered. Please go to your profile and fill in your details to get all benefits of our partners."/>
+        <label id="19" text="Elioplus team has make your profile not public because you have provide some invalid data. Please contact us to help you solve this."/>
+        <label id="20" text="Η Καρτέλα Μου"/>
+        <label id="21" text="Εγγραφή"/>
+        <label id="22" text="Σελίδα Διαχειριστή"/>
+        <label id="23" text="Έξοδος"/>
+        <label id="24" text="Elioplus - A Marketplace for IT Partnership"/>
+        <label id="25" text="Πως να οικοδομήσετε μια συνεργασία IT μέσω της Elioplus"/>
+        <label id="26" text="Βρείτε τον επαγγελματικό συνεργάτη σας μέσω της Elioplus"/>
+        <label id="27" text="Επικοινωνία με την ομάδα της Elioplus - IT Marketplace"/>
+        <label id="28" text="Elioplus Team - IT Marketplace"/>
+        <label id="29" text="Η απάντησή σου βρίσκεται εδώ - Elioplus IT Marketplace"/>
+        <label id="30" text="Δωρεάν και Γρήγορη Εγγραφή - Elioplus IT Marketplace"/>
+        <label id="31" text="Η τιμολογική πολιτική μας - Elioplus IT Marketplace"/>
+        <label id="32" text="Εύκολη ανάκτηση κωδικού - Elioplus IT Marketplace"/>
+        <label id="33" text="Our community - Elioplus IT Marketplace"/>
+        <label id="34" text="Your community profile - Elioplus IT Marketplace"/>
+        <label id="35" text=" | Elioplus - A Marketplace for IT Partnership"/>
+        <label id="36" text=" προφίλ | Elioplus - A Marketplace for IT Partnership"/>
+        <label id="37" text="support@elioplus.com"/>
+        <label id="38" text="Επικοινωνία στο:"/>
+        <label id="39" text="Θέματα υποστήριξης στο:"/>
+        <label id="40" text="Εισάγετε όνομα χρήστη"/>
+        <label id="41" text="Εισάγετε κωδικό χρήστη"/>
+        <label id="42" text="Ο λογαριασμός σας είναι μπλοκαρισμένος. Παρακαλώ επικοινωνήστε μάζί μας"/>
+        <label id="43" text="Λάθος όνομα χρήστη"/>
+        <label id="44" text="Λάθος κωδικός χρήστη"/>
+        <label id="45" text="Ξέχασα τον κωδικό μου"/>
+        <label id="46" text="Όνομα"/>
+        <label id="47" text="Κωδικός"/>
+        <label id="48" text="Το Προφίλ Μου"/>
+        <label id="49" text="Κοινότητα"/>
+      </labels>
+      <literals>
+        <literal id="1" text="Copyright @ 2014 Elioplus. All Rights Reserved."/>
+        <literal id="2" text="Ανάπτυξη από "/>
+        <literal id="3" text="Ερωτήσεις"/>
+      </literals>
+      <buttons>
+        <button id="1" text="Είσοδος"/>
+        <button id="2" text="Εγγραφή"/>
+      </buttons>
+      <tooltips>
+        <tooltip id="1" text="Αλλαγή γλώσσας στα Αγγλικά"/>
+        <tooltip id="2" text="Αλλαγή γλώσσας στα Ελληνικά"/>
+      </tooltips>
+      <messages>
+        <message id="1" text="Έχετε {count} νέο μηνύμα."/>
+        <message id="2" text="Έχετε {count} μηνύματα."/>
+        <message id="3" text="Σύντομα διαθέσιμο"/>
+        <message id="4" text="Αλλαγή γλώσσας"/>
+        <message id="5" text="Έχετε {count} νέο ακόλουθο."/>
+        <message id="6" text="Έχετε {count} νέους ακολούθους."/>
+      </messages>
+    </sitemaster>
+    <prmmaster>
+      <literals>
+        <literal id="1" text="Home"/>
+        <literal id="2" text="About"/>
+        <literal id="3" text="Features"/>
+        <literal id="4" text="Integrations"/>
+        <literal id="5" text="Security"/>
+        <literal id="6" text="Pricing"/>
+        <literal id="7" text="Our clients"/>
+        <literal id="8" text="Testimonials"/>
+        <literal id="9" text=""/>
+        <literal id="10" text=""/>
+        <literal id="11" text=""/>
+        <literal id="12" text=""/>
+      </literals>
+      <buttons>
+        <button id="1" text="SIGN IN"/>
+        <button id="2" text="SIGN UP"/>
+      </buttons>
+    </prmmaster>
+    <default>
+      <labels>
+        <label id="1" text="Whether you are a reseller and looking for new products to add to your portofolio or a developer browsing for APIs, you can search for the best software and Saas vendors on your  platform."/>
+        <label id="2" text="As a member you'll be able to contact directrly the company or individual that fits your needs and connect with them. Also, you can see all your resent leads on your dashboard."/>
+        <label id="3" text="Use the advanced search filters to find the exact product, tool or company you are searching for. See each company's profile page to discover their complete offering and benefits of partnership."/>
+        <label id="4" text="Ενδεδειγμένοι Προμηθευτές"/>
+        <label id="5" text="Όνομα εταιρείας"/>
+        <label id="6" text="Κλάδος"/>
+        <label id="7" text="Χώρα"/>
+        <label id="8" text="Συνοπτική περιγραφή για την Elioplus"/>
+        <label id="9" text="Connecting SaaS and software companies with resellers and developers. Elioplus is a B2B platform that brings together companies (software, SaaS and high tech hardware) that offer partner programs with their respective business partners. Discover great products and get in touch with innovative companies."/>
+        <label id="10" text="Μάθετε περισσότερα..."/>
+        <label id="11" text="Αναζητήστε"/>
+        <label id="12" text="Συνδεθείτε"/>
+        <label id="13" text="Ανακαλύψτε"/>
+      </labels>
+      <tooltips>
+        <tooltip id="1" text="Create your public profile. Provide your Partner Programm or API details. We connect you with resellers and developers."/>
+        <tooltip id="2" text="Create your company profile on our platform. Tell us about the products and services you are looking for. We recommend you innovative and competitive partner programms."/>
+        <tooltip id="3" text="Sign up and join on our platform. Tell us what products you like to build. Receive new recommendations based on your criteria."/>
+      </tooltips>
+    </default>
+    <howitworks>
+      <labels>
+        <label id="1" text="Μάθετε Περισσότερα για την λειτουργία της Elioplus"/>
+        <label id="2" text="&lt;b&gt;Create&lt;/b&gt; your public profile"/>
+        <label id="3" text="&lt;b&gt;Provide&lt;/b&gt; your Partner Program or API details"/>
+        <label id="4" text="Sign up and &lt;b&gt;join&lt;/b&gt; on our platform"/>
+        <label id="5" text="&lt;b&gt;Tell&lt;b/&gt; us about what products you like to build"/>
+        <label id="6" text="&lt;b&gt;Receive&lt;b/&gt; new recommendations based on your criteria"/>
+        <label id="7" text="Create &lt;b&gt;your company profile&lt;b/&gt; on our platform"/>
+        <label id="8" text="&lt;b&gt;Tell us&lt;b/&gt; about the products and services you are looking for"/>
+        <label id="9" text="We &lt;b&gt;recommend&lt;b/&gt; you innovative and competitive partner programs"/>
+        <label id="10" text="Sign up and Join"/>
+        <label id="11" text="Sign up (under 30 seconds) and create your company's public profile and gain visibility in related searches from resellers and developers."/>
+        <label id="12" text="Promote your partner program and attract high quality leads to recruit new business partners and grow your channel work."/>
+        <label id="13" text="Tell us more"/>
+        <label id="14" text="Provide some information about your partner program structure like partnership types, benefits, support, requirements etc. so we can match you with the right resellers or developers if you are promoting your API program."/>
+        <label id="15" text="Connect and Grow"/>
+        <label id="16" text="We distribute your partner program or API to interested resellers and developers based on the criteria of your offering. We use over 15 main criteria to reach the correct channel partners and send you an analytic report once the process is completed."/>
+        <label id="17" text="Sign up (under 30 seconds) and create your company's public profile. Users can rate and review your listing in order to gain credibility and more offers from vendors."/>
+        <label id="18" text="Specify"/>
+        <label id="19" text="We analyze and recommend the best vendors that match with your company profile based on multiple criteria such as industry and market segmentation, number of partners in your location etc."/>
+        <label id="20" text="Receive and Determine"/>
+        <label id="21" text="Receive offers in your inbox and compare the most competitive partner programs based on your criteria. We provide all the information you need about partner programs and the respective companies so you can make the best decision."/>
+        <label id="22" text="Tell us about you"/>
+        <label id="23" text="Complete the quick form and tell us what products you like to build. Choose between Business Services, Media and Entertainment, Retail and Ecommerce, Location, Social and Health."/>
+        <label id="24" text="Start Building"/>
+        <label id="25" text="Receive new recommendations based on your criteria, we match you with the best API providers. You can also search our database to discover all the available API programs that are added daily."/>
+        <label id="26" text="Community"/>
+        <label id="27" text="Soon, we'll roll out our developers community where you can add related content, promote your work, request help for your projects and many more..."/>
+        <label id="28" text="We &lt;b&gt;connect&lt;b/&gt; you with resellers and developers"/>
+      </labels>
+      <tooltips>
+        <tooltip id="1" text="Πήγαινέ με στην κορυφή της σελίδας"/>
+      </tooltips>
+    </howitworks>
+    <pricing>
+      <labels>
+        <label id="1" text="Τιμολογική Πολιτική Πακέτων"/>
+        <label id="2" text="All our basic plans for vendors, resellers and developers are and will remain free forever. Take a look at the pricing table to see the current features that are included."/>
+        <label id="3" text=""/>
+        <label id="4" text=""/>
+        <label id="5" text=""/>
+        <label id="6" text="Επιλέξτε το πλάνο σας"/>
+        <label id="7" text="Δωρεάν"/>
+        <label id="8" text="Δημόσιο προφίλ"/>
+        <label id="9" text="Analytics"/>
+        <label id="10" text="Visitor tracking and leads"/>
+        <label id="11" text="View unlimited profiles"/>
+        <label id="12" text="Save unlimited profiles"/>
+        <label id="13" text="Contact other members directly"/>
+        <label id="14" text="Available partners opportunities"/>
+        <label id="15" text="For vendors that are actively looking to connect with partners, we'll introduce our pricing plans in the following weeks. You will be able to add your partner program details, like benefits, requirements, etc., and our algorithm will automatically connect you with interested resellers or developers based on the criteria you have provided. Coming soon..."/>
+        <label id="16" text="Off course, our basic plans will still be free and you'll be able to promote your partner programs publicly on our platform and use our current features."/>
+      </labels>
+      <buttons>
+        <button id="1" text="Εγγραφή τώρα"/>
+      </buttons>
+    </pricing>
+    <search>
+      <labels>
+        <label id="1" text="Αναζητήστε "/>
+        <label id="2" text="Προμηθευτές, Μεταπωλητές, Προγραμματιστές"/>
+        <label id="3" text="Επιλέξτε κατηγορία"/>
+        <label id="4" text="Start by selecting a category, between vendors, resellers and developers, to search for comany profiles."/>
+        <label id="5" text="Αναζήτηση με κριτήρια"/>
+        <label id="6" text="Click the advanced search feature and select the criteria that apply in order to find exact matches for what you are looking for."/>
+        <label id="7" text="Επιλέξτε κλάδο"/>
+        <label id="8" text="Select one of the industries displayed to refine your search and discover the most relevant products and companies"/>
+        <label id="9" text="Τα αποτελέσματα είναι ταξινομημένα σύμφωνα με την ψηφοφορία των εταιρειών/προγραμμάτων"/>
+      </labels>
+      <grids>
+        <grid id="1">
+          <literals>
+            <literal id="1" text="Δεν βρέθηκαν αποτελέσματα"/>
+          </literals>
+        </grid>
+      </grids>
+    </search>
+    <details>
+      <labels>
+        <label id="1" text="Ημερομηνία Εγγραφής:"/>
+        <label id="2" text="Mashape Api page:"/>
+        <label id="3" text="Δημοσιεύτηκε στις: "/>
+        <label id="4" text="Κριτική"/>
+        <label id="5" text="Παρακαλώ γράψτε την κριτική σας για τον συγκεκριμένο {typeofuser}"/>
+        <label id="6" text="Η κριτική σας για τον συγκεκριμένο {typeofuser} αποθηκέυτηκε επιτυχώς"/>
+        <label id="7" text="Πρέπει να έχετε εγγραφτεί πλήρως για να μπορέσετε να επικοινωνήσετε με την συγκεκριμένη εταιρεία. "/>
+        <label id="8" text="Δεν υπάρχουν κριτικές. Παρακαλώ γράψτε πρώτος"/>
+        <label id="9" text="Προσθήκη"/>
+        <label id="10" text="Ψηφοφορία Εταιρείας"/>
+        <label id="11" text="Ψηφοφορία προγραμματιστή"/>
+        <label id="12" text="Ψηφοφορία πρόγραμματος "/>
+        <label id="13" text="Συνολικές κριτικές προγράμματος:"/>
+        <label id="14" text="Συνολικές κριτικές:"/>
+      </labels>
+      <messages>
+        <message id="1" text="Η κριτική σας για την συγκεκριμένη εταιρεία δεν μπόρεσε να αποθηκευτεί"/>
+        <message id="2" text="{count} χρήστης(ες) έχουν ψηφίσει"/>
+        <message id="3" text="Παρακαλώ κοίτα την συγκεκρίμένη εταιρεία: "/>
+      </messages>
+      <buttons>
+        <button id="1" text="Αποθήκευση"/>
+        <button id="2" text="Προσθήκη κριτικής"/>
+      </buttons>
+      <tooltips>
+        <tooltip id="1" text="1 αστέρι"/>
+        <tooltip id="2" text="2 αστέρια"/>
+        <tooltip id="3" text="3 αστέρια"/>
+        <tooltip id="4" text="4 αστέρια"/>
+        <tooltip id="5" text="5 αστέρια"/>
+        <tooltip id="6" text="Μπορείτε να ψηφίσετε μόνο μία φορά"/>
+        <tooltip id="7" text="Η κριτική σας δε μπορεί να υπερβαίνει τους 500 χαρακτήρες"/>
+        <tooltip id="8" text="Δείτε πληροφορίες της συγκεκριμένης εταιρείας"/>
+        <tooltip id="9" text="Θέστε την κριτική μη δημόσια"/>
+        <tooltip id="10" text="Δεν μπορείτε να ψηφίσετε ξανά την ίδια εταιρέια"/>
+        <tooltip id="11" text="Δεν μπορείτε να ψηφίσετε το δικό σας πρόγραμμα"/>
+        <tooltip id="12" text="Δεν μπορείτε να ψηφίσετε γιατί δεν έχετε εγγραφτεί πλήρως ακόμα"/>
+        <tooltip id="13" text="Μπορείτε να καταχωρήσετε παραπάνω από μία ηλεκτρονική διεύθυνση, απλά χωρίζοντάς τες με κόμμα(,)"/>
+      </tooltips>
+      <tabs>
+        <tab id="1" text="Περίληψη"/>
+        <tab id="2" text="Περιγραφή"/>
+        <tab id="3" text="Επικοινωνία"/>
+        <tab id="4" text="Αποστολή σε φίλους"/>
+        <tab id="5" text="Κριτικές Προγράμματος"/>
+      </tabs>
+    </details>
+    <contact>
+      <labels>
+        <label id="1" text=""/>
+        <label id="2" text="Επικοινωνία"/>
+        <label id="3" text="Φόρμα Επικοινωνίας"/>
+        <label id="4" text="Στοιχεία Επικοινωνίας"/>
+        <label id="5" text="Email Επικοινωνίας:"/>
+        <label id="6" text="Email Υποστήριξης:"/>
+        <label id="7" text="Facebook"/>
+        <label id="8" text="Twitter"/>
+        <label id="9" text="Google+"/>
+        <label id="10" text="Linkedin"/>
+        <label id="11" text="Τα γραφεία μας:"/>
+        <label id="12" text="Αθήνα, Ελλάδα"/>
+        <label id="13" text="Elioplus is a B2B platform that helps IT companies that offer partner programs (i.e. white label, distributors) to grow their indirect channel and recruit new business partners. We aim to link the vast volume of the companies and individuals that operate within the IT industry, to connect them and create a seamless experience. We want to enhance their efforts in order to grow their partner network and build brand awareness for their partner profile."/>
+        <label id="14" text=""/>
+        <label id="15" text=""/>
+      </labels>
+    </contact>
+    <about>
+      <labels>
+        <label id="1" text="Σχετικά με την Elioplus"/>
+        <label id="2" text="A few years ago, as resellers, we came to realize how hard is to discover new products, get in touch with the respective company, reach an agreement and finally resell software products. Some months and an Alpha version later, we introduce our Beta version in order to make that process uninterrupted and optimal."/>
+        <label id="3" text="To make this happen we combined the talent of our software developers, Vagelis and Dimitris, and the experience on partnerships, Christos and Ilias. Our vision is to help companies from the inception of a partner program to establishing a network of thousand business partners. Below you can see our team and duties."/>
+        <label id="4" text="Η Ομάδα"/>
+        <label id="5" text="Ευάγγελος Βαρβιτσιώτης"/>
+        <label id="6" text="CTO"/>
+        <label id="7" text="Lead Developer"/>
+        <label id="8" text="Ηλίας Ndreu"/>
+        <label id="9" text="CEO"/>
+        <label id="10" text="Business Development"/>
+        <label id="11" text="Χρήστος Μαντζίκος"/>
+        <label id="12" text="Marketing Community and Sales"/>
+        <label id="13" text="Δημήτρης Καλόγερος"/>
+        <label id="14" text="CPO"/>
+        <label id="15" text="Product Development"/>
+      </labels>
+    </about>
+    <faq>
+      <labels>
+        <label id="1" text="Σελίδα Αποριών"/>
+        <label id="2" text="1. Can I promote my partner programs for free?"/>
+        <label id="3" text="Absolutely. You can create a profile page for your company and promote your partner program to our users and visitors for free."/>
+        <label id="4" text="2. Is there a way to promote my offering more actively?"/>
+        <label id="5" text="Yes. We are currently developing our premium feature that will help you target the most relevant resellers/developers and forward your program/API structure."/>
+        <label id="6" text="3. I'm a reseller/developer. Why should I join?"/>
+        <label id="7" text="Apart from promoting your company/work, we make it easy to discover new innovative products and get information about the partner program/API. You can also make settings in order to get notified early and compare between competitive programs so you can take the best decision about which vendor to trust. Our coming community is also a good reason to join."/>
+        <label id="8" text="4. If I join, will I be able to browse all profile pages?"/>
+        <label id="9" text="Yes. As a registered user you have unlimited search discovery, although we limit the number of companies you can contact each day for security reasons."/>
+        <label id="10" text="5. Are the company profiles and partner programs vetted?"/>
+        <label id="11" text="We do our best to check and verify the data provided by our users but it their responsibility to give us accurate data. We want to keep the quality of content on our website very high and we are developing tools towards this direction in order to provide accurate and relevant information."/>
+      </labels>
+    </faq>
+    <forgotpassword>
+      <labels>
+        <label id="1" text="Ξέχασα τον Κωδικό μου"/>
+        <label id="2" text="Δημιοργία νέου κωδικού"/>
+      </labels>
+    </forgotpassword>
+    <signup>
+      <labels>
+        <label id="1" text="Δημιουργήστε απλά, γρήγορα και δωρεάν την εγγραφή σας"/>
+      </labels>
+    </signup>
+    <dashboard>
+      <labels>
+        <label id="1" text="Γενικές Πληροφορίες"/>
+        <label id="2" text="Συνολικές Προβολές"/>
+        <label id="3" text="Νέα Μηνύματα"/>
+        <label id="4" text="Αποθηκεύσεις προφίλ μου"/>
+        <label id="5" text="Παρακάτω μπορείτε να δείτε την λίστα με τα εταιρικά προφίλ που σας ενδιαφέρουν"/>
+        <label id="6" text="Παρακάτω μπορείτε να δείτε την λίστα με τις εταιρείες που έχουν επισκεφτεί και δει το εταιρικό σας προφίλ"/>
+        <label id="7" text="Παρακάτω μπορείτε να δείτε την λίστα με τις εταιρείες που έχουν αποθηκεύσει το εταιρικό σας προφίλ στα αγαπημένα τους"/>
+        <label id="8" text="Παρακάτω μπορείτε να δείτε την λίστα με τις ψηφοφορίες άλλων εταιρείων για το δικό σας πρόγραμμα"/>
+        <label id="9" text="Η μέση τιμή της ψιφοφορίας είναι: {rating}"/>
+        <label id="10" text="Ηλεκτρονική Διεύθυνση"/>
+        <label id="11" text="Επιλέξτε Email"/>
+        <label id="12" text="Στοιχεία Εταιρείας"/>
+      </labels>
+      <tabs>
+        <tab id="1" text="Η καρτέλα μου"/>
+        <tab id="2" text="Το προφίλ μου"/>
+        <tab id="3" text="Μηνύματα"/>
+        <tab id="4" text="Αγαπημένα"/>
+        <tab id="5" text="Επεξεργασία"/>
+        <tab id="6" text="Ακόλουθοί μου"/>
+        <tab id="7" text="Καταχωρήσεις"/>
+        <tab id="8" text="Ψηφοφορία"/>
+        <tab id="9" text="Επεξεργασία Προφίλ"/>
+        <tab id="10" text="Στατιστικά"/>
+      </tabs>
+      <messages>
+        <message id="1" text="Your profile can not be viewed because you are not full registered yet."/>
+        <message id="2" text="Your profile has not been viewed by a company yet."/>
+        <message id="3" text="You can add no company profiles that are interested in you because you are not full registered yet."/>
+        <message id="4" text="You have add no company profiles that are interested in you yet."/>
+        <message id="5" text="You have no companies that added you to their favourites profiles list because you are not full registered yet."/>
+        <message id="6" text="You have no companies that added you to their favourites profiles list yet."/>
+        <message id="7" text="You have no rating by company yet."/>
+        <message id="8" text="Unfortunately we could not delete this record.Please try later or contact us to report this problem."/>
+        <message id="9" text="Unfortunately we could not find the details of this company. Please try from Search section or contact us to report this problem."/>
+        <message id="10" text="You are not able to compose a new email because you are not full registered yet."/>
+      </messages>
+      <nodes>
+        <node id="1" text="Μηνύματα"/>
+        <node id="2" text="Γραμματοκιβώτιο"/>
+        <node id="3" text="Νέα Μηνύματα"/>
+        <node id="4" text="Παλιά Μηνύματα"/>
+        <node id="5" text="Διεγραμένα Μηνύματα"/>
+        <node id="6" text="Δημιουργία Νέου"/>
+      </nodes>
+    </dashboard>
+    <adminpage>
+      <labels>
+        <label id="1" text="All Elioplus companies profiles"/>
+        <label id="2" text="Προφίλ Εταιρείας"/>
+        <label id="3" text="Εγγεγραμμένοι"/>
+        <label id="4" text="Μη Εγγεγρ/μένοι"/>
+        <label id="5" text="Κατάσταση"/>
+        <label id="6" text="Δημόσιο"/>
+        <label id="7" text="Όνομα Εταιρείας"/>
+        <label id="8" text="Sort by"/>
+      </labels>
+      <tooltips>
+        <tooltip id="1" text="Επεξεργασία Προφίλ"/>
+        <tooltip id="2" text="Ακύρωση Επεξεργασίας"/>
+        <tooltip id="3" text="Αποθήκευση Αλλαγών"/>
+        <tooltip id="4" text="Είσοδος ως {comapnyname}"/>
+        <tooltip id="5" text="Προβολή προφίλ εταιρείας"/>
+        <tooltip id="6" text="Αποστολή Email ειδοποίησης"/>
+      </tooltips>
+      <messages>
+        <message id="1" text="Οι αλλαγές σας αποθηκέυτηκαν επιτυχώς."/>
+        <message id="2" text=" Επειδή είστε ο διαχειριστής της σελίδας ίσως χρειαστεί να επαναφορτώσετε την σελίδα για να δείτε τις αλλαγές σας."/>
+        <message id="3" text="Οι αλλαγές σας ακυρώθηκαν."/>
+        <message id="4" text="Το Email ειδοποίησης εστάλει επιτυχώς στην {companyemail}"/>
+        <message id="5" text=" και "/>
+      </messages>
+    </adminpage>
+  </content>
+  <controls>
+    <usersregistrationcontrol>
+      <labels>
+        <label id="1" text="Αριθμός χρηστών που έχουν εγγραφτεί ανα: "/>
+        <label id="2" text="Χρόνο"/>
+        <label id="3" text="Μήνα"/>
+        <label id="4" text="Ημέρα"/>
+      </labels>
+      <buttons>
+        <button id="1" text="Προβολή"/>
+      </buttons>
+    </usersregistrationcontrol>
+    <viewcontrol>
+      <labels>
+        <label id="1" text="Καθημερινές προβολές του εταιρικού σας προφίλ τις τελευταίες 30 ημέρες"/>
+        <label id="2" text="Καμία εταιρεία δε μπορεί να δει το προφίλ σας επειδή δεν έχετε ολοκληρώση την εγγραφή σας ακόμα"/>
+      </labels>
+    </viewcontrol>
+    <companycategoriesdata>
+      <labels>
+        <label id="1" text="Πρέπει να επιλέξετε τουλάχιστον μία κατηγορία {notselectedcategory} "/>
+        <label id="2" text="Οι αλλαγές έχουν καταχωρηθεί επιτυχώς"/>
+      </labels>
+    </companycategoriesdata>
+    <companydataeditmode>
+      <labels>
+        <label id="1" text="Παρακαλώ εισάγετε όνομα χρήστη"/>
+        <label id="2" text="Παρακαλώ εισάγετε όνομα εταιρέιας"/>
+        <label id="3" text="Παρακαλώ εισάγετε email"/>
+        <label id="4" text="Παρακαλώ εισάγετε έγκυρο email"/>
+        <label id="5" text="Παρακαλώ εισάγετε έγκυρο εταιρικό email"/>
+        <label id="6" text="Παρακαλώ εισάγετε ιστοσελίδα"/>
+        <label id="7" text="Παρακαλώ εισάγετε χώρα"/>
+        <label id="8" text="Παρακαλώ εισάγετε διεύθυνση"/>
+        <label id="9" text="Παρακαλώ εισάγετε τηλέφωνο"/>
+        <label id="10" text="Παρακαλώ εισάγετε έγκυρο τηλέφωνο"/>
+        <label id="11" text="Παρακαλώ εισάγετε περίληψη της εταιρείας"/>
+        <label id="12" text="Παρακαλώ εισάγετε περιγραφή της εταιρείας"/>
+        <label id="13" text="Παρακαλώ εισάγετε τον παλιό κωδικό"/>
+        <label id="14" text="Ο παλιός κωδικός δεν είναι σωστός"/>
+        <label id="15" text="Παρακαλώ εισάγετε νέο κωδικό"/>
+        <label id="16" text="Ο κωδικός πρέπει να περιλαμβάνει τουλάχιστον 8 χαρακτήρες"/>
+        <label id="17" text="Ο κωδικός περιέχει μη έγκυρους χαρακτήρες"/>
+        <label id="18" text="Παρακαλώ εισάγετε ξανά το νέο κωδικό"/>
+        <label id="19" text="Παρακαλώ εισάγετε σωστά το νέο κωδικό"/>
+        <label id="20" text="-- Επιλέξτε χώρα --"/>
+      </labels>
+      <messages>
+        <message id="1" text="Πρέπει να αποθηκεύσετε το νέο κωδικό σας ή να ακυρώσετε τη διαδικασία αλλαγής του"/>
+        <message id="2" text="Ο νέος κωδικός σας καταχωρήθηκε επιτυχώς"/>
+        <message id="3" text="Η διαδικασία αλλαγής του κωδικού σας ακυρώθηκε"/>
+      </messages>
+    </companydataeditmode>
+    <featurecompanies>
+      <labels>
+        <label id="1" text="Οι Συνεργάτες μας"/>
+      </labels>
+    </featurecompanies>
+    <contact>
+      <labels>
+        <label id="1" text="Όνομα"/>
+        <label id="2" text="Ηλεκτρονική Διεύθυνση"/>
+        <label id="3" text="Τηλέφωνο"/>
+        <label id="4" text="Θέμα"/>
+        <label id="5" text="Κείμενο"/>
+        <label id="6" text="Αποστολή προς"/>
+        <label id="7" text="Δημιουργία Νέου"/>
+      </labels>
+      <tooltips>
+        <tooltip id="1" text="Το μήνυμά σας δεν μπορεί να υπερβαίνει τους 500 χαρακτήρες"/>
+      </tooltips>
+      <buttons>
+        <button id="1" text="Καθαρισμός πεδίων"/>
+        <button id="2" text="Αποστολή"/>
+      </buttons>
+    </contact>
+    <inboxnew>
+      <labels>
+        <label id="1" text="Νέα Μηνύματα"/>
+      </labels>
+      <messages>
+        <message id="1" text="Δεν μπορείτε να έχετε νέα μηνύματα επειδή δεν έχετε ολοκληρώση την εγγραφή σας πλήρως"/>
+        <message id="2" text="Δεν έχετε νέα μηνύματα"/>
+      </messages>
+    </inboxnew>
+    <inboxold>
+      <labels>
+        <label id="1" text="Παλιά Μηνύματα"/>
+      </labels>
+      <messages>
+        <message id="1" text="Δεν μπορείτε να έχετε παλιά μηνύματα επειδή δεν έχετε ολοκληρώση την εγγραφή σας πλήρως"/>
+        <message id="2" text="Δεν έχετε παλιά μηνύματα"/>
+      </messages>
+    </inboxold>
+    <inboxdeleted>
+      <labels>
+        <label id="1" text="Διεγραμμένα Μηνύματα"/>
+      </labels>
+      <messages>
+        <message id="1" text="Δεν μπορείτε να έχετε διεγραμμένα μηνύματα επειδή δεν έχετε ολοκληρώση την εγγραφή σας πλήρως"/>
+        <message id="2" text="Δεν έχετε διεγραμμένα μηνύματα"/>
+      </messages>
+    </inboxdeleted>
+    <simpleregistration>
+      <labels>
+        <label id="1" text="Όνομα χρήση: "/>
+        <label id="2" text="Κωδικός χρήση: "/>
+        <label id="3" text="Επαλήθευση κωδικού: "/>
+        <label id="4" text="Ηλεκτρονική Διεύθυνση: "/>
+      </labels>
+      <buttons>
+        <button id="1" text="Καθαρισμός πεδίων"/>
+        <button id="2" text="Δημιουργία τυχαίου κωδικού"/>
+        <button id="3" text="Καταχώρηση"/>
+        <button id="4" text="Ακύρωση"/>
+      </buttons>
+      <tooltips>
+        <tooltip id="1" text="Έγκυροι χαρακτήρες/σύμβολα:"/>
+      </tooltips>
+      <messages>
+        <message id="1" text="Please enter username"/>
+        <message id="2" text="Username must be at least 8 characters"/>
+        <message id="3" text="Username contains invalid characters"/>
+        <message id="4" text="This username is already registered"/>
+        <message id="5" text="Please enter a password"/>
+        <message id="6" text="Password must be at least 8 characters"/>
+        <message id="7" text="Password contains invalid characters"/>
+        <message id="8" text="Please retype your password"/>
+        <message id="9" text="Please retype correct your password"/>
+        <message id="10" text="Please enter email"/>
+        <message id="11" text="Please enter a valid email"/>
+        <message id="12" text="This email is already registered"/>
+        <message id="13" text="Your registration was successfull."/>
+        <message id="14" text=""/>
+      </messages>
+    </simpleregistration>
+    <sendactivationemail>
+      <labels>
+        <label id="1" text="Ηλεκτρονική Διεύθυνση"/>
+        <label id="2" text="Παρακαλώ εισάγετε την ηλεκτρονική σας διεύθυνση"/>
+        <label id="3" text="Παρακαλώ εισάγετε μια έγκυρη ηλεκτρονική διεύθυνση"/>
+      </labels>
+      <buttons>
+        <button id="1" text="Καθαρισμός Email"/>
+        <button id="2" text="Αποστολή Κωδικού"/>
+      </buttons>
+      <tooltips>
+        <tooltip id="1" text="Καταχωρήστε την ηλεκτρονική διεύθυνση που εισάγατε κατά την εγγραφή σας, στην οποία θα λάβετε τον νέο σας κωδικό. Μπορείτε να τον αλλάξετε όποια στιγμή επιθυμείτε."/>
+      </tooltips>
+      <messages>
+        <message id="1" text="Λυπούμαστε αλλά κάτι απρόσμενο συνέβη. Παρακάλώ προσπαθήστε αργότερα ή επικοινωνίστε μαζί μας"/>
+        <message id="2" text="Βρίσκεστε σε Development κατάσταση άρα ο κωδικός δεν έχει αλλάξει"/>
+        <message id="3" text="Το email που εισάγατε δεν ανήκει σε κάποιον εγγεγραμένο χρήστη της Elioplus. Παρακάλώ προσπαθήστε ξανά ή επικοινωνήστε μαζί μας"/>
+        <message id="4" text="Ένας νέος κωδικός εστάλει επιτυχώς στο email που εισάγατε. Μπορείτε να τον αλλάξετε όποια στιγμή επιθυμείτε για δική σας ασφάλεια"/>
+        <message id="5" text="Λυπούμαστε αλλά κάτι απρόσμενο συνέβη. Παρακάλώ προσπαθήστε αργότερα ή επικοινωνίστε μαζί μας"/>
+      </messages>
+    </sendactivationemail>
+    <privacy>
+      <labels>
+        <label id="1" text="This Privacy Policy covers only data collected through the Website and not any other data collection or processing, including, without limitation, data collection practices of other web pages to which we link or data that we or our subsidiaries collect offline or through web sites, products, or services that do not display a direct link to this Privacy Policy."/>
+        <label id="2" text="When you request information, subscribe for a service, register as a user, participate in a survey, post a rating or review, post a question or answer, upload content or otherwise actively send us data on our Website, we usually collect data including, but not limited to, user name, password, email address, messages you send to users and any other data included in a submitted profile. In each such instance, you will know what data we collect through the Website, because you actively submit it."/>
+        <label id="3" text="As part of the standard operation of the Website, Elioplus will automatically collect information from your computer or mobile device, including, but not limited to, your browser type, operating system, IP address and the domain name from which you accessed the site, and if you are accessing our site with your mobile device, type of mobile device. In addition we may record actions taken on the Website including, but not limited to, date and times of use, clicks, page views, the amount of time you spend on each page, and search queries. Elioplus reserves the right to match your IP address or other information with other information about you in any way permitted by applicable law. Elioplus will store this information on its equipment or the equipment of third parties that it has a relationship with for that purpose."/>
+        <label id="4" text="“Cookies” are text-only pieces of information that a web site transfers to an individual’s hard drive or other web site-browsing equipment for record-keeping purposes. Cookies allow the Website to remember important information that will make your use of the site more convenient. A cookie will typically contain the name of the domain from which the cookie has come, the “lifetime” of the cookie, and a randomly generated unique number or other value. Like most web sites, we use cookies for a variety of purposes in order to improve your online experience, for analytics and for marketing, but specifically we use Cookies on the Website for the following purposes:"/>
+        <label id="5" text="Analytical Purposes: We use Cookies to analyze user activity in order to improve the Website. We can use such analysis to gain insights about how to improve the functionality and user experience of the Website."/>
+        <label id="6" text="Marketing: We use Cookies from third-party partners such as Google for marketing purposes. These Cookies allow us to display promotional material to you on other sites you visit across the Internet."/>
+        <label id="7" text="Referral Tracking: We use Cookies to associate user activity with the third party web site that referred the user to our Website. These third-party partner web sites receive credit for the activity of users they refer to our Website. We do not share any personal information or information about individual user activities with these partner entities."/>
+        <label id="8" text="When you submit information, Elioplus uses this information and information generated when you use our Website, including but not limited to your profile, your posted reviews, searches, clicks, taps, web sites, messages and postings to provide our services and features to you, to provide your information to our users that may be interested in contacting you."/>
+        <label id="9" text="Elioplus may create links to other web sites. When you click on links on Elioplus you may leave our Website. We are not responsible for the privacy practices of other web sites, and we encourage you to read their privacy statements."/>
+        <label id="10" text="Ιδιωτικό Απόρρητο"/>
+      </labels>
+    </privacy>
+    <terms>
+      <labels>
+        <label id="1" text="Your use of and access to the Service are governed by the following terms of use (“Terms”). If you do not agree with all of these Terms, please do not use the Service. By using the Service, you agree to comply with and to be bound by these Terms, including the Privacy Policy set forth herein. We reserve the right to change these Terms at any time at our sole discretion. By using the Service after any such change, you agree to comply with and to be bound by these Terms as changed."/>
+        <label id="2" text="Elioplus' Privacy Policy applies to your use of this Site and its terms are made part of these Terms by reference. You acknowledge and agree that transmissions over the internet can never be completely secure and you understand that any message and/or information that you transmit to us might be intercepted and read by others, even if we take measures to prevent such interception (such as using encryption technology). You expressly agree that Elioplus may preserve any transmittal or communication by you through the Service, or any service offered through the Service, and may disclose that information if legally required to do so or if Elioplus determines that the disclosure is reasonably necessary to enforce these Terms or to protect any rights hereunder or to respond to claims of wrongdoing by others or to present any reasonable belief of immediate personal injury, bodily harm, or death, including and especially as required by law enforcement. Please see our Privacy Policy for our complete policy on what information we collect, how we may use that information and when we share it."/>
+        <label id="3" text="You agree not to access (or attempt to access) the Website by any means other than through the interface that is provided by Elioplus, unless you have been specifically allowed to do so in a separate agreement with Elioplus. You agree that you will not engage in any activity that interferes with or disrupts the Website (or the servers and networks which are connected to the Website). Unless you have been specifically permitted to do so in a separate agreement with Elioplus, you agree that you will not reproduce, duplicate, copy, sell, trade or resell the Website for any purpose. You agree that you are solely responsible for (and that Elioplus has no responsibility to you or to any third party for) any breach of your obligations under this Agreement and for the consequences (including any loss or damage which Elioplus may suffer) of any such breach."/>
+        <label id="4" text="You agree you shall not transmit to Elioplus or upload as part of the Website any Harmful Code or use or misappropriate the data on the Website for your own commercial gain. “Harmful Code” shall mean any software (sometimes referred to as “viruses,” “worms,” “trojan horses,” “time bombs,” “time locks,” “drop dead devices,” “traps,” “access codes,” “cancelbots” or “trap door devices”) that: (a) is intentionally designed to damage, disrupt, disable, harm, impair, interfere with, intercept, expropriate or otherwise impede in any manner, any data, storage media, program, system, equipment or communication, based on any event, including for example but not limited to (i) exceeding a number of copies, (ii) exceeding a number of users, (iii) passage of a period of time, (iv) advancement to a particular date or other numeral, or (v) use of a certain feature; or (b) would enable an unauthorized person to cause such result; or (c) would enable an unauthorized person to access another person’s information without such other person’s knowledge and permission."/>
+        <label id="5" text="If you open an account through the Service, you agree to provide accurate and truthful information about yourself and to keep your account current. You are responsible for any activity that occurs under you account and you are entirely responsible for the security and secrecy of your account login information and for all activity that occurs on your account as a result of your failure to maintain the security or secrecy of your account login information. You agree to notify Elioplus immediately of all unauthorized use of your account and if the security or secrecy of your account login information has been compromised. You may be held responsible for any losses incurred by Elioplus or any other user of the Service that are in any way related to your failure to maintain the security of your account information."/>
+        <label id="6" text="This Site may also make available materials, information and services provided by third parties, such as photographs, text, graphics, pictures, sound, video, information and software applications (collectively, the “Third Party Content”). The Third Party Content may be governed by separate license agreements that accompany such content. Although Elioplus may monitor Third Party Content, and may set up controls of the same, Elioplus is under no obligation to investigate, monitor or check for accuracy, appropriateness, or completeness of Third Party Content. Elioplus offers no guarantees and assumes no responsibility or liability of any type with respect to the Third Party Content, including any liability resulting from incompatibility between the Third Party Content. You agree that you will not hold Elioplus responsible or liable with respect to the Third Party Content or seek to do so."/>
+        <label id="7" text="Further, we are not responsible for any third party websites accessed through the Service, and you should review the terms of use and policies of any website to which you navigate from the Service. If you decide to leave the Service and access third party websites or content, you do so at your own risk and you should be aware that our terms and policies no longer govern. To the extent the Service contains links to outside services and resources, you acknowledge that (1) Elioplus is not responsible for the content of any linked site or any link contained in a linked site, or any changes or updates to such sites; and (2) Elioplus is not responsible for any other form of transmission received from any linked site. Elioplus provides these links to you only as a convenience, and the inclusion of any link does not imply our approval or endorsement. Any issues or concerns regarding any such site should be directed to the owner or operator of that site."/>
+        <label id="8" text="Όροι / Προυποθέσεις"/>
+        <label id="9" text="Όροι και Προυποθέσεις"/>
+      </labels>
+    </terms>
+    <statistics>
+      <labels>
+        <label id="1" text="Σύνολο"/>
+      </labels>
+    </statistics>
+  </controls>
+  <global>
+    <labels>
+      <label id="1" text="Αθήνα, Ελλάδα"/>
+      <label id="2" text="Κατηγορία"/>
+      <label id="3" text="Κλάδος"/>
+      <label id="4" text="Πρόγραμμα Συνεργατών"/>
+      <label id="5" text="Εξειδίκευση αγοράς"/>
+      <label id="6" text="Κατηγορία API"/>
+      <label id="7" text="Χώρα"/>
+      <label id="8" text="Όνομα Προμηθευτή"/>
+      <label id="9" text="Όνομα Μεταπωλητή"/>
+      <label id="10" text="Όνομα Προγραμματιστή"/>
+      <label id="11" text="API"/>
+      <label id="12" text="όνομα προμηθευτή"/>
+      <label id="13" text="όνομα μεταπωλητή"/>
+      <label id="14" text="όνομα προγραμματιστή"/>
+      <label id="15" text="-- Επιλέξτε --"/>
+      <label id="16" text="Προσωπικά Στοιχεία"/>
+      <label id="17" text="Λογότυπο Εταιρείας: "/>
+      <label id="18" text="Όνομα χρήστη: "/>
+      <label id="19" text="Ηλεκτρονική Διεύθυνση: "/>
+      <label id="20" text="Εταιρίκό Email: "/>
+      <label id="21" text="Όνομα Εταιρείας"/>
+      <label id="22" text="Ιστοσελίδα"/>
+      <label id="23" text="Χώρα"/>
+      <label id="24" text="Διεύθυνση"/>
+      <label id="25" text="Τηλέφωνο"/>
+      <label id="26" text="Όνομα χρήστη στην Mashape"/>
+      <label id="27" text="Περίληψη"/>
+      <label id="28" text="Περιγραφή"/>
+      <label id="29" text="Στοιχεία Εταιρείας"/>
+      <label id="30" text="Παλιός Κωδικός: "/>
+      <label id="31" text="Νέος Κωδικός: "/>
+      <label id="32" text="Επαλήθευση νέου κωδικού: "/>
+      <label id="33" text="Αγορά:"/>
+      <label id="35" text="Μη διαθέσιμο"/>
+      <label id="36" text="Προγραμματιστές"/>
+      <label id="37" text="Μεταπωλητές"/>
+      <label id="38" text="Προμηθευτές"/>
+      <label id="39" text="Επιλέξτε Κατηγορία"/>
+      <label id="40" text="Επιλέξτε Κατάσταση"/>
+      <label id="41" text="Επιλέξτε Δημόσιο"/>
+      <label id="42" text="Επιλέξτε Όνομα Εταιρείας"/>
+      <label id="43" text="Ναι"/>
+      <label id="44" text="Όχι"/>
+      <label id="45" text="Επιλέξτε Δημόσιο"/>
+      <label id="46" text="Επιλέξτε Όνομα Εταιρείας"/>
+      <label id="47" text="Ναι"/>
+      <label id="48" text="Όχι"/>
+      <label id="49" text="Περισσότερα"/>
+      <label id="50" text="Εταιρείας"/>
+      <label id="51" text="Προγραμματιστή"/>
+    </labels>
+    <buttons>
+      <button id="1" text="Αναζήτηση με κριτήρια"/>
+      <button id="2" text="Κλείσιμο Αναζήτησης"/>
+      <button id="3" text="Αναζήτηση Τώρα"/>
+      <button id="4" text="Καταχώρηση"/>
+      <button id="5" text="Επεξεργασία"/>
+      <button id="6" text="Αποθήκευση"/>
+      <button id="7" text="Ακύρωση"/>
+      <button id="8" text="Αλλαγή Κωδικού"/>
+      <button id="9" text="Καταχώρηση"/>
+      <button id="10" text="Καθαρισμός"/>
+      <button id="11" text="Αναζήτηση"/>
+      <button id="12" text="Κλείσιμο"/>
+    </buttons>
+    <messages>
+      <message id="1" text="Sorry, a temporary error occured and you can not reply directly from here. Click Compose and find the company you want in order to send email"/>
+      <message id="2" text="Το μήνυμά σας εστάλει επιτυχώς"/>
+      <message id="3" text="Το μήνυμά σας δε μπόρεσε να σταλεί στην {companyName}"/>
+      <message id="4" text=". Παρακάλώ προσπαθήστε αργότερα ή επικοινωνίστε μαζί μας"/>
+      <message id="5" text=" στους φίλους σας"/>
+      <message id="6" text="στους φίλους σας"/>
+      <message id="7" text="Πρέπει να έχετε εγγραφτεί πλήρως για να μπορέσετε να αποθηκεύσετε οποιοδήποτε εταιρικό προφίλ."/>
+      <message id="8" text="Δημιουργήστε το δικό σας προφίλ τώρα"/>
+      <message id="9" text="Εγγραφτείτε για να μπορέσετε να δείτε περισσότερες πληροφορίες για αυτήν και απεριόριστες άλλες εταιρείες."/>
+      <message id="10" text="Είναι τελείως Δωρεάν και διαρκεί λιγότερο απο 30 δευτερόλεπτα."/>
+      <message id="11" text="Λυπούμαστε αλλά δεν είναι διαθέσιμες οι πληροφορίες της συγκεκριμένης εταιρείας αυτή την στιγμή."/>
+      <message id="12" text="Παρακαλώ εισάγετε το όνομά σας"/>
+      <message id="13" text="Παρακαλώ εισάγετε την ηλεκτρονική σας διεύθυνση"/>
+      <message id="14" text="Παρακαλώ εισάγετε μια έγκυρη ηλεκτρονική διεύθυνση"/>
+      <message id="15" text="Παρακαλώ εισάγετε το τηλέφωνό σας"/>
+      <message id="16" text="Παρακαλώ εισάγετε θέμα"/>
+      <message id="17" text="Παρακαλώ εισάγετε κείμενο"/>
+      <message id="18" text="στη συγκεκριμένη εταιρεία"/>
+      <message id="19" text=" Κάποιος συνεργάτης μας θα επικοινωνήσει μαζί σας το συντομότερο δυνατό."/>
+      <message id="20" text="Λυπούμαστε, λόγω κάποιου προσωρινού προβλήματος το μήνυμά σας δεν μπόρεσε να σταλεί αυτή τη στιγμή."/>
+    </messages>
+    <grids>
+      <grid id="1">
+        <column id="1" text="Όνομα Εταιρείας" />
+        <column id="2" text="Είδος Εταιρείας" />
+        <column id="3" text="Προσωπικό/Εταιρικό Email" />
+        <column id="4" text="Είναι Δημόσιο" />
+        <column id="5" text="Κατάσταση" />
+        <column id="6" text="Χαρακτηριστικό" />
+        <column id="7" text="Τελευταία Είσοδος" />
+        <column id="8" text="Πλήθος Εισόδων" />
+        <column id="9" text="Πλήθος Αποστολών" />
+        <column id="10" text="Πρώτη Αποστολή" />
+        <column id="11" text="Τελευτάια Αποστολή" />
+        <column id="12" text="Ενέργειες" />
+        <column id="13" text="Προσωπικό Email" />
+        <column id="14" text="Εταιρικό Email" />
+        <column id="15" text="Ημ/νία" />
+        <column id="16" text="Ψήφοι" />
+        <column id="17" text="Πρώτη Προβολή" />
+        <column id="18" text="Τελευτάια Προβολή" />
+        <column id="19" text="Από" />
+        <column id="20" text="Email" />
+        <column id="21" text="Θέμα" />
+        <column id="22" text="Μύνημα" />
+        <column id="23" text="Ημ/νία Αποστολής" />
+        <column id="24" text="Κατάσταση" />
+        <column id="25" text="Ψήφοι" />
+      </grid>
+      <grid id="2">
+        <column id="1" text="Έτος" />
+        <column id="2" text="Ιανουάριος" />
+        <column id="3" text="Φεβρουάριος" />
+        <column id="4" text="Μάρτιος" />
+        <column id="5" text="Απρίλιος" />
+        <column id="6" text="Μάιος" />
+        <column id="7" text="Ιούνιος" />
+        <column id="8" text="Ιούλιος" />
+        <column id="9" text="Αύγουστος" />
+        <column id="10" text="Σεπτέμβριος" />
+        <column id="11" text="Οκτώβριος" />
+        <column id="12" text="Νοέμβριος" />
+        <column id="13" text="Δεκέμβριος" />
+        <column id="14" text="Σύνολο" />
+        <column id="15" text="Μέσος Όρος" />
+      </grid>
+    </grids>
+    <tooltips>
+      <tooltip id="1" text="Διαγραφή Προφίλ"/>
+      <tooltip id="2" text="Προβολή εταιρείας"/>
+      <tooltip id="3" text="Διαγραφή από τα αγαπημένα της εταιρείας"/>
+      <tooltip id="4" text=""/>
+      <tooltip id="5" text="Έχει προβληθεί"/>
+      <tooltip id="6" text="Διαγραφή εταιρείας από τη λίστα μου"/>
+    </tooltips>
+  </global>
+  <footer>
+    <default>
+      <literals>
+        <literal id="1" text=""/>
+      </literals>
+    </default>
+  </footer>
+</elio>
