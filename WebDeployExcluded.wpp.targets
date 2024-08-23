@@ -1,0 +1,10 @@
+﻿<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ExcludeFromPackageFolders Include="assets;assets_main;assets_out;Scripts;SiteMapFile;Web References;DashboardTemplate;images;Files;InfoLogs;Logs;Objects;Resources;App_Start">
+			<FromTarget>WebDeployExcluded.wpp.targets</FromTarget>
+		</ExcludeFromPackageFolders>
+		<ExcludeFromPackageFiles Include="Web.config;App_Data\Localization\Elio.ar.xml;App_Data\Localization\Elio.de.xml;App_Data\Localization\Elio.es.xml;App_Data\Localization\Elio.fr.xml;App_Data\Localization\Elio.pt.xml;App_Data\Localization\Elio.el.xml;App_Data\Localization\Elio.english.xml">
+			<FromTarget>WebDeployExcluded.wpp.targets</FromTarget>
+		</ExcludeFromPackageFiles>
+	</ItemGroup>
+</Project>
